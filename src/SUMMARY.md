@@ -1,0 +1,15 @@
+# Summary
+
+- [Home](home.md)
+- [Research](research.md)
+- [Team](team.md)
+  - [Prof. Dr. Peter Thiemann](team/thiemann.md)
+  - [Marlis Jost](team/jost.md)
+  - [Hannes Saffrich](team/saffrich.md)
+  - [Bas van den Heuvel](team/van-den-heuvel.md)
+  - [Marius Weidner](team/weidner.md)
+- [Teaching](teaching.md)
+    - [Sommer 2024](teaching/24ss.md)
+      - [Compiler Construction](teaching/24ss/compiler-construction.md)
+      - [Concurrency](teaching/24ss/concurrency.md)
+- [About](about.md)

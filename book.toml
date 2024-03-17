@@ -1,0 +1,24 @@
+[book]
+authors = ["Marius Weidner"]
+language = "en"
+text-direction = "ltr"
+multilingual = false
+src = "src"
+title = "Chair of Programming Languages"
+description = "Website for the Chair of Programming Languages at the University of Freiburg"
+
+[output.html]
+theme = "theme"
+default-theme = "light"
+preferred-dark-theme = "light"
+curly-quotes = true
+mathjax-support = true
+copy-fonts = true
+no-section-label = true
+
+[output.html.fold]
+enable = true  
+level = 0    
+
+[output.html.playground]
+editable = false
