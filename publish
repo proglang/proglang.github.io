@@ -1,1 +1,35 @@
 #!/usr/bin/env bash
+
+# usage:  ./publish "message"
+
+
+# check command line arguments
+if [ "$#" -ne 1 ]
+then
+  echo "usage: ./publish \"message\""
+  exit 1
+fi
+
+
+# build locally to 'docs/'
+platform="$(uname)"
+
+if [ $platform == "Darwin" ]; then
+    bin="mdbook-apple"      
+elif [ "$(expr substr $platform 1 5)" == "Linux" ]; then
+    bin="mdbook-linux"   
+else
+    echo "unsupported platform '$platform'".
+    exit 1
+fi
+
+bin/$bin clean --dest-dir docs
+bin/$bin build --dest-dir docs
+
+
+# push changes to master
+git add .
+git commit -m "$1$"
+git push origin master
+
+

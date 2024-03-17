@@ -1,1 +1,17 @@
 #!/usr/bin/env bash
+
+# usage:  ./watch
+
+
+platform="$(uname)"
+
+if [ $platform == "Darwin" ]; then
+    bin="mdbook-apple"      
+elif [ "$(expr substr $platform 1 5)" == "Linux" ]; then
+    bin="mdbook-linux"   
+else
+    echo "unsupported platform '$platform'".
+    exit(1)
+fi
+
+bin/$bin watch --dest-dir docs
