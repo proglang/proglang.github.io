@@ -13,7 +13,7 @@
 
 /* Themes */
 
-.ayu {
+/* .ayu {
     --bg: hsl(210, 25%, 8%);
     --fg: #c5c5c5;
 
@@ -99,7 +99,7 @@
     --search-mark-bg: #355c7d;
 
     --color-scheme: dark;
-}
+} */
 
 .light {
     --bg: hsl(0, 0%, 100%);
@@ -108,7 +108,7 @@
     --sidebar-bg: #fafafa;
     --sidebar-fg: hsl(0, 0%, 0%);
     --sidebar-non-existant: #aaaaaa;
-    --sidebar-active: #1f1fff;
+    --sidebar-active: #0155a6;
     --sidebar-spacer: #f4f4f4;
 
     --scrollbar: #8F8F8F;
@@ -145,7 +145,7 @@
     --color-scheme: light;
 }
 
-.navy {
+/* .navy {
     --bg: hsl(226, 23%, 11%);
     --fg: #bcbdd0;
 
@@ -231,7 +231,7 @@
     --search-mark-bg: #e69f67;
 
     --color-scheme: light;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
     .light.no-js {

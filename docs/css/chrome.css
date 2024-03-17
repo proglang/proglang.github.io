@@ -38,7 +38,7 @@ a>.hljs {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    background-color: #344a9a;
+    background-color: #0155a6;
     border-block-end-color: var(--bg);
     border-block-end-width: 1px;
     border-block-end-style: solid;
@@ -79,8 +79,6 @@ a>.hljs {
     height: var(--menu-bar-img-height);
     padding-top: 4px;
     padding-right: 4px;
-    -webkit-filter: invert(100); /* safari 6.0 - 9.0 */
-          filter: invert(100);
 }
 
 @media only screen and (max-width: 420px) {
