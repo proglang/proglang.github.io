@@ -1,6 +1,4 @@
 # Concurrency, Theory & Practice -- Summer 2024
- 
- # Compiler Construction -- Summer 2024
 
 ## General Information
 

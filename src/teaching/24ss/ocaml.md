@@ -1,9 +1,5 @@
 # Proseminar Real World OCaml - Summer 2024
 
-# Concurrency, Theory & Practice -- Summer 2024
- 
- # Compiler Construction -- Summer 2024
-
 ## Generelle Informationen
 
 - Leitung: [Prof. Dr. Peter Thiemann](team/thiemann.md)
