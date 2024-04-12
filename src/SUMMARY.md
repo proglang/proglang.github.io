@@ -12,4 +12,5 @@
     - [Sommer 2024](teaching/24ss.md)
       - [Compiler Construction](teaching/24ss/compiler-construction.md)
       - [Concurrency](teaching/24ss/concurrency.md)
+      - [Real World OCaml](teaching/24ss/ocaml.md)
 - [About](about.md)

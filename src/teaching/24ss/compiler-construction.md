@@ -2,14 +2,10 @@
 
 ## General Information
 
-- Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
-- Assistants: [Hannes Saffrich](/team/saffrich.md), [Marius Weidner](/team/weidner.md)
-- Lecture: Wednesday, 2:15 pm - 3:45 pm
-- Exercises: Monday, 2:15 pm - 3:45 pm
-
-<div class="warning">
-Don't forget to register for both the Studienleistung as well as Prüfungsleistung
-</div>
+- Lecturer: [Prof. Dr. Peter Thiemann](team/thiemann.md)
+- Assistants: [Hannes Saffrich](team/saffrich.md), [Marius Weidner](team/weidner.md)
+- Lecture: Wednesday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)
+- Exercises: Monday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)
 
 ## News
 
@@ -21,4 +17,4 @@ Don't forget to register for both the Studienleistung as well as Prüfungsleistu
 
 | Date | Material |
 |:-----|:-----|
-| 2024-04-01 | [Video]() |
+| 2024-04-17 | [Video]() |

@@ -11,10 +11,6 @@
 <br>
 <br>
 
-## Research
-- Type systems and formal logic
-- Interactive theorem proving based on dependent type theory
-
 ## Publications
 
 | Year | Authors | Title | Link |
@@ -26,5 +22,5 @@
 
 | Year | Role | Lecture | Link |
 |:-----|:-----|:--------|:-----|
-| 2024 | Assistant | Compiler Construction | [Website](/teaching/24ss/compiler-construction.md) |
+| 2024 | Assistant | Compiler Construction | [Website](teaching/24ss/compiler-construction.md) |
 | 2023 | Assistant | Einführung in die Programmierung | [Website]() |
