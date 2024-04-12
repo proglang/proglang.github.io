@@ -22,5 +22,5 @@
 
 | Year | Role | Lecture | Link |
 |:-----|:-----|:--------|:-----|
-| 2024 | Assistant | Compiler Construction | [Website](teaching/24ss/compiler-construction.md) |
+| 2024 | Assistant | Compiler Construction | [Website](/teaching/24ss/compiler-construction.md) |
 | 2023 | Assistant | Einführung in die Programmierung | [Website]() |
