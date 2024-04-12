@@ -15,7 +15,6 @@ curly-quotes = true
 mathjax-support = true
 copy-fonts = true
 no-section-label = true
-site-url = "/website/"
 
 [output.html.fold]
 enable = true
