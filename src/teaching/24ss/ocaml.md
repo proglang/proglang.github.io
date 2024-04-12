@@ -7,9 +7,9 @@
 
 ## News
 
-| Date | Text |
+| Datum | Text |
 |:-----|:-----|
-| 2024-04-01 | Seminar announced |
+| 2024-04-01 | Seminar angekündigt |
 
 ## Prüfungs- bzw. Studienleistung
 - Anwesenheit und aktive Teilnahme an den Proseminarsitzungen (maximal zwei Fehltermine)
@@ -41,4 +41,4 @@ Webseite unter Author Guidelines.
 Eine gute LaTeX Einführung finden Sie in der [Dokumentation von Overleaf](https://www.overleaf.com/learn).
 
 ## Themen
-Grundlage des Proseminars ist das Buch "Real World OCaml", das im Netz in den Formaten HTML/PDF verfügbar ist. Ein Vortrag entspricht einem Abschnitt im Buch vom Umfang etwa einer Vorlesungsstunde. Hier ist die Webseite zum Buch: https://dev.realworldocaml.org/. Zuerst werden die Kapitel 2-7 im Wochenrhythmus gemeinsam besprochen, danach wöchentlich zwei Vorträge zu [Themen aus den Kapiteln 9-19](https://proglang.informatik.uni-freiburg.de/teaching/proseminar/2022ss/Themen.pdf).
+Grundlage des Proseminars ist das Buch "Real World OCaml", das im Netz in den Formaten HTML/PDF verfügbar ist. Ein Vortrag entspricht einem Abschnitt im Buch vom Umfang etwa einer Vorlesungsstunde. Hier ist die Webseite zum Buch: [dev.realworldocaml.org](https://dev.realworldocaml.org/). Zuerst werden die Kapitel 2-7 im Wochenrhythmus gemeinsam besprochen, danach wöchentlich zwei Vorträge zu [Themen aus den Kapiteln 9-19](https://proglang.informatik.uni-freiburg.de/teaching/proseminar/2022ss/Themen.pdf).
