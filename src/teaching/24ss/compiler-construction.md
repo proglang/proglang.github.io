@@ -2,8 +2,8 @@
 
 ## General Information
 
-- Lecturer: [Prof. Dr. Peter Thiemann](team/thiemann.md)
-- Assistants: [Hannes Saffrich](team/saffrich.md), [Marius Weidner](team/weidner.md)
+- Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
+- Assistants: [Hannes Saffrich](/team/saffrich.md), [Marius Weidner](/team/weidner.md)
 - Lecture: Wednesday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)
 - Exercises: Monday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)
 

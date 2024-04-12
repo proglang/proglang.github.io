@@ -2,8 +2,8 @@
 
 ## General Information
 
-- Lecturer: [Prof. Dr. Peter Thiemann](team/thiemann.md)
-- Assistant: [Bas Van Den Heuvel](team/van-den-heuvel.md)
+- Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
+- Assistant: [Bas Van Den Heuvel](/team/van-den-heuvel.md)
 - Lecture: Wednesday, 4:15 pm - 5:45 pm, SR 00 031 (G.-Köhler-Allee 051)
 - Exercises: Friday, 12:15 pm - 1:45 pm, R 04 007 Videokonferenz (G.-Köhler-Allee 106)
 

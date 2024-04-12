@@ -2,7 +2,7 @@
 
 ## Generelle Informationen
 
-- Leitung: [Prof. Dr. Peter Thiemann](team/thiemann.md)
+- Leitung: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Erstes Treffen: tba.
 
 ## News
