@@ -25,6 +25,16 @@ We will provided further details about the the exercises in the first tutorial s
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
 
+## Examination Requirements
+
+This lecture consists of an exam and a "Studienleistung".
+
+For the "Studienleistung" it is required to submit exercises for each
+exercise sheet.
+
+The exam will take place in the computer pools and requires you to
+extend the compiler implemented in the exercises with new features.
+
 ## Contents
 
 Compiler construction deals with the development and implementation of
@@ -67,16 +77,6 @@ We will deviate from the book in two ways:
 2. we will be using a different python framework for the exercises.
 
 [book]: https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1
-
-## Examination Requirements
-
-This lecture consists of an exam and a "Studienleistung".
-
-For the "Studienleistung" it is required to submit exercises for each
-exercise sheet.
-
-The exam will take place in the computer pools and requires you to
-extend the compiler implemented in the exercises with new features.
 
 ## Communication
 
