@@ -68,6 +68,16 @@ We will deviate from the book in two ways:
 
 [book]: https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1
 
+## Examination Requirements
+
+This lecture consists of an exam and a "Studienleistung".
+
+For the "Studienleistung" it is required to submit exercises for each
+exercise sheet.
+
+The exam will take place in the computer pools and requires you to
+extend the compiler implemented in the exercises with new features.
+
 ## Communication
 
 For communication outside of the lecture, we provide an Ilias course and a discord-like chat.
