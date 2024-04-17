@@ -2,6 +2,9 @@
 
 # usage:  ./publish "message"
 
+# pull rebase auto stash
+git pull --rebase --autostash
+
 
 # check command line arguments
 if [ "$#" -ne 1 ]

@@ -3,7 +3,7 @@
 ## Generelle Informationen
 
 - Leitung: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
-- Erstes Treffen: tba.
+- Erstes Treffen: 16.04.2024, 16:00, Geb 051 Raum 00 032
 
 ## News
 
