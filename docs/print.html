@@ -216,24 +216,83 @@
 <li><a href="teaching/24ss/ocaml.html">Real World OCaml</a></li>
 <li><a href="teaching/24ss/oberseminar.html">Oberseminar</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="compiler-construction--summer-2024"><a class="header" href="#compiler-construction--summer-2024">Compiler Construction – Summer 2024</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="compiler-construction-summer-2024"><a class="header" href="#compiler-construction-summer-2024">Compiler Construction (Summer 2024)</a></h1>
 <h2 id="general-information"><a class="header" href="#general-information">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="teaching/24ss//team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Assistants: <a href="teaching/24ss//team/saffrich.html">Hannes Saffrich</a>, <a href="teaching/24ss//team/weidner.html">Marius Weidner</a></li>
-<li>Lecture: Wednesday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)</li>
+<li>Lecture: Tuesday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)</li>
 <li>Exercises: Friday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)</li>
 </ul>
-<h2 id="news"><a class="header" href="#news">News</a></h2>
-<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Date</th><th style="text-align: left">Text</th></tr></thead><tbody>
-<tr><td style="text-align: left">2024-04-01</td><td style="text-align: left">Lecture announced</td></tr>
+<h2 id="lectures--tutorials"><a class="header" href="#lectures--tutorials">Lectures &amp; Tutorials</a></h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Date</th><th style="text-align: left">Type</th><th style="text-align: left">Topic</th><th style="text-align: left">Material</th><th style="text-align: left">Recordings</th></tr></thead><tbody>
+<tr><td style="text-align: left">2024-04-16 Tu</td><td style="text-align: left">Lecture</td><td style="text-align: left">Organization &amp; Introduction</td><td style="text-align: left"><a href="https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1">Book</a>, Chapter 1</td><td style="text-align: left">TBA</td></tr>
+<tr><td style="text-align: left">2024-04-19 Fr</td><td style="text-align: left">Lecture</td><td style="text-align: left">Integers &amp; Variables</td><td style="text-align: left"><a href="https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1">Book</a>, Chapter 2</td><td style="text-align: left"></td></tr>
+<tr><td style="text-align: left">2024-04-23 Tu</td><td style="text-align: left">Lecture</td><td style="text-align: left">Scanning &amp; Parsing</td><td style="text-align: left"><a href="https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1">Book</a>, Chapter 3</td><td style="text-align: left"></td></tr>
+<tr><td style="text-align: left">2024-04-26 Fr</td><td style="text-align: left">Tutorial</td><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: left"></td></tr>
 </tbody></table>
 </div>
-<h2 id="lecture-recordings"><a class="header" href="#lecture-recordings">Lecture Recordings</a></h2>
-<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Date</th><th style="text-align: left">Material</th></tr></thead><tbody>
-<tr><td style="text-align: left">2024-04-17</td><td style="text-align: left">video missing</td></tr>
+<h2 id="exercises"><a class="header" href="#exercises">Exercises</a></h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Date</th><th style="text-align: left">Deadline</th><th style="text-align: left">Topic</th></tr></thead><tbody>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="concurrency-theory--practice--summer-2024"><a class="header" href="#concurrency-theory--practice--summer-2024">Concurrency, Theory &amp; Practice – Summer 2024</a></h1>
+</div>
+<h2 id="contents"><a class="header" href="#contents">Contents</a></h2>
+<p>Compiler construction deals with the development and implementation of
+translation from higher-level programming languages to machine
+code. This involves several important problems of general interest.</p>
+<ul>
+<li>
+<p><strong>Semantic Analysis.</strong>
+A compiler transforms and analyses the tree structure of a
+program. This phase is specified using attribute grammars.</p>
+</li>
+<li>
+<p><strong>Intermediate Code.</strong>
+A compiler generates machine-independent intermediate code and
+performs several transformation and optimisation steps on it.</p>
+</li>
+<li>
+<p><strong>Memory model and garbage collection.</strong>
+The compiler maps data structures to memory structures. Languages
+with dynamic types and/or garbage collection require special care.</p>
+</li>
+<li>
+<p><strong>Machine code.</strong>
+Intermediate code is translated to machine code, which undergoes
+machine-specific optimisations. This involves techniques like tree
+grammars, dynamic programming and graph coloring.</p>
+</li>
+</ul>
+<p>Compiler construction has a long tradition, so the structure of
+compilers has been well thought out. Therefore, a compiler can act as
+an example for a well-structured software system. “Who can write a
+compiler, can write any program”.</p>
+<p>Knowledge about the memory model is helpful when debugging programs
+written in a low-level programming language (C, C++).</p>
+<h2 id="literature"><a class="header" href="#literature">Literature</a></h2>
+<p>This lecture is based on the upcoming book <em>Essentials of Compilation</em>
+by Jeremy G. Siek. The current draft of the book is available in the
+<a href="https://iucompilercourse.github.io/IU-Fall-2021/">ongoing course at Indiana University</a>.
+We will be using the <a href="https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1">Python edition</a> of the book!</p>
+<p>We will deviate from the book in two ways:</p>
+<ol>
+<li>we will compile to the RISC-V processor architecture instead of x86; and</li>
+<li>we will be using a different python framework for the exercises.</li>
+</ol>
+<h2 id="communication"><a class="header" href="#communication">Communication</a></h2>
+<p>For communication outside of the lecture, we provide an Ilias course and a discord-like chat.</p>
+<p>The Ilias course is used exclusively to send emails in case of updates, e.g. if there is a bug in an exercise. Make sure to register to receive those emails.</p>
+<p>The chat requires you to log in with your RZ-Account (same credentials as for Ilias).</p>
+<h2 id="additional-literature"><a class="header" href="#additional-literature">Additional Literature</a></h2>
+<ul>
+<li>Andrew Appel with Jens Palsberg, Modern Compiler Implementation in Java, 2nd edition. Cambridge University Press, 2002</li>
+<li>Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman. Compilers, Principles, Techniques, and Tools (2nd Edition).. Prentice Hall, 2006.</li>
+<li>Andrew W. Appel. Compiling with Continuations. Cambridge University Press, 1992.</li>
+<li>Andrew W. Appel. Modern Compiler Implementation in ML. Cambridge University Press, 1998.</li>
+<li>Christopher W. Fraser and David R. Hanson. A Retargetable C Compiler: Design and Implementation. Benjamin/Cummings, 1995.</li>
+<li>Reinhard Wilhelm and Dieter Maurer. Übersetzerbau – Theorie, Konstruktion, Generierung – 2. Auflage. Lehrbuch. Springer-Verlag, Berlin, Heidelberg, 1996.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="concurrency-theory--practice--summer-2024"><a class="header" href="#concurrency-theory--practice--summer-2024">Concurrency, Theory &amp; Practice – Summer 2024</a></h1>
 <h2 id="general-information-1"><a class="header" href="#general-information-1">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="teaching/24ss//team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
@@ -241,12 +300,12 @@
 <li>Lecture: Wednesday, 4:15 pm - 5:45 pm, SR 00 031 (G.-Köhler-Allee 051)</li>
 <li>Exercises: Friday, 12:15 pm - 1:45 pm, R 04 007 Videokonferenz (G.-Köhler-Allee 106)</li>
 </ul>
-<h2 id="news-1"><a class="header" href="#news-1">News</a></h2>
+<h2 id="news"><a class="header" href="#news">News</a></h2>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Date</th><th style="text-align: left">Text</th></tr></thead><tbody>
 <tr><td style="text-align: left">2024-04-01</td><td style="text-align: left">Lecture announced</td></tr>
 </tbody></table>
 </div>
-<h2 id="lecture-recordings-1"><a class="header" href="#lecture-recordings-1">Lecture Recordings</a></h2>
+<h2 id="lecture-recordings"><a class="header" href="#lecture-recordings">Lecture Recordings</a></h2>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Date</th><th style="text-align: left">Material</th></tr></thead><tbody>
 <tr><td style="text-align: left">2024-04-17</td><td style="text-align: left"><a href="teaching/24ss/">Video</a></td></tr>
 </tbody></table>
@@ -256,7 +315,7 @@
 <li>Leitung: <a href="teaching/24ss//team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Erstes Treffen: tba.</li>
 </ul>
-<h2 id="news-2"><a class="header" href="#news-2">News</a></h2>
+<h2 id="news-1"><a class="header" href="#news-1">News</a></h2>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Datum</th><th style="text-align: left">Text</th></tr></thead><tbody>
 <tr><td style="text-align: left">2024-04-01</td><td style="text-align: left">Seminar angekündigt</td></tr>
 </tbody></table>
