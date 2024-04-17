@@ -18,6 +18,10 @@
 
 ## Exercises
 
+Exercises are provided and submitted via GitHub Classroom.
+
+We will provided further details about the the exercises in the first tutorial session.
+
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
 
@@ -25,7 +29,7 @@
 
 Compiler construction deals with the development and implementation of
 translation from higher-level programming languages to machine
-code. This involves several important problems of general interest.
+code. This involves several important problems of general interest:
 
 - **Semantic Analysis.**
   A compiler transforms and analyses the tree structure of a
