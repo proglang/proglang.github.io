@@ -35,6 +35,14 @@ exercise sheet.
 The exam will take place in the computer pools and requires you to
 extend the compiler implemented in the exercises with new features.
 
+## Communication
+
+For communication outside of the lecture, we provide an Ilias course and a discord-like chat.
+
+The Ilias course is used exclusively to send emails in case of updates, e.g. if there is a bug in an exercise. Make sure to register to receive those emails.
+
+The chat requires you to log in with your RZ-Account (same credentials as for Ilias).
+
 ## Contents
 
 Compiler construction deals with the development and implementation of
@@ -77,14 +85,6 @@ We will deviate from the book in two ways:
 2. we will be using a different python framework for the exercises.
 
 [book]: https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1
-
-## Communication
-
-For communication outside of the lecture, we provide an Ilias course and a discord-like chat.
-
-The Ilias course is used exclusively to send emails in case of updates, e.g. if there is a bug in an exercise. Make sure to register to receive those emails.
-
-The chat requires you to log in with your RZ-Account (same credentials as for Ilias).
 
 ## Additional Literature
 - Andrew Appel with Jens Palsberg, Modern Compiler Implementation in Java, 2nd edition. Cambridge University Press, 2002
