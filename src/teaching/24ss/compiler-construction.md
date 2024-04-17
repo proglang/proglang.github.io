@@ -20,7 +20,7 @@
 
 Exercises are provided and submitted via GitHub Classroom.
 
-We will provided further details about the the exercises in the first tutorial session.
+We will provided further details about the exercises in the first tutorial session.
 
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
@@ -37,7 +37,10 @@ extend the compiler implemented in the exercises with new features.
 
 ## Communication
 
-For communication outside of the lecture, we provide an Ilias course and a discord-like chat.
+For communication outside of the lecture, we provide an 
+[Ilias course]()
+and a 
+[discord-like chat](https://chat.laurel.informatik.uni-freiburg.de/invite/NDm9rk).
 
 The Ilias course is used exclusively to send emails in case of updates, e.g. if there is a bug in an exercise. Make sure to register to receive those emails.
 
