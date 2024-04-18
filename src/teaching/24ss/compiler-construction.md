@@ -81,15 +81,23 @@ written in a low-level programming language (C, C++).
 
 ## Literature
 This lecture is based on the upcoming book *Essentials of Compilation*
-by Jeremy G. Siek. The current draft of the book is available in the
-[ongoing course at Indiana University](https://iucompilercourse.github.io/IU-Fall-2021/).
-We will be using the [Python edition][book] of the book!
+by Jeremy G. Siek.
 
 We will deviate from the book in two ways:
 1. we will compile to the RISC-V processor architecture instead of x86; and
 2. we will be using a different python framework for the exercises.
 
-[book]: https://www.dropbox.com/s/mfxtojk4yif3toj/python-book.pdf?dl=1
+For this purpose, we have started our own fork of the book, which we will be
+updating during the semester to use RISC-V instead of x86 instructions.
+
+Our version of the book is available on the [Github Releases][book]
+page. Simply download the `book.pdf` file for the most recent release.
+
+To get notified on new releases, we recommend to push the *watch*-button on the
+book's [github repository](https://github.com/CC-Uni-Freiburg/Essentials-of-Compilation),
+select *Custom* in the dropdown menu, and then enable *Releases*.
+
+[book]: https://github.com/CC-Uni-Freiburg/Essentials-of-Compilation/releases
 
 ## Additional Literature
 - Andrew Appel with Jens Palsberg, Modern Compiler Implementation in Java, 2nd edition. Cambridge University Press, 2002
