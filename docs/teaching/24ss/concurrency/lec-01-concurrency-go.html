@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Peter Thiemann" />
+  <meta name="date" content="2024-04-17" />
+  <title>The programming language Go</title>
+  <style type="text/css">
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="https://goessner.net/download/prj/slideous//slideous.css" />
+  <script src="https://goessner.net/download/prj/slideous//slideous.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div id="statusbar">
+<span style="float:right;">
+<span style="margin-right:4em;font-weight:bold;"><span id="slideidx"></span> of {$slidecount}</span>
+<button id="homebutton" title="first slide">1</button>
+<button id="prevslidebutton" title="previous slide">&laquo;</button>
+<button id="previtembutton" title="previous item">&lsaquo;</button>
+<button id="nextitembutton" title="next item">&rsaquo;</button>
+<button id="nextslidebutton" title="next slide">&raquo;</button>
+<button id="endbutton" title="last slide">{$slidecount}</button>
+<button id="incfontbutton" title="content">A+</button>
+<button id="decfontbutton" title="first slide">A-</button>
+<select id="tocbox" size="1"><option></option></select>
+</span>
+<span id="eos">&frac12;</span>
+<span title="{$location}, {$date}">{$title}, {$author}</span>
+</div>
+<div class="slide titlepage">
+  <h1 class="title">The programming language Go</h1>
+  <p class="author">
+Peter Thiemann
+  </p>
+  <p class="date">2024-04-17</p>
+</div>
+<div id="go" class="slide section level1">
+<h1>Go</h1>
+<p>Programming language developed by Google: <a
+href="http://golang.org/">Go</a></p>
+<ul>
+<li>Similar to C</li>
+<li>Static type system</li>
+<li>Higher-order functions</li>
+<li>Garbage collection</li>
+<li>Object orientation through type interface (no classes but methods
+can be attached to types)</li>
+<li><em>Support for concurrency and communication</em>
+<ul>
+<li>Lightweight threads</li>
+<li>Communication through channels
+<ul>
+<li>Formal foundations: Communicating Sequential Processes, <a
+href="https://en.wikipedia.org/wiki/Tony_Hoare">Sir Charles Antony
+Richard Hoare</a></li>
+</ul></li>
+<li>Philosophy: “Do not communicate by sharing memory. Instead, share by
+communicating.”</li>
+</ul></li>
+</ul>
+</div>
+<div id="hello-world" class="slide section level1">
+<h1>Hello World</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="kw">package</span> main</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;fmt&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a><span class="kw">var</span> x <span class="dt">int</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a><span class="kw">func</span> hi<span class="op">(</span>y <span class="dt">int</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a>    fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;hi %d</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span>y<span class="op">)</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a>    x <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb1-13"><a href="#cb1-13" tabindex="-1"></a>    hi<span class="op">(</span>x<span class="op">)</span></span>
+<span id="cb1-14"><a href="#cb1-14" tabindex="-1"></a>    fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;hello, world</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">)</span></span>
+<span id="cb1-15"><a href="#cb1-15" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<ul>
+<li>Type declarations in ’logical” order
+<ul>
+<li><code>var</code> <em>varName</em> <em>varType</em></li>
+<li>A variable <em>varName</em> of type <em>varType</em></li>
+</ul></li>
+<li>One statement per line. Semicolons are redundant.</li>
+</ul>
+</div>
+<div id="go-toolchain" class="slide section level1">
+<h1>Go Toolchain</h1>
+<ul>
+<li><p>Execution with the “command line”</p>
+<ul>
+<li><p><code>go run hello.go</code></p></li>
+<li><p><code>gofmt hello.go</code></p>
+<ul>
+<li>Automatic “pretty printer”</li>
+<li>Outputs to the concole by default</li>
+<li><code>gofmt -w hello.go</code> writes to the same file</li>
+</ul></li>
+<li><p>You are free to choose the editor (vim, …)</p></li>
+</ul></li>
+<li><p>Or with a web browser on the <a
+href="https://golang.org/">official Go website</a></p></li>
+<li><p>Or simply find a Go plugin for an IDE.</p></li>
+</ul>
+<p>For your information: our programs always belong to a single
+file.</p>
+</div>
+<div id="concurrency-goroutine" class="slide section level1">
+<h1>Concurrency (goroutine)</h1>
+<p>Concurrent execution: “just say go”</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="kw">package</span> main</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;fmt&quot;</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;time&quot;</span></span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a><span class="kw">func</span> thread<span class="op">(</span>s <span class="dt">string</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>        fmt<span class="op">.</span>Print<span class="op">(</span>s<span class="op">)</span></span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>        time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a>    <span class="cf">go</span> thread<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">)</span></span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a>    <span class="cf">go</span> thread<span class="op">(</span><span class="st">&quot;B&quot;</span><span class="op">)</span></span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a>    thread<span class="op">(</span><span class="st">&quot;C&quot;</span><span class="op">)</span></span>
+<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<ul>
+<li><p><code>go</code> <em>expression</em> starts a new thread to run
+<em>expression</em></p></li>
+<li><p><em>expression</em> must be a function call or a method call; it
+cannot be parenthesized</p></li>
+<li><p>The new thread executes concurrently to the following statements,
+so in the end <code>thread("A")</code> and <code>thread("B")</code> run
+concurrently to <code>thread("C")</code></p></li>
+<li><p>The final <code>thread("C")</code> runs in the <em>main
+thread</em>.</p></li>
+<li><p>Threads may run interleaved or on different CPUs (managed by the
+run-time system)</p></li>
+<li><p>As soon as the main thread terminates, all threads started by the
+main thread are terminated</p></li>
+<li><p>Go calls threads <em>goroutines</em>, other languages use
+<code>fork</code> or <code>spawn</code> instead of
+<code>go</code></p></li>
+</ul>
+<h2 id="concurrency-versus-parallelism">Concurrency versus
+Parallelism</h2>
+<ul>
+<li><p>Different goals</p></li>
+<li><p>Parallelism: Make programs run faster by making use of additional
+CPUs (parallel hardware)</p></li>
+<li><p>Concurrency: Program organized into multiple threads of control.
+Threads may work independently or work on a common task.</p></li>
+<li><p>See also <a
+href="https://wiki.haskell.org/Parallelism_vs._Concurrency">here</a> and
+<a href="https://go.dev/tour/concurrency/11">here</a></p></li>
+</ul>
+<h2 id="multi-threading-in-go">Multi-threading in Go</h2>
+<h3 id="terminology">Terminology</h3>
+<p>Thread = independently sequentially executing code</p>
+<p>Thread state:</p>
+<ul>
+<li><p>Running (currently executing)</p></li>
+<li><p>Waiting (ready to execute, but no CPU is available)</p></li>
+<li><p>Blocked (waiting for thread-external condition)</p></li>
+</ul>
+<p>Multithreading = Alternating execution of multiple threads on one
+CPU</p>
+<p>Scheduling = Strategy to switch between running and waiting
+threads</p>
+<p>Preemptive scheduling = Every thread gets a certain slice of time to
+run, then it is preempted and a waiting thread is selected to run</p>
+<p>Cooperative scheduling = A thread runs until a blocking command is
+encountered, then a waiting thread is selected to run</p>
+<p>Blocking commands:</p>
+<ul>
+<li><p>Making the thread sleep (delay/sleep)</p></li>
+<li><p>Receiving from a channel (potentially blocking as the channel may
+be ‘empty’)</p></li>
+<li><p>Sending on a channel (potentially blocking as a channel may be
+‘full’)</p></li>
+</ul>
+<h4 id="state-based-execution">State-based execution</h4>
+<p>Notation similar to the execution of UPPAAL/communicating
+automata.</p>
+<ul>
+<li>The program state consists of the states of individual threads. For
+example:</li>
+</ul>
+<pre><code>(Main.Running, A.Waiting, B.Waiting)</code></pre>
+<p>describes the state in which</p>
+<ol style="list-style-type: decimal">
+<li><p>the main thread runs, and</p></li>
+<li><p>threads A and B are waiting.</p></li>
+</ol>
+<ul>
+<li>Creation of a thread (via the <code>go</code> keyword) adds a new
+thread, initially in wait-state.</li>
+</ul>
+<p>Consider the following example:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode go"><code class="sourceCode go"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="kw">func</span> a<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>  <span class="op">}</span></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a> <span class="cf">go</span> a<span class="op">()</span></span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Initially the program state is as follows:</p>
+<pre><code>Main.Running</code></pre>
+<p>After executing <code>go a()</code>, the state is as follows:</p>
+<pre><code>(Main.Running, A.Waiting)</code></pre>
+<ul>
+<li>A path of execution is described by a sequence of individual program
+states. The transition between the current and the next states is
+indicated with <code>--&gt;</code>.</li>
+</ul>
+<pre><code>      Main.Running
+
+--&gt;   (Main.Running, A.Waiting)</code></pre>
+<h3 id="example">Example</h3>
+<p>Execution of the program “just say go”. Assumption: one CPU is
+available.</p>
+<pre><code>    Main.Running
+
+--&gt; (Main.Running, A.Waiting)
+
+--&gt; (Main.Running, A.Waiting, B.Waiting)
+
+--&gt; (Main.Blocked, A.Waiting, B.Waiting)
+</code></pre>
+<ul>
+<li><p>Main thread is blocking due to a sleep command</p></li>
+<li><p>One of the waiting threads gains control</p></li>
+<li><p>Assumption (scheduling strategy): the longest-waiting thread
+gains control</p></li>
+</ul>
+<pre><code>
+...
+
+--&gt; (Main.Blocked, A.Waiting, B.Waiting)
+
+--&gt; (Main.Blocked, A.Running, B.Waiting)
+
+--&gt; (Main.Waiting, A.Blocked, B. Waiting)</code></pre>
+<ul>
+<li><p>Thread A blocks due to a sleep command</p></li>
+<li><p>In the meantime, the blocking of the main thread has been lifted,
+because the sleep time is over</p></li>
+</ul>
+<pre><code>
+...
+
+--&gt; (Main.Waiting, A.Blocked, B. Waiting)
+
+--&gt; (Main.Waiting, A.Blocked, B.Running)</code></pre>
+<p>etc.</p>
+</div>
+<div id="lambdas-anonymous-functions-in-go."
+class="slide section level1">
+<h1>Lambda’s (anonymous functions) in Go.</h1>
+<p>Revisiting the “just say go” example.</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="co">// Example with &quot;lambda&#39;s&quot; = anonymous functions in Go</span></span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="kw">package</span> main</span>
+<span id="cb11-4"><a href="#cb11-4" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;fmt&quot;</span></span>
+<span id="cb11-6"><a href="#cb11-6" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;time&quot;</span></span>
+<span id="cb11-7"><a href="#cb11-7" tabindex="-1"></a></span>
+<span id="cb11-8"><a href="#cb11-8" tabindex="-1"></a><span class="kw">func</span> thread<span class="op">(</span>s <span class="dt">string</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb11-9"><a href="#cb11-9" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb11-10"><a href="#cb11-10" tabindex="-1"></a>        fmt<span class="op">.</span>Print<span class="op">(</span>s<span class="op">)</span></span>
+<span id="cb11-11"><a href="#cb11-11" tabindex="-1"></a>        time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
+<span id="cb11-12"><a href="#cb11-12" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb11-13"><a href="#cb11-13" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb11-14"><a href="#cb11-14" tabindex="-1"></a></span>
+<span id="cb11-15"><a href="#cb11-15" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb11-16"><a href="#cb11-16" tabindex="-1"></a></span>
+<span id="cb11-17"><a href="#cb11-17" tabindex="-1"></a>    <span class="co">// Immediate execution of an anonymous function</span></span>
+<span id="cb11-18"><a href="#cb11-18" tabindex="-1"></a>    <span class="cf">go</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb11-19"><a href="#cb11-19" tabindex="-1"></a>        <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb11-20"><a href="#cb11-20" tabindex="-1"></a>            fmt<span class="op">.</span>Print<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">)</span></span>
+<span id="cb11-21"><a href="#cb11-21" tabindex="-1"></a>            time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
+<span id="cb11-22"><a href="#cb11-22" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb11-23"><a href="#cb11-23" tabindex="-1"></a></span>
+<span id="cb11-24"><a href="#cb11-24" tabindex="-1"></a>    <span class="op">}()</span></span>
+<span id="cb11-25"><a href="#cb11-25" tabindex="-1"></a></span>
+<span id="cb11-26"><a href="#cb11-26" tabindex="-1"></a>    <span class="co">// bFunc is a variable of function type!</span></span>
+<span id="cb11-27"><a href="#cb11-27" tabindex="-1"></a>    <span class="co">// Type automatically inferred</span></span>
+<span id="cb11-28"><a href="#cb11-28" tabindex="-1"></a>    bFunc <span class="op">:=</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb11-29"><a href="#cb11-29" tabindex="-1"></a>        <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb11-30"><a href="#cb11-30" tabindex="-1"></a>            fmt<span class="op">.</span>Print<span class="op">(</span><span class="st">&quot;B&quot;</span><span class="op">)</span></span>
+<span id="cb11-31"><a href="#cb11-31" tabindex="-1"></a>            time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
+<span id="cb11-32"><a href="#cb11-32" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb11-33"><a href="#cb11-33" tabindex="-1"></a></span>
+<span id="cb11-34"><a href="#cb11-34" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb11-35"><a href="#cb11-35" tabindex="-1"></a>    <span class="cf">go</span> bFunc<span class="op">()</span></span>
+<span id="cb11-36"><a href="#cb11-36" tabindex="-1"></a>    thread<span class="op">(</span><span class="st">&quot;C&quot;</span><span class="op">)</span></span>
+<span id="cb11-37"><a href="#cb11-37" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</div>
+<div id="communication-channels" class="slide section level1">
+<h1>Communication (“channels”)</h1>
+<p>Threads can communicate using <em>channels</em>, a new datatype in
+‘go’. A value sent or received over a channel is called
+<em>message</em>. A channel can be <em>unbuffered</em> or
+<em>buffered</em>. A buffered channel can hold a finite number of
+messages in its buffer.</p>
+<p>The following principles hold:</p>
+<ol style="list-style-type: decimal">
+<li><p>A thread can send and receive messages on any channel it
+holds.</p></li>
+<li><p>A message can be received by exactly one thread.</p></li>
+<li><p>A recipient must necessarily wait for a message, unless a
+buffered message is available.</p></li>
+<li><p>A sender can continue, as long as the channel still has a buffer
+available. If the buffer is full (or the channel is unbuffered), the
+sender is blocked until a message is received from the channel.</p></li>
+</ol>
+<p>See below for details.</p>
+<p><strong>Typed Channels</strong></p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="kw">var</span> ch <span class="kw">chan</span> <span class="dt">int</span></span></code></pre></div>
+<p>We declare a variable <code>ch</code> as a channel. The values sent
+over this channel must be typed <code>int</code>.</p>
+<p><strong>Channel creation</strong></p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a>ch <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span></code></pre></div>
+<p>We create a new channel using <code>make</code>. (Analogous to
+creating a new object.) The declaration <code>var ch chan int</code>
+attaches a <em>closed</em> channel to <code>ch</code> on which no
+operations can be executed.</p>
+<p><strong>Channel without/with buffer</strong></p>
+<p>There are two kinds of channels in Go: without buffer and with
+buffer. A buffer is a queue of messages.</p>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a>ch1 <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a>ch2 <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">,</span> <span class="dv">50</span><span class="op">)</span></span></code></pre></div>
+<p>Channel <code>ch1</code> is an unbuffered channel. Channel
+<code>ch2</code> has buffer space for at most 50 messages.</p>
+<p>The following rules hold for exchanging messages:</p>
+<ul>
+<li><p>Channel without buffer (synchronous communication):</p>
+<ul>
+<li>A recipient blocks until there is a sender.</li>
+<li>Similarly for the sender (as there is no buffer available)</li>
+</ul></li>
+<li><p>Channel with buffer (asynchronous communication):</p>
+<ul>
+<li>A recipient blocks if there is no message available in the
+buffer.</li>
+<li>A sender blocks only if the buffer is full.</li>
+<li>The buffer is organized as a queue (FIFO).</li>
+</ul></li>
+</ul>
+<p>Hence, the difference is as follows:</p>
+<ul>
+<li><p>For an unbuffered channel, a sender always has to
+<em>synchronize</em> with a recipient. Sender and recipient always
+block. The Go runtime system checks if there are blocking sender and
+recipient for the same channel. If so, they communicate with each other
+and become unblocked.</p></li>
+<li><p>For a buffered channel, the sender behaves
+<em>asynchronously</em> and tries to write the message to the buffer.
+The sender only blocks if the buffer is full, then it tries again. The
+recipient always synchronizes with the buffer. If the buffer is empty,
+the recipient blocks. Otherwise, a message is taken from the
+buffer.</p></li>
+</ul>
+<p><strong>Sending</strong></p>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a>ch <span class="op">&lt;-</span> y</span></code></pre></div>
+<p>Send value <code>y</code> on channel <code>ch</code> (a
+statement)</p>
+<p><strong>Receiving</strong></p>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a>x <span class="op">=</span> <span class="op">&lt;-</span> ch</span></code></pre></div>
+<p>Receive from channel <code>ch</code> and save the value in
+<code>x</code> (an expression, i.e., <code>&lt;-</code> is a unary
+operator on channels)</p>
+<h2 id="example-1">Example</h2>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="kw">package</span> main</span>
+<span id="cb17-2"><a href="#cb17-2" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;fmt&quot;</span></span>
+<span id="cb17-4"><a href="#cb17-4" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;time&quot;</span></span>
+<span id="cb17-5"><a href="#cb17-5" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="#cb17-6" tabindex="-1"></a><span class="kw">func</span> snd<span class="op">(</span>s <span class="dt">string</span><span class="op">,</span> ch <span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb17-7"><a href="#cb17-7" tabindex="-1"></a>    <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb17-8"><a href="#cb17-8" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb17-9"><a href="#cb17-9" tabindex="-1"></a>        x<span class="op">++</span></span>
+<span id="cb17-10"><a href="#cb17-10" tabindex="-1"></a>        ch <span class="op">&lt;-</span> x</span>
+<span id="cb17-11"><a href="#cb17-11" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;%s sends %d </span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span> s<span class="op">,</span> x<span class="op">)</span></span>
+<span id="cb17-12"><a href="#cb17-12" tabindex="-1"></a>        time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
+<span id="cb17-13"><a href="#cb17-13" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb17-14"><a href="#cb17-14" tabindex="-1"></a></span>
+<span id="cb17-15"><a href="#cb17-15" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb17-16"><a href="#cb17-16" tabindex="-1"></a></span>
+<span id="cb17-17"><a href="#cb17-17" tabindex="-1"></a><span class="kw">func</span> rcv<span class="op">(</span>ch <span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb17-18"><a href="#cb17-18" tabindex="-1"></a>    <span class="kw">var</span> x <span class="dt">int</span></span>
+<span id="cb17-19"><a href="#cb17-19" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb17-20"><a href="#cb17-20" tabindex="-1"></a>        x <span class="op">=</span> <span class="op">&lt;-</span>ch</span>
+<span id="cb17-21"><a href="#cb17-21" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;received %d </span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span> x<span class="op">)</span></span>
+<span id="cb17-22"><a href="#cb17-22" tabindex="-1"></a></span>
+<span id="cb17-23"><a href="#cb17-23" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb17-24"><a href="#cb17-24" tabindex="-1"></a></span>
+<span id="cb17-25"><a href="#cb17-25" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb17-26"><a href="#cb17-26" tabindex="-1"></a></span>
+<span id="cb17-27"><a href="#cb17-27" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb17-28"><a href="#cb17-28" tabindex="-1"></a>    <span class="kw">var</span> ch <span class="kw">chan</span> <span class="dt">int</span> <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb17-29"><a href="#cb17-29" tabindex="-1"></a>    <span class="cf">go</span> snd<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">,</span> ch<span class="op">)</span></span>
+<span id="cb17-30"><a href="#cb17-30" tabindex="-1"></a>    rcv<span class="op">(</span>ch<span class="op">)</span></span>
+<span id="cb17-31"><a href="#cb17-31" tabindex="-1"></a></span>
+<span id="cb17-32"><a href="#cb17-32" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h2 id="execution-of-the-example-state-based">Execution of the example
+(state-based)</h2>
+<pre><code>    rcv.Running
+
+--&gt; (rcv.Running, snd.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Waiting)
+
+    Notation: in case of Blocked, the &#39;subscript&#39; gives the reason
+
+    &lt;-ch?   Recipient is blocked
+    ch&lt;-1?  Sender is blocked
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Running)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Blocked_(ch&lt;-1?))
+
+    First thread waits to receive a message.
+    Second thread tries to send a message.
+
+    We say that both threads can synchronize (a kind of &quot;handshake&quot; takes place).
+    The message-exchange takes place and the threads are unblocked.
+
+--&gt; (rcv.Waiting, snd.Waiting)
+
+--&gt; (rcv.Running, snd.Waiting)
+
+...</code></pre>
+<p>We consider the following variant (1 recipient, 2 senders).</p>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a>    <span class="kw">var</span> ch <span class="kw">chan</span> <span class="dt">int</span> <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a>    <span class="cf">go</span> snd<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">,</span> ch<span class="op">)</span> <span class="co">// snd1</span></span>
+<span id="cb19-4"><a href="#cb19-4" tabindex="-1"></a>    <span class="cf">go</span> snd<span class="op">(</span><span class="st">&quot;B&quot;</span><span class="op">,</span> ch<span class="op">)</span> <span class="co">// snd2</span></span>
+<span id="cb19-5"><a href="#cb19-5" tabindex="-1"></a>    rcv<span class="op">(</span>ch<span class="op">)</span></span>
+<span id="cb19-6"><a href="#cb19-6" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<pre><code>    rcv.Running
+
+--&gt; (rcv.Running, snd1.Waiting)
+
+--&gt; (rcv.Running, snd1.Waiting, snd2.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd1.Waiting, snd2.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd1.Running, snd2.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd1.Blocked_(ch&lt;-1?), snd2.Waiting)
+
+    Multiple possibilities:
+    
+    (1) rcv synchronizes with snd1, or
+    (2) snd2 thread continues.
+
+    We choose possibility (2)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd1.Blocked_(ch&lt;-1?), snd2.Running)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd1.Blocked_(ch&lt;-1?), snd2.Blocked_(ch&lt;-1?))
+
+    Multiple possibilities:
+    
+    (1) rcv synchronizes with snd1, or
+    (2) rcv synchronizes with snd2.
+
+    We choose possibility (1)
+
+    [Background: The Go runtime system manages blocking recipients in a queue, so possibility (1) is most likely.]
+
+--&gt; (rcv.Waiting, snd1.Waiting, snd2.Blocked_(ch&lt;-1?))
+
+...</code></pre>
+<p>We consider another variant (channel with buffer)</p>
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a>    <span class="kw">var</span> ch <span class="kw">chan</span> <span class="dt">int</span> <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">,</span> <span class="dv">1</span><span class="op">)</span> <span class="co">// channel with buffer</span></span>
+<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a>    <span class="cf">go</span> snd<span class="op">(</span><span class="st">&quot;A&quot;</span><span class="op">,</span> ch<span class="op">)</span></span>
+<span id="cb21-4"><a href="#cb21-4" tabindex="-1"></a>    rcv<span class="op">(</span>ch<span class="op">)</span></span>
+<span id="cb21-5"><a href="#cb21-5" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<pre><code>    rcv.Running
+
+--&gt; (rcv.Running, snd.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Running)
+
+    // Buffer filled with 1
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Blocked_(Sleep(1s)?))
+
+--&gt; (rcv.Waiting, snd.Blocked_(Sleep(1s)?))
+
+    // Buffer empty again
+
+--&gt; (rcv.Running, snd.Blocked_(Sleep(1s)?))
+
+...</code></pre>
+<p>Another variant. Channel with buffer and <code>snd</code> without
+sleep.</p>
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="kw">func</span> snd<span class="op">(</span>s <span class="dt">string</span><span class="op">,</span> ch <span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a>    <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a>        x<span class="op">++</span></span>
+<span id="cb23-5"><a href="#cb23-5" tabindex="-1"></a>        ch <span class="op">&lt;-</span> x</span>
+<span id="cb23-6"><a href="#cb23-6" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;%s sends %d </span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span> s<span class="op">,</span> x<span class="op">)</span></span>
+<span id="cb23-7"><a href="#cb23-7" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb23-8"><a href="#cb23-8" tabindex="-1"></a></span>
+<span id="cb23-9"><a href="#cb23-9" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<pre><code>    rcv.Running
+
+--&gt; (rcv.Running, snd.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Waiting)
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Running)
+
+    // Buffer filled with 1
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Blocked_(ch&lt;-2?))
+
+    // Two possibilities
+    // (a) rcv reads from channel, or
+    // (b) directly from snd
+    //
+    // Go runtime system chooses variant (a)
+    // That is, in case of a buffered channel, the recipient synchronizes with the channel.
+
+--&gt; (rcv.Running, snd.Blocked_(ch&lt;-2?))
+
+    // Channel empty again
+
+--&gt; (rcv.Blocked_(&lt;-ch?), snd.Blocked_(ch&lt;-2?))
+
+    // Again two possibilities
+    // (a) snd writes to the channel, or
+    // (b) passes the value directly to rcv
+    //
+    // (a) is the Go variant (see above).
+</code></pre>
+<ul>
+<li><p>Using ‘sleep’, execution often gets chaotic (no guarantee that
+the thread continues after exactly one second)</p></li>
+<li><p>Using a channel with buffer, sending is non-blocking (as long as
+there is space in the buffer).</p></li>
+<li><p>Using a channel without buffer, execution is often more
+predictable, as a sender can only synchronize with a recipient.</p></li>
+</ul>
+<h2 id="restricted-communication">Restricted communication</h2>
+<p>Channel types can be annotated:</p>
+<p>Only sending:</p>
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="kw">func</span> snd<span class="op">(</span>ch <span class="kw">chan</span> <span class="op">&lt;-</span> <span class="dt">int</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a> <span class="op">...</span></span>
+<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Only receiving:</p>
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a><span class="kw">func</span> rcv<span class="op">(</span>ch <span class="op">&lt;-</span> <span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb26-2"><a href="#cb26-2" tabindex="-1"></a> <span class="op">...</span></span>
+<span id="cb26-3"><a href="#cb26-3" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</div>
+<div id="example-channel-with-and-without-buffer"
+class="slide section level1">
+<h1>Example channel with and without buffer</h1>
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a><span class="kw">package</span> main</span>
+<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" tabindex="-1"></a><span class="co">// Channel without buffer.</span></span>
+<span id="cb27-4"><a href="#cb27-4" tabindex="-1"></a><span class="co">// Always gets stuck.</span></span>
+<span id="cb27-5"><a href="#cb27-5" tabindex="-1"></a><span class="kw">func</span> test1<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-6"><a href="#cb27-6" tabindex="-1"></a>    ch <span class="op">:=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb27-7"><a href="#cb27-7" tabindex="-1"></a></span>
+<span id="cb27-8"><a href="#cb27-8" tabindex="-1"></a>    ch <span class="op">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb27-9"><a href="#cb27-9" tabindex="-1"></a>    <span class="op">&lt;-</span>ch</span>
+<span id="cb27-10"><a href="#cb27-10" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb27-11"><a href="#cb27-11" tabindex="-1"></a></span>
+<span id="cb27-12"><a href="#cb27-12" tabindex="-1"></a><span class="co">// Channel without buffer.</span></span>
+<span id="cb27-13"><a href="#cb27-13" tabindex="-1"></a><span class="co">// Sender synchronizes with recipient.</span></span>
+<span id="cb27-14"><a href="#cb27-14" tabindex="-1"></a><span class="kw">func</span> test2<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-15"><a href="#cb27-15" tabindex="-1"></a>    ch <span class="op">:=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb27-16"><a href="#cb27-16" tabindex="-1"></a></span>
+<span id="cb27-17"><a href="#cb27-17" tabindex="-1"></a>    <span class="cf">go</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-18"><a href="#cb27-18" tabindex="-1"></a>        ch <span class="op">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb27-19"><a href="#cb27-19" tabindex="-1"></a>    <span class="op">}()</span></span>
+<span id="cb27-20"><a href="#cb27-20" tabindex="-1"></a>    <span class="op">&lt;-</span>ch</span>
+<span id="cb27-21"><a href="#cb27-21" tabindex="-1"></a></span>
+<span id="cb27-22"><a href="#cb27-22" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb27-23"><a href="#cb27-23" tabindex="-1"></a></span>
+<span id="cb27-24"><a href="#cb27-24" tabindex="-1"></a><span class="co">// Channel without buffer.</span></span>
+<span id="cb27-25"><a href="#cb27-25" tabindex="-1"></a><span class="co">// 2 senders, 1 recipient.</span></span>
+<span id="cb27-26"><a href="#cb27-26" tabindex="-1"></a><span class="co">// May get stuck.</span></span>
+<span id="cb27-27"><a href="#cb27-27" tabindex="-1"></a><span class="kw">func</span> test3<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-28"><a href="#cb27-28" tabindex="-1"></a>    ch <span class="op">:=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb27-29"><a href="#cb27-29" tabindex="-1"></a></span>
+<span id="cb27-30"><a href="#cb27-30" tabindex="-1"></a>    snd <span class="op">:=</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span> ch <span class="op">&lt;-</span> <span class="dv">1</span> <span class="op">}</span></span>
+<span id="cb27-31"><a href="#cb27-31" tabindex="-1"></a>    rcv <span class="op">:=</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span> <span class="op">&lt;-</span>ch <span class="op">}</span></span>
+<span id="cb27-32"><a href="#cb27-32" tabindex="-1"></a></span>
+<span id="cb27-33"><a href="#cb27-33" tabindex="-1"></a>    <span class="cf">go</span> snd<span class="op">()</span></span>
+<span id="cb27-34"><a href="#cb27-34" tabindex="-1"></a>    <span class="cf">go</span> rcv<span class="op">()</span></span>
+<span id="cb27-35"><a href="#cb27-35" tabindex="-1"></a>    snd<span class="op">()</span></span>
+<span id="cb27-36"><a href="#cb27-36" tabindex="-1"></a></span>
+<span id="cb27-37"><a href="#cb27-37" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb27-38"><a href="#cb27-38" tabindex="-1"></a></span>
+<span id="cb27-39"><a href="#cb27-39" tabindex="-1"></a><span class="co">// Channel without buffer.</span></span>
+<span id="cb27-40"><a href="#cb27-40" tabindex="-1"></a><span class="co">// 2 senders, 2 recipients.</span></span>
+<span id="cb27-41"><a href="#cb27-41" tabindex="-1"></a><span class="kw">func</span> test4<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-42"><a href="#cb27-42" tabindex="-1"></a>    ch <span class="op">:=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb27-43"><a href="#cb27-43" tabindex="-1"></a></span>
+<span id="cb27-44"><a href="#cb27-44" tabindex="-1"></a>    snd <span class="op">:=</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span> ch <span class="op">&lt;-</span> <span class="dv">1</span> <span class="op">}</span></span>
+<span id="cb27-45"><a href="#cb27-45" tabindex="-1"></a>    rcv <span class="op">:=</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span> <span class="op">&lt;-</span>ch <span class="op">}</span></span>
+<span id="cb27-46"><a href="#cb27-46" tabindex="-1"></a></span>
+<span id="cb27-47"><a href="#cb27-47" tabindex="-1"></a>    <span class="cf">go</span> snd<span class="op">()</span> <span class="co">// S1</span></span>
+<span id="cb27-48"><a href="#cb27-48" tabindex="-1"></a>    <span class="cf">go</span> snd<span class="op">()</span> <span class="co">// S2</span></span>
+<span id="cb27-49"><a href="#cb27-49" tabindex="-1"></a>    rcv<span class="op">()</span>    <span class="co">// R1 receives from S1 or S2</span></span>
+<span id="cb27-50"><a href="#cb27-50" tabindex="-1"></a>    rcv<span class="op">()</span>    <span class="co">// R2</span></span>
+<span id="cb27-51"><a href="#cb27-51" tabindex="-1"></a>    <span class="co">// If R1 receives from S1, R2 receives from S2</span></span>
+<span id="cb27-52"><a href="#cb27-52" tabindex="-1"></a>    <span class="co">// If R1 receives from S2, R2 receives from S1</span></span>
+<span id="cb27-53"><a href="#cb27-53" tabindex="-1"></a></span>
+<span id="cb27-54"><a href="#cb27-54" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb27-55"><a href="#cb27-55" tabindex="-1"></a></span>
+<span id="cb27-56"><a href="#cb27-56" tabindex="-1"></a><span class="co">// Channel with buffer.</span></span>
+<span id="cb27-57"><a href="#cb27-57" tabindex="-1"></a><span class="co">// Does not get stuck.</span></span>
+<span id="cb27-58"><a href="#cb27-58" tabindex="-1"></a><span class="kw">func</span> test5<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-59"><a href="#cb27-59" tabindex="-1"></a>    ch <span class="op">:=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">,</span> <span class="dv">1</span><span class="op">)</span></span>
+<span id="cb27-60"><a href="#cb27-60" tabindex="-1"></a></span>
+<span id="cb27-61"><a href="#cb27-61" tabindex="-1"></a>    ch <span class="op">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb27-62"><a href="#cb27-62" tabindex="-1"></a>    <span class="op">&lt;-</span>ch</span>
+<span id="cb27-63"><a href="#cb27-63" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb27-64"><a href="#cb27-64" tabindex="-1"></a></span>
+<span id="cb27-65"><a href="#cb27-65" tabindex="-1"></a><span class="co">// Channel with buffer.</span></span>
+<span id="cb27-66"><a href="#cb27-66" tabindex="-1"></a><span class="co">// Does not get stuck.</span></span>
+<span id="cb27-67"><a href="#cb27-67" tabindex="-1"></a><span class="kw">func</span> test6<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-68"><a href="#cb27-68" tabindex="-1"></a>    ch <span class="op">:=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">,</span> <span class="dv">2</span><span class="op">)</span></span>
+<span id="cb27-69"><a href="#cb27-69" tabindex="-1"></a></span>
+<span id="cb27-70"><a href="#cb27-70" tabindex="-1"></a>    ch <span class="op">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb27-71"><a href="#cb27-71" tabindex="-1"></a>    ch <span class="op">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb27-72"><a href="#cb27-72" tabindex="-1"></a>    <span class="op">&lt;-</span>ch</span>
+<span id="cb27-73"><a href="#cb27-73" tabindex="-1"></a>    ch <span class="op">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb27-74"><a href="#cb27-74" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb27-75"><a href="#cb27-75" tabindex="-1"></a></span>
+<span id="cb27-76"><a href="#cb27-76" tabindex="-1"></a><span class="kw">func</span> main<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb27-77"><a href="#cb27-77" tabindex="-1"></a>    <span class="co">// test1()</span></span>
+<span id="cb27-78"><a href="#cb27-78" tabindex="-1"></a>    test2<span class="op">()</span></span>
+<span id="cb27-79"><a href="#cb27-79" tabindex="-1"></a>    test3<span class="op">()</span></span>
+<span id="cb27-80"><a href="#cb27-80" tabindex="-1"></a>    test4<span class="op">()</span></span>
+<span id="cb27-81"><a href="#cb27-81" tabindex="-1"></a>    test3<span class="op">()</span></span>
+<span id="cb27-82"><a href="#cb27-82" tabindex="-1"></a></span>
+<span id="cb27-83"><a href="#cb27-83" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</div>
+<div id="synchronous-versus-asynchronous-communication"
+class="slide section level1">
+<h1>Synchronous versus Asynchronous Communication</h1>
+<p>To repeat:</p>
+<ul>
+<li>Channel without buffer (synchronous communication, synchronous
+channel)
+<ul>
+<li>Sender blocks if no recipient is available</li>
+<li>Recipient blocks if no sender is available</li>
+<li>Direct (synchronous) communication between sender and recipient</li>
+<li>Sender passes message to recipient</li>
+</ul></li>
+<li>Channel with buffer (asynchronous communication, asynchronous
+channel)
+<ul>
+<li>Sender blocks if buffer is full</li>
+<li>Recipient blocks if buffer is empty</li>
+<li>Indirect (asynchronous) communication between sender and
+recipient</li>
+<li>Sender puts message in buffer, recipient takes message from
+buffer</li>
+</ul></li>
+</ul>
+<p>Both modes of communication are equivalent. That is, a channel with
+buffer can be emulated by channels without buffers. Well-known
+synchronization primitives (e.g., mutex) can be emulated using
+channels.</p>
+<h2 id="exercise-1-mutex">Exercise 1: Mutex</h2>
+<p>Go supports well-known synchronization primitives like mutex (mutual
+exclusion) and so on; see <a
+href="sync">http://golang.org/pkg/sync/</a>. However, mutexes and other
+primitives can be emulated using channels. (Most likely, the mutexes in
+the Go library are implemented more efficiently, but here we can show
+that Go could get away with providing only channels).</p>
+<ul>
+<li>Idea: the mutex is represented as a channel with a buffer size of
+one.</li>
+<li>The buffer is initially empty.</li>
+<li><code>lock</code> sends and <code>unlock</code> receives.</li>
+</ul>
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="kw">package</span> main</span>
+<span id="cb28-2"><a href="#cb28-2" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;fmt&quot;</span></span>
+<span id="cb28-4"><a href="#cb28-4" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="#cb28-5" tabindex="-1"></a><span class="kw">type</span> Mutex <span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb28-6"><a href="#cb28-6" tabindex="-1"></a><span class="kw">func</span> newMutex<span class="op">()</span> Mutex</span>
+<span id="cb28-7"><a href="#cb28-7" tabindex="-1"></a><span class="kw">func</span> lock<span class="op">(</span>m Mutex<span class="op">)</span></span>
+<span id="cb28-8"><a href="#cb28-8" tabindex="-1"></a><span class="kw">func</span> unlock<span class="op">(</span>m Mutex<span class="op">)</span></span>
+<span id="cb28-9"><a href="#cb28-9" tabindex="-1"></a></span>
+<span id="cb28-10"><a href="#cb28-10" tabindex="-1"></a><span class="kw">var</span> x <span class="dt">int</span></span>
+<span id="cb28-11"><a href="#cb28-11" tabindex="-1"></a></span>
+<span id="cb28-12"><a href="#cb28-12" tabindex="-1"></a><span class="kw">func</span> mySharedVar<span class="op">(</span>y <span class="dt">int</span><span class="op">,</span> m Mutex<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb28-13"><a href="#cb28-13" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb28-14"><a href="#cb28-14" tabindex="-1"></a>        lock<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb28-15"><a href="#cb28-15" tabindex="-1"></a>        x <span class="op">=</span> y</span>
+<span id="cb28-16"><a href="#cb28-16" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;%d=%d</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span>x<span class="op">,</span>y<span class="op">)</span></span>
+<span id="cb28-17"><a href="#cb28-17" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb28-18"><a href="#cb28-18" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb28-19"><a href="#cb28-19" tabindex="-1"></a></span>
+<span id="cb28-20"><a href="#cb28-20" tabindex="-1"></a><span class="kw">func</span> testMutex<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb28-21"><a href="#cb28-21" tabindex="-1"></a>    <span class="kw">var</span> m Mutex</span>
+<span id="cb28-22"><a href="#cb28-22" tabindex="-1"></a>    m <span class="op">=</span> newMutex<span class="op">()</span></span>
+<span id="cb28-23"><a href="#cb28-23" tabindex="-1"></a></span>
+<span id="cb28-24"><a href="#cb28-24" tabindex="-1"></a>    <span class="cf">go</span> mySharedVar<span class="op">(</span><span class="dv">1</span><span class="op">,</span> m<span class="op">)</span></span>
+<span id="cb28-25"><a href="#cb28-25" tabindex="-1"></a>    mySharedVar<span class="op">(</span><span class="dv">2</span><span class="op">,</span> m<span class="op">)</span>   </span>
+<span id="cb28-26"><a href="#cb28-26" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h2 id="exercise-2-mutable-variable">Exercise 2: Mutable Variable</h2>
+<p>Implement a mutable variable, with the following signature:</p>
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb29-1"><a href="#cb29-1" tabindex="-1"></a><span class="kw">type</span> MVar <span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb29-2"><a href="#cb29-2" tabindex="-1"></a><span class="kw">func</span> newMVar<span class="op">(</span>x <span class="dt">int</span><span class="op">)</span> MVar</span>
+<span id="cb29-3"><a href="#cb29-3" tabindex="-1"></a><span class="kw">func</span> takeMVar<span class="op">(</span>m MVar<span class="op">)</span> <span class="dt">int</span></span>
+<span id="cb29-4"><a href="#cb29-4" tabindex="-1"></a><span class="kw">func</span> putMVar<span class="op">(</span>m MVar<span class="op">,</span> x <span class="dt">int</span><span class="op">)</span></span></code></pre></div>
+<ul>
+<li>An <code>MVar</code> is either full or empty.</li>
+<li>Initially, an <code>MVar</code> is filled with an integer
+value.</li>
+<li><code>takeMVar</code>
+<ul>
+<li>reads the value if any, and</li>
+<li>blocks otherwise.</li>
+</ul></li>
+<li><code>putMVar</code>
+<ul>
+<li>writes a value if empty, and</li>
+<li>block otherwise.</li>
+</ul></li>
+<li>Hints:
+<ul>
+<li><code>takeMVar</code> receives.</li>
+<li><code>putMVar</code> sends.</li>
+<li>Initially, an <code>MVar</code> is full, so <code>takeMVar</code>
+won’t block at first.</li>
+<li>The implementation is trivial when we use a channel with buffer size
+1. Try the exercise again with a synchronous channel without
+buffer.</li>
+</ul></li>
+</ul>
+<p>Note: using an <code>MVar</code>, we can easily emulate a mutex.
+How?</p>
+<h3 id="complete-mvar-example">Complete MVar Example</h3>
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="kw">package</span> main</span>
+<span id="cb30-2"><a href="#cb30-2" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;fmt&quot;</span></span>
+<span id="cb30-4"><a href="#cb30-4" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;time&quot;</span></span>
+<span id="cb30-5"><a href="#cb30-5" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" tabindex="-1"></a><span class="kw">type</span> MVar <span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb30-7"><a href="#cb30-7" tabindex="-1"></a></span>
+<span id="cb30-8"><a href="#cb30-8" tabindex="-1"></a><span class="kw">func</span> newMVar<span class="op">(</span>x <span class="dt">int</span><span class="op">)</span> MVar <span class="op">{</span></span>
+<span id="cb30-9"><a href="#cb30-9" tabindex="-1"></a>    <span class="kw">var</span> ch <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
+<span id="cb30-10"><a href="#cb30-10" tabindex="-1"></a>    <span class="cf">go</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span> ch <span class="op">&lt;-</span> x <span class="op">}()</span></span>
+<span id="cb30-11"><a href="#cb30-11" tabindex="-1"></a>    <span class="cf">return</span> ch</span>
+<span id="cb30-12"><a href="#cb30-12" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Below another example:</p>
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode go"><code class="sourceCode go"><span id="cb31-1"><a href="#cb31-1" tabindex="-1"></a><span class="kw">func</span> producer<span class="op">(</span>m MVar<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb31-2"><a href="#cb31-2" tabindex="-1"></a>    <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb31-3"><a href="#cb31-3" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb31-4"><a href="#cb31-4" tabindex="-1"></a>        time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
+<span id="cb31-5"><a href="#cb31-5" tabindex="-1"></a>        putMVar<span class="op">(</span>m<span class="op">,</span> x<span class="op">)</span></span>
+<span id="cb31-6"><a href="#cb31-6" tabindex="-1"></a>        x<span class="op">++</span></span>
+<span id="cb31-7"><a href="#cb31-7" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb31-8"><a href="#cb31-8" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb31-9"><a href="#cb31-9" tabindex="-1"></a></span>
+<span id="cb31-10"><a href="#cb31-10" tabindex="-1"></a><span class="kw">func</span> consumer<span class="op">(</span>m MVar<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb31-11"><a href="#cb31-11" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb31-12"><a href="#cb31-12" tabindex="-1"></a>        <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> takeMVar<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb31-13"><a href="#cb31-13" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;Received %d </span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span> x<span class="op">)</span></span>
+<span id="cb31-14"><a href="#cb31-14" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb31-15"><a href="#cb31-15" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb31-16"><a href="#cb31-16" tabindex="-1"></a></span>
+<span id="cb31-17"><a href="#cb31-17" tabindex="-1"></a><span class="kw">func</span> testMVar<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb31-18"><a href="#cb31-18" tabindex="-1"></a>    <span class="kw">var</span> m MVar</span>
+<span id="cb31-19"><a href="#cb31-19" tabindex="-1"></a></span>
+<span id="cb31-20"><a href="#cb31-20" tabindex="-1"></a>    m <span class="op">=</span> newMVar<span class="op">(</span><span class="dv">1</span><span class="op">)</span></span>
+<span id="cb31-21"><a href="#cb31-21" tabindex="-1"></a></span>
+<span id="cb31-22"><a href="#cb31-22" tabindex="-1"></a>    <span class="cf">go</span> producer<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb31-23"><a href="#cb31-23" tabindex="-1"></a></span>
+<span id="cb31-24"><a href="#cb31-24" tabindex="-1"></a>    consumer<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb31-25"><a href="#cb31-25" tabindex="-1"></a></span>
+<span id="cb31-26"><a href="#cb31-26" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+</div>
+</body>
+</html>
