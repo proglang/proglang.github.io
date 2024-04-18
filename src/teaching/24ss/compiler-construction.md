@@ -99,7 +99,7 @@ Our version of the book is available on the [Github Releases][book]
 page. Simply download the `book.pdf` file for the most recent release.
 
 To get notified on new releases, we recommend to push the *watch*-button on the
-book's [github repository](https://github.com/CC-Uni-Freiburg/Essentials-of-Compilation),
+book's [GitHub repository](https://github.com/CC-Uni-Freiburg/Essentials-of-Compilation),
 select *Custom* in the dropdown menu, and select *Releases*.
 
 [book]: https://github.com/CC-Uni-Freiburg/Essentials-of-Compilation/releases
