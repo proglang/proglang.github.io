@@ -40,7 +40,7 @@ extend the compiler implemented in the exercises with new features.
 ## Communication
 
 For communication outside of the lecture, we provide an 
-[Ilias course]()
+[Ilias course](https://ilias.uni-freiburg.de/goto.php?target=crs_3469049_rcodesJ5zaM6NX6&client_id=unifreiburg)
 and a 
 [discord-like chat](https://chat.laurel.informatik.uni-freiburg.de/invite/NDm9rk).
 
