@@ -95,7 +95,7 @@ We will deviate from the book in two ways:
 For this purpose, we have started our own fork of the book, which we will be
 updating during the semester to use RISC-V instead of x86 instructions.
 
-Our version of the book is available on the [Github Releases][book]
+Our version of the book is available on the [GitHub Releases][book]
 page. Simply download the `book.pdf` file for the most recent release.
 
 To get notified on new releases, we recommend to push the *watch*-button on the
