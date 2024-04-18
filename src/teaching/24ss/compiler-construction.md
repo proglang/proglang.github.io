@@ -22,7 +22,12 @@
 
 Exercises are provided and submitted via GitHub Classroom.
 
-We will provided further details about the exercises in the first tutorial session.
+We will provide further details about the exercises in the first tutorial session.
+
+Exercises will not be graded, but we provide automatic tests to help
+you verify the correctness of your work. It is highly recommended to
+take the exercises seriously, as the exam requires you to extend the
+compiler from the sample solution with new features.
 
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
