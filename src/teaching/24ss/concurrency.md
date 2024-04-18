@@ -57,7 +57,7 @@ Note that some tutorials will be held online, ***so keep an eye on the [schedule
 | 2024-07-17 (Wed) | Lecture | Session types | |
 | 2024-07-19 (Fri) | Tutorial | | |
 | **Past** | | | |
-| 2024-04-17 (Wed) | Lecture | Course overview and Go | [Lecture notes](./concurrency/lec-01-concurrency-go.html) |
+| 2024-04-17 (Wed) | Lecture | Course overview and Go | \[[Lecture notes](./concurrency/lec-01-concurrency-go.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-04-17-lecture-1.mp4)\] |
 
 ## Additional consulting
 Besides tutorials, Bas will be available for consulting on Tuesdays 10-11 (with the exception of 2024-04-30, 2024-05-28, 2024-06-18, 2024-06-25).
