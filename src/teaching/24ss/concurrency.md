@@ -31,9 +31,9 @@ Note that some tutorials will be held online, ***so keep an eye on the [schedule
 | **Upcoming** | | | |
 | 2024-04-19 (Fri) | Tutorial | Concurrency control using Go channels | |
 | 2024-04-24 (Wed) | Lecture | Go (by Bas) | |
-| 2024-04-26 (Fri) | Tutorial *(online)* | *ilias deadline* | |
+| 2024-04-26 (Fri) | Tutorial *(online)* | | |
 | 2024-05-01 (Wed) | *No lecture* | (May Day) | |
-| 2024-05-03 (Fri) | Tutorial | | |
+| 2024-05-03 (Fri) | Tutorial | *ilias deadline* | |
 | 2024-05-08 (Wed) | Lecture | Dynamic data race prediction | |
 | 2024-05-10 (Fri) | Tutorial | | |
 | 2024-05-15 (Wed) | Lecture | Dynamic deadlock prediction | |
