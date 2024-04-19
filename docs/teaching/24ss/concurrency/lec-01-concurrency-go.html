@@ -805,17 +805,20 @@ class="sourceCode go"><code class="sourceCode go"><span id="cb28-1"><a href="#cb
 <span id="cb28-13"><a href="#cb28-13" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
 <span id="cb28-14"><a href="#cb28-14" tabindex="-1"></a>        lock<span class="op">(</span>m<span class="op">)</span></span>
 <span id="cb28-15"><a href="#cb28-15" tabindex="-1"></a>        x <span class="op">=</span> y</span>
-<span id="cb28-16"><a href="#cb28-16" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;%d=%d</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span>x<span class="op">,</span>y<span class="op">)</span></span>
-<span id="cb28-17"><a href="#cb28-17" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb28-18"><a href="#cb28-18" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb28-19"><a href="#cb28-19" tabindex="-1"></a></span>
-<span id="cb28-20"><a href="#cb28-20" tabindex="-1"></a><span class="kw">func</span> testMutex<span class="op">()</span> <span class="op">{</span></span>
-<span id="cb28-21"><a href="#cb28-21" tabindex="-1"></a>    <span class="kw">var</span> m Mutex</span>
-<span id="cb28-22"><a href="#cb28-22" tabindex="-1"></a>    m <span class="op">=</span> newMutex<span class="op">()</span></span>
-<span id="cb28-23"><a href="#cb28-23" tabindex="-1"></a></span>
-<span id="cb28-24"><a href="#cb28-24" tabindex="-1"></a>    <span class="cf">go</span> mySharedVar<span class="op">(</span><span class="dv">1</span><span class="op">,</span> m<span class="op">)</span></span>
-<span id="cb28-25"><a href="#cb28-25" tabindex="-1"></a>    mySharedVar<span class="op">(</span><span class="dv">2</span><span class="op">,</span> m<span class="op">)</span>   </span>
-<span id="cb28-26"><a href="#cb28-26" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<span id="cb28-16"><a href="#cb28-16" tabindex="-1"></a>        time<span class="op">.</span>Sleep<span class="op">(</span><span class="fl">1e6</span><span class="op">)</span> <span class="co">// 1ms</span></span>
+<span id="cb28-17"><a href="#cb28-17" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;%d=%d</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span>x<span class="op">,</span>y<span class="op">)</span></span>
+<span id="cb28-18"><a href="#cb28-18" tabindex="-1"></a>        unlock<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb28-19"><a href="#cb28-19" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb28-20"><a href="#cb28-20" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb28-21"><a href="#cb28-21" tabindex="-1"></a></span>
+<span id="cb28-22"><a href="#cb28-22" tabindex="-1"></a><span class="kw">func</span> testMutex<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb28-23"><a href="#cb28-23" tabindex="-1"></a>    <span class="kw">var</span> m Mutex</span>
+<span id="cb28-24"><a href="#cb28-24" tabindex="-1"></a>    m <span class="op">=</span> newMutex<span class="op">()</span></span>
+<span id="cb28-25"><a href="#cb28-25" tabindex="-1"></a></span>
+<span id="cb28-26"><a href="#cb28-26" tabindex="-1"></a>    <span class="cf">go</span> mySharedVar<span class="op">(</span><span class="dv">1</span><span class="op">,</span> m<span class="op">)</span></span>
+<span id="cb28-27"><a href="#cb28-27" tabindex="-1"></a>    mySharedVar<span class="op">(</span><span class="dv">2</span><span class="op">,</span> m<span class="op">)</span>   </span>
+<span id="cb28-28"><a href="#cb28-28" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Next, try the same thing using a channel without buffer.</p>
 <h2 id="exercise-2-mutable-variable">Exercise 2: Mutable Variable</h2>
 <p>Implement a mutable variable, with the following signature:</p>
 <div class="sourceCode" id="cb29"><pre
@@ -852,46 +855,32 @@ buffer.</li>
 How?</p>
 <h3 id="complete-mvar-example">Complete MVar Example</h3>
 <div class="sourceCode" id="cb30"><pre
-class="sourceCode go"><code class="sourceCode go"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="kw">package</span> main</span>
-<span id="cb30-2"><a href="#cb30-2" tabindex="-1"></a></span>
-<span id="cb30-3"><a href="#cb30-3" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;fmt&quot;</span></span>
-<span id="cb30-4"><a href="#cb30-4" tabindex="-1"></a><span class="kw">import</span> <span class="st">&quot;time&quot;</span></span>
-<span id="cb30-5"><a href="#cb30-5" tabindex="-1"></a></span>
-<span id="cb30-6"><a href="#cb30-6" tabindex="-1"></a><span class="kw">type</span> MVar <span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
-<span id="cb30-7"><a href="#cb30-7" tabindex="-1"></a></span>
-<span id="cb30-8"><a href="#cb30-8" tabindex="-1"></a><span class="kw">func</span> newMVar<span class="op">(</span>x <span class="dt">int</span><span class="op">)</span> MVar <span class="op">{</span></span>
-<span id="cb30-9"><a href="#cb30-9" tabindex="-1"></a>    <span class="kw">var</span> ch <span class="op">=</span> <span class="bu">make</span><span class="op">(</span><span class="kw">chan</span> <span class="dt">int</span><span class="op">)</span></span>
-<span id="cb30-10"><a href="#cb30-10" tabindex="-1"></a>    <span class="cf">go</span> <span class="kw">func</span><span class="op">()</span> <span class="op">{</span> ch <span class="op">&lt;-</span> x <span class="op">}()</span></span>
-<span id="cb30-11"><a href="#cb30-11" tabindex="-1"></a>    <span class="cf">return</span> ch</span>
-<span id="cb30-12"><a href="#cb30-12" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>Below another example:</p>
-<div class="sourceCode" id="cb31"><pre
-class="sourceCode go"><code class="sourceCode go"><span id="cb31-1"><a href="#cb31-1" tabindex="-1"></a><span class="kw">func</span> producer<span class="op">(</span>m MVar<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb31-2"><a href="#cb31-2" tabindex="-1"></a>    <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb31-3"><a href="#cb31-3" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
-<span id="cb31-4"><a href="#cb31-4" tabindex="-1"></a>        time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
-<span id="cb31-5"><a href="#cb31-5" tabindex="-1"></a>        putMVar<span class="op">(</span>m<span class="op">,</span> x<span class="op">)</span></span>
-<span id="cb31-6"><a href="#cb31-6" tabindex="-1"></a>        x<span class="op">++</span></span>
-<span id="cb31-7"><a href="#cb31-7" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb31-8"><a href="#cb31-8" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb31-9"><a href="#cb31-9" tabindex="-1"></a></span>
-<span id="cb31-10"><a href="#cb31-10" tabindex="-1"></a><span class="kw">func</span> consumer<span class="op">(</span>m MVar<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb31-11"><a href="#cb31-11" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
-<span id="cb31-12"><a href="#cb31-12" tabindex="-1"></a>        <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> takeMVar<span class="op">(</span>m<span class="op">)</span></span>
-<span id="cb31-13"><a href="#cb31-13" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;Received %d </span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span> x<span class="op">)</span></span>
-<span id="cb31-14"><a href="#cb31-14" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb31-15"><a href="#cb31-15" tabindex="-1"></a><span class="op">}</span></span>
-<span id="cb31-16"><a href="#cb31-16" tabindex="-1"></a></span>
-<span id="cb31-17"><a href="#cb31-17" tabindex="-1"></a><span class="kw">func</span> testMVar<span class="op">()</span> <span class="op">{</span></span>
-<span id="cb31-18"><a href="#cb31-18" tabindex="-1"></a>    <span class="kw">var</span> m MVar</span>
-<span id="cb31-19"><a href="#cb31-19" tabindex="-1"></a></span>
-<span id="cb31-20"><a href="#cb31-20" tabindex="-1"></a>    m <span class="op">=</span> newMVar<span class="op">(</span><span class="dv">1</span><span class="op">)</span></span>
-<span id="cb31-21"><a href="#cb31-21" tabindex="-1"></a></span>
-<span id="cb31-22"><a href="#cb31-22" tabindex="-1"></a>    <span class="cf">go</span> producer<span class="op">(</span>m<span class="op">)</span></span>
-<span id="cb31-23"><a href="#cb31-23" tabindex="-1"></a></span>
-<span id="cb31-24"><a href="#cb31-24" tabindex="-1"></a>    consumer<span class="op">(</span>m<span class="op">)</span></span>
-<span id="cb31-25"><a href="#cb31-25" tabindex="-1"></a></span>
-<span id="cb31-26"><a href="#cb31-26" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+class="sourceCode go"><code class="sourceCode go"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="kw">func</span> producer<span class="op">(</span>m MVar<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb30-2"><a href="#cb30-2" tabindex="-1"></a>    <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb30-3"><a href="#cb30-3" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb30-4"><a href="#cb30-4" tabindex="-1"></a>        time<span class="op">.</span>Sleep<span class="op">(</span><span class="dv">1</span> <span class="op">*</span> <span class="fl">1e9</span><span class="op">)</span></span>
+<span id="cb30-5"><a href="#cb30-5" tabindex="-1"></a>        putMVar<span class="op">(</span>m<span class="op">,</span> x<span class="op">)</span></span>
+<span id="cb30-6"><a href="#cb30-6" tabindex="-1"></a>        x<span class="op">++</span></span>
+<span id="cb30-7"><a href="#cb30-7" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb30-8"><a href="#cb30-8" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb30-9"><a href="#cb30-9" tabindex="-1"></a></span>
+<span id="cb30-10"><a href="#cb30-10" tabindex="-1"></a><span class="kw">func</span> consumer<span class="op">(</span>m MVar<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb30-11"><a href="#cb30-11" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">{</span></span>
+<span id="cb30-12"><a href="#cb30-12" tabindex="-1"></a>        <span class="kw">var</span> x <span class="dt">int</span> <span class="op">=</span> takeMVar<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb30-13"><a href="#cb30-13" tabindex="-1"></a>        fmt<span class="op">.</span>Printf<span class="op">(</span><span class="st">&quot;Received %d </span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">,</span> x<span class="op">)</span></span>
+<span id="cb30-14"><a href="#cb30-14" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb30-15"><a href="#cb30-15" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb30-16"><a href="#cb30-16" tabindex="-1"></a></span>
+<span id="cb30-17"><a href="#cb30-17" tabindex="-1"></a><span class="kw">func</span> testMVar<span class="op">()</span> <span class="op">{</span></span>
+<span id="cb30-18"><a href="#cb30-18" tabindex="-1"></a>    <span class="kw">var</span> m MVar</span>
+<span id="cb30-19"><a href="#cb30-19" tabindex="-1"></a></span>
+<span id="cb30-20"><a href="#cb30-20" tabindex="-1"></a>    m <span class="op">=</span> newMVar<span class="op">(</span><span class="dv">1</span><span class="op">)</span></span>
+<span id="cb30-21"><a href="#cb30-21" tabindex="-1"></a></span>
+<span id="cb30-22"><a href="#cb30-22" tabindex="-1"></a>    <span class="cf">go</span> producer<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb30-23"><a href="#cb30-23" tabindex="-1"></a></span>
+<span id="cb30-24"><a href="#cb30-24" tabindex="-1"></a>    consumer<span class="op">(</span>m<span class="op">)</span></span>
+<span id="cb30-25"><a href="#cb30-25" tabindex="-1"></a></span>
+<span id="cb30-26"><a href="#cb30-26" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
 </div>
 </body>
 </html>
