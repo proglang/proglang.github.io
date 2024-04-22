@@ -12,9 +12,10 @@
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
 | 2024-04-16 Tu | Lecture | Organization & Introduction | [Book][book], Chapter 1; [Slides][slides01] | missing |
-| 2024-04-19 Fr | Lecture | Integers & Variables | [Book][book], Chapter 2 | |
-| 2024-04-23 Tu | Lecture | Scanning & Parsing | [Book][book], Chapter 3 | |
-| 2024-04-26 Fr | Tutorial |  | | |
+| 2024-04-19 Fr | - | - | - | - |
+| 2024-04-23 Tu | Lecture | Integers & Variables | [Book][book], Chapter 2 | |
+| 2024-04-26 Fr | Lecture | Scanning & Parsing | [Book][book], Chapter 3 | |
+| 2024-04-30 Tu | Tutorial | Compiler for LVar | [Book][book], Chapter 2 & 3 | |
 
 [slides01]: compiler-construction/slides/01-intro.pdf
 
