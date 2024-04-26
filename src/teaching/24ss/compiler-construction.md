@@ -14,13 +14,17 @@
 | 2024-04-16 Tu | Lecture | Organization & Introduction | [Book][book], Chapter 1; [Slides][lec01-slides] | missing |
 | 2024-04-19 Fr | - | - | - | - |
 | 2024-04-23 Tu | Lecture | Integers & Variables | [Book][book], Chapter 2; [Slides][lec02-slides]; [Interpreter][lec02-interpreter]; [Dockerfile][Dockerfile] | [Video][lec02-rec] |
-| 2024-04-26 Fr | Lecture | Scanning & Parsing | [Book][book], Chapter 3 | |
+| 2024-04-26 Fr | Lecture | Scanning & Parsing | [Book][book], Chapter 3; [Slides][lec03-slides]; [Lexer][lec03-lexer]; [Earley Example][lec03-earley-ex] | [Video][lec03-rec] |
 | 2024-04-30 Tu | Tutorial | Compiler for LVar | [Book][book], Chapter 2 & 3 | |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
 [lec02-slides]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-slides.pdf
 [lec02-interpreter]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-interpreter.py
+[lec03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-03-recording.mp4
+[lec03-slides]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-03-slides.pdf
+[lec03-lexer]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lexer.py
+[lec03-earley-ex]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-03-earley-example.txt
 [Dockerfile]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/Dockerfile
 
 ## Exercises
