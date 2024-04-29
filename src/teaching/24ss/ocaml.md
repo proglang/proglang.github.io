@@ -10,6 +10,7 @@
 | Datum | Text |
 |:-----|:-----|
 | 2024-04-01 | Seminar angekündigt |
+| 2024-04-29 | Wichtig: Diese Woche kein Treffen |
 
 ## Prüfungs- bzw. Studienleistung
 - Anwesenheit und aktive Teilnahme an den Proseminarsitzungen (maximal zwei Fehltermine)

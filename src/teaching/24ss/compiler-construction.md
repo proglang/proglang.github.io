@@ -15,7 +15,7 @@
 | 2024-04-19 Fr | - | - | - | - |
 | 2024-04-23 Tu | Lecture | Integers & Variables | [Book][book], Chapter 2; [Slides][lec02-slides]; [Interpreter][lec02-interpreter]; [Dockerfile][Dockerfile] | [Video][lec02-rec] |
 | 2024-04-26 Fr | Lecture | Scanning & Parsing | [Book][book], Chapter 3; [Slides][lec03-slides]; [Lexer][lec03-lexer]; [Earley Example][lec03-earley-ex] | [Video][lec03-rec] |
-| 2024-04-30 Tu | Tutorial | Compiler for LVar | [Book][book], Chapter 2 & 3 | |
+| 2024-04-30 Tu | Tutorial | Compiler for \\(\mathcal{L}_{var}\\) | [Book][book], Chapter 2 & 3 | |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
@@ -29,17 +29,16 @@
 
 ## Exercises
 
-Exercises are provided and submitted via GitHub Classroom.
-Exercises will not be graded, but we will provide automatic tests to
+Exercises are provided and submitted via GitHub Classroom (follow the [invite link]()).
+
+Exercises will not be graded, but we will provide tests to
 help you verify the correctness of your work. It is highly recommended
 to take the exercises seriously, as the exam requires you to extend
 the compiler from the sample solution with new features.
 
-We will provide further details about the exercises in the first tutorial session.
-
-
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
+| 30.04.24 | 10.05.24 | Lexer, Parser and Compiler for \\(\mathcal{L}_{var}\\) |
 
 ## Examination Requirements
 

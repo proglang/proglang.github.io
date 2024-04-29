@@ -37,6 +37,7 @@ main {
 .table-wrapper {
     margin-left: 0;
     overflow-x: auto;
+    overflow-y: hidden;
 }
 
 /* Don't change font size in headers. */

@@ -1,15 +1,22 @@
 # Teaching
 
-[[Before 2024](old.proglang.informatik.uni-freiburg.de) | [Summer 2024](teaching/24ss.md)]
+[[Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) | [Summer 2024](teaching/24ss.md)]
 
 ### Projects and Thesis
+Requests regarding thesis papers or projects are always welcome! 
+If you are interested in supervision, you can write an email to [Prof. Dr. Thiemann](team/thiemann.md).
 
-### Einführung in die Programmierung
+### Einführung in die Programmierung (Pflichtbereich)
+tbd.
 
-### Essentials of Programming Languages
+### Essentials of Programming Languages (Specialization)
+tbd.
 
-### Compiler Construction
+### Compiler Construction (Specialization)
+tbd.
 
-### Functional Programming 
+### Functional Programming (Specialization)
+tbd.
 
-### Concurrency
+### Concurrency  (Specialization)
+tbd.

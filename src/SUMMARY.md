@@ -1,7 +1,6 @@
 # Summary
 
 - [Home](home.md)
-- [Research](research.md)
 - [Team](team.md)
   - [Prof. Dr. Peter Thiemann](team/thiemann.md)
   - [Marlis Jost](team/jost.md)
@@ -13,5 +12,4 @@
       - [Compiler Construction](teaching/24ss/compiler-construction.md)
       - [Concurrency](teaching/24ss/concurrency.md)
       - [Real World OCaml](teaching/24ss/ocaml.md)
-      - [Oberseminar](teaching/24ss/oberseminar.md)
 - [About](about.md)

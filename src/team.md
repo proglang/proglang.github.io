@@ -1,6 +1,6 @@
 ## Team
 
-### Faculty
+### Lead
 
 - [Prof. Dr. Peter Thiemann](team/thiemann.md)
 
@@ -11,4 +11,3 @@
 ### Scientific Staff
 - [Dr. Bas van den Heuvel](team/van-den-heuvel.md)
 - [Hannes Saffrich](team/saffrich.md)
-- [Marius Weidner](team/weidner.md)

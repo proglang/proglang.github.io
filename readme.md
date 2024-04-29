@@ -1,4 +1,4 @@
-# proglang.informatik.uni-freiburg.de
+# proglang.github.io
 
 ## usage
 

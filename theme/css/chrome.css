@@ -87,6 +87,20 @@ a>.hljs {
     #menu-bar .icon-button {
         padding: 0 5px;
     }
+
+    #menu-bar .menu-icon {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #menu-bar .menu-icon {
+        display: none;
+    }
+
 }
 
 .icon-button {
