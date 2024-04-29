@@ -38,7 +38,7 @@ the compiler from the sample solution with new features.
 
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
-| 30.04.24 | 10.05.24 | Lexer, Parser and Compiler for \\(\mathcal{L}_{var}\\) |
+| 2024-04-30 Tu | 2024-05-10 Fr | Lexer, Parser and Compiler for \\(\mathcal{L}_{var}\\) |
 
 ## Examination Requirements
 
