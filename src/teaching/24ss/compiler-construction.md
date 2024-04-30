@@ -29,7 +29,7 @@
 
 ## Exercises
 
-Exercises are provided and submitted via GitHub Classroom (follow the [invite link]()).
+Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https://classroom.github.com/a/A_APR4dd)).
 
 Exercises will not be graded, but we will provide tests to
 help you verify the correctness of your work. It is highly recommended
