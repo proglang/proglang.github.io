@@ -18,7 +18,7 @@
 | 2024-04-30 Tu | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | [Book][book], Chapter 2 & 3 | [Video][tut01-rec] |
 | 2024-05-03 Fr | Lecture | | | |
 | 2024-05-07 Tu | Lecture | | | |
-| 2024-05-10 Tu | Tutorial | | | |
+| 2024-05-10 Fr | Tutorial | | | |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
