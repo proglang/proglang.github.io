@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>TEst - Chair of Programming Languages</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Website for the Chair of Programming Languages at the University of Freiburg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        <link rel="stylesheet" href="../../../../css/variables.css">
+        <link rel="stylesheet" href="../../../../css/general.css">
+        <link rel="stylesheet" href="../../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../../highlight.css">
+        <link rel="stylesheet" href="../../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" checked="true" class="hidden sidebar-visible">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 750) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../../../../home.html">Home</a></li><li class="chapter-item "><a href="../../../../team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="../../../../team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="../../../../team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="../../../../team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="../../../../team/weidner.html">Marius Weidner</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../teaching/24ss.html">Sommer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item expanded "><a href="../../../../teaching/24ss/compiler-construction/slides/lecture-2024-05-03.html" class="active">TEst</a></li><li class="chapter-item "><a href="../../../../teaching/24ss/concurrency.html">Concurrency</a></li><li class="chapter-item "><a href="../../../../teaching/24ss/ocaml.html">Real World OCaml</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../../about.html">About</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Chair of Programming Languages</h1>
+
+                    <a href="https://uni-freiburg.de" target="_blank"><img class="menu-icon" src="https://cca.informatik.uni-freiburg.de/img/logo-new.png"></img></a>
+
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this website ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>From 3-address code / pseudo assembly (after register allocation) to real assembly code:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">3-address</th><th style="text-align: left">R-V assembly</th><th style="text-align: left">R-V assembly</th></tr></thead><tbody>
+<tr><td style="text-align: left">mv r, $0</td><td style="text-align: left">li r, 0</td><td style="text-align: left">add  r, x0, x0</td></tr>
+<tr><td style="text-align: left">mv r, $16</td><td style="text-align: left">li r, 16</td><td style="text-align: left">addi r, x0, 16</td></tr>
+</tbody></table>
+</div>
+<ul>
+<li><code>r</code> stands for a RISC-V register name (i.e., temporaries have been mapped to registers, already)</li>
+<li><code>li r, n</code> is an assembler macro that gets expanded to different instructions depending on the size of <code>n</code>.</li>
+</ul>
+<h2 id="stack-frame-layout"><a class="header" href="#stack-frame-layout">stack frame layout</a></h2>
+<p>stack space of the caller before call</p>
+<pre><code>   +-----
+    |
+    |  local variables of caller
+    |  caller-saved registers
+    |  arguments to callee
+sp  +------------------
+</code></pre>
+<p>when call happens</p>
+<pre><code>   +-----
+    |
+    |  local variables of caller
+    |  arguments to callee
+fp  +------------------
+    |  return address
+    |  frame pointer of caller
+    |  callee-saved registers
+    |  stack space of callee
+sp  +------------------
+</code></pre>
+<h2 id="calculation-of-the-interference-graph"><a class="header" href="#calculation-of-the-interference-graph">calculation of the interference graph</a></h2>
+<p>We consider instruction <em>Ik</em> with <em>Lk</em> standing for the set of temporaries live after <em>Ik</em></p>
+<ul>
+<li>regular instructions: <em>Ik = op d, s1, s2</em>
+<ul>
+<li><em>d</em> is written, <em>s1</em> and <em>s2</em> are read</li>
+<li><em>d</em> interferes with all <em>r</em> in <em>Lk</em>, but not with <em>d</em> itself</li>
+</ul>
+</li>
+<li>move instruction: <em>lk = mv d, s</em>
+<ul>
+<li><em>d</em> is written, <em>s</em> is read</li>
+<li><em>d</em> interferes with all <em>r</em> in <em>Lk</em>, but neither with <em>d</em> nor with <em>s</em></li>
+<li>rationale: consider the outcome of subsequent graph coloring
+<ul>
+<li>if <em>d</em> and <em>s</em> are assigned different colors, then there is no issue.</li>
+<li>if <em>d</em> and <em>s</em> are assigned the same color, then the move becomes trivial, <em>d</em> and <em>s</em> contain the same value so that they become exchangeable in the rest of the basic block.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="including-the-implicit-temporary-in-register-allocation"><a class="header" href="#including-the-implicit-temporary-in-register-allocation">including the implicit temporary in register allocation</a></h2>
+<ul>
+<li>our suggestions for code generation use <code>a0</code> as a scratch register</li>
+<li>can we instead assign a scratch register during register allocation?</li>
+<li>not really:
+<ul>
+<li>we can eliminate some immediate arguments: <code>add d, $42, s</code> –&gt; <code>mv tmp, $42; add, d, tmp, s</code> (though we’d prefer to use the <code>addi</code> instruction in this case)</li>
+<li>mostly, we use the scratch register to eliminate memory operands like <code>-24(fp)</code>. But memory operands are eliminates <em>after</em> register allocation, so it wouldn’t work to introduce fresh temporaries at that point.</li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../../elasticlunr.min.js"></script>
+        <script src="../../../../mark.min.js"></script>
+        <script src="../../../../searcher.js"></script>
+
+        <script src="../../../../clipboard.min.js"></script>
+        <script src="../../../../highlight.js"></script>
+        <script src="../../../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

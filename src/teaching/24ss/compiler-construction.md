@@ -29,7 +29,7 @@
 [lec03-lexer]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lexer.py
 [lec03-earley-ex]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-03-earley-example.txt
 [lec04-register]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-03-lecture-1.mp4
-[lec04-notes]: compiler-construction/slides/lecture-2024-05-03.md
+[lec04-notes]: compiler-construction/slides/lecture-2024-05-03.html
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/tutorial-01-recording.mp4
 [Dockerfile]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/Dockerfile
 
