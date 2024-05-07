@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# usage:  ./publish "message"
+# usage: ./publish "message"
 
 # pull rebase auto stash
 git pull --rebase --autostash

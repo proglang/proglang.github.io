@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 
-# usage: ./watch
+# usage: ./build
 
-# pull rebase auto stash
-git pull --rebase --autostash
-
-# select binary
 platform="$(uname)"
 
 if [ $platform == "Darwin" ]; then
@@ -17,5 +13,5 @@ else
     exit 1
 fi
 
-# run in watch mode
-bin/$bin serve --dest-dir docs --open
+bin/$bin clean --dest-dir docs
+bin/$bin build --dest-dir docs
