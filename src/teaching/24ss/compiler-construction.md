@@ -20,7 +20,7 @@
 | 2024-05-07 Tu | Lecture | Booleans & Conditionals | [Book][book], Chapter 5; [Notes][lec05a-notes] | [Video][lec05a-boolean] |
 | 2024-05-10 Fr | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | | |
 | 2024-05-14 Tu | Lecture | Conditionals (cont'd) | [Book][book], Chapter 5; [Notes][lec05b-notes] | [Video][lec05b-boolean] |
-| 2024-05-17 Fr | Tutorial | Register Allocation| | |
+| 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
