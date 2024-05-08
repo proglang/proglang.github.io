@@ -29,7 +29,6 @@ Note that some tutorials will be held online, ***so keep an eye on the [schedule
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-05-08 (Wed) | Lecture | Dynamic data race prediction | |
 | 2024-05-10 (Fri) | Tutorial | | |
 | 2024-05-15 (Wed) | Lecture | Dynamic deadlock prediction | |
 | 2024-05-17 (Fri) | Tutorial | | |
@@ -57,6 +56,7 @@ Note that some tutorials will be held online, ***so keep an eye on the [schedule
 | 2024-04-24 (Wed) | Lecture | Go (by Bas) | \[[Lecture notes](./concurrency/lec-02-concurrency-go.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-04-24-lecture-1.mp4)\] |
 | 2024-04-26 (Fri) | Tutorial *(online)* | Go | \[[Exercise solutions](./concurrency/lec-02-exercises.zip)\] \[[Partial recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-04-26-tutorial-1.mp4)\] |
 | 2024-05-03 (Fri) | Tutorial | Go | \[[Exercise/Ilias solutions](./concurrency/lec-02-exercisesb.zip)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-05-03-tutorial-1.mp4)\] |
+| 2024-05-08 (Wed) | Lecture | Dynamic data race prediction |  \[[Lecture notes](./concurrency/lec-02-data-race-01-overview.pdf)\] \[[Lecture notes](./concurrency/lec-02-data-race-02-hb-vc.pdf)\] \[[Recording (audio only)](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-05-08-lecture-1.mp4)\] |
 
 ## Additional consulting
 Besides tutorials, Bas will be available for consulting on Tuesdays 10-11 (with the exception of 2024-04-30, 2024-05-28, 2024-06-18, 2024-06-25).
