@@ -4,8 +4,8 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Hannes Saffrich](/team/saffrich.md), [Marius Weidner](/team/weidner.md)
-- Lecture: Tuesday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)
-- Exercises: Friday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051)
+- Lecture: Tuesday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051), [Zoom](https://uni-freiburg.zoom.us/j/68676990725?pwd=YlVIcnNCVUdxb2M3MjNMYUVVQkoydz09)
+- Exercises: Friday, 2:15 pm - 3:45 pm, SR 00 006 (G.-Köhler-Allee 051), [Zoom](https://uni-freiburg.zoom.us/j/68676990725?pwd=YlVIcnNCVUdxb2M3MjNMYUVVQkoydz09)
 
 ## Lectures & Tutorials
 
@@ -18,9 +18,9 @@
 | 2024-04-30 Tu | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | [Book][book], Chapter 2 & 3 | [Video][tut01-rec] |
 | 2024-05-03 Fr | Lecture | Register Allocation | [Book][book], Chapter 4; [Notes][lec04-notes] | [Video][lec04-register] |
 | 2024-05-07 Tu | Lecture | Booleans & Conditionals | [Book][book], Chapter 5; [Notes][lec05a-notes] | [Video][lec05a-boolean] |
-| 2024-05-10 Fr | Tutorial | | | |
+| 2024-05-10 Fr | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | | |
 | 2024-05-14 Tu | Lecture | Conditionals (cont'd) | [Book][book], Chapter 5; [Notes][lec05b-notes] | [Video][lec05b-boolean] |
-| 2024-05-17 Fr | Tutorial | | | |
+| 2024-05-17 Fr | Tutorial | Register Allocation| | |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
@@ -34,6 +34,8 @@
 [lec04-notes]: compiler-construction/slides/lecture-2024-05-03.html
 [lec05a-boolean]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-07-lecture-1.mp4
 [lec05a-notes]: compiler-construction/slides/lecture-2024-05-07.html
+[lec05b-boolean]:
+[lec05b-notes]:
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/tutorial-01-recording.mp4
 [Dockerfile]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/Dockerfile
 
@@ -49,6 +51,7 @@ the compiler from the sample solution with new features.
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
 | 2024-04-30 Tu | 2024-05-10 Fr | Lexer, Parser and Compiler for \\(\mathcal{L}_{var}\\) |
+| 2024-05-10 Fr | 24-05-17 Fr   | Register Allocation for \\(\mathcal{L}_{var}\\) |
 
 ## Examination Requirements
 
