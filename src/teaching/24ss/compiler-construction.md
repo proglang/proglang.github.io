@@ -57,9 +57,6 @@ the compiler from the sample solution with new features.
 
 This lecture consists of an exam and a "Studienleistung".
 
-For the "Studienleistung" it is required to submit exercises for each
-exercise sheet.
-
 The exam will take place in the computer pools and requires you to
 extend the compiler implemented in the exercises with new features.
 
