@@ -24,6 +24,11 @@ We have one lecture and one tutorial each week:
 
 Note that some tutorials will be held online, ***so keep an eye on the [schedule](#schedule)***.
 
+## Examination and Studienleistung
+
+To pass the course, you need a passing grade on the written exam.
+Additionally, you need to pass the Studienleisting, which entails actively participating in the Ilias quizzes.
+
 ## Schedule
 
 **If the schedule says "Tutorial", there is a tutorial.**
