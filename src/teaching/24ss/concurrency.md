@@ -37,15 +37,15 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-05-15 (Wed) | Lecture | Dynamic data race and deadlock prediction | |
+| 2024-05-15 (Wed) | Lecture | Dynamic data race prediction, part 2 | |
 | 2024-05-17 (Fri) | Tutorial | *ilias deadline* | |
 | 2024-05-22 (Wed) | *No lecture* | (Pfingstwoche) | |
 | 2024-05-24 (Fri) | *No tutorial* | (Pfingstwoche) | |
-| 2024-05-29 (Wed) | Lecture | Futures | |
+| 2024-05-29 (Wed) | Lecture *(online)* | Dynamic deadlock prediction (by Bas) | |
 | 2024-05-31 (Fri) | Tutorial *(online)* | | |
-| 2024-06-05 (Wed) | Lecture | Formal aspects of concurrency | |
+| 2024-06-05 (Wed) | Lecture *(online)* | Futures | |
 | 2024-06-07 (Fri) | Tutorial | | |
-| 2024-06-12 (Wed) | Lecture | |
+| 2024-06-12 (Wed) | Lecture | Formal aspects of concurrency |
 | 2024-06-14 (Fri) | Tutorial | | |
 | 2024-06-19 (Wed) | Lecture | Concurrent data structures | |
 | 2024-06-21 (Fri) | *No tutorial* | | |
