@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>lecture-2024-05-03.md  - Chair of Programming Languages</title>
+        <title>lecture-2024-05-03.md - Chair of Programming Languages</title>
 
 
         <!-- Custom HTML head -->
@@ -90,7 +90,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="../../../../home.html">Home</a></li><li class="chapter-item "><a href="../../../../team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="../../../../team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="../../../../team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="../../../../team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="../../../../team/weidner.html">Marius Weidner</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../teaching/24ss.html">Sommer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item expanded "><a href="../../../../teaching/24ss/compiler-construction/slides/lecture-2024-05-03.html" class="active">TEst</a></li><li class="chapter-item "><a href="../../../../teaching/24ss/concurrency.html">Concurrency</a></li><li class="chapter-item "><a href="../../../../teaching/24ss/ocaml.html">Real World OCaml</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../../about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item "><a href="../../../../home.html">Home</a></li><li class="chapter-item "><a href="../../../../team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="../../../../team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="../../../../team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="../../../../team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="../../../../team/weidner.html">Marius Weidner</a></li></ol></li><li class="chapter-item "><a href="../../../../teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../teaching/24ss.html">Sommer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item "><a href="../../../../teaching/24ss/concurrency.html">Concurrency</a></li><li class="chapter-item "><a href="../../../../teaching/24ss/ocaml.html">Real World OCaml</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../../about.html">About</a></li><li class="chapter-item expanded "><a href="../../../../teaching/24ss/compiler-construction/slides/lecture-2024-05-03.html" class="active">lecture-2024-05-03.md</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -159,9 +159,6 @@
 
                 <div id="content" class="content">
                     <main>
-<h2>instructor: Prof. Dr. Peter Thiemann
-                            date: 2024-05-03
-                            title: Chapter 5</h2>
                         <p>From 3-address code / pseudo assembly (after register allocation) to real assembly code:</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">3-address</th><th style="text-align: left">R-V assembly</th><th style="text-align: left">R-V assembly</th></tr></thead><tbody>
 <tr><td style="text-align: left">mv r, $0</td><td style="text-align: left">li r, 0</td><td style="text-align: left">add  r, x0, x0</td></tr>
@@ -235,22 +232,6 @@ sp  +------------------
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
