@@ -26,6 +26,7 @@ def main():
 
     # md file path
     md = os.path.abspath(args.path)
+    md_dir, md_file = os.path.split(md)
 
     # check if md file path exists
     if not os.path.isfile(md):
@@ -42,7 +43,7 @@ def main():
 
     # add md file as section to summary
     with open(summary, "a") as file:
-        file.write(f"\n- [tmp]({os.path.relpath(md, src)})")
+        file.write(f"\n- [{md_file}]({os.path.relpath(md, src)})")
 
     # run mdbook build
     def build():
@@ -61,10 +62,9 @@ def main():
     build()
 
     # html file path
-    _md_dir, _md_file = os.path.split(md)
     html = os.path.join(
-        _md_dir.replace(src, os.path.join(root, "docs")),
-        f"{os.path.splitext(_md_file)[0]}.html",
+        md_dir.replace(src, os.path.join(root, "docs")),
+        f"{os.path.splitext(md_file)[0]}.html",
     )
 
     # copy the html file to the directory of the md file
