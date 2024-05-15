@@ -13,6 +13,3 @@
       - [Concurrency](teaching/24ss/concurrency.md)
       - [Real World OCaml](teaching/24ss/ocaml.md)
 - [About](about.md)
-- [lecture-2024-05-03.md](teaching/24ss/compiler-construction/slides/lecture-2024-05-03.md)
-- [lecture-2024-05-07.md](teaching/24ss/compiler-construction/slides/lecture-2024-05-07.md)
-- [lecture-2024-05-14.md](teaching/24ss/compiler-construction/slides/lecture-2024-05-14.md)

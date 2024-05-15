@@ -74,7 +74,7 @@ def main():
     with open(summary, "r") as file:
         content = file.read()
 
-    content = content.replace(f"\n- [tmp]({os.path.relpath(md, src)})", "")
+    content = content.replace(f"\n- [{md_file}]({os.path.relpath(md, src)})", "")
 
     with open(summary, "w") as file:
         file.writelines(content)
