@@ -18,9 +18,9 @@
 | 2024-04-30 Tu | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | [Book][book], Chapter 2 & 3 | [Video][tut01-rec] |
 | 2024-05-03 Fr | Lecture | Register Allocation | [Book][book], Chapter 4; [Notes][lec04-notes] | [Video][lec04-register] |
 | 2024-05-07 Tu | Lecture | Booleans & Conditionals | [Book][book], Chapter 5; [Notes][lec05a-notes] | [Video][lec05a-boolean] |
-| 2024-05-10 Fr | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | | [Video][tut02-lvar] |
+| 2024-05-10 Fr | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | | [Video][tut02-rec] |
 | 2024-05-14 Tu | Lecture | Conditionals (cont'd) | [Book][book], Chapter 5; [Notes][lec05b-notes] | [Video][lec05b-boolean] |
-| 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | |
+| 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | [Video][tut03-rec] |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
@@ -37,7 +37,8 @@
 [lec05b-boolean]:  http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-14-lecture-1.mp4
 [lec05b-notes]: compiler-construction/slides/lecture-2024-05-14.md
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/tutorial-01-recording.mp4
-[tut02-lvar]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-10-exercise.mp4
+[tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-10-exercise.mp4
+[tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-17-exercise.mp4
 [Dockerfile]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/Dockerfile
 
 ## Exercises
