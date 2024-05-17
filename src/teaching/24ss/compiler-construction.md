@@ -54,6 +54,7 @@ the compiler from the sample solution with new features.
 |:-----|:-----|:-----|
 | 2024-04-30 Tu | 2024-05-10 Fr | Lexer, Parser and Compiler for \\(\mathcal{L}_{var}\\) |
 | 2024-05-10 Fr | 24-05-17 Fr   | Register Allocation for \\(\mathcal{L}_{var}\\) |
+| 2024-05-17 Fr | 31-05-17 Fr   | Compiler for \\(\mathcal{L}_{if}\\) |
 
 ## Examination Requirements
 
