@@ -37,7 +37,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-05-17 (Fri) | Tutorial | *ilias deadline* | |
+| 2024-05-17 (Fri) | Tutorial | Dynamic data race detection, part 2 *ilias deadline* | \[[Notes and exercises](./concurrency/lec-04-tutorial.html)\] |
 | 2024-05-22 (Wed) | *No lecture* | (Pfingstwoche) | |
 | 2024-05-24 (Fri) | *No tutorial* | (Pfingstwoche) | |
 | 2024-05-29 (Wed) | Lecture *(online)* | Dynamic deadlock prediction (by Bas) | |
