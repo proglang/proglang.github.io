@@ -21,6 +21,8 @@
 | 2024-05-10 Fr | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | | [Video][tut02-rec] |
 | 2024-05-14 Tu | Lecture | Conditionals (cont'd) | [Book][book], Chapter 5; [Notes][lec05b-notes] | [Video][lec05b-boolean] |
 | 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | [Video][tut03-rec] |
+| 2024-05-18 Di | Lecture | Liveness Analysis and While | [Book][book], Chapter 6; [Slides][] | [Video][] |
+| 2024-05-31 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | | [Video][] |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
@@ -53,8 +55,9 @@ the compiler from the sample solution with new features.
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
 | 2024-04-30 Tu | 2024-05-10 Fr | Lexer, Parser and Compiler for \\(\mathcal{L}_{var}\\) |
-| 2024-05-10 Fr | 24-05-17 Fr   | Register Allocation for \\(\mathcal{L}_{var}\\) |
-| 2024-05-17 Fr | 31-05-17 Fr   | Compiler for \\(\mathcal{L}_{if}\\) |
+| 2024-05-10 Fr | 2024-05-17 Fr | Register Allocation for \\(\mathcal{L}_{var}\\) |
+| 2024-05-17 Fr | 2024-05-31 Fr | Compiler for \\(\mathcal{L}_{if}\\) |
+| 2024-05-31 Fr | 2024-06-07 Fr | Compiler for \\(\mathcal{L}_{while}\\) |
 
 ## Examination Requirements
 
