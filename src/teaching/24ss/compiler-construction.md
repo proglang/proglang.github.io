@@ -21,7 +21,7 @@
 | 2024-05-10 Fr | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | | [Video][tut02-rec] |
 | 2024-05-14 Tu | Lecture | Conditionals and While | [Book][book], Chapter 5; [Notes][lec05b-notes] | [Video][lec05b-boolean] |
 | 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | [Video][tut03-rec] |
-| 2024-05-18 Di | Lecture | Liveness Analysis and Garbage Collection | [Slides (LA)][lec06-slides1] [Slides (GC)][lec06-slides2]  | [Video][rec06-rec] |
+| 2024-05-28 Di | Lecture | Liveness Analysis and Garbage Collection | [Slides (LA)][lec06-slides1] [Slides (GC)][lec06-slides2]  | [Video][lec06-rec] |
 | 2024-05-31 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | | [Video][tut04-rec] |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
@@ -38,9 +38,9 @@
 [lec05a-notes]: compiler-construction/slides/lecture-2024-05-07.html
 [lec05b-boolean]:  http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-14-lecture-1.mp4
 [lec05b-notes]: compiler-construction/slides/lecture-2024-05-14.md
-[lec06-slides1]:
-[lec06-slides2]:
-[lec06-rec]:
+[lec06-slides1]: compiler-construction/slides/10-liveness.pdf
+[lec06-slides2]: compiler-construction/slides/garbage_collection.pdf
+[lec06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-28-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/tutorial-01-recording.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-10-exercise.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-17-exercise.mp4
