@@ -37,8 +37,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-05-29 (Wed) | Lecture *(online)* | Dynamic deadlock prediction (by Bas) | |
-| 2024-05-31 (Fri) | Tutorial *(online)* | | |
+| 2024-05-31 (Fri) | Tutorial *(online)* | Dynamic deadlock prediction *ilias deadline* | |
 | 2024-06-05 (Wed) | Lecture *(online)* | Futures | |
 | 2024-06-07 (Fri) | Tutorial | | |
 | 2024-06-12 (Wed) | Lecture | Formal aspects of concurrency |
@@ -65,6 +64,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | 2024-05-17 (Fri) | Tutorial | Dynamic data race detection, part 2 *ilias deadline* | \[[Notes and exercises](./concurrency/lec-04-tutorial.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-05-17-tutorial-1.mp4)\] |
 | 2024-05-22 (Wed) | *No lecture* | (Pfingstwoche) | |
 | 2024-05-24 (Fri) | *No tutorial* | (Pfingstwoche) | |
+| 2024-05-29 (Wed) | Lecture *(online)* | Dynamic deadlock prediction (by Bas) | \[Lecture notes [PDF](./concurrency/lec-05-deadlock.pdf)/[HTML](./concurrency/lec-05-deadlock.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-05-29-lecture-1.mp4)\] |
 
 ## Additional consulting
 Besides tutorials, Bas will be available for consulting on Tuesdays 10-11 (with the exception of 2024-04-30, 2024-05-28, 2024-06-18, 2024-06-25).
