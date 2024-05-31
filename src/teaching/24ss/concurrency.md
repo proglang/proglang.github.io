@@ -37,7 +37,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-05-31 (Fri) | Tutorial *(online)* | Dynamic deadlock prediction *ilias deadline* | |
+| 2024-05-31 (Fri) | Tutorial *(online)* | Dynamic deadlock prediction *ilias deadline* | \[[Notes and exercises](./concurrency/lec-05-tutorial.html)\] |
 | 2024-06-05 (Wed) | Lecture *(online)* | Futures | |
 | 2024-06-07 (Fri) | Tutorial | | |
 | 2024-06-12 (Wed) | Lecture | Formal aspects of concurrency |
