@@ -23,8 +23,8 @@
 | 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | [Video][tut03-rec] |
 | 2024-05-28 Di | Lecture | Liveness Analysis and Garbage Collection | [Slides (LA)][lec06-slides1] [Slides (GC)][lec06-slides2]  | [Video][lec06-rec] |
 | 2024-05-31 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | | [Video][tut04-rec] |
-| 2024-06-04 Di | Lecture | Garbage Collection | | [Video][lec07-rec] |
-| 2024-06-07 Di | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | | [Video][tut04-rec] |
+| 2024-06-04 Di | Lecture | Garbage Collection | | |
+| 2024-06-07 Di | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | | |
 
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
@@ -44,12 +44,12 @@
 [lec06-slides1]: compiler-construction/slides/10-liveness.pdf
 [lec06-slides2]: compiler-construction/slides/garbage_collection.pdf
 [lec06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-28-lecture-1.mp4
-[tut07-rec]:
+[lec07-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-28-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/tutorial-01-recording.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-10-exercise.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-17-exercise.mp4
-[tut04-rec]:
-[tut05-rec]:
+[tut04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-31-exercise.mp4
+[tut05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-07-exercise.mp4
 [Dockerfile]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/Dockerfile
 
 ## Exercises
