@@ -19,7 +19,7 @@
 | 2024-05-03 Fr | Lecture | Register Allocation | [Book][book], Chapter 4; [Notes][lec04-notes] | [Video][lec04-register] |
 | 2024-05-07 Tu | Lecture | Booleans & Conditionals | [Book][book], Chapter 5; [Notes][lec05a-notes] | [Video][lec05a-boolean] |
 | 2024-05-10 Fr | Tutorial | Parsing & Compiler for \\(\mathcal{L}_{var}\\) | | [Video][tut02-rec] |
-| 2024-05-14 Tu | Lecture | Conditionals and While | [Book][book], Chapter 5; [Notes][lec05b-notes] | [Video][lec05b-boolean] |
+| 2024-05-14 Tu | Lecture | Conditionals and While | [Book][book], Chapter 5 & 6; [Notes][lec05b-notes] | [Video][lec05b-boolean] |
 | 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | [Video][tut03-rec] |
 | 2024-05-28 Di | Lecture | Liveness Analysis & Garbage Collection | [Slides (LA)][lec06-slides1] [Slides (GC)][lec06-slides2]  | [Video][lec06-rec] |
 | 2024-05-31 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | | [Video][tut04-rec] |
