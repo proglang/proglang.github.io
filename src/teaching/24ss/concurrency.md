@@ -37,7 +37,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-06-05 (Wed) | Lecture *(online)* | Futures | |
+| 2024-06-05 (Wed) | Lecture *(online)* | Futures (by Bas) | \[Lecture notes [PDF](./concurrency/lec-06-futures.pdf)/[HTML](./concurrency/lec-06-futures.html)\] |
 | 2024-06-07 (Fri) | Tutorial | *ilias deadline* | |
 | 2024-06-12 (Wed) | Lecture | Formal aspects of concurrency |
 | 2024-06-14 (Fri) | Tutorial | | |
