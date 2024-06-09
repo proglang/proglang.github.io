@@ -69,6 +69,7 @@ the compiler from the sample solution with new features.
 | 2024-05-10 Fr | 2024-05-17 Fr | Register Allocation for \\(\mathcal{L}_{var}\\) |
 | 2024-05-17 Fr | 2024-05-31 Fr | Compiler for \\(\mathcal{L}_{if}\\) |
 | 2024-05-31 Fr | 2024-06-07 Fr | Compiler for \\(\mathcal{L}_{while}\\) |
+| 2024-06-09 Su | 2024-06-16 Su | Compiler for \\(\mathcal{L}_{tuple}\\) |
 
 ## Exam
 
