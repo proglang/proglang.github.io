@@ -23,13 +23,8 @@
 | 2024-05-17 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | | [Video][tut03-rec] |
 | 2024-05-28 Di | Lecture | Liveness Analysis & Garbage Collection | [Slides (LA)][lec06-slides1] [Slides (GC)][lec06-slides2]  | [Video][lec06-rec] |
 | 2024-05-31 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | | [Video][tut04-rec] |
-<<<<<<< Updated upstream
 | 2024-06-04 Di | Lecture | Tuples & Garbage Collection | [Book][book], Chapter 7; [Slides][lec08-slides] | [Video][lec08-rec] |
-| 2024-06-07 Di | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | | |
-=======
-| 2024-06-04 Di | Lecture | Garbage Collection | | |
 | 2024-06-07 Di | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | | [Video][tut05-rec] |
->>>>>>> Stashed changes
 
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
