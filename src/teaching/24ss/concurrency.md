@@ -37,7 +37,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-06-12 (Wed) | Lecture | Formal aspects of concurrency |
+| 2024-06-12 (Wed) | Lecture | Formal aspects of concurrency | \[See Ilias for slides\] |
 | 2024-06-14 (Fri) | Tutorial | *ilias deadline* | |
 | 2024-06-19 (Wed) | Lecture | Concurrent data structures | |
 | 2024-06-21 (Fri) | *No tutorial* | | |
