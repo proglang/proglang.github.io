@@ -25,7 +25,8 @@
 | 2024-05-31 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | | [Video][tut04-rec] |
 | 2024-06-04 Tu | Lecture | Tuples & Garbage Collection | [Book][book], Chapter 7; [Slides][lec08-slides] | [Video][lec08-rec] |
 | 2024-06-07 Fr | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | | [Video][tut05-rec] |
-| 2024-06-11 Tu | Lecture | Top-Level Functions | [Book][book], Chapter 8; [Material][lec09-material] | [Video][lec09-rec] |
+| 2024-06-11 Tu | Lecture | Top-Level Functions (Interpreter) | [Book][book], Chapter 8; [Material][lec09-material] | [Video][lec09-rec] |
+| 2024-06-18 Tu | Lecture | Top-Level Functions (Typing, Codegen) | [Book][book], Chapter 8; [Slides][lec10-slides]; [Material][lec10-material] | [Video][lec10-rec] |
 
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
@@ -50,6 +51,9 @@
 [lec08-slides]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-04-slides-tuples-and-garbage-collection.pdf
 [lec09-material]: compiler-construction/slides/lecture-2024-06-11-code-explanation.zip
 [lec09-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-11-lecture-1.mp4
+[lec10-slides]: compiler-construction/slides/lecture-2024-06-18.pdf
+[lec10-material]: compiler-construction/slides/lecture-2024-06-18-code-explanation.zip
+[lec10-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-18-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/tutorial-01-recording.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-10-exercise.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-17-exercise.mp4
