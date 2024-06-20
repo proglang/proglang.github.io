@@ -29,6 +29,16 @@ Note that some tutorials will be held online, ***so keep an eye on the [schedule
 To pass the course, you need a passing grade on the written exam.
 Additionally, you need to pass the Studienleisting, which entails actively participating in the Ilias quizzes.
 
+## Announcements
+
+*2024-06-20*:
+1. A new quiz is available on Ilias, on transition systems
+and LTL.
+2. The deadline of this quiz is Friday June 28 at noon
+(12:00 CEST).
+3. There is no tutorial this Friday (June 21).
+4. Next week's tutorial (Friday June 28) will be online.
+
 ## Schedule
 
 **If the schedule says "Tutorial", there is a tutorial.**
