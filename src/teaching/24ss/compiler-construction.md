@@ -27,7 +27,7 @@
 | 2024-06-07 Fr | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | | [Video][tut05-rec] |
 | 2024-06-11 Tu | Lecture | Top-Level Functions (Interpreter) | [Book][book], Chapter 8; [Material][lec09-material] | [Video][lec09-rec] |
 | 2024-06-18 Tu | Lecture | Top-Level Functions (Typing, Codegen) | [Book][book], Chapter 8; [Slides][lec10-slides]; [Material][lec10-material] | [Video][lec10-rec] |
-
+| 2024-06-21 Fr | Tutorial | Compiler for \\(\mathcal{L}_{tuple}\\) | | [Video][tut06-rec] |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
@@ -59,6 +59,7 @@
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-17-exercise.mp4
 [tut04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-31-exercise.mp4
 [tut05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-07-exercise.mp4
+[tut06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-21-exercise.mp4
 [Dockerfile]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/Dockerfile
 
 ## Exercises
@@ -77,6 +78,7 @@ the compiler from the sample solution with new features.
 | 2024-05-17 Fr | 2024-05-31 Fr | Compiler for \\(\mathcal{L}_{if}\\) |
 | 2024-05-31 Fr | 2024-06-07 Fr | Compiler for \\(\mathcal{L}_{while}\\) |
 | 2024-06-09 Su | 2024-06-21 Fr | Compiler for \\(\mathcal{L}_{tuple}\\) |
+| 2024-06-21 Fr | 2024-06-28 Fr | Compiler for \\(\mathcal{L}_{fun}\\) |
 
 ## Exam
 
