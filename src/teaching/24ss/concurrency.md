@@ -47,7 +47,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-06-28 (Fri) | Tutorial *(online)* | | |
+| 2024-06-28 (Fri) | Tutorial *(online)* | Message Passing Concurrency, part 1 | \[[Notes](./concurrency/lec-10-tutorial.html)\] |
 | 2024-07-03 (Wed) | Lecture | Pi-calculus | |
 | 2024-07-05 (Fri) | Tutorial | | |
 | 2024-07-10 (Wed) | Lecture | Session types | |
