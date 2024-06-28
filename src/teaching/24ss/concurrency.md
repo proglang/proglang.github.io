@@ -31,6 +31,10 @@ Additionally, you need to pass the Studienleisting, which entails actively parti
 
 ## Announcements
 
+*2024-06-28*:
+1. Please check today's tutorial for clarifications on notation.
+2. Next Ilias quiz will be released after next Wednesday's lecture.
+
 *2024-06-20*:
 1. A new quiz is available on Ilias, on transition systems
 and LTL.
@@ -47,7 +51,6 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
-| 2024-06-28 (Fri) | Tutorial *(online)* | Message Passing Concurrency, part 1 | \[[Notes](./concurrency/lec-10-tutorial.html)\] |
 | 2024-07-03 (Wed) | Lecture | Pi-calculus | |
 | 2024-07-05 (Fri) | Tutorial | | |
 | 2024-07-10 (Wed) | Lecture | Session types | |
@@ -75,6 +78,7 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | 2024-06-19 (Wed) | Lecture | Formal aspects of concurrency, part 2 | \[See Ilias for slides\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-06-19-lecture-1.mp4)\] |
 | 2024-06-21 (Fri) | *No tutorial* | | |
 | 2024-06-26 (Wed) | Lecture | Pi-calculus | \[Lecture notes [PDF](./concurrency/lec-10-message-passing.pdf)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-06-26-lecture-1.mp4)\] |
+| 2024-06-28 (Fri) | Tutorial *(online)* | Message Passing Concurrency, part 1 | \[[Notes](./concurrency/lec-10-tutorial.html) [Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-06-28-tutorial-1.mp4)\] |
 
 ## Additional consulting
 Besides tutorials, Bas will be available for consulting on Tuesdays 10-11 (with the exception of 2024-04-30, 2024-05-28, 2024-06-18, 2024-06-25).
