@@ -30,6 +30,7 @@
 | 2024-06-21 Fr | Tutorial | Compiler for \\(\mathcal{L}_{tuple}\\) | | [Video][tut06-rec] |
 | 2024-06-25 Tu | Lecture | Lambda Expressions (Interpretation, Typing, Codegen) | [Book][book], Chapter 9; [Material][lec11-material] | [Video][lec11-rec] |
 | 2024-06-28 Fr | Tutorial | Compiler for \\(\mathcal{L}_{fun}\\) | | [Video][tut07-rec] |
+| 2024-07-02 Tu | Lecture | Generics (Typing, Codegen) | [Book][book], Chapter 12; [Material][lec12-material] | [Video][lec12-rec] |
 
 [lec01-slides]: compiler-construction/slides/01-intro.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/lecture-02-recording.mp4
@@ -58,6 +59,8 @@
 [lec10-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-18-lecture-1.mp4
 [lec11-material]: compiler-construction/slides/lecture-2024-06-25-code-explanation.zip
 [lec11-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-06-25-lecture-1.mp4
+[lec12-material]: compiler-construction/slides/lecture-2024-07-02-code-explanation.zip
+[lec12-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-07-02-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/tutorial-01-recording.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-10-exercise.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Compilers/2024-05-17-exercise.mp4
