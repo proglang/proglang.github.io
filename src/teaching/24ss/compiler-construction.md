@@ -88,8 +88,9 @@ the compiler from the sample solution with new features.
 | 2024-05-17 Fr | 2024-05-31 Fr | Compiler for \\(\mathcal{L}_{if}\\) |
 | 2024-05-31 Fr | 2024-06-07 Fr | Compiler for \\(\mathcal{L}_{while}\\) |
 | 2024-06-09 Su | 2024-06-21 Fr | Compiler for \\(\mathcal{L}_{tuple}\\) |
-| 2024-06-21 Fr | 2024-06-28 Fr | Compiler for \\(\mathcal{L}_{fun}\\) |
-| 2024-06-28 Fr | 2024-07-05 Fr | Compiler for \\(\mathcal{L}_{lam}\\) |
+| 2024-06-21 Fr | 2024-06-05 Fr | Compiler for \\(\mathcal{L}_{fun}\\) |
+| 2024-06-05 Fr | 2024-07-12 Fr | Compiler for \\(\mathcal{L}_{lam}\\) |
+| 2024-07-12 Fr | 2024-07-19 Fr | Compiler for \\(\mathcal{L}_{exc}\\) |
 
 ## Exam
 
