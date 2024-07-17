@@ -60,7 +60,6 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 |:-----|:-----|:------|:------|
 | **Upcoming** | | | |
 | 2024-07-12 (Fri) | Tutorial | | |
-| 2024-07-17 (Wed) | Lecture | Session types | |
 | 2024-07-19 (Fri) | Tutorial | | |
 | **Past** | | | |
 | 2024-04-17 (Wed) | Lecture | Course overview and Go | \[[Lecture notes](./concurrency/lec-01-concurrency-go.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-04-17-lecture-1.mp4)\] |
@@ -86,7 +85,8 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | 2024-06-28 (Fri) | Tutorial *(online)* | Message-passing Concurrency | \[[Notes](./concurrency/lec-10-tutorial.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-06-28-tutorial-1.mp4)\] |
 | 2024-07-03 (Wed) | Lecture | Pi-calculus |  \[Lecture notes (revised/extended) [PDF](./concurrency/lec-11-message-passing.pdf)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-03-lecture-1.mp4)\] |
 | 2024-07-05 (Fri) | Tutorial | Pi-calculus | \[[Notes](./concurrency/lec-11-tutorial.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-05-tutorial-1.mp4)\] |
-| 2024-07-10 (Wed) | Lecture | Session types |   \[Slides [PDF](./concurrency/lec-12-session-fundamentals.pdf)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-10-lecture-1.mp4)\] |
+| 2024-07-10 (Wed) | Lecture | Session types | \[Slides [PDF](./concurrency/lec-12-session-fundamentals.pdf)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-10-lecture-1.mp4)\] |
+| 2024-07-17 (Wed) | Lecture | Session types | (slides cont'd) [SePi system](https://rss.rd.ciencias.ulisboa.pt/tools/sepi/)   \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-17-lecture-1.mp4)\] |
 
 ## Additional consulting
 Besides tutorials, Bas will be available for consulting on Tuesdays 10-11 (with the exception of 2024-04-30, 2024-05-28, 2024-06-18, 2024-06-25).
