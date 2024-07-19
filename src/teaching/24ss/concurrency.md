@@ -31,6 +31,10 @@ Additionally, you need to pass the Studienleisting, which entails actively parti
 
 ## Announcements
 
+*2024-07-19*:
+1. Unfortunately, the recording software failed on me, so the recording of today's tutorial has only audio. My apologies.
+2. Early next week, there will be additional study material available here.
+
 *2024-07-03*:
 
 After today's lecture, the Ilias quiz on the pi-calculus
@@ -58,9 +62,6 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 
 | Date | Type | Topic | Links |
 |:-----|:-----|:------|:------|
-| **Upcoming** | | | |
-| 2024-07-12 (Fri) | Tutorial | | |
-| 2024-07-19 (Fri) | Tutorial | | |
 | **Past** | | | |
 | 2024-04-17 (Wed) | Lecture | Course overview and Go | \[[Lecture notes](./concurrency/lec-01-concurrency-go.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-04-17-lecture-1.mp4)\] |
 | 2024-04-19 (Fri) | Tutorial | Concurrency control using Go channels | \[[Exercise solutions](./concurrency/lec-01-exercises.zip)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-04-19-tutorial-1.mp4)\] |
@@ -86,7 +87,9 @@ Only if the schedule says "No tutorial" will there be no tutorial.
 | 2024-07-03 (Wed) | Lecture | Pi-calculus |  \[Lecture notes (revised/extended) [PDF](./concurrency/lec-11-message-passing.pdf)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-03-lecture-1.mp4)\] |
 | 2024-07-05 (Fri) | Tutorial | Pi-calculus | \[[Notes](./concurrency/lec-11-tutorial.html)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-05-tutorial-1.mp4)\] |
 | 2024-07-10 (Wed) | Lecture | Session types | \[Slides [PDF](./concurrency/lec-12-session-fundamentals.pdf)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-10-lecture-1.mp4)\] |
-| 2024-07-17 (Wed) | Lecture | Session types | (slides cont'd) [SePi system](https://rss.rd.ciencias.ulisboa.pt/tools/sepi/)   \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-17-lecture-1.mp4)\] |
+| 2024-07-12 (Fri) | *No tutorial* | | |
+| 2024-07-17 (Wed) | Lecture | Session types | (slides cont'd) \[[SePi system](https://rss.rd.ciencias.ulisboa.pt/tools/sepi/)\] \[[Recording](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-17-lecture-1.mp4)\] |
+| 2024-07-19 (Fri) | Tutorial | Session types | \[[Recording (audo only)](https://archive.informatik.uni-freiburg.de/courses/proglang/2024-SS-Concurrency/2024-07-19-tutorial-1.mp4)\] |
 
 ## Additional consulting
 Besides tutorials, Bas will be available for consulting on Tuesdays 10-11 (with the exception of 2024-04-30, 2024-05-28, 2024-06-18, 2024-06-25).
