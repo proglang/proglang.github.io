@@ -31,6 +31,22 @@ Additionally, you need to pass the Studienleisting, which entails actively parti
 
 ## Announcements
 
+*2024-07-26*:
+
+Exam format:
+* Exam pool, through Ilias.
+* 120 minutes, ~10 questions.
+* A single handwritten two-sided A4 cheat sheet is allowed.
+
+Exam topics and additional study pointers:
+* Go concurrency [here](https://go.dev/talks/2012/concurrency.slide) [here](https://go.dev/talks/2013/advconc.slide#16) [here](https://www.golang-book.com/books/intro/10).
+* Concurrency traces to practice data race and deadlock detection will be provided soon.
+* For Futures, try to recreate the examples from the slides.
+* There will be no exam questions about transition systems.
+* Traces and LTL [here](https://arxiv.org/pdf/2211.01677v1).
+* Pi-calculus and session types [study the tutorial and examples of Sepi](http://gloss.di.fc.ul.pt/tryit/tools/SePi#).
+* Further material may be found in other concurrency lectures, such as [here](https://moves.rwth-aachen.de/teaching/ws-1718/ct/) and [here](https://iccl.inf.tu-dresden.de/web/Concurrency_Theory_(SS2023)/en).
+
 *2024-07-19*:
 1. Unfortunately, the recording software failed on me, so the recording of today's tutorial has only audio. My apologies.
 2. Early next week, there will be additional study material available here.
