@@ -31,6 +31,10 @@ Additionally, you need to pass the Studienleisting, which entails actively parti
 
 ## Announcements
 
+*2024-08-05*:
+
+Trace examples now available [here](./concurrency/traces.md).
+
 *2024-07-26*:
 
 Exam format:
