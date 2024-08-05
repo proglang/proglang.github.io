@@ -91,7 +91,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="home.html">Home</a></li><li class="chapter-item "><a href="team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="team/weidner.html">Marius Weidner</a></li></ol></li><li class="chapter-item "><a href="teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss.html">Sommer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/24ss/concurrency.html">Concurrency</a></li><li class="chapter-item "><a href="teaching/24ss/ocaml.html">Real World OCaml</a></li></ol></li></ol></li><li class="chapter-item "><a href="about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item "><a href="home.html">Home</a></li><li class="chapter-item "><a href="team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="team/weidner.html">Marius Weidner</a></li></ol></li><li class="chapter-item "><a href="teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss.html">Sommer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/24ss/concurrency.html">Concurrency</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss/concurrency/traces.html">Traces</a></li></ol></li><li class="chapter-item "><a href="teaching/24ss/ocaml.html">Real World OCaml</a></li></ol></li></ol></li><li class="chapter-item "><a href="about.html">About</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -457,6 +457,95 @@ Only if the schedule says “No tutorial” will there be no tutorial.</p>
 <h2 id="additional-consulting"><a class="header" href="#additional-consulting">Additional consulting</a></h2>
 <p>Besides tutorials, Bas will be available for consulting on Tuesdays 10-11 (with the exception of 2024-04-30, 2024-05-28, 2024-06-18, 2024-06-25).
 If you cannot make it and have urgent questions, <a href="mailto:vdheuvel@informatik.uni-freiburg.de">email Bas</a> and ask the question directly or make an appointment.</p>
+<div style="break-before: page; page-break-before: always;"></div><p>Some traces to practice on:</p>
+<pre><code>     T0            T1            
+              
+e1.   fork(T1)                    
+e2.   acq(l1)                      
+e3.   wr(x)                       
+e4.   rel(l1)                      
+e5.   wr(x)                       
+e6.                 acq(l1)        
+e7.                 wr(x)         
+e8.                 rel(l1)        
+e9.                 wr(x)
+</code></pre>
+<pre><code>     T0            T1            T2            
+              
+e1.   wr(x)                                     
+e2.                 acq(l1)                      
+e3.                 rd(x)                       
+e4.                 wr(z)                       
+e5.                 rel(l1)                      
+e6.                               acq(l1)        
+e7.                               rel(l1)        
+e8.                               wr(x)         
+e9.                               wr(y)
+</code></pre>
+<pre><code>     T0            T1            
+              
+e1.                 acq(l1)        
+e2.                 rel(l1)        
+e3.   acq(l1)                      
+e4.   wr(x)                       
+e5.   rel(l1)                      
+e6.                 rd(x)
+</code></pre>
+<pre><code>     T0            T1            
+              
+e1.   acq(l1)                      
+e2.   wr(x)                       
+e3.   rel(l1)                      
+e4.                 acq(l1)        
+e5.                 wr(y)         
+e6.                 rel(l1)
+</code></pre>
+<pre><code>     T0            T1            
+              
+e1.   wr(x)                       
+e2.   fork(T1)                    
+e3.   acq(l1)                      
+e4.   rel(l1)                      
+e5.                 rd(x)         
+e6.                 acq(l1)        
+e7.                 rel(l1)
+</code></pre>
+<pre><code>     T0            T1            
+              
+e1.   fork(T1)                    
+e2.   acq(l1)                     
+e3.   acq(l2)                     
+e4.   rel(l2)                     
+e5.   rel(l1)                     
+e6.                 acq(l2)       
+e7.                 acq(l1)       
+e8.                 rel(l1)       
+e9.                 acq(l1)       
+e10.                rel(l1)       
+e11.                rel(l2)
+</code></pre>
+<pre><code>     T0            T1            T2            T3            
+              
+e1.   fork(T1)                                                
+e2.   fork(T2)                                                
+e3.   fork(T3)                                                
+e4.                                             acq(l1)       
+e5.                                             rel(l1)       
+e6.                               acq(l2)                     
+e7.                               acq(l3)                     
+e8.                               rel(l3)                     
+e9.                               rel(l2)                     
+e10.                              wr(y)                       
+e11.  acq(l1)                                                 
+e12.  wr(x)                                                   
+e13.  rd(y)                                                   
+e14.  rel(l1)                                                 
+e15.                acq(l3)                                   
+e16.                rd(x)                                     
+e17.                acq(l2)                                   
+e18.                rel(l2)                                   
+e19.                rel(l3) 
+</code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="proseminar-real-world-ocaml---summer-2024"><a class="header" href="#proseminar-real-world-ocaml---summer-2024">Proseminar Real World OCaml - Summer 2024</a></h1>
 <h2 id="generelle-informationen"><a class="header" href="#generelle-informationen">Generelle Informationen</a></h2>
 <ul>
