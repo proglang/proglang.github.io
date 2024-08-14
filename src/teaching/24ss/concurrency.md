@@ -31,6 +31,48 @@ Additionally, you need to pass the Studienleisting, which entails actively parti
 
 ## Announcements
 
+*2024-08-14*:
+
+* The exam is Tuesday 20 August, 10-12 at Werthmannstr. 4.
+* Make sure you know the credentials (username and password) for your uni account.
+* Besides the Ilias exam, you will have access to Notepad++.
+    On request, we can provide paper for note-taking, but all material will have to remain in the room after the exam.
+* There is no Studienleistung; a passing grade on the exam will award you your ECTS.
+* The last tutorial recording only has audio.
+    To follow along, use the material [here](./concurrency/SePi.zip).
+* We will use the following syntax for the exam:
+    * LTL, given formulas 𝜑 and 𝜓:
+        * forever 𝜑: □𝜑 -> `[]𝜑` (left and right square brackets)
+        * eventually 𝜑: ⬦𝜑 -> `<>𝜑` (less than and greater than)
+        * next 𝜑: 🞅𝜑 -> `X𝜑` (capital letter X)
+        * 𝜑 until 𝜓: 𝜑 ∪ 𝜓 -> `𝜑 U 𝜓` (capital letter U)
+        * 𝜑 and 𝜓: 𝜑 ∧ 𝜓 -> `𝜑 ^ 𝜓` (hat symbol)
+        * 𝜑 or 𝜓: 𝜑 ∨ 𝜓 -> `𝜑 v 𝜓` (small letter v)
+        * 𝜑 implies 𝜓: 𝜑 → 𝜓 -> `𝜑 -> 𝜓` (dash and greater than)
+        * not 𝜑: ¬𝜑 -> `~𝜑` (tilde)
+        * `p` and `q` are atomic propositions
+    * Traces:
+        * nodes: `( p,q )` (parentheses, with comma-separated list of atomic propositions satisfied)
+        * edge: `--->` (dashes followed by greater than, or different symbols depending on direction)
+        * initial node `-> ( .. )`
+    * Pi-calculus:
+        * send y over x: ̅x〈y〉 -> `x<y>` (no overline, less than and greater than)
+        * receive y over x: x(y) -> `x(y)` (left and right parentheses)
+        * unobservable: 𝜏 -> `tau` (word tau)
+        * choice: P + Q -> `P + Q` (plus)
+        * parallel: P | Q -> `P | Q` (vertical bar)
+        * restriction: (𝜈x)P -> `(nu x)P` (word nu and space)
+        * replication: !P -> `!P` (exclamation mark)
+        * substitution: P [x := y] -> `P [x := y]` (square brackets, colon and equals)
+    * Session types:
+        * process syntax as above, except restriction: (𝜈xy)P -> `(nu x y)` (space also between names)
+        * select: x ◃ j -> `x < j` (less than)
+        * branch: x ▹ {...} -> `x > {...}` (greater than and curly brackets)
+        * types as usual, except select: ⊕{...} -> `+{...}` (plus symbol)
+        * duality: ̅T -> `dual(T)` (word dual and parentheses)
+        * typing judgments: Γ ⊦ P -> `Gamma |- P` (capitalized word Gamma, vertical bar and dash)
+        * context split: Γ₁ ○ Γ₂ -> `Gamma1 o Gamma2` (small letter o)
+
 *2024-08-05*:
 
 Trace examples now available [here](./concurrency/traces.md).

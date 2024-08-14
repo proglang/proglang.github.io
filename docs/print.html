@@ -378,6 +378,63 @@ select <em>Custom</em> in the dropdown menu, and select <em>Releases</em>.</p>
 <p>To pass the course, you need a passing grade on the written exam.
 Additionally, you need to pass the Studienleisting, which entails actively participating in the Ilias quizzes.</p>
 <h2 id="announcements"><a class="header" href="#announcements">Announcements</a></h2>
+<p><em>2024-08-14</em>:</p>
+<ul>
+<li>The exam is Tuesday 20 August, 10-12 at Werthmannstr. 4.</li>
+<li>Make sure you know the credentials (username and password) for your uni account.</li>
+<li>Besides the Ilias exam, you will have access to Notepad++.
+On request, we can provide paper for note-taking, but all material will have to remain in the room after the exam.</li>
+<li>There is no Studienleistung; a passing grade on the exam will award you your ECTS.</li>
+<li>The last tutorial recording only has audio.
+To follow along, use the material <a href="teaching/24ss/./concurrency/SePi.zip">here</a>.</li>
+<li>We will use the following syntax for the exam:
+<ul>
+<li>LTL, given formulas 𝜑 and 𝜓:
+<ul>
+<li>forever 𝜑: □𝜑 -&gt; <code>[]𝜑</code> (left and right square brackets)</li>
+<li>eventually 𝜑: ⬦𝜑 -&gt; <code>&lt;&gt;𝜑</code> (less than and greater than)</li>
+<li>next 𝜑: 🞅𝜑 -&gt; <code>X𝜑</code> (capital letter X)</li>
+<li>𝜑 until 𝜓: 𝜑 ∪ 𝜓 -&gt; <code>𝜑 U 𝜓</code> (capital letter U)</li>
+<li>𝜑 and 𝜓: 𝜑 ∧ 𝜓 -&gt; <code>𝜑 ^ 𝜓</code> (hat symbol)</li>
+<li>𝜑 or 𝜓: 𝜑 ∨ 𝜓 -&gt; <code>𝜑 v 𝜓</code> (small letter v)</li>
+<li>𝜑 implies 𝜓: 𝜑 → 𝜓 -&gt; <code>𝜑 -&gt; 𝜓</code> (dash and greater than)</li>
+<li>not 𝜑: ¬𝜑 -&gt; <code>~𝜑</code> (tilde)</li>
+<li><code>p</code> and <code>q</code> are atomic propositions</li>
+</ul>
+</li>
+<li>Traces:
+<ul>
+<li>nodes: <code>( p,q )</code> (parentheses, with comma-separated list of atomic propositions satisfied)</li>
+<li>edge: <code>---&gt;</code> (dashes followed by greater than, or different symbols depending on direction)</li>
+<li>initial node <code>-&gt; ( .. )</code></li>
+</ul>
+</li>
+<li>Pi-calculus:
+<ul>
+<li>send y over x: ̅x〈y〉 -&gt; <code>x&lt;y&gt;</code> (no overline, less than and greater than)</li>
+<li>receive y over x: x(y) -&gt; <code>x(y)</code> (left and right parentheses)</li>
+<li>unobservable: 𝜏 -&gt; <code>tau</code> (word tau)</li>
+<li>choice: P + Q -&gt; <code>P + Q</code> (plus)</li>
+<li>parallel: P | Q -&gt; <code>P | Q</code> (vertical bar)</li>
+<li>restriction: (𝜈x)P -&gt; <code>(nu x)P</code> (word nu and space)</li>
+<li>replication: !P -&gt; <code>!P</code> (exclamation mark)</li>
+<li>substitution: P [x := y] -&gt; <code>P [x := y]</code> (square brackets, colon and equals)</li>
+</ul>
+</li>
+<li>Session types:
+<ul>
+<li>process syntax as above, except restriction: (𝜈xy)P -&gt; <code>(nu x y)</code> (space also between names)</li>
+<li>select: x ◃ j -&gt; <code>x &lt; j</code> (less than)</li>
+<li>branch: x ▹ {…} -&gt; <code>x &gt; {...}</code> (greater than and curly brackets)</li>
+<li>types as usual, except select: ⊕{…} -&gt; <code>+{...}</code> (plus symbol)</li>
+<li>duality: ̅T -&gt; <code>dual(T)</code> (word dual and parentheses)</li>
+<li>typing judgments: Γ ⊦ P -&gt; <code>Gamma |- P</code> (capitalized word Gamma, vertical bar and dash)</li>
+<li>context split: Γ₁ ○ Γ₂ -&gt; <code>Gamma1 o Gamma2</code> (small letter o)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <p><em>2024-08-05</em>:</p>
 <p>Trace examples now available <a href="teaching/24ss/./concurrency/traces.html">here</a>.</p>
 <p><em>2024-07-26</em>:</p>
