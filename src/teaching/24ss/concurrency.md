@@ -40,7 +40,7 @@ Additionally, you need to pass the Studienleisting, which entails actively parti
 * There is no Studienleistung; a passing grade on the exam will award you your ECTS.
 * The last tutorial recording only has audio.
     To follow along, use the material [here](./concurrency/SePi.zip).
-* We will use the following syntax for the exam:
+* We will use the following syntax for the exam (will be provided during the exam as well):
     * LTL, given formulas 𝜑 and 𝜓:
         * forever 𝜑: □𝜑 -> `[]𝜑` (left and right square brackets)
         * eventually 𝜑: ⬦𝜑 -> `<>𝜑` (less than and greater than)
