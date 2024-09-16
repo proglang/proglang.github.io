@@ -31,6 +31,15 @@ Additionally, you need to pass the Studienleisting, which entails actively parti
 
 ## Announcements
 
+*2024-09-16*:
+
+* We will hold an exam review session:
+    * on Tuesday 24.09 from 14:00 to 16:00,
+    * at Werthmannstr. 4 in the same room as the exam,
+    * you will need your Ilias login credentials.
+
+    Let Bas know if this doesn't work for you, so we can find a different solution.
+
 *2024-08-14*:
 
 * The exam is Tuesday 20 August, 10-12 at Werthmannstr. 4.
