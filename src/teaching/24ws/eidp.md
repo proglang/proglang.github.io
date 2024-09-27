@@ -17,7 +17,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch von 12:15 -
 
 ## Übungen
 
-| Date | Deadline | Topic |
+| Datum | Abgabe | Thema |
 |:-----|:-----|:-----|
 
 ## Studienleistung
