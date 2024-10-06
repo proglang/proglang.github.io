@@ -1,4 +1,4 @@
-# Functional Proramming (Winter 2024)
+# Functional Programming (Winter 2024)
 
 ## General Information
 
