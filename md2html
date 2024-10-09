@@ -14,7 +14,7 @@ def main():
         description="convert a markdown file to html using mdbook"
     )
     parser.add_argument(
-        "-p", "--path", help="relative path to markdown file ", required=True
+        "-p", "--path", help="relative path to markdown file", required=True
     )
     args = parser.parse_args()
 
