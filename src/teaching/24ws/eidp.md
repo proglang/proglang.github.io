@@ -14,13 +14,13 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 
 | Datum | Thema | Material | Aufzeichnung 
 |:-----|:-----|:-----|:-----|
-| Di 15.10.24 | Organisation | [Folien][lecture00-slides] | [Aufzeichnung][lecture00-recording] |
+| Di 15.10.24 | Organisation | [Folien][lecture00-slides] | [Aufzeichnung/Livestream][lecture00-recording] |
 | Di 15.10.24 | _Zusatz**online**veranstaltung_: Setup | [Skript][lecture01-script1] | [Aufzeichnung][lecture01-recording1] |
 | Mi 16.10.24 | _Zusatzveranstaltung_: Abgabesystem | [Skript][lecture01-script2] | [Aufzeichnung][lecture01-recording2] |
-| Mi 16.10.24 | Grundlagen | [Folien][lecture01-slides] | [Aufzeichnung][lecture01-recording] |
+| Mi 16.10.24 | Grundlagen | [Folien][lecture01-slides] | [Aufzeichnung/Livestream][lecture01-recording] |
 
 [lecture00-slides]: /teaching/24ws/eidp.htmll
-[lecture00-recording]:  /teaching/24ws/eidp.htmll
+[lecture00-recording]: https://youtube.com/live/-nFgzzCVJrY?feature=share
 [lecture01-script1]: eidp/setup.html
 [lecture01-script2]: eidp/abgabesystem.html
 [lecture01-recording1]: https://www.youtube.com/watch?v=j3-4dp5xSKk
@@ -56,13 +56,13 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 
 ## Studienleistung
 
-Zum bestehen der Studienleistung ist notwendig:
-- 50% der Übungspunkte (20% dieser werden für die Teilnahme an den Tutoraten vergeben)
+Zum Bestehen der Studienleistung ist notwendig:
+- 50% der Übungspunkte (20% davon werden für die Teilnahme an den Tutoraten vergeben)
 - Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat 
 
 ## Prüfungsleistung
 
-Zum bestehen der Prüfungsleistung ist notwenig:
+Zum Bestehen der Prüfungsleistung ist notwenig:
 - Bestehen der schriftlichen Klausur am Computer (Infos folgen)
 
 ## Kommunikation
