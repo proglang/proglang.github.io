@@ -41,7 +41,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Mi 8-10 | Gloria Dobreva | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
 | Mi 8-10 | Christoph Ullinger | SR 00 006 (G.-Köhler-Allee 051) |
 | Mi 8-10 | Malte Ferber | SR 00 031 (G.-Köhler-Allee 051) |
-| Do 8-10 | Benedikt Luzar |  R 03 026 Seminarraum (G.-Köhler-Allee 051) |
+| Do 8-10 | Yannik Schnell |  R 03 026 Seminarraum (G.-Köhler-Allee 051) |
 | Do 8-10 | Max Schweigert | SR 00 014 (G.-Köhler-Allee 078) |
 | Do 8-10 | Moritz Steffl | SR 00 031 (G.-Köhler-Allee 051) |
 | Do 8-10 | Paul Dyckmans | SR 00 034 (G.-Köhler-Allee 051) |
