@@ -62,7 +62,7 @@ ssh-keygen
 
 Klicken Sie Enter um alle default-Einstellungen auszuwählen.
 
-Es sollte nun ein Keypaar '~/.ssh/id_rsa' und '~/.ssh/id_rsa.pub' erstellt worden sein. 
+Es sollte nun ein Keypaar `~/.ssh/id_rsa` und `~/.ssh/id_rsa.pub` erstellt worden sein. 
 
 Geben Sie ihren öffentlichen Schlüssel (die Datei mit der Endung .pub) aus.
 
