@@ -41,15 +41,15 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Mi 8-10 | Gloria Dobreva | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
 | Mi 8-10 | Christoph Ullinger | SR 00 006 (G.-Köhler-Allee 051) |
 | Mi 8-10 | Malte Ferber | SR 00 031 (G.-Köhler-Allee 051) |
-| Do 8-10 | Yannik Schnell |  R 03 026 Seminarraum (G.-Köhler-Allee 051) |
+| Do 8-10 | Tim Schick |  R 03 026 Seminarraum (G.-Köhler-Allee 051) |
 | Do 8-10 | Max Schweigert | SR 00 014 (G.-Köhler-Allee 078) |
 | Do 8-10 | Moritz Steffl | SR 00 031 (G.-Köhler-Allee 051) |
 | Do 8-10 | Paul Dyckmans | SR 00 034 (G.-Köhler-Allee 051) |
-| Do 16-18 | Julina Peucker  | SR 00 006 (G.-Köhler-Allee 051) |
+| Do 16-18 | Julina Peucker  | R 04 007 Videokonferenz (G.-Köhler-Allee 106) |
 | Do 16-18 | Nils Pukropp | SR 00 034 (G.-Köhler-Allee 051) |
 | Do 16-18 | Vincent von Bosse | SR 00 031 (G.-Köhler-Allee 051) |
-| Do 16-18 | Sven Mally | R 04 007 Videokonferenz (G.-Köhler-Allee 106) |
-| Fr 10-12 | Tim Schick | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
+| Do 16-18 | Sven Mally | SR 00 006 (G.-Köhler-Allee 051) |
+| Fr 10-12 | Yannik Schnell | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
 | Fr 10-12 | Tobias Bürger | G.-Köhler-Allee 101, SR 01-009/13 |
 | Fr 10-12 | Edin Vrazalica | G.-Köhler-Allee 101, SR 01-016/18 |
 | Fr 12-14 | Julius Bredemeyer | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
