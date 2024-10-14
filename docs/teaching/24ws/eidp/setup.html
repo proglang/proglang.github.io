@@ -160,10 +160,35 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="setup-guide-für-einführung-in-die-programmierung"><a class="header" href="#setup-guide-für-einführung-in-die-programmierung">Setup Guide für Einführung in die Programmierung</a></h1>
-<p>Das Setup Guide soll bei der Installation von der Programmiersprache Python und den Editor (IDE) Visual Studio Code helfen. Der Setup-Guide ist für das Betriebssystem Ubuntu geschrieben. Windows-Usern wird empfohlen Linux als Subsystem zu installieren. Für MacOS werden die Befehle, die sich zu denen auf Ubuntu unterscheiden, angegeben. Es ist Ihnen freigestellt, welches Betriebssystem/IDE/.. Sie nutzen, wir bieten allerdings nur Unterstützung für Ubuntu/VS Code an und empfehlen allen Nicht-Programmiererfahrenen Ubuntu/VS Code zu nutzen.</p>
+<p>Das Setup Guide soll bei der Installation von der Programmiersprache Python und den Editor (IDE) Visual Studio Code helfen. Der Setup-Guide ist für das Betriebssystem Ubuntu geschrieben. Windows-Usern wird empfohlen Linux als Subsystem zu installieren. Für macOS werden die Befehle, die sich zu denen auf Ubuntu unterscheiden, angegeben. Es ist Ihnen freigestellt, welches Betriebssystem/IDE/… Sie nutzen, wir bieten allerdings nur Unterstützung für Ubuntu/VS Code an und empfehlen allen Nicht-Programmiererfahrenen Ubuntu/VS Code zu nutzen.</p>
+<blockquote>
+<p>Sie finden <a href="(#installation-unter-macos)">weiter unten</a> ebenfalls eine vollständige Installationsanleitung für <code>macOS</code> mit VS Code. Diese wird Ihnen als zusätzlicher Service bereitgestellt und wir bieten begrenzte Unterstützung bei der Installation. Vollständige Unterstützung erhalten Sie aber <strong>nur</strong> für Ubuntu/WSL/VS Code. Sofern Sie der Installation für macOS folgen möchten, überspringen Sie die zuerst kommenden Anweisungen und springen Sie direkt zur <a href="#installation-unter-macos">Installation unter macOS</a>.</p>
+</blockquote>
+<h2 id="inhaltsübersicht"><a class="header" href="#inhaltsübersicht">Inhaltsübersicht</a></h2>
+<ol>
+<li><a href="#linux-f%C3%BCr-windows-user-als-subsystem-wsl">Linux für Windows-User als Subsystem (WSL)</a>
+<ol>
+<li><a href="#powershell-7-installieren">PowerShell 7 installieren</a></li>
+<li><a href="#wsl-installieren">WSL installieren</a></li>
+<li><a href="#ubuntu-einrichten">Ubuntu einrichten</a></li>
+<li><a href="#account-erstellen">Account erstellen</a></li>
+</ol>
+</li>
+<li><a href="#python312-installieren">Python3.12 installieren</a>
+<ol>
+<li><a href="#packages-updaten">Packages Updaten</a></li>
+<li><a href="#visual-studio-code-vs-code-installieren-und-einrichten">Visual Studio Code (VS Code) installieren und einrichten</a></li>
+<li><a href="#extensions-installieren">Extensions installieren</a></li>
+<li><a href="#extensions-einrichten">Extensions einrichten</a></li>
+</ol>
+</li>
+<li><a href="#installation-unter-macos">Installation unter macOS</a></li>
+</ol>
 <h2 id="linux-für-windows-user-als-subsystem-wsl"><a class="header" href="#linux-für-windows-user-als-subsystem-wsl">Linux für Windows-User als Subsystem (WSL)</a></h2>
+<blockquote>
 <p>Der folgende Part ist nur für <code>Windows</code>-User relevant.</p>
-<p>Alle anderen können direkt zur <a href="#-Python3.12-installieren">Python3.12 Installation</a> springen.</p>
+</blockquote>
+<p>Alle anderen können direkt zur <a href="#python312-installieren">Python3.12 Installation</a> springen.</p>
 <h3 id="powershell-7-installieren"><a class="header" href="#powershell-7-installieren">PowerShell 7 installieren</a></h3>
 <ol>
 <li>
@@ -200,7 +225,7 @@ In neueren <code>PowerShell</code> versionen öffnet sich <code>Ubuntu</code> di
 </li>
 </ol>
 <h2 id="python312-installieren"><a class="header" href="#python312-installieren">Python3.12 installieren</a></h2>
-<p>Ab hier gehen wir von einem Ubuntu basierten Betriebssystem aus. Wir geben aber sowohl für <code>Windows</code>-User als auch Mac-User die alternativen Befehle an.</p>
+<p>Ab hier gehen wir von einem Ubuntu basierten Betriebssystem aus. Wir geben aber für <code>Windows</code>-User die alternativen Befehle an. Als <code>macOS</code>-User folgen Sie der <a href="#installation-unter-macos">unten stehenden alternativen Installationsanleitung</a>.</p>
 <h3 id="packages-updaten"><a class="header" href="#packages-updaten">Packages Updaten</a></h3>
 <p>Wir bringen nun die Software auf dem System auf den aktuellen Stand. Dafür muss ein Terminal geöffnet werden (Action Taste drücken -&gt; <code>Terminal</code> suchen -&gt; anklicken)</p>
 <p>Auf Windows, bzw in der WSL befinden Sie sich bereits in einem Terminal.</p>
@@ -223,15 +248,6 @@ sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa # mit enter bestätigen
 
 sudo apt install python3.12
-
-# ---------------- für mac ------------------
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# when using zsh as shell
-echo "eval $(/opt/homebrew/bin/brew shellenv)" &gt;&gt; ~/.zshrc
-
-brew install python@3.12
 </code></pre>
 <h3 id="visual-studio-code-vs-code-installieren-und-einrichten"><a class="header" href="#visual-studio-code-vs-code-installieren-und-einrichten">Visual Studio Code (VS Code) installieren und einrichten</a></h3>
 <ol>
@@ -309,6 +325,40 @@ brew install python@3.12
 </code></pre>
 <ol start="7">
 <li>Nach <code>Severity</code> suchen und bei <code>Flake8: Severity</code> alle Einträge unter <code>Value</code> auf <code>Warning</code> setzen. Dazu rechts auf den Stift zum Bearbeiten drücken und bei <code>Value</code> <code>Warning</code> auswählen (auch hier wieder mit <code>OK</code> bestätigen)</li>
+</ol>
+<h2 id="installation-unter-macos"><a class="header" href="#installation-unter-macos">Installation unter macOS</a></h2>
+<ol>
+<li>
+<p>Hier wollen wir zuerst Python in Version <code>3.12</code> installieren. Sie können die Installationsdatei über diesen Link direkt herunterladen: <a href="https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg">macOS 64-bit universal2 installer</a>.</p>
+ <details>
+ <summary>Manuelles Herunterladen der Installstionsdatei Schritt für Schritt (< Klick mich >)</summary>
+<ol>
+<li>Auf <a href="https://www.python.org/downloads/release/python-3127/">python.org</a> gehen und Version <code>3.12.x</code> wählen, wobei <code>x</code> eine beliebige Zahl sein darf. Bei Erstellung dieser Anleitung ist dies <code>3.12.7</code>.</li>
+</ol>
+<blockquote>
+<p>Nehmen Sie <strong>auf keinen Fall</strong> <code>3.13.x</code>. Diese Version ist möglicherweise mit unserem Abgabesystem nicht kompatibel.</p>
+</blockquote>
+<ol start="2">
+<li>
+<p>Scrollen Sie bis zum Bereich <code>Files</code>.</p>
+</li>
+<li>
+<p>Wählen Sie <a href="https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg">macOS 64-bit universal2 installer</a>.</p>
+</li>
+</ol>
+ </details>
+</li>
+<li>
+<p>Führen Sie nun die heruntergeladene Installationsdatei aus.</p>
+</li>
+<li>
+<p>Folgen Sie nun den Schritten zu:</p>
+<ul>
+<li><a href="#visual-studio-code-vs-code-installieren-und-einrichten">Visual Studio Code (VS Code) installieren und einrichten</a></li>
+<li><a href="#extensions-installieren">Extensions installieren</a></li>
+<li><a href="#extensions-einrichten">Extensions einrichten</a></li>
+</ul>
+</li>
 </ol>
 
                     </main>
