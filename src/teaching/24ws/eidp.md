@@ -4,7 +4,7 @@
 
 - Dozent: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistenten: [Marius Weidner](/team/weidner.md), [Hannes Saffrich](/team/saffrich.md)
-- Vorlesung: Dienstag 10:15 - 11:45 und Mittwoch 13:00 - 13:45, HS 00 026 \\(\mu\\) Saal, [Livestream]() 
+- Vorlesung: Dienstag 10:15 - 11:45 und Mittwoch 13:00 - 13:45, HS 00 026 \\(\mu\\) Saal
 
 <div class="warning">
 Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 von 12:15 - 13:00 in HS 00 026
