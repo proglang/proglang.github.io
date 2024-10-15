@@ -14,7 +14,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 
 | Datum | Thema | Material | Aufzeichnung 
 |:-----|:-----|:-----|:-----|
-| Di 15.10.24 | Organisation | [Folien Admin][lecture00-slides], [Folien Teil01][lecture00-slides1] | [Aufzeichnung/Livestream][lecture00-recording][Aufzeichnung/Livestream (neu)][lecture00-recording2] |
+| Di 15.10.24 | Organisation | [Folien Admin][lecture00-slides], [Folien Teil01][lecture00-slides1] | [Aufzeichnung/Livestream][lecture00-recording], [Aufzeichnung/Livestream (neu)][lecture00-recording2] |
 | Di 15.10.24 | _Zusatz**online**veranstaltung_: Setup | [Skript][lecture01-script1] | [Aufzeichnung][lecture01-recording1] |
 | Mi 16.10.24 | _Zusatzveranstaltung_: Abgabesystem | [Skript][lecture01-script2] | [Aufzeichnung][lecture01-recording2] |
 | Mi 16.10.24 | Grundlagen | [Folien Teil02][lecture01-slides] | [Aufzeichnung/Livestream][lecture01-recording] |
