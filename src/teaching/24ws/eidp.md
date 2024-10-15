@@ -35,8 +35,9 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
-| Di 15.10.24 | Mo 21.10.24 09:00 | [Blatt01][exercise01-pdf]
+| Di 15.10.24 | Mo 21.10.24 09:00 über [Git][git] | [Blatt01][exercise01-pdf]
 
+[git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
 
 ## Tutorate
@@ -61,6 +62,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Fr 12-14 | Tobias Hoffmann | SR 00 034 (G.-Köhler-Allee 051) |
 | Fr 12-14 | Sebastian Wehmeier | G.-Köhler-Allee 101, SR 01-009/13 |
 | Fr 12-14 | Joshua Schütt | G.-Köhler-Allee 101, SR 01-016/18 |
+
 ## Studienleistung
 
 Zum Bestehen der Studienleistung ist notwendig:
