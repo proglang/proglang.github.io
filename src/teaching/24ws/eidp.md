@@ -34,7 +34,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
-| Di 15.10.24 | Di 21.10.24 | [Blatt01][exercise01-pdf]
+| Di 15.10.24 | Mo 21.10.24 09:00 | [Blatt01][exercise01-pdf]
 
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
 
