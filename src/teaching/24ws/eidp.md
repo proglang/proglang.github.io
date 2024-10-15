@@ -25,15 +25,18 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 [lecture01-script1]: eidp/setup.html
 [lecture01-script2]: eidp/abgabesystem.html
 [lecture01-recording1]: https://www.youtube.com/watch?v=j3-4dp5xSKk
-[lecture01-recording2]: /teaching/24ws/eidp.htmll
+[lecture01-recording2]: /teaching/24ws/eidp.html
 [lecture01-slides]: /teaching/24ws/eidp/slides/infoI02.pdf
 [lecture01-recording]: /teaching/24ws/eidp.html
 
 
 ## Übungen
 
-| Datum | Abgabe | Thema |
+| Datum | Abgabe | Material |
 |:-----|:-----|:-----|
+| Di 15.10.24 | Di 21.10.24 | [Blatt01][exercise01-pdf]
+
+[exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
 
 ## Tutorate
 
@@ -67,5 +70,3 @@ Zum Bestehen der Studienleistung ist notwendig:
 
 Zum Bestehen der Prüfungsleistung ist notwenig:
 - Bestehen der schriftlichen Klausur am Computer (Infos folgen)
-
-## Kommunikation
