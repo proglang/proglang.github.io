@@ -13,8 +13,8 @@
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
-| Tu 2024-10-15 | Lecture | Introduction | [00-intro.pdf](slides-00), [01-starting-haskell.pdf](slides-01) | |
-| Fr 2024-10-18 | Lecture | Introduction | [slides.pdf](slides-02) | [video](rec-02) |
+| Tu 2024-10-15 | Lecture | Introduction | [00-intro.pdf][slides-00], [01-starting-haskell.pdf][slides-01] | |
+| Fr 2024-10-18 | Lecture | Introduction | [Slides][slides-02] | [Video][rec-02] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
