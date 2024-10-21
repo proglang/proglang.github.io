@@ -31,8 +31,8 @@
 | Tu 2024-10-22 | Fr 2024-11-01 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
 | Tu 2024-10-22 | Fr 2024-11-01 | Functions, Lists, Recursion | [ex01.pdf][ex01] |
 
+[ex00]:      http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
-[ex02]:      http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
 
 ## Content
 
