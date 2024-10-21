@@ -17,7 +17,7 @@
 | Fr 2024-10-18 | Lecture  | Introduction | [Slides][slides-02] | [Video][rec-02] |
 | Tu 2024-10-22 | Lecture  | Functions, Lists, Algebraic Datatypes | | |
 | Tu 2024-10-29 | Lecture  | TBA | | |
-| Fr 2024-11-01 | Tutorial | TBA | | [Video][rec-02] |
+| Fr 2024-11-01 | Tutorial | TBA | | |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
