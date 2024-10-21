@@ -13,8 +13,11 @@
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
-| Tu 2024-10-15 | Lecture | Introduction | [00-intro.pdf][slides-00], [01-starting-haskell.pdf][slides-01] | |
-| Fr 2024-10-18 | Lecture | Introduction | [Slides][slides-02] | [Video][rec-02] |
+| Tu 2024-10-15 | Lecture  | Introduction | [00-intro.pdf][slides-00], [01-starting-haskell.pdf][slides-01] | |
+| Fr 2024-10-18 | Lecture  | Introduction | [Slides][slides-02] | [Video][rec-02] |
+| Tu 2024-10-22 | Lecture  | Functions, Lists, Algebraic Datatypes | | |
+| Tu 2024-10-29 | Lecture  | TBA | | |
+| Fr 2024-11-01 | Tutorial | TBA | | [Video][rec-02] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -25,8 +28,8 @@
 
 | Date | Discussion | Topic | PDF |
 |:-----|:-----|:-----|
-| Tu 2024-10-21 | Fr 2024-11-01 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
-| Tu 2024-10-21 | Fr 2024-11-01 | Functions, Lists, Recursion | [ex01.pdf][ex01] |
+| Tu 2024-10-22 | Fr 2024-11-01 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
+| Tu 2024-10-22 | Fr 2024-11-01 | Functions, Lists, Recursion | [ex01.pdf][ex01] |
 
 [ex01]:      http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
 [ex02]:      http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
