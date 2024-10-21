@@ -19,7 +19,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Mi 16.10.24 | _Zusatzveranstaltung_: Abgabesystem | [Skript][lecture01-script2] | [Aufzeichnung][lecture01-recording2] |
 | Mi 16.10.24 | Grundlagen | [Folien Teil02][lecture01-slides] | [Aufzeichnung/Livestream][lecture01-recording] |
 | Di 22.10.24 | Werte, Typen, Variablen und Ausdrücke | [Folien][lecture03-slides] | Aufzeichnung |
-| Di 22.10.24 | Funktionen: Aufrufe und Definitionen | [Folien][lecture04-slides] | Aufzeichnung |
+| Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien][lecture04-slides] | Aufzeichnung |
 
 [lecture00-slides]: /teaching/24ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/24ws/eidp/slides/infoI01.pdf
