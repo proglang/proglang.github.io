@@ -11,8 +11,8 @@
 
 ## Lectures & Tutorials
 
-| Date | Type | Topic | Material | Recordings 
-|:-----|:-----|:-----|:-----|:-----|
+| Date | Type | Topic | Material | Recordings |
+|:-----|:-----|:------|:---------|:-----------|
 | Tu 2024-10-15 | Lecture  | Introduction | [00-intro.pdf][slides-00], [01-starting-haskell.pdf][slides-01] | |
 | Fr 2024-10-18 | Lecture  | Introduction | [Slides][slides-02] | [Video][rec-02] |
 | Tu 2024-10-22 | Lecture  | Functions, Lists, Algebraic Datatypes | | |
@@ -27,7 +27,7 @@
 ## Exercises
 
 | Date | Discussion | Topic | PDF |
-|:-----|:-----|:-----|
+|:-----|:-----------|:------|:----|
 | Tu 2024-10-22 | Fr 2024-11-01 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
 | Tu 2024-10-22 | Fr 2024-11-01 | Functions, Lists, Recursion | [ex01.pdf][ex01] |
 
