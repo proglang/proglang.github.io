@@ -21,10 +21,10 @@
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
-[slides-02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.pdf
-[rec-02]:    http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
-[rec-03-01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
-[rec-03-02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
+[slides-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.pdf
+[rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
+[rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
+[rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
 
 ## Exercises
 

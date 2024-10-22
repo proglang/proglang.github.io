@@ -32,7 +32,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 [lecture01-slides]: /teaching/24ws/eidp/slides/infoI02.pdf
 [lecture01-recording]: https://youtube.com/live/MX8tROqkNtU?feature=share
 [lecture03-slides]: /teaching/24ws/eidp/slides/infoI03.pdf
-[lecture03-recording]: http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-10-22.mp4
+[lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-10-22.mp4
 [lecture04-slides]: /teaching/24ws/eidp/slides/infoI04.pdf
 
 ## Übungen
