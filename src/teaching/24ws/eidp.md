@@ -39,9 +39,13 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
 | Di 15.10.24 | Mo 21.10.24 09:00 über [Git][git] | [Blatt01][exercise01-pdf]
+| Di 22.10.24 | Mo 28.10.24 09:00 über [Git][git] | [Blatt02][exercise02-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
+[exercise02-pdf]: /teaching/24ws/eidp/exercises/sheet02.pdf
+
+Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions)
 
 ## Tutorate
 
@@ -54,17 +58,19 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Do 8-10 | Max Schweigert | SR 00 014 (G.-Köhler-Allee 078) |
 | Do 8-10 | Moritz Steffl | SR 00 031 (G.-Köhler-Allee 051) |
 | Do 8-10 | Paul Dyckmans | SR 00 034 (G.-Köhler-Allee 051) |
-| Do 16-18 | Julina Peucker  | R 04 007 Videokonferenz (G.-Köhler-Allee 106) |
+| Do 16-18 | Sven Mally | SR 00 006 (G.-Köhler-Allee 051) |
 | Do 16-18 | Nils Pukropp | SR 00 034 (G.-Köhler-Allee 051) |
 | Do 16-18 | Vincent von Bosse | SR 00 031 (G.-Köhler-Allee 051) |
-| Do 16-18 | Sven Mally | SR 00 006 (G.-Köhler-Allee 051) |
+| Do 16-18 | Julina Peucker  | R 04 007 Videokonferenz (G.-Köhler-Allee 106) |
 | Fr 10-12 | Yannik Schnell | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
-| Fr 10-12 | Tobias Bürger | G.-Köhler-Allee 101, SR 01-009/13 |
+| ~~Fr 10-12~~ | ~~Tobias Bürger~~ | ~~G.-Köhler-Allee 101, SR 01-009/13~~ |
 | Fr 10-12 | Edin Vrazalica | G.-Köhler-Allee 101, SR 01-016/18 |
 | Fr 12-14 | Julius Bredemeyer | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
 | Fr 12-14 | Tobias Hoffmann | SR 00 034 (G.-Köhler-Allee 051) |
 | Fr 12-14 | Sebastian Wehmeier | G.-Köhler-Allee 101, SR 01-009/13 |
 | Fr 12-14 | Joshua Schütt | G.-Köhler-Allee 101, SR 01-016/18 |
+
+Die Notizen mancher Tutor/innen finden sie [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/tutor-notes)
 
 ## Studienleistung
 
