@@ -19,7 +19,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Mi 16.10.24 | _Zusatzveranstaltung_: Abgabesystem | [Skript][lecture01-script2] | [Aufzeichnung][lecture01-recording2] |
 | Mi 16.10.24 | Grundlagen | [Folien Teil02][lecture01-slides] | [Aufzeichnung/Livestream][lecture01-recording] |
 | Di 22.10.24 | Werte, Typen, Variablen und Ausdrücke | [Folien][lecture03-slides] | [Aufzeichnung][lecture03-recording] |
-| Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien][lecture04-slides] | Aufzeichnung |
+| Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien][lecture04-slides] | [Aufzeichnung][lecture04-recording] |
 
 [lecture00-slides]: /teaching/24ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/24ws/eidp/slides/infoI01.pdf
@@ -34,6 +34,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 [lecture03-slides]: /teaching/24ws/eidp/slides/infoI03.pdf
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-10-22.mp4
 [lecture04-slides]: /teaching/24ws/eidp/slides/infoI04.pdf
+[lecture04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-10-23.mp4
 
 ## Übungen
 
