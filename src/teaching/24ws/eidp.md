@@ -46,7 +46,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
 [exercise02-pdf]: /teaching/24ws/eidp/exercises/sheet02.pdf
 
-Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions)
+Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).
 
 ## Tutorate
 
@@ -71,7 +71,7 @@ Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.u
 | Fr 12-14 | Sebastian Wehmeier | G.-Köhler-Allee 101, SR 01-009/13 |
 | Fr 12-14 | Joshua Schütt | G.-Köhler-Allee 101, SR 01-016/18 |
 
-Die Notizen mancher Tutor/innen finden sie [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/tutor-notes)
+Die Notizen mancher Tutor/innen finden Sie [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/tutor-notes).
 
 ## Studienleistung
 
