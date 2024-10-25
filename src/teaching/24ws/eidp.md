@@ -20,6 +20,9 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Mi 16.10.24 | Grundlagen | [Folien Teil02][lecture01-slides] | [Aufzeichnung/Livestream][lecture01-recording] |
 | Di 22.10.24 | Werte, Typen, Variablen und Ausdrücke | [Folien][lecture03-slides] | [Aufzeichnung][lecture03-recording] |
 | Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien][lecture04-slides] | [Aufzeichnung][lecture04-recording] |
+| Di 29.10.24 | Bedingungen und bedingte Ausführung | [Folien][lecture05-slides], [Handout][lecture05-handout] | [Aufzeichnung][lecture05-recording] |
+| Mi 30.10.24 | TBA | [Folien][lecture06-slides], [Handout][lecture06-handout] | [Aufzeichnung][lecture06-recording] |
+
 
 [lecture00-slides]: /teaching/24ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/24ws/eidp/slides/infoI01.pdf
@@ -35,6 +38,12 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-10-22.mp4
 [lecture04-slides]: /teaching/24ws/eidp/slides/infoI04.pdf
 [lecture04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-10-23.mp4
+[lecture05-slides]: /teaching/24ws/eidp/slides/infoI05.pdf
+[lecture05-handout]: /teaching/24ws/eidp/slides/infoI05-handout.pdf
+[lecture05-recording]: https://youtube.com/live/_zZxQ_2eueY?feature=share
+[lecture06-slides]: /teaching/24ws/eidp/slides/infoI06.pdf
+[lecture06-handout]: /teaching/24ws/eidp/slides/infoI06-handout.pdf
+[lecture06-recording]: https://youtube.com/live/zDUiHXbnODc?feature=share
 
 ## Übungen
 
