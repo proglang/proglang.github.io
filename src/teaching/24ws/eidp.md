@@ -21,7 +21,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 | Di 22.10.24 | Werte, Typen, Variablen und Ausdrücke | [Folien][lecture03-slides] | [Aufzeichnung][lecture03-recording] |
 | Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien][lecture04-slides] | [Aufzeichnung][lecture04-recording] |
 | Di 29.10.24 | Bedingungen und bedingte Ausführung | [Folien][lecture05-slides], [Handout][lecture05-handout] | [Aufzeichnung][lecture05-recording], [Teil 2][lecture05-2-recording] |
-| Mi 30.10.24 | TBA | [Folien][lecture06-slides], [Handout][lecture06-handout] | [Aufzeichnung][lecture06-recording] |
+| Mi 30.10.24 | Sequenzen und Iteration | [Folien][lecture06-slides], [Handout][lecture06-handout] | [Aufzeichnung][lecture06-recording] |
 
 
 [lecture00-slides]: /teaching/24ws/eidp/slides/infoI00.pdf
