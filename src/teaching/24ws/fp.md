@@ -16,7 +16,7 @@
 | Tu 2024-10-15 | Lecture  | Introduction | [00-intro.pdf][slides-00], [01-starting-haskell.pdf][slides-01] | |
 | Fr 2024-10-18 | Lecture  | Introduction | [Slides][slides-02] | [Video][rec-02] |
 | Tu 2024-10-22 | Lecture  | Functions, Lists, Algebraic Datatypes | | [Video (part 1)][rec-03-01], [Video (part 2)][rec-03-02] |
-| Tu 2024-10-29 | Lecture  | Algebraic Datatypes, Higher-Order Functions |  [Slides][slides-04] [Programs][material-04] |  [Video][rec-04] |
+| Tu 2024-10-29 | Lecture  | Algebraic Datatypes, Higher-Order Functions |  [Slides][slides-04], [Programs][material-04] |  [Video][rec-04] |
 | Fr 2024-11-01 | Tutorial | TBA | | |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
