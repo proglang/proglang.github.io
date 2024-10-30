@@ -10,14 +10,14 @@
 
 | Datum | Thema | Material | Aufzeichnung 
 |:-----|:-----|:-----|:-----|
-| Di 15.10.24 | Organisation | [Folien Admin][lecture00-slides], [Folien Teil01][lecture00-slides1] | [Aufzeichnung/Livestream][lecture00-recording], [Aufzeichnung/Livestream (neu)][lecture00-recording2] |
-| Di 15.10.24 | _Zusatz**online**veranstaltung_: Setup | [Skript][lecture01-script1] | [Aufzeichnung][lecture01-recording1] |
-| Mi 16.10.24 | _Zusatzveranstaltung_: Abgabesystem | [Skript][lecture01-script2] | [Aufzeichnung][lecture01-recording2] |
-| Mi 16.10.24 | Grundlagen | [Folien Teil02][lecture01-slides] | [Aufzeichnung/Livestream][lecture01-recording] |
-| Di 22.10.24 | Werte, Typen, Variablen und Ausdrücke | [Folien][lecture03-slides] | [Aufzeichnung][lecture03-recording] |
-| Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien][lecture04-slides] | [Aufzeichnung][lecture04-recording] |
-| Di 29.10.24 | Bedingungen und bedingte Ausführung | [Folien][lecture05-slides], [Handout][lecture05-handout] | [Aufzeichnung][lecture05-recording], [Teil 2][lecture05-2-recording] |
-| Mi 30.10.24 | Sequenzen und Iteration | [Folien][lecture06-slides], [Handout][lecture06-handout] | [Aufzeichnung][lecture06-recording] |
+| Di 15.10.24 | Organisation | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1] | [Youtube][lecture00-recording], [Youtube (cont)][lecture00-recording2] |
+| Di 15.10.24 | _Zusatz**online**veranstaltung_: Setup | [Skript 01][lecture01-script1] | [Youtube][lecture01-recording1] |
+| Mi 16.10.24 | _Zusatzveranstaltung_: Abgabesystem | [Skript 02][lecture01-script2] | [Youtube][lecture01-recording2] |
+| Mi 16.10.24 | Grundlagen | [Folien 02][lecture01-slides] | [Youtube][lecture01-recording] |
+| Di 22.10.24 | Werte, Typen, Variablen und Ausdrücke | [Folien 03][lecture03-slides] | [MP4][lecture03-recording] |
+| Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien 04][lecture04-slides] | [MP4][lecture04-recording] |
+| Di 29.10.24 | Bedingungen und bedingte Ausführung | [Folien 05][lecture05-slides], [Handout 05][lecture05-handout] | [Youtube][lecture05-recording], [Youtube (cont)][lecture05-2-recording] |
+| Mi 30.10.24 | Sequenzen und Iteration | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [Youtube][lecture06-recording] |
 
 
 [lecture00-slides]: /teaching/24ws/eidp/slides/infoI00.pdf
