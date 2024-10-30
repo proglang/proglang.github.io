@@ -92,4 +92,3 @@ credentials.
 Announcements will be posted on this page under the rubric [News](#news).
 Urgent announcements will also be sent via email through HisInOne.
 **If you do not want to miss these announcements, you should register for the course in HisInOne!**
-
