@@ -17,7 +17,7 @@
 | Fr 2024-10-18 | Lecture  | Introduction | [Slides][slides-02] | [Video][rec-02] |
 | Tu 2024-10-22 | Lecture  | Functions, Lists, Algebraic Datatypes | | [Video (part 1)][rec-03-01], [Video (part 2)][rec-03-02] |
 | Tu 2024-10-29 | Lecture  | Algebraic Datatypes, Higher-Order Functions |  [Slides][slides-04], [Programs][material-04] |  [Video][rec-04] |
-| We 2024-10-30 | Tutorial | This week on Wednesday 14:15 and **exclusively** online via zoom!! | | |
+| We 2024-10-30 | Tutorial | Discussion of Exercise 1 | | [Video][rec-tut-01] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -28,6 +28,7 @@
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
 [rec-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-29-lecture-1.mp4
+[rec-tut-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-30-tutorial-1.mp4
 
 ## Exercises
 
