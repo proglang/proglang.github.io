@@ -17,7 +17,10 @@
 | Di 22.10.24 | Werte, Typen, Variablen und Ausdrücke | [Folien 03][lecture03-slides] | [MP4][lecture03-recording] |
 | Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien 04][lecture04-slides] | [MP4][lecture04-recording] |
 | Di 29.10.24 | Bedingungen und bedingte Ausführung | [Folien 05][lecture05-slides], [Handout 05][lecture05-handout] | [Youtube][lecture05-recording], [Youtube (cont)][lecture05-2-recording] |
-| Mi 30.10.24 | Sequenzen und Iteration | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [Youtube][lecture06-recording] |
+| Mi 30.10.24 | Sequenzen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [Youtube][lecture06-recording] |
+| Di 05.11.24 | Iteration | [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] | [Youtube][lecture07-recording] |
+| Mi 06.11.24 | TBD | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture08-recording] |
+
 
 
 [lecture00-slides]: /teaching/24ws/eidp/slides/infoI00.pdf
@@ -41,6 +44,13 @@
 [lecture06-slides]: /teaching/24ws/eidp/slides/infoI06.pdf
 [lecture06-handout]: /teaching/24ws/eidp/slides/infoI06-handout.pdf
 [lecture06-recording]: https://youtube.com/live/J4UB1MJZetQ?feature=share
+[lecture07-slides]: /teaching/24ws/eidp/slides/infoI07.pdf
+[lecture07-handout]: /teaching/24ws/eidp/slides/infoI07-handout.pdf
+[lecture07-recording]: https://youtube.com/live/y4tTRZ6LTy0?feature=share
+[lecture08-slides]: /teaching/24ws/eidp/slides/infoI08.pdf
+[lecture08-handout]: /teaching/24ws/eidp/slides/infoI08-handout.pdf
+[lecture08-recording]: https://youtube.com/live/kfR2ztF3u5A?feature=share
+
 
 ## Übungen
 
