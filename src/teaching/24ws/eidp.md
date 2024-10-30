@@ -6,10 +6,6 @@
 - Assistenten: [Marius Weidner](/team/weidner.md), [Hannes Saffrich](/team/saffrich.md)
 - Vorlesung: Dienstag 10:15 - 11:45 und Mittwoch 13:00 - 13:45, HS 00 026 \\(\mu\\) Saal
 
-<div class="warning">
-Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 von 12:15 - 13:00 in HS 00 026
-</div>
-
 ## Vorlesung
 
 | Datum | Thema | Material | Aufzeichnung 
@@ -52,7 +48,7 @@ Sondertermin: Einführung in die Übungsumgebung und Git am Mittwoch den 16.10 v
 |:-----|:-----|:-----|
 | Di 15.10.24 | Mo 21.10.24 09:00 über [Git][git] | [Blatt01][exercise01-pdf]
 | Di 22.10.24 | Mo 28.10.24 09:00 über [Git][git] | [Blatt02][exercise02-pdf]
-| Di 29.10.24 | Mo 4.11.24 09:00 über [Git][git] | [Blatt03][exercise03-pdf]
+| Di 29.10.24 | Mo 04.11.24 09:00 über [Git][git] | [Blatt03][exercise03-pdf]
 
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
@@ -65,26 +61,26 @@ Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.u
 
 ## Tutorate
 
-| Datum | Tutor | Raum |
-|:-----|:-----|:-----|
-| Mi 8-10 | Gloria Dobreva | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
-| Mi 8-10 | Christoph Ullinger | SR 00 006 (G.-Köhler-Allee 051) |
-| Mi 8-10 | Malte Ferber | SR 00 031 (G.-Köhler-Allee 051) |
-| Do 8-10 | Tim Schick |  R 03 026 Seminarraum (G.-Köhler-Allee 051) |
-| Do 8-10 | Max Schweigert | SR 00 014 (G.-Köhler-Allee 078) |
-| Do 8-10 | Moritz Steffl | SR 00 031 (G.-Köhler-Allee 051) |
-| Do 8-10 | Paul Dyckmans | SR 00 034 (G.-Köhler-Allee 051) |
-| Do 16-18 | Sven Mally | SR 00 006 (G.-Köhler-Allee 051) |
-| Do 16-18 | Nils Pukropp | SR 00 034 (G.-Köhler-Allee 051) |
-| Do 16-18 | Vincent von Bosse | SR 00 031 (G.-Köhler-Allee 051) |
-| Do 16-18 | Julina Peucker  | R 04 007 Videokonferenz (G.-Köhler-Allee 106) |
-| Fr 10-12 | Yannik Schnell | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
-| ~~Fr 10-12~~ | ~~Tobias Bürger~~ | ~~G.-Köhler-Allee 101, SR 01-009/13~~ |
-| Fr 10-12 | Edin Vrazalica | G.-Köhler-Allee 101, SR 01-016/18 |
-| Fr 12-14 | Julius Bredemeyer | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
-| Fr 12-14 | Tobias Hoffmann | SR 00 034 (G.-Köhler-Allee 051) |
-| Fr 12-14 | Sebastian Wehmeier | G.-Köhler-Allee 101, SR 01-009/13 |
-| Fr 12-14 | Joshua Schütt | G.-Köhler-Allee 101, SR 01-016/18 |
+| Nummer | Datum | Tutor | Raum |
+|:-----|:-----|:-----|:-----|
+| 1 | Mi 8-10 | Gloria Dobreva | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
+| 2 | Mi 8-10 | Christoph Ullinger | SR 00 006 (G.-Köhler-Allee 051) |
+| 3 | Mi 8-10 | Malte Ferber | SR 00 031 (G.-Köhler-Allee 051) |
+| 4 | Do 8-10 | Tim Schick |  R 03 026 Seminarraum (G.-Köhler-Allee 051) |
+| 5 | Do 8-10 | Max Schweigert | SR 00 014 (G.-Köhler-Allee 078) |
+| 6 | Do 8-10 | Moritz Steffl | SR 00 031 (G.-Köhler-Allee 051) |
+| 7| Do 8-10 | Paul Dyckmans | SR 00 034 (G.-Köhler-Allee 051) |
+| 8 | Do 16-18 | Sven Mally | SR 00 006 (G.-Köhler-Allee 051) |
+| 9 | Do 16-18 | Nils Pukropp | SR 00 034 (G.-Köhler-Allee 051) |
+| 10 | Do 16-18 | Vincent von Bosse | SR 00 031 (G.-Köhler-Allee 051) |
+| 11 | Do 16-18 | Julina Peucker  | R 04 007 Videokonferenz (G.-Köhler-Allee 106) |
+| 12 | Fr 10-12 | Yannik Schnell | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
+| ~~13~~ | ~~Fr 10-12~~ | ~~Tobias Bürger~~ | ~~G.-Köhler-Allee 101, SR 01-009/13~~ |
+| 14 | Fr 10-12 | Edin Vrazalica | G.-Köhler-Allee 101, SR 01-016/18 |
+| 15 | Fr 12-14 | Julius Bredemeyer | R 03 026 Seminarraum (G.-Köhler-Allee 051) |
+| 16 | Fr 12-14 | Tobias Hoffmann | SR 00 034 (G.-Köhler-Allee 051) |
+| 17 | Fr 12-14 | Sebastian Wehmeier | G.-Köhler-Allee 101, SR 01-009/13 |
+| 18 | Fr 12-14 | Joshua Schütt | G.-Köhler-Allee 101, SR 01-016/18 |
 
 Die Notizen mancher Tutor/innen finden Sie [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/tutor-notes).
 
