@@ -16,8 +16,16 @@
 | Tu 2024-10-15 | Lecture  | Introduction | [00-intro.pdf][slides-00], [01-starting-haskell.pdf][slides-01] | |
 | Fr 2024-10-18 | Lecture  | Introduction | [Slides][slides-02] | [Video][rec-02] |
 | Tu 2024-10-22 | Lecture  | Functions, Lists, Algebraic Datatypes | | [Video (part 1)][rec-03-01], [Video (part 2)][rec-03-02] |
+<<<<<<< Updated upstream
 | Tu 2024-10-29 | Lecture  | Algebraic Datatypes, Higher-Order Functions |  [Slides][slides-04], [Programs][material-04] |  [Video][rec-04] |
 | Fr 2024-11-01 | Tutorial | TBA | | |
+||||||| Stash base
+| Tu 2024-10-29 | Lecture  | TBA | | |
+| Fr 2024-11-01 | Tutorial | TBA | | |
+=======
+| Tu 2024-10-29 | Lecture  | TBA | | |
+| We 2024-10-30 | Tutorial | This week on Wednesday 14:15 and **exclusively** online via zoom!! | | |
+>>>>>>> Stashed changes
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -33,11 +41,14 @@
 
 | Date | Discussion | Topic | PDF |
 |:-----|:-----------|:------|:----|
-| Tu 2024-10-22 | Fr 2024-11-01 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
-| Tu 2024-10-22 | Fr 2024-11-01 | Functions, Lists, Recursion | [ex01.pdf][ex01] |
+| Tu 2024-10-22 | We 2024-10-30 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
+| Tu 2024-10-22 | We 2024-10-30 | Functions, Lists, Recursion | [ex01.pdf][ex01] |
+| Tu 2024-10-29 | Fr 2024-11-08 | Higher-Order Functions | [ex02.pdf][ex02], [ex02-tictactoe-template-zip][ex02-code] |
 
-[ex00]:      http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
-[ex01]:      http://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
+[ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
+[ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
+[ex02]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex02.pdf
+[ex02-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex02-tictactoe-template.zip
 
 ## Content
 
