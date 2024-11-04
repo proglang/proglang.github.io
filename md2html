@@ -68,7 +68,7 @@ def main():
     )
 
     # copy the html file to the directory of the md file
-    shutil.copy(html, os.path.dirname(md))
+    shutil.copy2(html, os.path.dirname(md))
 
     # undo the modification to the summary
     with open(summary, "r") as file:

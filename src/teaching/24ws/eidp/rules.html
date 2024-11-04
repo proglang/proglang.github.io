@@ -167,10 +167,17 @@
 <h3 id="dateinamen-und-dateiformate"><a class="header" href="#dateinamen-und-dateiformate">Dateinamen und Dateiformate</a></h3>
 <p>Die einzelnen Aufgaben sind mit vollständigen Dateinamen versehen. Verwenden Sie genau diese Namen und die dazugehörigen Dateiformate für Ihre Abgabe. Um Tippfehler zu vermeiden, können Sie die Dateinamen auch einfach kopieren.</p>
 <p>Ihre Dateien sollen immer im <em>Plaintext-Format</em> (UTF-8 codiert) vorliegen. Python-Code speichern Sie in Dateien mit der Endung <code>.py</code>. Für Texte können Sie zwischen <code>.txt</code> und <code>.md</code> (<a href="https://de.wikipedia.org/wiki/Markdown">Markdown</a>) frei wählen. Markdown-Dateien bieten gegenüber einfachen <code>.txt</code>-Dateien zusätzliche Formatierungsmöglichkeiten, die Sie in Visual Studio Code mit der Tastenkombination <code>STRG + SHIFT + V</code> anzeigen lassen können. <strong>Insbesondere sind also keine PDFs, keine Word-Dokumente und auch keine Bildschirmfotos erlaubt!</strong></p>
+<h3 id="syntax-fehler"><a class="header" href="#syntax-fehler">Syntax-Fehler</a></h3>
+<p>Python-Skripte, die aufgrund eines SyntaxFehlers nicht ausführbar oder importierbar sind, werden mit 0 Punkten bewertet.</p>
+<h3 id="typeannotationen"><a class="header" href="#typeannotationen">Typeannotationen</a></h3>
+<p>Alle Funktionen, Klassen, Generatoren etc. sollen mit Typannotationen versehen werden. Für fehlende oder teilweise richtige
+Typannotationen wird es Abzüge geben.</p>
 <h3 id="abgabeort"><a class="header" href="#abgabeort">Abgabeort</a></h3>
 <p>Geben Sie Ihre Aufgaben über unser <a href="https://git.laurel.informatik.uni-freiburg.de/">git-System</a> ab. Abgaben per Mail können <em>nicht</em> berücksichtigt werden.</p>
 <h3 id="style-guidelines"><a class="header" href="#style-guidelines">Style Guidelines</a></h3>
 <p>Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server, ob Ihr Code die Stilrichtlinien von <a href="https://flake8.pycqa.org/en/latest/"><code>flake8</code></a> befolgt. Dieser Check muss erfolgreich sein. Sie sehen das daran, dass auf der Webplattform unseres git-Systems ein grüner Haken erscheint.</p>
+<h3 id="top-level-statements"><a class="header" href="#top-level-statements">Top-Level Statements</a></h3>
+<p>Setzen Sie alle Top-Level-Statements wie <code>print(...)</code>, <code>input(...)</code> oder Tests in hinter eine <code>if __name__ == "__main__"</code>-Verzeigung. Dadurch werden diese Statements nur ausgeführt, wenn das Python-Skript direkt gestartet wird, nicht aber beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.</p>
 <h2 id="tipp"><a class="header" href="#tipp">Tipp</a></h2>
 <p>Eine einfache Möglichkeit, diese Anforderungen zu erfüllen, besteht darin, alle Dateien mit Visual Studio Code zu erstellen oder zu bearbeiten. Wenn Sie zum Beispiel eine Datei mit der Endung <code>.txt</code> oder <code>.md</code> bearbeiten, behandelt Visual Studio Code diese wie eine normale Textdatei. Bei <code>.py</code>-Dateien zeigt Visual Studio Code <code>flake8</code>-Warnungen als gelbe Markierungen an, die Sie durch einen Mouseover erklärt bekommen.</p>
 

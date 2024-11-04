@@ -59,12 +59,13 @@
 | Di 15.10.24 | Mo 21.10.24 09:00 über [Git][git] | [Blatt01][exercise01-pdf]
 | Di 22.10.24 | Mo 28.10.24 09:00 über [Git][git] | [Blatt02][exercise02-pdf]
 | Di 29.10.24 | Mo 04.11.24 09:00 über [Git][git] | [Blatt03][exercise03-pdf]
-
+| Di 05.10.24 | Mo 11.11.24 09:00 über [Git][git] | [Blatt04][exercise04-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
 [exercise02-pdf]: /teaching/24ws/eidp/exercises/sheet02.pdf
 [exercise03-pdf]: /teaching/24ws/eidp/exercises/sheet03.pdf
+[exercise04-pdf]: /teaching/24ws/eidp/exercises/sheet04.pdf
 
 
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).

@@ -14,6 +14,15 @@ Die einzelnen Aufgaben sind mit vollständigen Dateinamen versehen. Verwenden Si
 
 Ihre Dateien sollen immer im *Plaintext-Format* (UTF-8 codiert) vorliegen. Python-Code speichern Sie in Dateien mit der Endung `.py`. Für Texte können Sie zwischen `.txt` und `.md` ([Markdown](https://de.wikipedia.org/wiki/Markdown)) frei wählen. Markdown-Dateien bieten gegenüber einfachen `.txt`-Dateien zusätzliche Formatierungsmöglichkeiten, die Sie in Visual Studio Code mit der Tastenkombination `STRG + SHIFT + V` anzeigen lassen können. **Insbesondere sind also keine PDFs, keine Word-Dokumente und auch keine Bildschirmfotos erlaubt!**
 
+
+### Syntax-Fehler
+
+Python-Skripte, die aufgrund eines SyntaxFehlers nicht ausführbar oder importierbar sind, werden mit 0 Punkten bewertet.
+
+### Typeannotationen
+Alle Funktionen, Klassen, Generatoren etc. sollen mit Typannotationen versehen werden. Für fehlende oder teilweise richtige
+Typannotationen wird es Abzüge geben.
+
 ### Abgabeort
 
 Geben Sie Ihre Aufgaben über unser [git-System](https://git.laurel.informatik.uni-freiburg.de/) ab. Abgaben per Mail können *nicht* berücksichtigt werden.
@@ -21,6 +30,10 @@ Geben Sie Ihre Aufgaben über unser [git-System](https://git.laurel.informatik.u
 ### Style Guidelines
 
 Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server, ob Ihr Code die Stilrichtlinien von [`flake8`](https://flake8.pycqa.org/en/latest/) befolgt. Dieser Check muss erfolgreich sein. Sie sehen das daran, dass auf der Webplattform unseres git-Systems ein grüner Haken erscheint.
+
+### Top-Level Statements
+
+Setzen Sie alle Top-Level-Statements wie `print(...)`, `input(...)` oder Tests in hinter eine `if __name__ == "__main__"`-Verzeigung. Dadurch werden diese Statements nur ausgeführt, wenn das Python-Skript direkt gestartet wird, nicht aber beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.
 
 ## Tipp
 
