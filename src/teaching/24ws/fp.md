@@ -18,17 +18,26 @@
 | Tu 2024-10-22 | Lecture  | Functions, Lists, Algebraic Datatypes | | [Video (part 1)][rec-03-01], [Video (part 2)][rec-03-02] |
 | Tu 2024-10-29 | Lecture  | Algebraic Datatypes, Higher-Order Functions |  [Slides][slides-04], [Programs][material-04] |  [Video][rec-04] |
 | We 2024-10-30 | Tutorial | Discussion of Exercise 1 | | [Video][rec-tut-01] |
+| Tu 2024-11-05 | Lecture  | Higher-Order Functions, Laziness |  [Slides][slides-05], [Programs (after class)][material-05] |  [Video (after class)][rec-05] |
+| Tu 2024-11-12 | Lecture  | Type classes |  [Slides][slides-06], [Programs (after class)][material-06] |  [Video (after class)][rec-06] |
+
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
 [slides-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.pdf
 [slides-04]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/06-higher-order.pdf
+[slides-05]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/07-laziness.pdf
+[slides-06]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/08-type-classes.pdf
 [material-04]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241029.hs
+[material-05]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241105.hs
+[material-06]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241112.hs
 [rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
 [rec-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-29-lecture-1.mp4
 [rec-tut-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-30-tutorial-1.mp4
+[rec-05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-05-lecture-1.mp4
+[rec-06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-12-lecture-1.mp4
 
 ## Exercises
 
