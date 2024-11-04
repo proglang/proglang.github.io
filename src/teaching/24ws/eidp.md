@@ -18,7 +18,7 @@
 | Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien 04][lecture04-slides] | [MP4][lecture04-recording] |
 | Di 29.10.24 | Bedingungen und bedingte Ausführung | [Folien 05][lecture05-slides], [Handout 05][lecture05-handout] | [Youtube][lecture05-recording], [Youtube (cont)][lecture05-2-recording] |
 | Mi 30.10.24 | Sequenzen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [Youtube][lecture06-recording] |
-| Di 05.11.24 | Iteration | [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] | [Youtube][lecture07-recording] |
+| Di 05.11.24 | Iteration | [Folien 06 update][lecture06-slides], [Handout 06 update][lecture06-handout], [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] | [Youtube][lecture07-recording] |
 | Mi 06.11.24 | TBD | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture08-recording] |
 
 
