@@ -18,8 +18,10 @@
 | Mi 23.10.24 | Funktionen: Aufrufe und Definitionen | [Folien 04][lecture04-slides] | [MP4][lecture04-recording] |
 | Di 29.10.24 | Bedingungen und bedingte Ausführung | [Folien 05][lecture05-slides], [Handout 05][lecture05-handout] | [Youtube][lecture05-recording], [Youtube (cont)][lecture05-2-recording] |
 | Mi 30.10.24 | Sequenzen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [Youtube][lecture06-recording] |
-| Di 05.11.24 | Iteration | [Folien 06 update][lecture06-slides], [Handout 06 update][lecture06-handout], [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] | [Youtube][lecture07-recording] |
-| Mi 06.11.24 | TBD | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture08-recording] |
+| Di 05.11.24 | Iteration | [Folien 06 update][lecture06-slides], [Handout 06 update][lecture06-handout], [Folien 07][lecture07-slides], [Handout 07][lecture07-handout], [Animation][lecture07-extra] | [Youtube][lecture07-recording] |
+| Mi 06.11.24 | Iteration (Rechnen mit Polynomen) | | [Youtube][lecture08-recording] |
+| Di 12.11.24 | Iteration, while Schleife | | [Youtube][lecture09-recording] |
+| Mi 13.11.24 | TBD | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture10-recording] |
 
 
 
@@ -46,10 +48,13 @@
 [lecture06-recording]: https://youtube.com/live/J4UB1MJZetQ?feature=share
 [lecture07-slides]: /teaching/24ws/eidp/slides/infoI07.pdf
 [lecture07-handout]: /teaching/24ws/eidp/slides/infoI07-handout.pdf
+[lecture07-extra]: /teaching/24ws/eidp/slides/06-product-animation.pdf
 [lecture07-recording]: https://youtube.com/live/y4tTRZ6LTy0?feature=share
 [lecture08-slides]: /teaching/24ws/eidp/slides/infoI08.pdf
 [lecture08-handout]: /teaching/24ws/eidp/slides/infoI08-handout.pdf
 [lecture08-recording]: https://youtube.com/live/kfR2ztF3u5A?feature=share
+[lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
+[lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 
 
 ## Übungen
