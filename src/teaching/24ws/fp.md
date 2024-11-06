@@ -5,7 +5,7 @@
 - **Lecturer:**   [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - **Assistant:**  [Hannes Saffrich](/team/saffrich.md)
 - **Lecture:**    Tuesday, 14:15 - 15:45, Building 106, SR 04 007
-- **Tutorials:**  Friday, 14:15 - 15:45, Building 51, SR 00 031
+- **Tutorials:**  Friday, 14:15 - 15:45, online via Zoom
 - **Livestream:** [Zoom meeting](https://uni-freiburg.zoom-x.de/j/63630251635?pwd=mnwRBuRiIWSmWQbRtxWct59eTbyNPa.1),
                   Passcode: rPZCumB7H, used for lectures and tutorials
 
