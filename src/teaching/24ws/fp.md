@@ -103,6 +103,5 @@ to allow for asynchronous questions about the lecture, exercises, and
 functional programming in general. You can log in there with your Ilias
 credentials.
 
-Announcements will be posted on this page under the rubric [News](#news).
-Urgent announcements will also be sent via email through HisInOne.
+Announcements will be sent via email through HisInOne.
 **If you do not want to miss these announcements, you should register for the course in HisInOne!**
