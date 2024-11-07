@@ -43,12 +43,12 @@
 
 ## Exercises
 
-| Date | Discussion | Topic | Material |
-|:-----|:-----------|:------|:----|
-| Tu 2024-10-22 | We 2024-10-30 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
-| Tu 2024-10-22 | We 2024-10-30 | Functions, Lists, Recursion | [ex01.pdf][ex01], [Ex01Solution.hs][ex01-sol] |
-| Tu 2024-10-29 | Fr 2024-11-08 | Higher-Order Functions | [ex02.pdf][ex02], [ex02-tictactoe-template.zip][ex02-code] |
-| Th 2024-11-07 | Fr 2024-11-15 | Lazy Evaluation | [ex03.pdf][ex03] |
+| Date | Topic | Material |
+|:-----|:------|:----|
+| Tu 2024-10-22 | Installation & Basic Usage of the Haskell Toolchain | [ex00.pdf][ex00] |
+| Tu 2024-10-22 | Functions, Lists, Recursion | [ex01.pdf][ex01], [Ex01Solution.hs][ex01-sol] |
+| Tu 2024-10-29 | Higher-Order Functions | [ex02.pdf][ex02], [ex02-tictactoe-template.zip][ex02-code] |
+| Th 2024-11-07 | Lazy Evaluation | [ex03.pdf][ex03] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
