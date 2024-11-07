@@ -47,7 +47,7 @@
 |:-----|:------|:----|
 | 0 | Installation & Basic Usage of the Haskell Toolchain | [PDF][ex00] |
 | 1 | Functions, Lists, Recursion | [PDF][ex01], [Solution][ex01-sol] |
-| 2 | Higher-Order Functions | [PDF][ex02], [Material][ex02-code] |
+| 2 | Higher-Order Functions | [PDF][ex02], [Code][ex02-code] |
 | 3 | Lazy Evaluation | [PDF][ex03] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
