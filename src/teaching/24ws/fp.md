@@ -19,7 +19,7 @@
 | Tu 2024-10-29 | Lecture  | Algebraic Datatypes, Higher-Order Functions |  [Slides][slides-04], [Programs][material-04] |  [Video][rec-04] |
 | We 2024-10-30 | Tutorial | Discussion of Exercise 1 | | [Video][rec-tut-01] |
 | Tu 2024-11-05 | Lecture  | Higher-Order Functions, Laziness |  [Slides][slides-05], [Programs (after class)][material-05] |  [Video (after class)][rec-05] |
-| Fr 2024-11-08 | Tutorial | Discussion of Exercise 2 | | |
+| Fr 2024-11-08 | Tutorial | Discussion of Exercise 2 | | [Video][rec-tut-02] |
 | Tu 2024-11-12 | Lecture  | Type classes |  [Slides][slides-06], [Programs (after class)][material-06] |  [Video (after class)][rec-06] |
 | Fr 2024-10-15 | Tutorial | Discussion of Exercise 3 | | |
 
@@ -40,6 +40,7 @@
 [rec-tut-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-30-tutorial-1.mp4
 [rec-05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-05-lecture-1.mp4
 [rec-06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-12-lecture-1.mp4
+[rec-tut-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-08-tutorial-1.mp4
 
 ## Exercises
 
