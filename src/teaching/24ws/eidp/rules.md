@@ -14,6 +14,9 @@ Die einzelnen Aufgaben sind mit vollständigen Dateinamen versehen. Verwenden Si
 
 Ihre Dateien sollen immer im *Plaintext-Format* (UTF-8 codiert) vorliegen. Python-Code speichern Sie in Dateien mit der Endung `.py`. Für Texte können Sie zwischen `.txt` und `.md` ([Markdown](https://de.wikipedia.org/wiki/Markdown)) frei wählen. Markdown-Dateien bieten gegenüber einfachen `.txt`-Dateien zusätzliche Formatierungsmöglichkeiten, die Sie in Visual Studio Code mit der Tastenkombination `STRG + SHIFT + V` anzeigen lassen können. **Insbesondere sind also keine PDFs, keine Word-Dokumente und auch keine Bildschirmfotos erlaubt!**
 
+### Funktionsnamen
+
+In den Übungsblättern geben wir Funktionsnamen für die zu implementierenden Funktionen vor. Halten Sie sich an diese Vorgaben, da wir Ihre Lösungen automatisiert testen.
 
 ### Syntax-Fehler
 
