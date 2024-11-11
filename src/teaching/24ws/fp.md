@@ -20,7 +20,7 @@
 | We 2024-10-30 | Tutorial | Discussion of Exercise 1 | | [Video][rec-tut-01] |
 | Tu 2024-11-05 | Lecture  | Higher-Order Functions, Laziness |  [Slides][slides-05], [Programs][material-05] |  [Video][rec-05] |
 | Fr 2024-11-08 | Tutorial | Discussion of Exercise 2 | | [Video][rec-tut-02] |
-| Tu 2024-11-12 | Lecture  | Type classes |  [Slides][slides-06], [Programs (after class)][material-06] |  [Video (after class)][rec-06] |
+| Tu 2024-11-12 | Lecture  | Type classes and IO |  [Slides][slides-06], [Slides][slides-07], [Programs (after class)][material-06] |  [Video (after class)][rec-06] |
 | Fr 2024-10-15 | Tutorial | Discussion of Exercise 3 | | |
 
 
@@ -30,6 +30,7 @@
 [slides-04]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/06-higher-order.pdf
 [slides-05]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/07-laziness.pdf
 [slides-06]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/08-type-classes.pdf
+[slides-07]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/09-io.pdf
 [material-04]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241029.hs
 [material-05]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241105.hs
 [material-06]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241112.hs
