@@ -74,6 +74,7 @@
 [exercise04-pdf]: /teaching/24ws/eidp/exercises/sheet04.pdf
 [exercise05-pdf]: /teaching/24ws/eidp/exercises/sheet05.pdf
 
+Bitte beachten Sie [die Abgaberegeln](https://proglang.github.io/teaching/24ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).
 
 ## Tutorate
