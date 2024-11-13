@@ -51,6 +51,7 @@
 | 1 | Functions, Lists, Recursion | [PDF][ex01], [Solution][ex01-sol] |
 | 2 | Higher-Order Functions | [PDF][ex02], [Code][ex02-code], [Solution][ex02-sol] |
 | 3 | Lazy Evaluation | [PDF][ex03] |
+| 4 | Type Classes & IO | [PDF][ex04] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -59,6 +60,7 @@
 [ex02-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex02-tictactoe-template.zip
 [ex02-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex02Solution.hs
 [ex03]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex03.pdf
+[ex04]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex04.pdf
 
 ## Content
 
