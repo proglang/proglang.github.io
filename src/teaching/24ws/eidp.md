@@ -21,7 +21,9 @@
 | Di 05.11.24 | Iteration | [Folien 06 update][lecture06-slides], [Handout 06 update][lecture06-handout], [Folien 07][lecture07-slides], [Handout 07][lecture07-handout], [Animation][lecture07-extra] | [Youtube][lecture07-recording] |
 | Mi 06.11.24 | Iteration (Rechnen mit Polynomen) | | [Youtube][lecture08-recording] |
 | Di 12.11.24 | Iteration, while Schleife | | [Youtube][lecture09-recording] |
-| Mi 13.11.24 | TBD | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture10-recording] |
+| Mi 13.11.24 | while Schleife | | [Youtube][lecture10-recording] |
+| Di 19.11.24 | Objekte und Datenklassen | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture11-recording] |
+| Mi 20.11.24 | TBD | | [Youtube][lecture12-recording] |
 
 
 
@@ -55,7 +57,8 @@
 [lecture08-recording]: https://youtube.com/live/kfR2ztF3u5A?feature=share
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
-
+[lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
+[lecture12-recording]: https://youtube.com/live/iTzdd2PTJI0?feature=share
 
 ## Übungen
 
