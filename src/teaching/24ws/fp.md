@@ -101,6 +101,9 @@ Stephen Diehl's [WHAT I WISH I KNEW WHEN LEARNING HASKELL](https://web.archive.o
 
 ## Exam
 
+The exam will be on 2025-03-06 and will take place in the
+computer pools. Further information will be announced in time.
+
 ## Communication
 
 We provide a [discord-like chat](https://chat.laurel.informatik.uni-freiburg.de/invite/vEuyqw)
