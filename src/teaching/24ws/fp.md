@@ -21,7 +21,9 @@
 | Tu 2024-11-05 | Lecture  | Higher-Order Functions, Laziness |  [Slides][slides-05], [Programs][material-05] |  [Video][rec-05] |
 | Fr 2024-11-08 | Tutorial | Discussion of Exercise 2 | | [Video][rec-tut-02] |
 | Tu 2024-11-12 | Lecture  | Type classes and IO |  [Slides][slides-06], [Slides][slides-07], [Programs (after class)][material-06] |  [Video (after class)][rec-06] |
-| Fr 2024-10-15 | Tutorial | Discussion of Exercise 3 | | |
+| Fr 2024-11-15 | Tutorial | Discussion of Exercise 3 | | [Video][rec-tut-03] |
+| Tu 2024-11-19 | Lecture  |  |  |  |
+| Fr 2024-11-22 | Tutorial | Discussion of Exercise 4 | |  |
 
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
@@ -42,6 +44,7 @@
 [rec-05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-05-lecture-1.mp4
 [rec-06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-12-lecture-1.mp4
 [rec-tut-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-08-tutorial-1.mp4
+[rec-tut-03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-15-tutorial-1.mp4
 
 ## Exercises
 
