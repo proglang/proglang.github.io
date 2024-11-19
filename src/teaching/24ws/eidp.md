@@ -23,7 +23,7 @@
 | Di 12.11.24 | Iteration, while Schleife | | [Youtube][lecture09-recording] |
 | Mi 13.11.24 | while Schleife | | [Youtube][lecture10-recording] |
 | Di 19.11.24 | Objekte und Datenklassen | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture11-recording] |
-| Mi 20.11.24 | TBD | | [Youtube][lecture12-recording] |
+| Mi 20.11.24 | Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [Youtube][lecture12-recording] |
 
 
 
@@ -55,6 +55,8 @@
 [lecture08-slides]: /teaching/24ws/eidp/slides/infoI08.pdf
 [lecture08-handout]: /teaching/24ws/eidp/slides/infoI08-handout.pdf
 [lecture08-recording]: https://youtube.com/live/kfR2ztF3u5A?feature=share
+[lecture09-slides]: /teaching/24ws/eidp/slides/infoI09.pdf
+[lecture09-handout]: /teaching/24ws/eidp/slides/infoI09-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
