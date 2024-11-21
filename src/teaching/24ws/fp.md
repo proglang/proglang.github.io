@@ -24,6 +24,8 @@
 | Fr 2024-11-15 | Tutorial | Discussion of Exercise 3 | | [Video][rec-tut-03] |
 | Tu 2024-11-19 | Lecture  | Monads and the Gen Monad | [Slides][slides-08], [Programs][material-07] |   [Video][rec-07] |
 | Fr 2024-11-22 | Tutorial | Discussion of Exercise 4 | |  |
+| Tu 2024-11-26 | Lecture  |  |  |  |
+| Fr 2024-11-29 | Tutorial | Discussion of Exercise 5 | |  |
 
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
