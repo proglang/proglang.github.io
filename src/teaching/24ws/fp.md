@@ -59,6 +59,7 @@
 | 2 | Higher-Order Functions | [PDF][ex02], [Code][ex02-code], [Solution][ex02-sol] |
 | 3 | Lazy Evaluation | [PDF][ex03], [Solution][ex03-sol] |
 | 4 | Type Classes & IO | [PDF][ex04] |
+| 5 | QuickCheck's Arbitrary & AVL Trees | [PDF][ex05] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -69,6 +70,7 @@
 [ex03]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex03.pdf
 [ex03-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex03Solution.hs
 [ex04]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex04.pdf
+[ex05]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex05.pdf
 
 ## Content
 
