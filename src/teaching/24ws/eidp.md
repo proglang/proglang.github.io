@@ -25,7 +25,7 @@
 | Di 19.11.24 | Objekte und Datenklassen | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture11-recording] |
 | Mi 20.11.24 | Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [Youtube][lecture12-recording] |
 | Di 26.11.24 | Bäume | [Folien 10][lecture10-slides], [Handout 10][lecture10-handout] | [Youtube][lecture13-recording] |
-| Mi 27.11.24 | Suchbäume | | [Youtube][lecture14-recording] |
+| Mi 27.11.24 | Suchbäume, veränderliche Daten | [Folien 11][lecture11-slides], [Handout 11][lecture11-handout] | [Youtube][lecture14-recording] |
 
 
 
@@ -61,6 +61,8 @@
 [lecture09-handout]: /teaching/24ws/eidp/slides/infoI09-handout.pdf
 [lecture10-slides]: /teaching/24ws/eidp/slides/infoI10.pdf
 [lecture10-handout]: /teaching/24ws/eidp/slides/infoI10-handout.pdf
+[lecture11-slides]: /teaching/24ws/eidp/slides/infoI11.pdf
+[lecture11-handout]: /teaching/24ws/eidp/slides/infoI11-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
