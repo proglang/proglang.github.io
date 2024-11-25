@@ -22,10 +22,11 @@
 | Fr 2024-11-08 | Tutorial | Discussion of Exercise 2 | | [Video][rec-tut-02] |
 | Tu 2024-11-12 | Lecture  | Type classes and IO |  [Slides][slides-06], [Slides][slides-07], [Programs][material-06] |  [Video][rec-06] |
 | Fr 2024-11-15 | Tutorial | Discussion of Exercise 3 | | [Video][rec-tut-03] |
-| Tu 2024-11-19 | Lecture  | Monads and the Gen Monad | [Slides][slides-08], [Programs][material-07] |   [Video][rec-07] |
+| Tu 2024-11-19 | Lecture  | Monads and the Gen Monad | [Slides][slides-08], [Programs][material-07] | [Video][rec-07] |
 | Fr 2024-11-22 | Tutorial | Discussion of Exercise 4 | | [Video][rec-tut-04] |
-| Tu 2024-11-26 | Lecture  |  |  |  |
+| Tu 2024-11-26 | Lecture  | Monadic interpreters  |  [Slides][slides-09], [Programs][material-08] | [Video][rec-08] |
 | Fr 2024-11-29 | Tutorial | Discussion of Exercise 5 | |  |
+| Tu 2024-12-03 | Lecture  | Functors, Applicatives |  [Slides][slides-10], [Programs][material-09] | [Video][rec-09] |
 
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
@@ -37,10 +38,13 @@
 [slides-07]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/09-io.pdf
 [slides-08]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/10-test-data-generators.pdf
 [slides-09]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/11-monadic-interpreter.pdf
+[slides-10]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/12-functors-applicatives.pdf
 [material-04]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241029.hs
 [material-05]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241105.hs
 [material-06]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241112.hs
 [material-07]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241119.hs
+[material-08]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241126.hs
+[material-09]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241203.hs
 [rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
@@ -49,6 +53,8 @@
 [rec-05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-05-lecture-1.mp4
 [rec-06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-12-lecture-1.mp4
 [rec-07]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-19-lecture-1.mp4
+[rec-08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-26-lecture-1.mp4
+[rec-09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-03-lecture-1.mp4
 [rec-tut-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-08-tutorial-1.mp4
 [rec-tut-03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-15-tutorial-1.mp4
 [rec-tut-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-22-tutorial-1.mp4
