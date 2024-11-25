@@ -24,6 +24,8 @@
 | Mi 13.11.24 | while Schleife | | [Youtube][lecture10-recording] |
 | Di 19.11.24 | Objekte und Datenklassen | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [Youtube][lecture11-recording] |
 | Mi 20.11.24 | Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [Youtube][lecture12-recording] |
+| Di 26.11.24 | Bäume | [Folien 10][lecture10-slides], [Handout 10][lecture10-handout] | [Youtube][lecture13-recording] |
+| Mi 27.11.24 | Suchbäume | | [Youtube][lecture14-recording] |
 
 
 
@@ -57,10 +59,14 @@
 [lecture08-recording]: https://youtube.com/live/kfR2ztF3u5A?feature=share
 [lecture09-slides]: /teaching/24ws/eidp/slides/infoI09.pdf
 [lecture09-handout]: /teaching/24ws/eidp/slides/infoI09-handout.pdf
+[lecture10-slides]: /teaching/24ws/eidp/slides/infoI10.pdf
+[lecture10-handout]: /teaching/24ws/eidp/slides/infoI10-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
 [lecture12-recording]: https://youtube.com/live/iTzdd2PTJI0?feature=share
+[lecture13-recording]: https://youtube.com/live/Pg6vp9GFfwM?feature=share
+[lecture14-recording]: https://youtube.com/live/f0WMYfFoaQg?feature=share
 
 ## Übungen
 
