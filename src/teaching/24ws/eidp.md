@@ -80,6 +80,8 @@
 | Di 05.10.24 | Mo 11.11.24 09:00 über [Git][git] | [Blatt04][exercise04-pdf]
 | Di 12.11.24 | Mo 18.11.24 09:00 über [Git][git] | [Blatt05][exercise05-pdf]
 | Di 19.11.24 | Mo 25.11.24 09:00 über [Git][git] | [Blatt06][exercise06-pdf]
+| Di 26.11.24 | Mo 02.12.24 09:00 über [Git][git] | [Blatt07][exercise07-pdf]
+
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
@@ -88,7 +90,7 @@
 [exercise04-pdf]: /teaching/24ws/eidp/exercises/sheet04.pdf
 [exercise05-pdf]: /teaching/24ws/eidp/exercises/sheet05.pdf
 [exercise06-pdf]: /teaching/24ws/eidp/exercises/sheet06.pdf
-
+[exercise07-pdf]: /teaching/24ws/eidp/exercises/sheet07.pdf
 
 Bitte beachten Sie [die Abgaberegeln](https://proglang.github.io/teaching/24ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).
