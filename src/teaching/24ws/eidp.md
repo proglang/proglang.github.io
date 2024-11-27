@@ -92,9 +92,10 @@
 [exercise06-pdf]: /teaching/24ws/eidp/exercises/sheet06.pdf
 [exercise07-pdf]: /teaching/24ws/eidp/exercises/sheet07.pdf
 
-Bitte beachten Sie [die Abgaberegeln](https://proglang.github.io/teaching/24ws/eidp/rules.html).
+Bitte beachten Sie [die Abgaberegeln](/teaching/24ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).
 
+Eine Auswahl der besten Text Adventures finden sie [hier](/teaching/24ws/eidp/adventures.html).
 ## Tutorate
 
 | Nummer | Datum | Tutor | Raum |
