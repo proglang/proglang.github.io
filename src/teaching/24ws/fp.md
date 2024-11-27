@@ -27,6 +27,7 @@
 | Tu 2024-11-26 | Lecture  | Monadic interpreters  |  [Slides][slides-09], [Programs][material-08] | [Video][rec-08] |
 | Fr 2024-11-29 | Tutorial | Discussion of Exercise 5 | |  |
 | Tu 2024-12-03 | Lecture  | Functors, Applicatives |  [Slides][slides-10], [Programs][material-09] | [Video][rec-09] |
+| Fr 2024-12-06 | Tutorial | Discussion of Exercise 6 | |  |
 
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
@@ -69,6 +70,7 @@
 | 3 | Lazy Evaluation | [PDF][ex03], [Solution][ex03-sol] |
 | 4 | Type Classes & IO | [PDF][ex04], [Solution][ex04-sol] |
 | 5 | QuickCheck's Arbitrary & AVL Trees | [PDF][ex05] |
+| 6 | Functors and Monads | [PDF][ex06], [Code][ex06-code] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -81,6 +83,8 @@
 [ex04]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex04.pdf
 [ex04-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex04Solution.hs
 [ex05]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex05.pdf
+[ex06]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex06.pdf
+[ex06-code]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/WhileInterp.hs
 
 ## Content
 
