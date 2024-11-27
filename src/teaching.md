@@ -23,7 +23,7 @@ Verpflichtende Erstsemestervorlesung zur Programmierung mit [Python](https://www
 
 _Angebotsfrequenz: Jedes Wintersemester_ 
 
-### Function Programming
+### Functional Programming
 Specialization course about functional programming using [Haskell](https://www.haskell.org/).
 
 _Frequency: Roughly every 1 1/2 years_
