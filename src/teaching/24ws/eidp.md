@@ -26,6 +26,8 @@
 | Mi 20.11.24 | Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [Youtube][lecture12-recording] |
 | Di 26.11.24 | Bäume | [Folien 10][lecture10-slides], [Handout 10][lecture10-handout] | [Youtube][lecture13-recording] |
 | Mi 27.11.24 | Suchbäume, veränderliche Daten | [Folien 11][lecture11-slides], [Handout 11][lecture11-handout] | [Youtube][lecture14-recording] |
+| Di 03.12.24 | Objektorientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [Youtube][lecture15-recording] |
+| Mi 04.12.24 | Aggregate, Properties | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [Youtube][lecture16-recording] |
 
 
 
@@ -63,12 +65,18 @@
 [lecture10-handout]: /teaching/24ws/eidp/slides/infoI10-handout.pdf
 [lecture11-slides]: /teaching/24ws/eidp/slides/infoI11.pdf
 [lecture11-handout]: /teaching/24ws/eidp/slides/infoI11-handout.pdf
+[lecture12-slides]: /teaching/24ws/eidp/slides/infoI12.pdf
+[lecture12-handout]: /teaching/24ws/eidp/slides/infoI12-handout.pdf
+[lecture13-slides]: /teaching/24ws/eidp/slides/infoI13.pdf
+[lecture13-handout]: /teaching/24ws/eidp/slides/infoI13-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
 [lecture12-recording]: https://youtube.com/live/iTzdd2PTJI0?feature=share
 [lecture13-recording]: https://youtube.com/live/Pg6vp9GFfwM?feature=share
 [lecture14-recording]: https://youtube.com/live/f0WMYfFoaQg?feature=share
+[lecture15-recording]: https://youtube.com/live/aww5AL48SdY?feature=share
+[lecture16-recording]: https://youtube.com/live/k02ty_Q0VpA?feature=share
 
 ## Übungen
 
