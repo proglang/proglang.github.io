@@ -28,6 +28,10 @@
 | Mi 27.11.24 | Suchbäume, veränderliche Daten | [Folien 11][lecture11-slides], [Handout 11][lecture11-handout] | [Youtube][lecture14-recording] |
 | Di 03.12.24 | Objektorientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [Youtube][lecture15-recording] |
 | Mi 04.12.24 | Aggregate, Properties | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [Youtube][lecture16-recording] |
+| Di 10.12.24 | Datenkapselung, Überladung | | [Youtube][lecture17-recording] |
+| Mi 11.12.24 | Dictionaries, Mengen | [Folien 14][lecture14-slides], [Handout 14][lecture14-handout] | kein live stream |
+| Di 17.12.24 | Rekursion | | [Youtube][lecture19-recording] |
+| Mi 20.12.24 | TBD | | [Youtube][lecture20-recording] |
 
 
 
@@ -69,6 +73,8 @@
 [lecture12-handout]: /teaching/24ws/eidp/slides/infoI12-handout.pdf
 [lecture13-slides]: /teaching/24ws/eidp/slides/infoI13.pdf
 [lecture13-handout]: /teaching/24ws/eidp/slides/infoI13-handout.pdf
+[lecture14-slides]: /teaching/24ws/eidp/slides/infoI14.pdf
+[lecture14-handout]: /teaching/24ws/eidp/slides/infoI14-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
@@ -77,6 +83,10 @@
 [lecture14-recording]: https://youtube.com/live/f0WMYfFoaQg?feature=share
 [lecture15-recording]: https://youtube.com/live/aww5AL48SdY?feature=share
 [lecture16-recording]: https://youtube.com/live/k02ty_Q0VpA?feature=share
+[lecture17-recording]: https://youtube.com/live/VIYBV5Iz5d8?feature=share
+[lecture19-recording]: https://youtube.com/live/h8xAHKxGIek?feature=share
+[lecture20-recording]: https://youtube.com/live/MscxNatWbnw?feature=share
+
 
 ## Übungen
 
