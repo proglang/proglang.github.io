@@ -101,7 +101,7 @@
 | Di 12.11.24 | Mo 18.11.24 09:00 über [Git][git] | [Blatt05][exercise05-pdf]
 | Di 19.11.24 | Mo 25.11.24 09:00 über [Git][git] | [Blatt06][exercise06-pdf]
 | Di 26.11.24 | Mo 02.12.24 09:00 über [Git][git] | [Blatt07][exercise07-pdf]
-| Di 03.12.24 | Mo 09.12.24 09:00 über [Git][git] | [Blatt09][exercise09-pdf]
+| Di 03.12.24 | Mo 09.12.24 09:00 über [Git][git] | [Blatt08][exercise08-pdf]
 | Di 10.12.24 | Mo 16.12.24 09:00 über [Git][git] | [Blatt09][exercise09-pdf]
 
 
