@@ -29,7 +29,7 @@
 | Tu 2024-12-03 | Lecture  | Functors, Applicatives |  [Slides][slides-10], [Programs][material-09] | [Video][rec-09] |
 | Fr 2024-12-06 | Tutorial | Discussion of Exercise 6 | | [Video][rec-tut-06] |
 | Tu 2024-12-10 | Lecture  | Monad Transformers |  [Slides][slides-11], [Programs][material-10] | [Video][rec-10] |
-| Fr 2024-12-13 | Tutorial | Discussion of Exercise 7 | |  |
+| Fr 2024-12-13 | Tutorial | Discussion of Exercise 7 | | [Video][rec-tut-07] |
 
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
@@ -66,6 +66,7 @@
 [rec-tut-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-22-tutorial-1.mp4
 [rec-tut-05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-29-tutorial-1.mp4
 [rec-tut-06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-06-tutorial-1.mp4
+[rec-tut-07]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-13-tutorial-1.mp4
 
 ## Exercises
 
@@ -78,7 +79,7 @@
 | 4 | Type Classes & IO | [PDF][ex04], [Solution][ex04-sol] |
 | 5 | QuickCheck's Arbitrary & AVL Trees | [PDF][ex05], [Solution][ex05-sol] |
 | 6 | Functors & Monads | [PDF][ex06], [Code][ex06-code], [Solution][ex06-sol] |
-| 7 | Applicatives & Parsers | [PDF][ex07], [Code][ex07-code] |
+| 7 | Applicatives & Parsers | [PDF][ex07], [Code][ex07-code], [Solution][ex07-sol] |
 | 8 | Monad Transformers | [PDF][ex08], [Code][ex08-code] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
@@ -98,6 +99,7 @@
 [ex06-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex06Solution.hs
 [ex07]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex07.pdf
 [ex07-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Parser.hs
+[ex07-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex07Solution.hs
 [ex08]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf
 [ex08-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/WhileInterp2.hs
 
