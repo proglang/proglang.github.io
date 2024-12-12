@@ -78,7 +78,8 @@
 | 4 | Type Classes & IO | [PDF][ex04], [Solution][ex04-sol] |
 | 5 | QuickCheck's Arbitrary & AVL Trees | [PDF][ex05], [Solution][ex05-sol] |
 | 6 | Functors & Monads | [PDF][ex06], [Code][ex06-code], [Solution][ex06-sol] |
-| 6 | Applicatives & Parsers | [PDF][ex07], [Code][ex07-code] |
+| 7 | Applicatives & Parsers | [PDF][ex07], [Code][ex07-code] |
+| 8 | Monad Transformers | [PDF][ex08], [Code][ex08-code] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -97,6 +98,8 @@
 [ex06-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex06Solution.hs
 [ex07]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex07.pdf
 [ex07-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Parser.hs
+[ex08]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf
+[ex08-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/WhileInterp2.hs
 
 ## Content
 
