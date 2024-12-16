@@ -29,8 +29,8 @@
 | Di 03.12.24 | Objektorientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [Youtube][lecture15-recording] |
 | Mi 04.12.24 | Aggregate, Properties | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [Youtube][lecture16-recording] |
 | Di 10.12.24 | Datenkapselung, Überladung | [Folien 13 update][lecture13-slides], [Handout 13 update][lecture13-handout],  [Folien 14][lecture14-slides], [Handout 14][lecture14-handout] | [Youtube][lecture17-recording] |
-| Mi 11.12.24 | Dictionaries, Mengen | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] | [MP4][lecture21-recording] |
-| Di 17.12.24 | Rekursion | | [Youtube][lecture19-recording] |
+| Mi 11.12.24 | Dictionaries | | [MP4][lecture18-recording] |
+| Di 17.12.24 | Rekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] | [Youtube][lecture19-recording] |
 | Mi 20.12.24 | TBD | | [Youtube][lecture20-recording] |
 
 
@@ -86,9 +86,9 @@
 [lecture15-recording]: https://youtube.com/live/aww5AL48SdY?feature=share
 [lecture16-recording]: https://youtube.com/live/k02ty_Q0VpA?feature=share
 [lecture17-recording]: https://youtube.com/live/VIYBV5Iz5d8?feature=share
+[lecture18-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-12-11.mp4 
 [lecture19-recording]: https://youtube.com/live/h8xAHKxGIek?feature=share
 [lecture20-recording]: https://youtube.com/live/MscxNatWbnw?feature=share
-[lecture21-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-12-11.mp4
 
 
 ## Übungen
