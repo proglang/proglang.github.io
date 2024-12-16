@@ -30,6 +30,8 @@
 | Fr 2024-12-06 | Tutorial | Discussion of Exercise 6 | | [Video][rec-tut-06] |
 | Tu 2024-12-10 | Lecture  | Monad Transformers |  [Slides][slides-11], [Programs][material-10] | [Video][rec-10] |
 | Fr 2024-12-13 | Tutorial | Discussion of Exercise 7 | | [Video][rec-tut-07] |
+| Tu 2024-12-17 | Lecture  | GADTs |  [Slides][slides-12], [Programs][material-11] | [Video][rec-11] |
+| Fr 2024-12-20 | Tutorial | Discussion of Exercise 8 | | [Video][rec-tut-08] |
 
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
@@ -43,6 +45,7 @@
 [slides-09]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/11-monadic-interpreter.pdf
 [slides-10]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/12-functors-applicatives.pdf
 [slides-11]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/13-monad-transformers.pdf
+[slides-12]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/14-gadt.pdf
 [material-04]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241029.hs
 [material-05]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241105.hs
 [material-06]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241112.hs
@@ -50,6 +53,7 @@
 [material-08]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241126.hs
 [material-09]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241203.hs
 [material-10]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241210.hs
+[material-11]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241217.hs
 [rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
@@ -61,12 +65,14 @@
 [rec-08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-26-lecture-1.mp4
 [rec-09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-03-lecture-1.mp4
 [rec-10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-10-lecture-1.mp4
+[rec-11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-17-lecture-1.mp4
 [rec-tut-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-08-tutorial-1.mp4
 [rec-tut-03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-15-tutorial-1.mp4
 [rec-tut-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-22-tutorial-1.mp4
 [rec-tut-05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-29-tutorial-1.mp4
 [rec-tut-06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-06-tutorial-1.mp4
 [rec-tut-07]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-13-tutorial-1.mp4
+[rec-tut-08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-20-tutorial-1.mp4
 
 ## Exercises
 
