@@ -104,7 +104,7 @@
 | Di 26.11.24 | Mo 02.12.24 09:00 über [Git][git] | [Blatt07][exercise07-pdf]
 | Di 03.12.24 | Mo 09.12.24 09:00 über [Git][git] | [Blatt08][exercise08-pdf]
 | Di 10.12.24 | Mo 16.12.24 09:00 über [Git][git] | [Blatt09][exercise09-pdf]
-| Di 17.12.24 | Mo 06.01.25 09:00 über [Git][git] | [Blatt10][exercise10-pdf]
+| Di 17.12.24 | Di 07.01.25 09:00 über [Git][git] | [Blatt10][exercise10-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
