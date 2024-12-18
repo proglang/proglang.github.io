@@ -87,6 +87,7 @@
 | 6 | Functors & Monads | [PDF][ex06], [Code][ex06-code], [Solution][ex06-sol] |
 | 7 | Applicatives & Parsers | [PDF][ex07], [Code][ex07-code], [Solution][ex07-sol] |
 | 8 | Monad Transformers | [PDF][ex08], [Code][ex08-code] |
+| 9 | GADTs | [PDF][ex09], [Code][ex09-code] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -108,6 +109,8 @@
 [ex07-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex07Solution.hs
 [ex08]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf
 [ex08-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/WhileInterp2.hs
+[ex09]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex09.pdf
+[ex09-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/StackMachine.hs
 
 ## Content
 
