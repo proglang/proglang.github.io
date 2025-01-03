@@ -32,6 +32,8 @@
 | Mi 11.12.24 | Dictionaries | | [MP4][lecture18-recording] |
 | Di 17.12.24 | Rekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] | [Youtube][lecture19-recording] |
 | Mi 20.12.24 | TBD | | [Youtube][lecture20-recording] |
+| Di 07.01.25 | Ausnahmen, Generatoren, Iteratoren | [Folien 16][lecture16-slides], [Handout 16][lecture16-handout] | [Youtube][lecture21-recording] |
+| Mi 08.01.25 | Dateien, Sudoku | | [Youtube][lecture22-recording] |
 
 
 
@@ -77,6 +79,8 @@
 [lecture14-handout]: /teaching/24ws/eidp/slides/infoI14-handout.pdf
 [lecture15-slides]: /teaching/24ws/eidp/slides/infoI15.pdf
 [lecture15-handout]: /teaching/24ws/eidp/slides/infoI15-handout.pdf
+[lecture16-slides]: /teaching/24ws/eidp/slides/infoI16.pdf
+[lecture16-handout]: /teaching/24ws/eidp/slides/infoI16-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
@@ -89,6 +93,11 @@
 [lecture18-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-Info1/EidP-2024-12-11.mp4 
 [lecture19-recording]: https://youtube.com/live/h8xAHKxGIek?feature=share
 [lecture20-recording]: https://youtube.com/live/MscxNatWbnw?feature=share
+[lecture21-recording]: https://youtube.com/live/3rtDL9uGP3c?feature=share
+[lecture22-recording]: https://youtube.com/live/iACi6-mYr7I?feature=share
+[lecture23-recording]: https://youtube.com/live/STS5XSluM48?feature=share
+[lecture24-recording]: https://youtube.com/live/cDUYSqY3enI?feature=share
+
 
 
 ## Übungen
