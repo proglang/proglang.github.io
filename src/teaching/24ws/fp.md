@@ -46,6 +46,7 @@
 [slides-10]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/12-functors-applicatives.pdf
 [slides-11]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/13-monad-transformers.pdf
 [slides-12]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/14-gadt.pdf
+[slides-13]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/15-lambda-calculus.pdf
 [material-04]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241029.hs
 [material-05]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241105.hs
 [material-06]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241112.hs
@@ -54,6 +55,7 @@
 [material-09]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241203.hs
 [material-10]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241210.hs
 [material-11]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241217.hs
+[material-12]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250107.hs
 [rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
@@ -66,6 +68,7 @@
 [rec-09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-03-lecture-1.mp4
 [rec-10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-10-lecture-1.mp4
 [rec-11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-17-lecture-1.mp4
+[rec-12]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-07-lecture-1.mp4
 [rec-tut-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-08-tutorial-1.mp4
 [rec-tut-03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-15-tutorial-1.mp4
 [rec-tut-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-22-tutorial-1.mp4
