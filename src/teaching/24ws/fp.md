@@ -55,7 +55,7 @@
 [material-09]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241203.hs
 [material-10]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241210.hs
 [material-11]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241217.hs
-[material-12]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250107.hs
+[material-12]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250107.md
 [rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
