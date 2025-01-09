@@ -32,6 +32,7 @@
 | Fr 2024-12-13 | Tutorial | Discussion of Exercise 7 | | [Video][rec-tut-07] |
 | Tu 2024-12-17 | Lecture  | GADTs |  [Slides][slides-12], [Programs][material-11] | [Video][rec-11] |
 | Fr 2024-12-20 | Tutorial | Discussion of Exercise 8 | | [Video][rec-tut-08] |
+| Tu 2025-01-07 | Lecture  | Lambda Calculus |  [Slides][slides-13], [Programs][material-12] | [Video][rec-12] |
 
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
