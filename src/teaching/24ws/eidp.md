@@ -33,7 +33,9 @@
 | Di 17.12.24 | Rekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] | [Youtube][lecture19-recording] |
 | Mi 20.12.24 | TBD | | [Youtube][lecture20-recording] |
 | Di 07.01.25 | Ausnahmen, Generatoren, Iteratoren | [Folien 16][lecture16-slides], [Handout 16][lecture16-handout] | [Youtube][lecture21-recording] |
-| Mi 08.01.25 | Dateien, Sudoku | | [Youtube][lecture22-recording] |
+| Mi 08.01.25 | Iteratoren, Dateien | | [Youtube][lecture22-recording] |
+| Di 14.01.25 | Funktionale Programmierung | [Folien 17][lecture17-slides], [Handout 17][lecture17-handout] | [Youtube][lecture23-recording] |
+| Mi 15.01.25 | Komprehensionen | | [Youtube][lecture24-recording] |
 
 
 
@@ -81,6 +83,8 @@
 [lecture15-handout]: /teaching/24ws/eidp/slides/infoI15-handout.pdf
 [lecture16-slides]: /teaching/24ws/eidp/slides/infoI16.pdf
 [lecture16-handout]: /teaching/24ws/eidp/slides/infoI16-handout.pdf
+[lecture17-slides]: /teaching/24ws/eidp/slides/infoI17.pdf
+[lecture17-handout]: /teaching/24ws/eidp/slides/infoI17-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
