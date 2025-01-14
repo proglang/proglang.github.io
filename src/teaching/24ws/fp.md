@@ -34,7 +34,9 @@
 | Fr 2024-12-20 | Tutorial | Discussion of Exercise 8 | | [Video][rec-tut-08] |
 | Tu 2025-01-07 | Lecture  | Lambda Calculus |  [Slides][slides-13], [Programs][material-12] | [Video][rec-12] |
 | Fr 2025-01-10 | Tutorial | Discussion of Exercise 9 | | [Video][rec-tut-09] |
-| Tu 2025-01-14 | Lecture  | Lambda Calculus II |  [Slides][slides-14], [Programs][material-13] | [Video][rec-13] |
+| Tu 2025-01-14 | Lecture  | Lambda Calculus II |  [Slides][slides-14], [Programs][material-12] | [Video][rec-13] |
+| Fr 2025-01-17 | Tutorial | Discussion of Exercise 9 | | [Video][rec-tut-xx] |
+| Tu 2025-01-21 | Lecture  | Polymorphic Types |  [Slides][slides-15], [Programs][material-13] | [Video][rec-14] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -50,6 +52,7 @@
 [slides-12]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/14-gadt.pdf
 [slides-13]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/15-lambda-calculus.pdf
 [slides-14]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/16-evaluation-strategies.pdf
+[slides-15]:  https://github.com/proglang/FunctionalProgramming/blob/master/slides/17-polymorphic-types.pdf
 [material-04]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241029.hs
 [material-05]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241105.hs
 [material-06]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241112.hs
@@ -59,7 +62,7 @@
 [material-10]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241210.hs
 [material-11]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241217.hs
 [material-12]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250107.md
-[material-13]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250114.md
+[material-13]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250121.md
 [rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
@@ -74,6 +77,7 @@
 [rec-11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-17-lecture-1.mp4
 [rec-12]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-07-lecture-1.mp4
 [rec-13]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-14-lecture-1.mp4
+[rec-14]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-21-lecture-1.mp4
 [rec-tut-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-08-tutorial-1.mp4
 [rec-tut-03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-15-tutorial-1.mp4
 [rec-tut-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-22-tutorial-1.mp4
