@@ -35,8 +35,9 @@
 | Tu 2025-01-07 | Lecture  | Lambda Calculus |  [Slides][slides-13], [Programs][material-12] | [Video][rec-12] |
 | Fr 2025-01-10 | Tutorial | Discussion of Exercise 9 | | [Video][rec-tut-09] |
 | Tu 2025-01-14 | Lecture  | Lambda Calculus II |  [Slides][slides-14], [Programs][material-12] | [Video][rec-13] |
-| Fr 2025-01-17 | Tutorial | Discussion of Exercise 9 | | [Video][rec-tut-xx] |
+| Fr 2025-01-17 | Tutorial | Discussion of Exercise 10 | | [Video][rec-tut-10] |
 | Tu 2025-01-21 | Lecture  | Polymorphic Types |  [Slides][slides-15], [Programs][material-13] | [Video][rec-14] |
+| Fr 2025-01-24 | Tutorial | Discussion of Exercise 11 | | [Video][rec-tut-11] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -86,6 +87,8 @@
 [rec-tut-07]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-13-tutorial-1.mp4
 [rec-tut-08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-12-20-tutorial-1.mp4
 [rec-tut-09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-10-tutorial-1.mp4
+[rec-tut-10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-17-tutorial-1.mp4
+[rec-tut-11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-24-tutorial-1.mp4
 
 ## Exercises
 
@@ -101,7 +104,8 @@
 | 7 | Applicatives & Parsers | [PDF][ex07], [Code][ex07-code], [Solution][ex07-sol] |
 | 8 | Monad Transformers | [PDF][ex08], [Code][ex08-code], [Solution Part 1][ex08-sol1], [Solution Part 2][ex08-sol2] |
 | 9 | GADTs | [PDF][ex09], [Code][ex09-code], [Solution][ex09-sol] |
-| 10 | Lambda Calculus | [PDF][ex10] |
+| 10 | Lambda Calculus (Part 1) | [PDF][ex10], [Solution][ex10-sol] |
+| 11 | Lambda Calculus (Part 2) | [PDF][ex11] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -129,6 +133,8 @@
 [ex09-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/StackMachine.hs
 [ex09-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex09Solution.hs
 [ex10]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex10.pdf
+[ex10-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex10Solution.hs
+[ex11]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex11.pdf
 
 ## Content
 
