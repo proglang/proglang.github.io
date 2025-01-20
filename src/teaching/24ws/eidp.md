@@ -36,6 +36,8 @@
 | Mi 08.01.25 | Iteratoren, Dateien | | [Youtube][lecture22-recording] |
 | Di 14.01.25 | Funktionale Programmierung | [Folien 17][lecture17-slides], [Handout 17][lecture17-handout] | [Youtube][lecture23-recording] |
 | Mi 15.01.25 | Komprehensionen | | [Youtube][lecture24-recording] |
+| Di 21.01.25 | Dekoratoren | [Folien 18][lecture18-slides], [Handout 18][lecture18-handout] | [Youtube][lecture25-recording] |
+| Mi 22.01.25 | Automaten | [Folien 19][lecture19-slides], [Handout 19][lecture19-handout] | [Youtube][lecture26-recording] |
 
 
 
@@ -85,6 +87,10 @@
 [lecture16-handout]: /teaching/24ws/eidp/slides/infoI16-handout.pdf
 [lecture17-slides]: /teaching/24ws/eidp/slides/infoI17.pdf
 [lecture17-handout]: /teaching/24ws/eidp/slides/infoI17-handout.pdf
+[lecture18-slides]: /teaching/24ws/eidp/slides/infoI18.pdf
+[lecture18-handout]: /teaching/24ws/eidp/slides/infoI18-handout.pdf
+[lecture19-slides]: /teaching/24ws/eidp/slides/infoI19.pdf
+[lecture19-handout]: /teaching/24ws/eidp/slides/infoI19-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
@@ -101,6 +107,8 @@
 [lecture22-recording]: https://youtube.com/live/iACi6-mYr7I?feature=share
 [lecture23-recording]: https://youtube.com/live/STS5XSluM48?feature=share
 [lecture24-recording]: https://youtube.com/live/cDUYSqY3enI?feature=share
+[lecture25-recording]: https://youtube.com/live/HY1dNc_jpLk?feature=share
+[lecture26-recording]: https://youtube.com/live/0YACNbTm-Xc?feature=share
 
 
 
