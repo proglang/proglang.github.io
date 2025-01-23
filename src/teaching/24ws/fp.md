@@ -38,6 +38,8 @@
 | Fr 2025-01-17 | Tutorial | Discussion of Exercise 10 | | [Video][rec-tut-10] |
 | Tu 2025-01-21 | Lecture  | Polymorphic Types |  [Slides][slides-15], [Programs][material-13] | [Video][rec-14] |
 | Fr 2025-01-24 | Tutorial | Discussion of Exercise 11 | | [Video][rec-tut-11] |
+| Tu 2025-01-28 | Lecture  | | | [Video][rec-15] |
+| Fr 2025-01-31 | Tutorial | Discussion of Exercise 12 | | [Video][rec-tut-12] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -79,6 +81,7 @@
 [rec-12]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-07-lecture-1.mp4
 [rec-13]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-14-lecture-1.mp4
 [rec-14]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-21-lecture-1.mp4
+[rec-15]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-28-lecture-1.mp4
 [rec-tut-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-08-tutorial-1.mp4
 [rec-tut-03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-15-tutorial-1.mp4
 [rec-tut-04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-22-tutorial-1.mp4
@@ -89,6 +92,7 @@
 [rec-tut-09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-10-tutorial-1.mp4
 [rec-tut-10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-17-tutorial-1.mp4
 [rec-tut-11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-24-tutorial-1.mp4
+[rec-tut-12]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-31-tutorial-1.mp4
 
 ## Exercises
 
@@ -105,7 +109,8 @@
 | 8 | Monad Transformers | [PDF][ex08], [Code][ex08-code], [Solution Part 1][ex08-sol1], [Solution Part 2][ex08-sol2] |
 | 9 | GADTs | [PDF][ex09], [Code][ex09-code], [Solution][ex09-sol] |
 | 10 | Lambda Calculus (Part 1) | [PDF][ex10], [Solution][ex10-sol] |
-| 11 | Lambda Calculus (Part 2) | [PDF][ex11] |
+| 11 | Lambda Calculus (Part 2) | [PDF][ex11], [Solution][ex11-sol] |
+| 12 | Polymorphic Types | [PDF][ex12] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -135,6 +140,8 @@
 [ex10]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex10.pdf
 [ex10-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex10Solution.hs
 [ex11]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex11.pdf
+[ex11-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex11Solution.hs
+[ex12]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex12.pdf
 
 ## Content
 
