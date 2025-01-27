@@ -113,6 +113,9 @@
 [lecture24-recording]: https://youtube.com/live/cDUYSqY3enI?feature=share
 [lecture25-recording]: https://youtube.com/live/HY1dNc_jpLk?feature=share
 [lecture26-recording]: https://youtube.com/live/0YACNbTm-Xc?feature=share
+[lecture27-recording]: https://youtube.com/live/vEhDXzKa_C4?feature=share
+[lecture28-recording]: https://youtube.com/live/GbVg8lv8XuY?feature=share
+[lecture29-recording]: https://youtube.com/live/Ei3XiRtNu3Y?feature=share
 [lecture30-recording]:  https://uni-freiburg.zoom-x.de/j/82759282295?pwd=K05ucTU2aXliYnZISi9SZktWTEhjdz09
 
 
