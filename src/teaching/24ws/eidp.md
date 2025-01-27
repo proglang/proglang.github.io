@@ -38,6 +38,10 @@
 | Mi 15.01.25 | Komprehensionen | | [Youtube][lecture24-recording] |
 | Di 21.01.25 | Dekoratoren | [Folien 18][lecture18-slides], [Handout 18][lecture18-handout] | [Youtube][lecture25-recording] |
 | Mi 22.01.25 | Automaten | [Folien 19][lecture19-slides], [Handout 19][lecture19-handout] | [Youtube][lecture26-recording] |
+| Di 28.01.25 | TBD | [Folien 20][lecture20-slides], [Handout 20][lecture20-handout] | [Youtube][lecture27-recording] |
+| Mi 29.01.25 | TBD | [Folien 21][lecture21-slides], [Handout 21][lecture21-handout] | [Youtube][lecture28-recording] |
+| Di 04.02.25 | TBD | [Folien 22][lecture22-slides], [Handout 22][lecture22-handout] | [Youtube][lecture29-recording] |
+| Mi 05.02.25 | **Ask me anything** | Zoom Meeting ID: 827 5928 2295 - Passcode: 1Question | [Zoom live stream][lecture30-recording] |
 
 
 
@@ -109,6 +113,7 @@
 [lecture24-recording]: https://youtube.com/live/cDUYSqY3enI?feature=share
 [lecture25-recording]: https://youtube.com/live/HY1dNc_jpLk?feature=share
 [lecture26-recording]: https://youtube.com/live/0YACNbTm-Xc?feature=share
+[lecture30-recording]:  https://uni-freiburg.zoom-x.de/j/82759282295?pwd=K05ucTU2aXliYnZISi9SZktWTEhjdz09
 
 
 
