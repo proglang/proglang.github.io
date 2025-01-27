@@ -38,7 +38,7 @@
 | Fr 2025-01-17 | Tutorial | Discussion of Exercise 10 | | [Video][rec-tut-10] |
 | Tu 2025-01-21 | Lecture  | Polymorphic Types |  [Slides][slides-15], [Programs][material-13] | [Video][rec-14] |
 | Fr 2025-01-24 | Tutorial | Discussion of Exercise 11 | | [Video][rec-tut-11] |
-| Tu 2025-01-28 | Lecture  | | | [Video][rec-15] |
+| Tu 2025-01-28 | Lecture  | Datatypes a la Carte | [Programs][material-14] | [Video][rec-15] |
 | Fr 2025-01-31 | Tutorial | Discussion of Exercise 12 | | [Video][rec-tut-12] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
@@ -66,6 +66,7 @@
 [material-11]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20241217.hs
 [material-12]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250107.md
 [material-13]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/V20250121.md
+[material-14]: https://github.com/proglang/FunctionalProgramming/blob/master/code2024/src/M17alacarte.lhs
 [rec-02]:    https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-18-lecture-1.mp4
 [rec-03-01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-1.mp4
 [rec-03-02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-10-22-lecture-2.mp4
