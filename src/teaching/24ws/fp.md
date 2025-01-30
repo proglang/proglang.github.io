@@ -111,7 +111,8 @@
 | 9 | GADTs | [PDF][ex09], [Code][ex09-code], [Solution][ex09-sol] |
 | 10 | Lambda Calculus (Part 1) | [PDF][ex10], [Solution][ex10-sol] |
 | 11 | Lambda Calculus (Part 2) | [PDF][ex11], [Solution][ex11-sol] |
-| 12 | Polymorphic Types | [PDF][ex12] |
+| 12 | Polymorphic Types | [PDF][ex12], [Solution][ex12-sol] |
+| 13 | Generic Programming | [PDF][ex13], [Code][ex13-code] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -143,6 +144,9 @@
 [ex11]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex11.pdf
 [ex11-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex11Solution.hs
 [ex12]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex12.pdf
+[ex12-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex12Solution.hs
+[ex13]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex13.pdf
+[ex13-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Generics.hs
 
 ## Content
 
