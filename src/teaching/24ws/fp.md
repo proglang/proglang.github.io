@@ -39,7 +39,7 @@
 | Tu 2025-01-21 | Lecture  | Polymorphic Types |  [Slides][slides-15], [Programs][material-13] | [Video][rec-14] |
 | Fr 2025-01-24 | Tutorial | Discussion of Exercise 11 | | [Video][rec-tut-11] |
 | Tu 2025-01-28 | Lecture  | Datatypes a la Carte | [Programs][material-14] | [Video][rec-15] |
-| Fr 2025-01-31 | Tutorial | Discussion of Exercise 12 | | [Video][rec-tut-12] |
+| Fr 2025-01-31 | Tutorial | Discussion of Exercise 12 | | [Video (part 1)][rec-tut-12-1], [Video (part 2)][rec-tut-12-2] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -93,7 +93,8 @@
 [rec-tut-09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-10-tutorial-1.mp4
 [rec-tut-10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-17-tutorial-1.mp4
 [rec-tut-11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-24-tutorial-1.mp4
-[rec-tut-12]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-31-tutorial-1.mp4
+[rec-tut-12-1]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-31-tutorial-1.mp4
+[rec-tut-12-2]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-31-tutorial-2.mp4
 
 ## Exercises
 
