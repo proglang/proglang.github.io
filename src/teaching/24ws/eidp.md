@@ -39,8 +39,8 @@
 | Di 21.01.25 | Dekoratoren | [Folien 18][lecture18-slides], [Handout 18][lecture18-handout] | [Youtube][lecture25-recording] |
 | Mi 22.01.25 | Automaten | [Folien 19][lecture19-slides], [Handout 19][lecture19-handout] | [Youtube][lecture26-recording] |
 | Di 28.01.25 | Automaten | [Folien 19-update][lecture19-slides], [Handout 19-update][lecture19-handout] | [Youtube][lecture27-recording] |
-| Mi 29.01.25 | TBD | [Folien 21][lecture21-slides], [Handout 21][lecture21-handout] | [Youtube][lecture28-recording] |
-| Di 04.02.25 | TBD | [Folien 22][lecture22-slides], [Handout 22][lecture22-handout] | [Youtube][lecture29-recording] |
+| Mi 29.01.25 | Sudoku revisited | [Code][lecture28-extra] | [Youtube][lecture28-recording] |
+| Di 04.02.25 | Brainf*ck | [Folien 20][lecture20-slides], [Handout 20][lecture20-handout] | [Youtube][lecture29-recording] |
 | Mi 05.02.25 | **Ask me anything** | Zoom Meeting ID: 827 5928 2295 - Passcode: 1Question | [Zoom live stream][lecture30-recording] |
 
 
@@ -95,6 +95,8 @@
 [lecture18-handout]: /teaching/24ws/eidp/slides/infoI18-handout.pdf
 [lecture19-slides]: /teaching/24ws/eidp/slides/infoI19.pdf
 [lecture19-handout]: /teaching/24ws/eidp/slides/infoI19-handout.pdf
+[lecture20-slides]: /teaching/24ws/eidp/slides/infoI20.pdf
+[lecture20-handout]: /teaching/24ws/eidp/slides/infoI20-handout.pdf
 [lecture09-recording]: https://youtube.com/live/a8c2BY3aP7g?feature=share
 [lecture10-recording]: https://youtube.com/live/bj9xXKSs0lc?feature=share
 [lecture11-recording]: https://youtube.com/live/ZOsIxk8P0so?feature=share
@@ -115,6 +117,7 @@
 [lecture26-recording]: https://youtube.com/live/0YACNbTm-Xc?feature=share
 [lecture27-recording]: https://youtube.com/live/vEhDXzKa_C4?feature=share
 [lecture28-recording]: https://youtube.com/live/GbVg8lv8XuY?feature=share
+[lecture28-extra]: /teaching/24ws/eidp/slides/sudoku2022_02_01.py
 [lecture29-recording]: https://youtube.com/live/Ei3XiRtNu3Y?feature=share
 [lecture30-recording]:  https://uni-freiburg.zoom-x.de/j/82759282295?pwd=K05ucTU2aXliYnZISi9SZktWTEhjdz09
 
