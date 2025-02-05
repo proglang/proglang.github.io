@@ -162,7 +162,7 @@ Ganz unten auf dieser Seite finden sich sowohl alle wichtigen Infos zur Klausur,
 [exercise12-pdf]: /teaching/24ws/eidp/exercises/sheet12.pdf
 [exercise13-pdf]: /teaching/24ws/eidp/exercises/sheet13.pdf
 [test-exam-pdf]: /teaching/24ws/eidp/exercises/test-exam.pdf
-[exercisephysiker-pdf]: /teaching/24ws/eidp/exercises/test-exam.pdf
+[exercisephysiker-pdf]: /teaching/24ws/eidp.html
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/24ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).
