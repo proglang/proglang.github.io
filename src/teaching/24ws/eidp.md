@@ -6,6 +6,11 @@
 - Assistenten: [Marius Weidner](/team/weidner.md), [Hannes Saffrich](/team/saffrich.md)
 - Vorlesung: Dienstag 10:15 - 11:45 und Mittwoch 13:00 - 13:45, HS 00 026 \\(\mu\\) Saal
 
+<div class="warning">
+Ganz unten auf dieser Seite finden sich sowohl alle wichtigen Infos zur Klausur, als auch eine zusätzliche Altklausur.
+</div>
+
+
 ## Vorlesung
 
 | Datum | Thema | Material | Aufzeichnung 
@@ -119,8 +124,7 @@
 [lecture28-recording]: https://youtube.com/live/GbVg8lv8XuY?feature=share
 [lecture28-extra]: /teaching/24ws/eidp/slides/sudoku2022_02_01.py
 [lecture29-recording]: https://youtube.com/live/Ei3XiRtNu3Y?feature=share
-[lecture30-recording]:  https://uni-freiburg.zoom-x.de/j/82759282295?pwd=K05ucTU2aXliYnZISi9SZktWTEhjdz09
-
+[lecture30-recording]: https://uni-freiburg.zoom-x.de/j/82759282295?pwd=K05ucTU2aXliYnZISi9SZktWTEhjdz09
 
 
 ## Übungen
@@ -141,6 +145,7 @@
 | Di 14.01.25 | Mo 20.01.25 09:00 über [Git][git] | [Blatt12][exercise12-pdf]
 | Di 21.01.25 | Mo 27.01.25 09:00 über [Git][git] | [Blatt13][exercise13-pdf]
 | Di 28.01.25 | Mo 03.02.25 09:00 über [Git][git] | [Probeklausur][test-exam-pdf]
+| Mo 10.02.25 | Mo 17.03.25 09:00 per [Mail](/team/weidner.md) | [Physikerblatt][exercisephysiker-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
@@ -157,11 +162,13 @@
 [exercise12-pdf]: /teaching/24ws/eidp/exercises/sheet12.pdf
 [exercise13-pdf]: /teaching/24ws/eidp/exercises/sheet13.pdf
 [test-exam-pdf]: /teaching/24ws/eidp/exercises/test-exam.pdf
+[exercisephysiker-pdf]: /teaching/24ws/eidp/exercises/test-exam.pdf
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/24ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).
 
 Eine Auswahl der besten Text Adventures finden sie [hier](/teaching/24ws/eidp/adventures.html).
+
 ## Tutorate
 
 | Nummer | Datum | Tutor | Raum |
@@ -190,10 +197,28 @@ Die Notizen mancher Tutor/innen finden Sie [hier](https://git.laurel.informatik.
 ## Studienleistung
 
 Zum Bestehen der Studienleistung ist notwendig:
-- 50% der Übungspunkte (20% davon werden für die Teilnahme an den Tutoraten vergeben)
-- Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat 
+- 50% der Übungspunkte (das entspricht 166 Punkten). Beachten Sie, dass 20% der Übungspunkte für die Teilnahme an den Tutoraten vergeben wird.
+- Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat.
+
+_Wichtig für fachfremd Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden. 
 
 ## Prüfungsleistung
 
-Zum Bestehen der Prüfungsleistung ist notwenig:
-- Bestehen der schriftlichen Klausur am Computer (Infos folgen)
+Für das Bestehen der Prüfungsleistung ist das Bestehen der Klausur notwendig.
+
+Die Klausur findet am **24.02.2025** zwischen (vorraussichtlich)  **12 Uhr und 18 Uhr** statt. 
+Die _individuelle_ Uhrzeit und der _individuelle_ Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier]() eingesehen werden. 
+
+Für weitere Fragen zur Klausur gibt es ein [Q&A](/teaching/24ws/eidp/qa.html), den [Chat](https://chat.laurel.informatik.uni-freiburg.de/channel/2024WS-EidP-test-exam) oder schreiben Sie eine Mail an [Marius Weidner](/team/weidner.md).
+
+Zusätzlich zu der Probeklausur (Übungsblatt 14), gibt es zur Vorbreitung die wirkliche Nachklausur des letzten Jahres zum [herunterladen](retake-exam-pdf).
+
+Die Klausurumgebung kann [online](https://bwlehrpool.ruf.uni-freiburg.de/guacamole/#/) und in den Poolräumen des Rechenzentrums / der Werthmannstraße ausprobiert werden. Wählen Sie dazu die Kursumgebung `EidP Exam`.
+
+[retake-exam-pdf]: /teaching/24ws/eidp/retake-exam.pdf
+
+Die folgenden Daten sind ohne Gewähr: 
+**Vorraussichtlicher** Termin der Notenveröffentlichung: Ende März/Anfang April
+**Vorraussichtlicher** Termin der Klausureinsicht: Erste Sommeremesterwoche
+**Vorraussichtlicher** Termin der Nachklausur: 06.08.2025
+
