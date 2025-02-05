@@ -207,18 +207,18 @@ _Wichtig für fachfremd Studierende_: Für die Studienleistung muss auch die Kla
 Für das Bestehen der Prüfungsleistung ist das Bestehen der Klausur notwendig.
 
 Die Klausur findet am **24.02.2025** zwischen (vorraussichtlich)  **12 Uhr und 18 Uhr** statt. 
-Die _individuelle_ Uhrzeit und der _individuelle_ Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier]() eingesehen werden. 
+Die _individuelle_ Uhrzeit und der **_individuelle_** Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier]() eingesehen werden. 
 
 Für weitere Fragen zur Klausur gibt es ein [Q&A](/teaching/24ws/eidp/qa.html), den [Chat](https://chat.laurel.informatik.uni-freiburg.de/channel/2024WS-EidP-test-exam) oder schreiben Sie eine Mail an [Marius Weidner](/team/weidner.md).
 
-Zusätzlich zu der Probeklausur (Übungsblatt 14), gibt es zur Vorbreitung die wirkliche Nachklausur des letzten Jahres zum [herunterladen](retake-exam-pdf).
+Zusätzlich zu der Probeklausur (Übungsblatt 14), gibt es zur Vorbreitung die wirkliche Nachklausur des letzten Jahres zum [herunterladen][retake-exam-pdf].
 
 Die Klausurumgebung kann [online](https://bwlehrpool.ruf.uni-freiburg.de/guacamole/#/) und in den Poolräumen des Rechenzentrums / der Werthmannstraße ausprobiert werden. Wählen Sie dazu die Kursumgebung `EidP Exam`.
 
 [retake-exam-pdf]: /teaching/24ws/eidp/retake-exam.pdf
 
 Die folgenden Daten sind ohne Gewähr: 
-**Vorraussichtlicher** Termin der Notenveröffentlichung: Ende März/Anfang April
-**Vorraussichtlicher** Termin der Klausureinsicht: Erste Sommeremesterwoche
-**Vorraussichtlicher** Termin der Nachklausur: 06.08.2025
+- **Vorraussichtlicher** Termin der Notenveröffentlichung: Ende März/Anfang April
+- **Vorraussichtlicher** Termin der Klausureinsicht: Erste Sommeremesterwoche
+- **Vorraussichtlicher** Termin der Nachklausur: 06.08.2025
 
