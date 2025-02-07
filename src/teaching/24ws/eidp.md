@@ -197,7 +197,7 @@ Die Notizen mancher Tutor/innen finden Sie [hier](https://git.laurel.informatik.
 ## Studienleistung
 
 Zum Bestehen der Studienleistung ist notwendig:
-- 50% der Übungspunkte (das entspricht 166 Punkten). Beachten Sie, dass 20% der Übungspunkte für die Teilnahme an den Tutoraten vergeben wird.
+- 50% der Übungspunkte (das entspricht 163 Punkten). Beachten Sie, dass 20% der Übungspunkte für die Teilnahme an den Tutoraten vergeben wird.
 - Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat.
 
 _Wichtig für fachfremd Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden. 
