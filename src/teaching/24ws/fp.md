@@ -40,6 +40,7 @@
 | Fr 2025-01-24 | Tutorial | Discussion of Exercise 11 | | [Video][rec-tut-11] |
 | Tu 2025-01-28 | Lecture  | Datatypes a la Carte | [Programs][material-14] | [Video][rec-15] |
 | Fr 2025-01-31 | Tutorial | Discussion of Exercise 12 | | [Video (part 1)][rec-tut-12-1], [Video (part 2)][rec-tut-12-2] |
+| Fr 2025-02-07 | Tutorial | Discussion of Exercise 13 | | [Video][rec-tut-13] |
 
 [slides-00]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/00-intro.pdf
 [slides-01]: https://github.com/proglang/FunctionalProgramming/blob/master/slides/01-starting-haskell.pdf
@@ -95,6 +96,7 @@
 [rec-tut-11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-24-tutorial-1.mp4
 [rec-tut-12-1]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-31-tutorial-1.mp4
 [rec-tut-12-2]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-01-31-tutorial-2.mp4
+[rec-tut-13]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2025-02-07-tutorial-1.mp4
 
 ## Exercises
 
@@ -113,7 +115,7 @@
 | 10 | Lambda Calculus (Part 1) | [PDF][ex10], [Solution][ex10-sol] |
 | 11 | Lambda Calculus (Part 2) | [PDF][ex11], [Solution][ex11-sol] |
 | 12 | Polymorphic Types | [PDF][ex12], [Solution][ex12-sol] |
-| 13 | Generic Programming | [PDF][ex13], [Code][ex13-code] |
+| 13 | Generic Programming | [PDF][ex13], [Code][ex13-code], [Solution][ex13-sol] |
 
 [ex00]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex00.pdf
 [ex01]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex01.pdf
@@ -148,6 +150,7 @@
 [ex12-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex12Solution.hs
 [ex13]:      https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex13.pdf
 [ex13-code]: https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Generics.hs
+[ex13-sol]:  https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex13Solution.hs
 
 ## Content
 
