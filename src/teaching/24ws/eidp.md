@@ -46,7 +46,7 @@ Ganz unten auf dieser Seite finden sich sowohl alle wichtigen Infos zur Klausur,
 | Di 28.01.25 | Automaten | [Folien 19-update][lecture19-slides], [Handout 19-update][lecture19-handout] | [Youtube][lecture27-recording] |
 | Mi 29.01.25 | Sudoku revisited | [Code][lecture28-extra] | [Youtube][lecture28-recording] |
 | Di 04.02.25 | Brainf*ck | [Folien 20][lecture20-slides], [Handout 20][lecture20-handout] | [Youtube][lecture29-recording] |
-| Mi 05.02.25 | **Ask me anything** | Zoom Meeting ID: 827 5928 2295 - Passcode: 1Question | [Zoom]lecture30-recording] |
+| Mi 05.02.25 | **Ask me anything** | Zoom Meeting ID: 827 5928 2295 - Passcode: 1Question | [Zoom][lecture30-recording] |
 
 
 
