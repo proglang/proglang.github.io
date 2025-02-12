@@ -145,7 +145,7 @@ Ganz unten auf dieser Seite finden sich sowohl alle wichtigen Infos zur Klausur,
 | Di 14.01.25 | Mo 20.01.25 09:00 über [Git][git] | [Blatt12][exercise12-pdf]
 | Di 21.01.25 | Mo 27.01.25 09:00 über [Git][git] | [Blatt13][exercise13-pdf]
 | Di 28.01.25 | Mo 03.02.25 09:00 über [Git][git] | [Probeklausur][test-exam-pdf]
-| Di 11.02.25 | Mo 17.03.25 09:00 per [Mail](/team/weidner.md) | [Physikblatt][exercisephysik-pdf]
+| Di 11.02.25 | Mo 17.03.25 09:00 per [Mail](/team/weidner.md) | [Physikblatt][exercisephysik-pdf], [plt_intro.py][plt-intro-py], [test_pillow.py][test-pillow-py]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/24ws/eidp/exercises/sheet01.pdf
@@ -163,6 +163,8 @@ Ganz unten auf dieser Seite finden sich sowohl alle wichtigen Infos zur Klausur,
 [exercise13-pdf]: /teaching/24ws/eidp/exercises/sheet13.pdf
 [test-exam-pdf]: /teaching/24ws/eidp/exercises/test-exam.pdf
 [exercisephysik-pdf]: /teaching/24ws/eidp/exercises/physikblatt.pdf
+[plt-intro-py]: /teaching/24ws/eidp/exercises/plt_intro.py
+[test-pillow-py]: /teaching/24ws/eidp/exercises/test_pillow.py
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/24ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2024WS-EidP/solutions).
