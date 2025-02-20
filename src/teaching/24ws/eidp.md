@@ -211,7 +211,7 @@ _Wichtig für fachfremd **Physik** Studierende_: Für die Studienleistung muss a
 Für das Bestehen der Prüfungsleistung ist das Bestehen der Klausur notwendig.
 
 Die Klausur findet am **24.02.2025** zwischen (vorraussichtlich)  **12 Uhr und 18 Uhr** statt. 
-Die **_individuelle_** Uhrzeit und der **_individuelle_** Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier]() eingesehen werden. 
+Die **_individuelle_** Uhrzeit und der **_individuelle_** Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier](https://courses.laurel.informatik.uni-freiburg.de/courses/2024WS-EidP/exam) eingesehen werden. 
 
 Für weitere Fragen zur Klausur gibt es ein [Q&A](/teaching/24ws/eidp/qa.html), den [Chat](https://chat.laurel.informatik.uni-freiburg.de/channel/2024WS-EidP-test-exam) oder schreiben Sie eine Mail an [Marius Weidner](/team/weidner.md).
 
