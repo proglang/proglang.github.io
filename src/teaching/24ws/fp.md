@@ -192,7 +192,7 @@ Stephen Diehl's [WHAT I WISH I KNEW WHEN LEARNING HASKELL](https://web.archive.o
 ## Exam
 
 The exam will be on 2025-03-06 and will take place in the
-computer pools starting at 14:00. Further information will be announced in due time.
+computer pools at Werthmannstraße 4 starting at 14:00. Further information will be announced in due time.
 
 Here are the short programming tasks of three old (take home) exams:
 [exam-01][exam-01], [exam-02][exam-02], [exam-03][exam-03]. The second
