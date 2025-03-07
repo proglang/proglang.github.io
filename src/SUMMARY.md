@@ -11,6 +11,7 @@
     - [Summer 2025](teaching/25ss.md)
       - [Compiler Construction](teaching/25ss/cc.md) 
       - [Essentials of Programming Languages](teaching/25ss/eopl.md)
+      - [Principles of Programming Languages Seminar](teaching/25ss/popl.md)
     - [Winter 2024](teaching/24ws.md)
       - [Einführung in die Programmierung](teaching/24ws/eidp.md)
       - [Functional Programming](teaching/24ws/fp.md)
