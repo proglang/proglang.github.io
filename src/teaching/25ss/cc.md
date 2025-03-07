@@ -3,7 +3,7 @@
 ## General Information
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
-- Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/saffrich.md)
+- Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md)
 - Lecture: tba.
 - Exercises: tba.
 
