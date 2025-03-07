@@ -9,7 +9,7 @@ If you are interested in supervision, you can write an email to [Prof. Dr. Thiem
 
 
 
-## Oberseminar 
+## Agda AG
 We meet weekly to discuss our current problems on formalizing proofs in [Agda](https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html). 
 If you wish to attend, write an email to [Prof. Dr. Thiemann](team/thiemann.md).
 
