@@ -7,6 +7,8 @@
   - [Dr. Bas van den Heuvel](team/van-den-heuvel.md)
   - [Hannes Saffrich](team/saffrich.md)
   - [Marius Weidner](team/weidner.md)
+  - [Janek Spaderna](team/spaderna.md)
+  - [Leonardo Mieschendahl](team/mieschendahl.md)
 - [Teaching](teaching.md)
     - [Summer 2025](teaching/25ss.md)
       - [Compiler Construction](teaching/25ss/cc.md) 
