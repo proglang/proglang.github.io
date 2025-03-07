@@ -1,4 +1,4 @@
-# Compiler Construction (Summer 2024)
+# Essentials of Programming Languages (Summer 2025)
 
 ## General Information
 

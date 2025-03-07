@@ -1,4 +1,4 @@
-# Compiler Construction (Summer 2024)
+# Compiler Construction (Summer 2025)
 
 ## General Information
 
