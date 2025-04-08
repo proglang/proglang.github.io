@@ -10,6 +10,18 @@
 Ganz unten auf dieser Seite finden sich sowohl alle wichtigen Infos zur Klausur, als auch eine zusätzliche Altklausur.
 </div>
 
+## Klausureinsicht Einführung in die Programmierung
+
+am Mittwoch, 23.4.2025, 10-12 Uhr, Poolraum 3, Werthmannstr. 4.
+Die Einsicht findet am Rechner statt. Mobiltelefone und andere elektronische Geräte sind
+während der Klausureinsicht auszuschalten.
+Bitte mitbringen:
+
+* Unicard, Lichtbildausweis
+* Zugangsdaten Uniaccount
+
+Bitte seien Sie fair zu Ihren Kommilitonen und beschränken Sie Ihre Sitzung auf maximal 20 Minuten.
+
 
 ## Vorlesung
 
