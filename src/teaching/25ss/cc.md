@@ -4,10 +4,11 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md)
-- Lecture: Tuesdays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106
-- Exercises: Fridays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106
-- [Lecture live stream][zoom] (zoom Meeting-ID: 661 1930 0692, Password: nsWAD0nCW)
+- Lecture: Tuesdays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom1] (Zoom Meeting-ID: 661 1930 0692, Password: nsWAD0nCW)
+- Exercises: Fridays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom2] (tba.)
 
+[zoom1]: https://uni-freiburg.zoom-x.de/j/66119300692?pwd=4it8s1KQ6T7LBSaZkSk2bYarBR7Zl5.1
+[zoom2]: /teaching/25ss/cc.md
 
 ## Lectures & Tutorials
 
@@ -20,7 +21,7 @@
 
 ## Exercises
 
-Exercises are provided and submitted via GitHub Classroom (follow the [invite link (tba)](/teaching/25ss/cc.md)).
+Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https://classroom.github.com/a/N58OPy1R)).
 
 Exercises will not be graded, but we will provide tests to
 help you verify the correctness of your work. It is highly recommended
@@ -93,7 +94,6 @@ book's [GitHub repository](https://github.com/CC-Uni-Freiburg/Essentials-of-Comp
 select *Custom* in the dropdown menu, and select *Releases*.
 
 [book]: https://github.com/CC-Uni-Freiburg/Essentials-of-Compilation/releases
-[zoom]: https://uni-freiburg.zoom-x.de/j/66119300692?pwd=4it8s1KQ6T7LBSaZkSk2bYarBR7Zl5.1
 
 ## Additional Literature
 - Andrew Appel with Jens Palsberg, Modern Compiler Implementation in Java, 2nd edition. Cambridge University Press, 2002
