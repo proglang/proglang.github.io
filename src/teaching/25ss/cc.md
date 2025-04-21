@@ -13,7 +13,10 @@
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
+| 2025-04-22 Tu | Lecture | Organization & Introduction | [Book][book], Chapter 1; [Slides][lec01-slides] | [Rec][lec01-rec] |
 
+[lec01-slides]: cc/slides/01-intro.pdf
+[lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-22-lecture-1.mp4
 
 ## Exercises
 
@@ -22,7 +25,7 @@ Exercises are provided and submitted via GitHub Classroom (follow the [invite li
 Exercises will not be graded, but we will provide tests to
 help you verify the correctness of your work. It is highly recommended
 to take the exercises seriously, as the exam requires you to extend
-the compiler from the sample solution with new features.
+the compiler from the final sample solution with new features.
 
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
@@ -71,20 +74,21 @@ Knowledge about the memory model is helpful when debugging programs
 written in a low-level programming language (C, C++).
 
 ## Literature
-This lecture is based on the upcoming book *Essentials of Compilation*
+This lecture is based on the Python version of the book *Essentials of Compilation*
 by Jeremy G. Siek.
 
-We will deviate from the book in two ways:
-1. we will compile to the RISC-V processor architecture instead of x86; and
-2. we will be using a different python framework for the exercises.
+We will deviate from the book in several ways:
+1. we use the (unpublished) Python version of the book;
+2. we compile to the RISC-V processor architecture instead of x86; and
+3. we use a different Python framework for the exercises.
 
-For this purpose, we have started our own fork of the book, which we will be
-updating during the semester to use RISC-V instead of x86 instructions.
+For this reason, we maintain our own fork of the book, which is mostly
+ported to use RISC-V instead of x86 instructions.
 
 Our version of the book is available on the [GitHub Releases][book]
 page. Simply download the `book.pdf` file for the most recent release.
 
-To get notified on new releases, we recommend to push the *watch*-button on the
+To get notified on new releases, we recommend the *watch*-button on the
 book's [GitHub repository](https://github.com/CC-Uni-Freiburg/Essentials-of-Compilation),
 select *Custom* in the dropdown menu, and select *Releases*.
 
