@@ -4,14 +4,20 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Hannes Saffrich](/team/saffrich.md)
-- Lecture: tba.
+- Lecture: SR 00 006, G.-Köhler-Allee 051
 - Exercises:  tba.
+- [Lecture live stream][zoom] (zoom meeting Meeting-ID: 636 7754 2064 Password: D68F45Zta)
+
+[zoom]: https://uni-freiburg.zoom-x.de/j/63677542064?pwd=SRbStbdJDtWnCrr7lvdFiyEs8y1FaK.1
+
 
 ## Lectures & Tutorials
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
+| 2025-04-23 We | Lecture | Overview | ... | [Rec][lec01-rec] |
 
+[lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
 
 ## Exercises
 
