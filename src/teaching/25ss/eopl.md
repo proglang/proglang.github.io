@@ -15,9 +15,10 @@
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
-| 2025-04-23 We | Lecture | Overview | ... | [Rec][lec01-rec] |
+| 2025-04-23 We | Lecture | Overview | [Material][lec01-material] | [Rec][lec01-rec] |
 | 2025-04-25 Fr | Tutorial | | | | 
 
+[lec01-material]: eopl/material/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
 
 ## Communication
