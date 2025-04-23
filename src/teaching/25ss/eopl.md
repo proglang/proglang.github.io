@@ -6,7 +6,7 @@
 - Assistants: [Hannes Saffrich](/team/saffrich.md)
 - Lecture: Wednesday, 14:15-15:45, SR 00 006, G.-Köhler-Allee 051
 - Tutorials: Friday, 14:15-15:45, online via Zoom, [Meeting-ID: 643 2714 5880, Password: eopl-2025][zoom-tut]
-- Lecture live stream (zoom meeting [Meeting-ID: 636 7754 2064, Password: D68F45Zta][zoom])
+- Lecture live stream: Zoom, [Meeting-ID: 636 7754 2064, Password: D68F45Zta][zoom]
 
 [zoom]: https://uni-freiburg.zoom-x.de/j/63677542064?pwd=SRbStbdJDtWnCrr7lvdFiyEs8y1FaK.1
 [zoom-tut]: https://uni-freiburg.zoom-x.de/j/64327145880?pwd=UzXaXEpcjHzqcaA9INh3cQF8I1ResO.1
