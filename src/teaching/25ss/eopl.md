@@ -4,17 +4,27 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Hannes Saffrich](/team/saffrich.md)
+<<<<<<< Updated upstream
 - Lecture: SR 00 006, G.-Köhler-Allee 051
 - Exercises:  tba.
 - [Lecture live stream][zoom] (zoom meeting Meeting-ID: 636 7754 2064 Password: D68F45Zta)
 
 [zoom]: https://uni-freiburg.zoom-x.de/j/63677542064?pwd=SRbStbdJDtWnCrr7lvdFiyEs8y1FaK.1
 
+||||||| Stash base
+- Lecture: tba.
+- Exercises:  tba.
+=======
+- Lecture: Wednesday, 14:15-15:45, Building 051, Room SR 00 006
+- Tutorials: Friday, 14:15-15:45, online via Zoom, 
+    [Meeting ID: 643 2714 5880, Passcode: eopl-2025](https://uni-freiburg.zoom-x.de/j/64327145880?pwd=UzXaXEpcjHzqcaA9INh3cQF8I1ResO.1)
+>>>>>>> Stashed changes
 
 ## Lectures & Tutorials
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
+<<<<<<< Updated upstream
 | 2025-04-23 We | Lecture | Overview | ... | [Rec][lec01-rec] |
 
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
@@ -29,6 +39,23 @@
 ## Exam
 
 tba.
+||||||| Stash base
+
+
+## Exercises
+
+
+| Date | Deadline | Topic | Solution |
+|:-----|:-----|:-----|:-----|
+
+
+## Exam
+
+tba.
+=======
+| 2025-04-23 We | Lecture  | | | | 
+| 2025-04-25 Fr | Tutorial | | | | 
+>>>>>>> Stashed changes
 
 ## Communication
 
@@ -64,10 +91,29 @@ We ask you to prepare for this by reading the chapter in advance.
 We will try to cover questions interactively.
 On Fridays we discuss the exercises of the corresponding chapters (contained in the book), and answer general questions related to Agda, Theorem Proving and Programming Language Theory. 
 Occasionally we may also show you cool stuff not covered in the book.
-Recordings of the lecture will be available so that asychronous participation is possible. 
-The exercise sessions will not be recorded. 
+Recordings of the lecture and tutorials will be available so that asychronous participation is possible. 
+If you do not wish to appear in the recordings, feel free to use an alias in
+the Zoom meetings, turn camera and microphone off, and use the Zoom chat for
+anonymous participation.
 The PLFA book is freely available in source code, so that everything can be tried hands on. 
 It is amenable to self study, but the pragmatics of using Agda are much easier to deal with in an interactive supportive environment such as we are trying to provide.
+
+## Exercises
+
+The chapters of the [PLFA](https://plfa.github.io/) book contain the exercises
+for this course. We expect you to do the exercises of a chapter after that
+chapter was covered in the lecture. The solutions to the exercises of a chapter
+are discussed in the next tutorial after the lecture that covers the chapter.
+Additionally, the solutions will be made available on this website in the
+*Lectures & Tutorials* section.
+
+While the exercises are voluntary and there is no submission, **we highly
+recommend to thoroughly work through the exercises, as the exam will be close
+to impossible without practical experience in using Agda**.
+
+## Exam
+
+tba.
 
 ## Links
 
@@ -76,6 +122,8 @@ It is amenable to self study, but the pragmatics of using Agda are much easier t
 - [Emacs Agda-Mode Documentation](https://agda.readthedocs.io/en/v2.6.3/tools/emacs-mode.html)
 - [Agda Standard Library](https://github.com/agda/agda-stdlib)
 - [VirtualBox Image with Agda and Emacs](http://archive.informatik.uni-freiburg.de/courses/proglang/2023-WS-EOPL/Agda%20VM%202023%20WS.ova)
-- Emacs Configuration for Agda ([Normal]https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/emacs-config.zip / [Vim](https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/emacs-config-vim.zip)] Keybindings)
+- Emacs Configuration for Agda 
+  ([Normal](https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/emacs-config.zip) /
+   [Vim](https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/emacs-config-vim.zip)] Keybindings)
 - [Discord-like chat](https://chat.laurel.informatik.uni-freiburg.de/invite/gj6wpJ) for questions about the lecture, exercises, and related topics. Login via RZ-Account, i.e. same as for Ilias.
 - [A list of all unicode symbols that can be typed in agda-mode via LaTeX commands](https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/agda-input.txt). You probably need to download this file, because the browser uses the wrong character encoding, which causes the unicode characters to look scrambled.
