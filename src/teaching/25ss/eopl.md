@@ -71,8 +71,8 @@ Additionally, the solutions will be made available on this website in the
 *Lectures & Tutorials* section.
 
 While the exercises are voluntary and there is no submission, **we highly
-recommend to thoroughly work through the exercises, as the exam will be close
-to impossible without practical experience in using Agda**.
+recommend to thoroughly work through the exercises, as the exam will be
+virtually impossible without practical experience in using Agda**.
 
 ## Exam
 
