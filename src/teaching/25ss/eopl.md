@@ -4,58 +4,25 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Hannes Saffrich](/team/saffrich.md)
-<<<<<<< Updated upstream
-- Lecture: SR 00 006, G.-Köhler-Allee 051
-- Exercises:  tba.
+- Lecture: Wednesday, 14:15-15:45, SR 00 006, G.-Köhler-Allee 051
+- Tutorials: Friday, 14:15-15:45, online via Zoom, [Meeting ID: 643 2714 5880, Passcode: eopl-2025][zoom-tut]
 - [Lecture live stream][zoom] (zoom meeting Meeting-ID: 636 7754 2064 Password: D68F45Zta)
 
 [zoom]: https://uni-freiburg.zoom-x.de/j/63677542064?pwd=SRbStbdJDtWnCrr7lvdFiyEs8y1FaK.1
+[zoom-tut]: https://uni-freiburg.zoom-x.de/j/64327145880?pwd=UzXaXEpcjHzqcaA9INh3cQF8I1ResO.1
 
-||||||| Stash base
-- Lecture: tba.
-- Exercises:  tba.
-=======
 - Lecture: Wednesday, 14:15-15:45, Building 051, Room SR 00 006
 - Tutorials: Friday, 14:15-15:45, online via Zoom, 
     [Meeting ID: 643 2714 5880, Passcode: eopl-2025](https://uni-freiburg.zoom-x.de/j/64327145880?pwd=UzXaXEpcjHzqcaA9INh3cQF8I1ResO.1)
->>>>>>> Stashed changes
 
 ## Lectures & Tutorials
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
-<<<<<<< Updated upstream
 | 2025-04-23 We | Lecture | Overview | ... | [Rec][lec01-rec] |
+| 2025-04-25 Fr | Tutorial | | | | 
 
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
-
-## Exercises
-
-
-| Date | Deadline | Topic | Solution |
-|:-----|:-----|:-----|:-----|
-
-
-## Exam
-
-tba.
-||||||| Stash base
-
-
-## Exercises
-
-
-| Date | Deadline | Topic | Solution |
-|:-----|:-----|:-----|:-----|
-
-
-## Exam
-
-tba.
-=======
-| 2025-04-23 We | Lecture  | | | | 
-| 2025-04-25 Fr | Tutorial | | | | 
->>>>>>> Stashed changes
 
 ## Communication
 
