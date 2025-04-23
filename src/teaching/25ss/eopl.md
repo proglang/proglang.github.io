@@ -11,10 +11,6 @@
 [zoom]: https://uni-freiburg.zoom-x.de/j/63677542064?pwd=SRbStbdJDtWnCrr7lvdFiyEs8y1FaK.1
 [zoom-tut]: https://uni-freiburg.zoom-x.de/j/64327145880?pwd=UzXaXEpcjHzqcaA9INh3cQF8I1ResO.1
 
-- Lecture: Wednesday, 14:15-15:45, Building 051, Room SR 00 006
-- Tutorials: Friday, 14:15-15:45, online via Zoom, 
-    [Meeting ID: 643 2714 5880, Passcode: eopl-2025](https://uni-freiburg.zoom-x.de/j/64327145880?pwd=UzXaXEpcjHzqcaA9INh3cQF8I1ResO.1)
-
 ## Lectures & Tutorials
 
 | Date | Type | Topic | Material | Recordings 
