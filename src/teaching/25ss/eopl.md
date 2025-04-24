@@ -5,10 +5,11 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Hannes Saffrich](/team/saffrich.md)
 - Lecture: Wednesday, 14:15-15:45, SR 00 006, G.-Köhler-Allee 051
-- Tutorials: Friday, 12:15-13:45, online via Zoom
-- Lecture & Tutorial live stream: Zoom, [Meeting-ID: 636 7754 2064, Password: D68F45Zta][zoom]
+- Tutorials: Friday, 12:15-13:45, online via Zoom, [Meeting ID: 612 1758 5445, Password: eopl-2025][zoom-tut]
+- Lecture live stream: Zoom, [Meeting-ID: 636 7754 2064, Password: D68F45Zta][zoom]
 
 [zoom]: https://uni-freiburg.zoom-x.de/j/63677542064?pwd=SRbStbdJDtWnCrr7lvdFiyEs8y1FaK.1
+[zoom-tut]: https://uni-freiburg.zoom-x.de/j/61217585445?pwd=UnCaWLR0ozP2wC8ElRbPl54JYslbq7.1
 
 ## Lectures & Tutorials
 
