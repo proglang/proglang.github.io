@@ -85,8 +85,5 @@ tba.
 - [Emacs Agda-Mode Documentation](https://agda.readthedocs.io/en/v2.6.3/tools/emacs-mode.html)
 - [Agda Standard Library](https://github.com/agda/agda-stdlib)
 - [VirtualBox Image with Agda and Emacs](http://archive.informatik.uni-freiburg.de/courses/proglang/2023-WS-EOPL/Agda%20VM%202023%20WS.ova)
-- Emacs Configuration for Agda 
-  ([Normal](https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/emacs-config.zip) /
-   [Vim](https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/emacs-config-vim.zip)] Keybindings)
 - [Discord-like chat](https://chat.laurel.informatik.uni-freiburg.de/invite/gj6wpJ) for questions about the lecture, exercises, and related topics. Login via RZ-Account, i.e. same as for Ilias.
 - [A list of all unicode symbols that can be typed in agda-mode via LaTeX commands](https://proglang.informatik.uni-freiburg.de/teaching/proglang/2023ws/extras/agda-input.txt). You probably need to download this file, because the browser uses the wrong character encoding, which causes the unicode characters to look scrambled.
