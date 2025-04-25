@@ -33,7 +33,7 @@ the compiler from the final sample solution with new features.
 
 | Date | Deadline | Topic |
 |:-----|:-----|:-----|
-
+2025-04-25 | 2025-05-02 | Compiler for \\(\mathcal{L}_{var}\\) |
 
 ## Exam
 
