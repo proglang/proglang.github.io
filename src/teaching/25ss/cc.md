@@ -3,7 +3,7 @@
 ## General Information
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
-- Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md)
+- Assistants: [Leonardo Mieschendahl](/team/mieschendahl.md), [Marius Weidner](/team/weidner.md)
 - Lecture: Tuesdays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom1] (Zoom Meeting-ID: 661 1930 0692, Password: nsWAD0nCW)
 - Exercises: Fridays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom2] (Zoom Meeting ID: 631 6286 3480, Passcode: An1SxJdPr)
 
