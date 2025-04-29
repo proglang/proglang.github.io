@@ -16,12 +16,13 @@
 |:-----|:-----|:-----|:-----|:-----|
 | 2025-04-22 Tu | Lecture | Organization & Introduction | [Book][book], Chapter 1; [Slides][lec01-slides] | [Rec][lec01-rec] |
 | 2025-04-25 Fr | Lecture | Chapter 2 | [Book][book], Chapter 2; [Slides][lec02-slides] | [Rec][lec02-rec] |
-| 2025-04-29 Tu | Lecture | Chapter 3 | [Book][book], Chapter 3; [Slides][lec03-slides] | [Rec][lec03-rec] |
+| 2025-04-29 Tu | Lecture | Chapter 3 | [Book][book], Chapter 3; [Slides][lec03-slides]; [Code][lec03-code] | [Rec][lec03-rec] |
 
 [lec01-slides]: cc/slides/01-intro.pdf
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-22-lecture-1.mp4
 [lec02-slides]: cc/slides/20250425-slides.pdf
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-25-lecture-1.mp4
+[lec03-code]: cc/material/chapter3.zip
 [lec03-slides]: cc/slides/20250429-slides.pdf
 [lec03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-29-lecture-1.mp4
 
