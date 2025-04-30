@@ -20,7 +20,7 @@
 | 2025-04-30 We | Lecture | | | |
 | 2025-05-02 Fr | Tutorial | | | | 
 
-[lec01-material]: eopl/material/Lecture1.lagda.md
+[lec01-material]: eopl/material/Lecture1.lagda.html
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-25-tutorial-1.mp4
 

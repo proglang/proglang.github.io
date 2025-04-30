@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Lecture1.lagda.md - Chair of Programming Languages</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="Website for the Chair of Programming Languages at the University of Freiburg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        <link rel="stylesheet" href="../../../../css/variables.css">
+        <link rel="stylesheet" href="../../../../css/general.css">
+        <link rel="stylesheet" href="../../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../../highlight.css">
+        <link rel="stylesheet" href="../../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" checked="true" class="hidden sidebar-visible">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 750) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="home.html">Home</a></li><li class="chapter-item "><a href="team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="team/weidner.html">Marius Weidner</a></li><li class="chapter-item "><a href="team/spaderna.html">Janek Spaderna</a></li><li class="chapter-item "><a href="team/mieschendahl.html">Leonardo Mieschendahl</a></li></ol></li><li class="chapter-item "><a href="teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ss.html">Summer 2025</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ss/cc.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/25ss/eopl.html">Essentials of Programming Languages</a></li><li class="chapter-item "><a href="teaching/25ss/popl.html">Principles of Programming Languages (Seminar)</a></li></ol></li><li class="chapter-item "><a href="teaching/24ws.html">Winter 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ws/eidp.html">Einführung in die Programmierung</a></li><li class="chapter-item "><a href="teaching/24ws/fp.html">Functional Programming</a></li></ol></li><li class="chapter-item "><a href="teaching/24ss.html">Summer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/24ss/concurrency.html">Concurrency</a></li><li class="chapter-item "><a href="teaching/24ss/ocaml.html">Real World OCaml (Seminar)</a></li></ol></li></ol></li><li class="chapter-item "><a href="about.html">About</a></li><li class="chapter-item "><a href="teaching/25ss/eopl/material/Lecture1.lagda.html">Lecture1.lagda.md</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Chair of Programming Languages</h1>
+
+                    <a href="https://uni-freiburg.de" target="_blank"><img class="menu-icon" src="https://cca.informatik.uni-freiburg.de/img/logo-new.png"></img></a>
+
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this website ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <pre><code>module Lecture1 where
+import Relation.Binary.PropositionalEquality as Eq
+open Eq using (_≡_; refl; trans; sym; cong; cong₂; cong-app; subst)
+
+</code></pre>
+<h1 id="essentials-of-programming-languages-ss-2025"><a class="header" href="#essentials-of-programming-languages-ss-2025">Essentials of Programming Languages SS 2025</a></h1>
+<h2 id="core-topic-specify-the-meaning-of-programs-semantics"><a class="header" href="#core-topic-specify-the-meaning-of-programs-semantics">Core Topic: Specify the meaning of programs (semantics)</a></h2>
+<p>There a several popular ways to do that.</p>
+<h3 id="denotational-semantics"><a class="header" href="#denotational-semantics">Denotational semantics</a></h3>
+<ul>
+<li>a mapping ⟦_⟧ : Syntax → MathObject</li>
+<li>this mapping is compositional:
+the meaning of a composite expression is a function of the meanings of the subexpressions</li>
+</ul>
+<p>Example:
+Arithmetic expressions</p>
+<p>E ::= E + E | cst n</p>
+<p>looks like a context free grammar…
+but we are not interested in concrete syntax like (5+6)+7
+rather we consider it <em>abstract syntax</em>, that is, we’re only interested in the derivation trees.</p>
+<p>Let’s define the semantics of expressions:</p>
+<p>⟦_⟧ : E → ℕ
+⟦ E₁ + E₂ ⟧ = ⟦ E₁ ⟧ + ⟦ E₂ ⟧
+⟦ cst n ⟧ = n</p>
+<ul>
+<li>the denotation should be stable under equivalence of expressions
+For example</li>
+</ul>
+<p>⟦ E + cst 0 ⟧ = ⟦ E ⟧ + ⟦ cst 0 ⟧ = ⟦ E ⟧ + 0 = ⟦ E ⟧</p>
+<h3 id="operational-semantics"><a class="header" href="#operational-semantics">Operational semantics</a></h3>
+<p>a syntax-based method: do the computation directly on the syntax
+one way: small-step reduction semantics</p>
+<p>we specify a single reduction relation ⟶ ⊆ E × E</p>
+<p>ADD: (cst m) + (cst n) ⟶ cst (m+n)</p>
+<p>not applicable to: (cst k) + ((cst m) + (cst n))</p>
+<h2 id="e₁--e₁"><a class="header" href="#e₁--e₁">E₁ ⟶ E₁′</a></h2>
+<p>(E₁ + E₂) ⟶ (E₁′ + E₂)</p>
+<h2 id="e₂--e₂"><a class="header" href="#e₂--e₂">E₂ ⟶ E₂′</a></h2>
+<p>(E₁ + E₂) ⟶ (E₁ + E₂′)</p>
+<p>Now: (cst k) + ((cst m) + (cst n)) ⟶ (cst k) + (cst (m+n))</p>
+<p>We want to iterate reduction, so we consider ⟶* , the multi-step reduction relation
+(the reflexive, transitive closure of ⟶)</p>
+<p>What if E₁ ⟶ E₂ , does it hold that ⟦ E₁ ⟧ = ⟦ E₂ ⟧ ?</p>
+<h4 id="a-second-syntax-based-method-big-step-operational-semantics"><a class="header" href="#a-second-syntax-based-method-big-step-operational-semantics">a second syntax-based method: big-step operational semantics</a></h4>
+<p>we do the computation on the syntax, but take some liberty with the results</p>
+<p>we specify a binary relation ⇓ ⊆ E × V  , V is a set of <em>values</em>, often a subset of expressions</p>
+<p>Back to the example: take V = ℕ</p>
+<p>⇓-const : cst n ⇓ n</p>
+<h2>⇓-add :
+E₁ ⇓ n₁
+E₂ ⇓ n₂</h2>
+<p>E₁ + E₂ ⇓ (n₁+n₂)</p>
+<h1 id="agda-demo"><a class="header" href="#agda-demo">Agda demo</a></h1>
+<p>A natural number is either zero or the successor of another natural number.</p>
+<pre><code>data ℕ : Set where
+  zero : ℕ
+  suc : ℕ → ℕ
+
+_+_ : ℕ → (ℕ → ℕ)
+zero + n = n
+suc m + n = suc (m + n)
+</code></pre>
+<p>Proving a property by induction is just like implementing a recursive function…
+To do so ʻ we write the property as the <em>type</em> of a function:</p>
+<pre><code>neutral-left : ∀ (n : ℕ) → zero + n ≡ n
+neutral-left n = refl
+
+neutral-right : ∀ (n : ℕ) → n + zero ≡ n
+neutral-right zero = refl
+neutral-right (suc n) rewrite neutral-right n = refl
+
++-assoc : ∀ m n o → m + (n + o) ≡ (m + n) + o
++-assoc zero n o = refl
++-assoc (suc m) n o rewrite +-assoc m n o = refl
+</code></pre>
+<ul>
+<li>can use Agda for safe programming</li>
+</ul>
+<pre><code>data Vec : ℕ → Set where
+  [] : Vec zero
+  _∷_ : ∀ {n} → ℕ → Vec n → Vec (suc n)
+
+postulate
+  _&lt;_ : ℕ → ℕ → Set
+  index : ∀ {n} → ∀ i → i &lt; n → Vec n → ℕ
+</code></pre>
+
+                    </main>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../../elasticlunr.min.js"></script>
+        <script src="../../../../mark.min.js"></script>
+        <script src="../../../../searcher.js"></script>
+
+        <script src="../../../../clipboard.min.js"></script>
+        <script src="../../../../highlight.js"></script>
+        <script src="../../../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
