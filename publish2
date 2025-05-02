@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# usage:  ./publish "message"
+
+
+# check command line arguments
+if [ "$#" -ne 1 ]
+then
+  echo "usage: ./publish \"message\""
+  exit 1
+fi
+
+
+# build locally to 'docs/'
+# mdbook clean --dest-dir docs
+rm -rf docs
+git checkout docs
+
+git pull --rebase --autostash
+
+mdbook build --dest-dir docs
+
+
+# push changes to master
+git add .
+git commit -m "$1"
+git push origin master
+
+
