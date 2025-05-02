@@ -15,10 +15,10 @@
 
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
-| 2025-04-23 We | Lecture | Overview | [Material][lec01-material] | [Rec][lec01-rec] |
-| 2025-04-25 Fr | Tutorial | Overview | | [Rec][tut01-rec] | 
-| 2025-04-30 We | Lecture | Induction |  [Material][lec02-material] |  [Rec][lec02-rec] |
-| 2025-05-02 Fr | Tutorial | Naturals & Induction | [Solutions 1][sol01], [Solutions 2][sol02] | [Rec][tut02-rec] | 
+| 2025-04-23 We | Lecture | Overview | [Material][lec01-material] | [Recording][lec01-rec] |
+| 2025-04-25 Fr | Tutorial | Overview | | [Recording][tut01-rec] | 
+| 2025-04-30 We | Lecture | Induction |  [Material][lec02-material] |  [Recording][lec02-rec] |
+| 2025-05-02 Fr | Tutorial | Naturals & Induction | [Solutions 1][sol01], [Solutions 2][sol02] | [Recording][tut02-rec] | 
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
