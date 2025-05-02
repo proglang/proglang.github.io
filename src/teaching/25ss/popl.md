@@ -1,4 +1,4 @@
-# Principles of Programming Languages Seminar (Summer 2025)
+# Functional Programming and Logic – Seminar (Summer 2025)
 
 
 ## General Information
