@@ -5,11 +5,13 @@
 
 - **Lecturer:** [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - **Assistant:** [Janek Spaderna](/team/spaderna.md)
-- **Kickoff meeting:** <span style="color:red">**Tue 22.04.25, 16:00, Building 106, R 04 007**</span>
+- **Kickoff meeting:** Tue 22.04.25, 16:00, Building 106, R 04 007
+- **First session:** Tue 20.05.25, 16:00
 
 | Date   | News |
 | ------ | ---- |
 | 04.04. | List of topics available, preliminary schedule |
+| 02.05. | No meeting 06.05. and 13.05. |
 
 
 ## Topics
@@ -35,7 +37,9 @@ two people.
 | ------ | ------------------------------------------------------------------ |
 | 22.04. | Kickoff meeting                                                    |
 | 29.04. | *No meeting*                                                       |
-| 06.05. – 29.07. | *Weekly meetings, details TBA*                            |
+| 06.05. | *No meeting*                                                       |
+| 13.05. | *No meeting*                                                       |
+| 20.05. – 29.07. | *Weekly meetings, details TBA*                            |
 
 All meetings take place at 16:00 – 18:00 in building 106, R 04 007.
 
