@@ -18,6 +18,7 @@
 | 2025-04-25 Fr | Lecture | Chapter 2 | [Book][book], Chapter 2; [Slides][lec02-slides] | [Rec][lec02-rec] |
 | 2025-04-29 Tu | Lecture | Chapter 3 | [Book][book], Chapter 3; [Slides][lec03-slides]; [Code][lec03-code] | [Rec][lec03-rec] |
 | 2025-05-02 Fr | Tutorial | Compiler for \\(\mathcal{L}_{var}\\) | - | [Rec][tut01-rec] |
+| 2025-05-06 Fr | Lecture | Chapter 4 |  [Book][book], Chapter 4 | [Rec][lec04-rec] |
 
 [lec01-slides]: cc/slides/01-intro.pdf
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-22-lecture-1.mp4
@@ -26,6 +27,7 @@
 [lec03-code]: cc/material/chapter3.zip
 [lec03-slides]: cc/slides/20250429-slides.pdf
 [lec03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-29-lecture-1.mp4
+[lec04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-06-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-02-tutorial-1.mp4
 
 ## Exercises
