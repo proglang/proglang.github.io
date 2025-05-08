@@ -19,6 +19,7 @@
 | 2025-04-25 Fr | Tutorial | Overview | | [Recording][tut01-rec] | 
 | 2025-04-30 We | Lecture | Induction |  [Material][lec02-material] |  [Recording][lec02-rec] |
 | 2025-05-02 Fr | Tutorial | Naturals & Induction | [Solutions 1][sol01], [Solutions 2][sol02] | [Recording][tut02-rec] | 
+| 2025-05-07 We | Lecture | Relations |   [Material][lec03-material] | [Recording][lec03-rec] | 
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
@@ -26,6 +27,8 @@
 [lec02-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture2.lagda.md
 [lec02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-30-lecture-1.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-02-tutorial-1.mp4
+[lec03-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture3.lagda.md
+[lec03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-07-lecture-1.mp4
 [sol01]:     http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap01_naturals.agda
 [sol02]:     http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap02_induction.agda
 
