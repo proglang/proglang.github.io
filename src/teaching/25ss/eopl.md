@@ -16,10 +16,15 @@
 | Date | Type | Topic | Material | Recordings 
 |:-----|:-----|:-----|:-----|:-----|
 | 2025-04-23 We | Lecture | Overview | [Material][lec01-material] | [Recording][lec01-rec] |
-| 2025-04-25 Fr | Tutorial | Overview | | [Recording][tut01-rec] | 
+| 2025-04-25 Fr | Tutorial | Overview | | [Recording][tut01-rec] |
 | 2025-04-30 We | Lecture | Induction |  [Material][lec02-material] |  [Recording][lec02-rec] |
-| 2025-05-02 Fr | Tutorial | Naturals & Induction | [Solutions 1][sol01], [Solutions 2][sol02] | [Recording][tut02-rec] | 
-| 2025-05-07 We | Lecture | Relations |   [Material][lec03-material] | [Recording][lec03-rec] | 
+| 2025-05-02 Fr | Tutorial | Naturals & Induction | [Solutions 1][sol01], [Solutions 2][sol02] | [Recording][tut02-rec] |
+| 2025-05-07 We | Lecture | Relations |   [Material][lec03-material] | [Recording][lec03-rec] |
+| 2025-05-09 Fr | Tutorial | Relations |  |  |
+| 2025-05-14 We | Lecture | Equality |  |  |
+| 2025-05-16 Fr | Tutorial | Equality |  |  |
+| 2025-05-21 We | Lecture | Isomorphism & Connectives |  |  |
+| 2025-05-23 Fr | Tutorial | Isomorphism & Connectives |  |  |
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
