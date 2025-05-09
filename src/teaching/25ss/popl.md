@@ -22,26 +22,27 @@ The papers are linked from the Google sheet. Accessing some of them may require
 a connection from inside the university network or logging in via the
 institutional access provided by the university.
 
-If you have already decided on the topic you want to cover, please send an
-e-mail to [Prof. Thiemann](/team/thiemann.md) and [Janek
-Spaderna](/team/spaderna.md). Topics are handed out on a first-come,
-first-served basis. Some topics may provide enough material to be covered by
-two people.
-
 [topics]: https://docs.google.com/spreadsheets/d/1qVXBEEjuaQBhBjqbRrG1Ub8mBG3bDBRYWWTdi941xWI/edit?usp=sharing
 
 
 ## Schedule
 
-| Date   | Event                                                              |
+| Date   | Topics                                                             |
 | ------ | ------------------------------------------------------------------ |
-| 22.04. | Kickoff meeting                                                    |
-| 29.04. | *No meeting*                                                       |
-| 06.05. | *No meeting*                                                       |
-| 13.05. | *No meeting*                                                       |
-| 20.05. – 29.07. | *Weekly meetings, details TBA*                            |
+| 27.05. | - An introduction to logical relations ([PT][]) |
+| 03.06. | - Propositions as types ([JS][])<br>- A taste of linear logic ([JS][]) |
+| 10.06. | *— No meeting —* |
+| 17.06. | - Theorems for free! ([JS][])<br>- Semantic subtyping ([PT][]) |
+| 24.06. | - Oxidizing OCaml with modal memory management ([PT][])<br>- Substructural parametricity ([PT][]) |
+| 01.07. | - Free applicative functors ([JS][])<br>- Freer monads ([JS][]) |
+| 08.07. | - HasChor ([JS][])<br>- Compiling to categories ([PT][]) |
+| 22.07. | - What you needa know about Yoneda ([PT][])<br>- Separation logic for sequential programs ([JS][]) |
+| 15.07. | - Iris from the ground up ([PT][]) |
 
 All meetings take place at 16:00 – 18:00 in building 106, R 04 007.
+
+[PT]: /team/thiemann.md
+[JS]: /team/spaderna.md
 
 
 ## Grading
