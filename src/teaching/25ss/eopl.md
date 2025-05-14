@@ -21,7 +21,7 @@
 | 2025-05-02 Fr | Tutorial | Naturals & Induction | [Solutions 1][sol01], [Solutions 2][sol02] | [Recording][tut02-rec] |
 | 2025-05-07 We | Lecture | Relations |   [Material][lec03-material] | [Recording][lec03-rec] |
 | 2025-05-09 Fr | Tutorial | Relations |  [Solutions][sol03] | [Recording][tut03-rec] |
-| 2025-05-14 We | Lecture | Equality |  | [Recording 1][lec04-rec01], [Recording 1][lec04-rec02] |
+| 2025-05-14 We | Lecture | Equality |  | [Recording 1][lec04-rec01], [Recording 2][lec04-rec02] |
 | 2025-05-16 Fr | Tutorial | Equality |  |  |
 | 2025-05-21 We | Lecture | Isomorphism & Connectives |  |  |
 | 2025-05-23 Fr | Tutorial | Isomorphism & Connectives |  |  |
