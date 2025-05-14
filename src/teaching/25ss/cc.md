@@ -5,10 +5,11 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Leonardo Mieschendahl](/team/mieschendahl.md), [Marius Weidner](/team/weidner.md)
 - Lecture: Tuesdays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom1] (Zoom Meeting-ID: 661 1930 0692, Password: nsWAD0nCW)
-- Exercises: Fridays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom2] (Zoom Meeting ID: 631 6286 3480, Passcode: An1SxJdPr)
+- Exercises: Fridays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom2] (Zoom Meeting ID: 621 5357 2187, Passcode: MMkG4kTky)
 
 [zoom1]: https://uni-freiburg.zoom-x.de/j/66119300692?pwd=4it8s1KQ6T7LBSaZkSk2bYarBR7Zl5.1
-[zoom2]: https://uni-freiburg.zoom-x.de/j/63162863480?pwd=NQoZk82SvNbFqDtJQVyEvbvMfLBNnG.1
+[zoom2]: https://uni-freiburg.zoom-x.de/j/62153572187?pwd=kqhISWSzCEaZ5Ct7I9sbw71ZGM1x2p.1
+<!-- (Hannes) (Zoom Meeting ID: 631 6286 3480, Passcode: An1SxJdPr) [zoom2]: https://uni-freiburg.zoom-x.de/j/63162863480?pwd=NQoZk82SvNbFqDtJQVyEvbvMfLBNnG.1-->
 
 ## Lectures & Tutorials
 
