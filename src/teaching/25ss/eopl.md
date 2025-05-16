@@ -22,7 +22,7 @@
 | 2025-05-07 We | Lecture | Relations |   [Material][lec03-material] | [Recording][lec03-rec] |
 | 2025-05-09 Fr | Tutorial | Relations |  [Solutions][sol03] | [Recording][tut03-rec] |
 | 2025-05-14 We | Lecture | Equality |  | [Recording 1][lec04-rec01], [Recording 2][lec04-rec02] |
-| 2025-05-16 Fr | Tutorial | Equality |  |  |
+| 2025-05-16 Fr | Tutorial | Equality |  | [Recording][tut04-rec] |
 | 2025-05-21 We | Lecture | Isomorphism & Connectives |  |  |
 | 2025-05-23 Fr | Tutorial | Isomorphism & Connectives |  |  |
 
@@ -37,6 +37,7 @@
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-09-tutorial-1.mp4
 [lec04-rec01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-14-lecture-1.mp4
 [lec04-rec02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-14-lecture-2.mp4
+[tut04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-16-tutorial-1.mp4
 [sol01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap01_naturals.agda
 [sol02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap02_induction.agda
 [sol03]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap03_relations.agda
