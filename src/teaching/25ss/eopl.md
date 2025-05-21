@@ -25,6 +25,8 @@
 | 2025-05-16 Fr | Tutorial | Equality |  | [Recording][tut04-rec] |
 | 2025-05-21 We | Lecture | Isomorphism & Connectives |  | [Recording][lec05-rec] |
 | 2025-05-23 Fr | Tutorial | Isomorphism & Connectives |  |  |
+| 2025-05-28 We | Lecture | Negation |  |  |
+| 2025-05-30 Fr | Tutorial | Negation |  |  |
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
