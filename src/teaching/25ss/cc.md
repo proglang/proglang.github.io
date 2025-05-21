@@ -37,15 +37,14 @@
 [lec05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-13-lecture-1.mp4
 [lec06-notes]: https://github.com/CC-Uni-Freiburg/lecture-notes-2021/blob/main/lecture-2025-05-20.md
 [lec06-slides]: cc/slides/liveness.pdf
-[lec06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-13-lecture-1.mp4
+[lec06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-20-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-02-tutorial.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-09-tutorial.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-16-tutorial.mp4
 
 ## Exercises
 
-Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https:#
-//classroom.github.com/a/N58OPy1R)).
+Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https://classroom.github.com/a/N58OPy1R)).
 
 Exercises will not be graded, but we will provide tests to
 help you verify the correctness of your work. It is highly recommended
