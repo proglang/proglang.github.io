@@ -101,7 +101,8 @@ virtually impossible without practical experience in using Agda**.
 
 ## Exam
 
-tba.
+The exam will take place on 2025-08-07 from 9-12:00 in the
+computer pools at Werthmannstraße 4.
 
 ## Links
 
