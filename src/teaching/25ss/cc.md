@@ -5,7 +5,11 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Leonardo Mieschendahl](/team/mieschendahl.md), [Marius Weidner](/team/weidner.md)
 - Lecture: Tuesdays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom1] (Zoom Meeting-ID: 661 1930 0692, Password: nsWAD0nCW)
+<<<<<<< Updated upstream
 - Exercises: Fridays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom2] (Zoom Meeting ID: 621 5357 2187, Passcode: MMkG4kTky)
+=======
+- Exercises: Fridays 14-16, R 04 007 Videokonferenz G.-Köhler-Allee 106, [Livestream][zoom2] (Zoom Meeting ID: 631 6286 3480, Passcode: An1SxJdPr)r
+>>>>>>> Stashed changes
 
 [zoom1]: https://uni-freiburg.zoom-x.de/j/66119300692?pwd=4it8s1KQ6T7LBSaZkSk2bYarBR7Zl5.1
 [zoom2]: https://uni-freiburg.zoom-x.de/j/62153572187?pwd=kqhISWSzCEaZ5Ct7I9sbw71ZGM1x2p.1
@@ -22,8 +26,9 @@
 | 2025-05-06 Fr | Lecture | Chapter 4 |  [Book][book], Chapter 4 | [Rec][lec04-rec] |
 | 2025-05-09 Fr | Tutorial | Register Allocation for \\(\mathcal{L}_{var}\\) | - | [Rec][tut02-rec] |
 | 2025-05-13 Tu | Lecture | Chapter 5 |  [Book][book], Chapter 5 | [Rec][lec05-rec] |
-| 2025-05-16 Fr | Tutorial | Compiler for \\(\mathcal{L}_{If}\\) | - | [Rec][tut03-rec] |
+| 2025-05-16 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | - | [Rec][tut03-rec] |
 | 2025-05-20 Tu | Lecture | Chapter 6 |  [Book][book], Chapter 6, [Slides][lec06-slides], [Notes][lec06-notes]  | [Rec][lec06-rec] |
+| 2025-05-23 Fr | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | - | [Rec][tut04-rec] |
 
 
 [lec01-slides]: cc/slides/01-intro.pdf
@@ -41,6 +46,7 @@
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-02-tutorial.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-09-tutorial.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-16-tutorial.mp4
+[tut04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-23-tutorial.mp4
 
 ## Exercises
 
@@ -56,7 +62,8 @@ the compiler from the final sample solution with new features.
 | 2025-04-25 | 2025-05-02 | Compiler for \\(\mathcal{L}_{var}\\) |
 | 2025-05-02 | 2025-05-09 | Register Allocation for \\(\mathcal{L}_{var}\\) |
 | 2025-04-09 | 2025-05-16 | Compiler for \\(\mathcal{L}_{if}\\) |
-
+| 2025-04-16 | 2025-05-23 | Compiler for \\(\mathcal{L}_{while}\\) |
+| 2025-04-23 | 2025-05-30 | Compiler for \\(\mathcal{L}_{tuple}\\) |
 ## Exam
 
 The exam will take place in the computer pools and requires you to
