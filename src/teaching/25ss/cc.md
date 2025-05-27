@@ -25,6 +25,7 @@
 | 2025-05-16 Fr | Tutorial | Compiler for \\(\mathcal{L}_{if}\\) | - | [Rec][tut03-rec] |
 | 2025-05-20 Tu | Lecture | Chapter 6 |  [Book][book], Chapter 6, [Slides][lec06-slides], [Notes][lec06-notes]  | [Rec][lec06-rec] |
 | 2025-05-23 Fr | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | - | [Rec][tut04-rec] |
+| 2025-05-27 Tu | Lecture | Chapter 7 |  [Book][book], Chapter 7, [Slides][lec07-slides]  | [Rec][lec07-rec] |
 
 
 [lec01-slides]: cc/slides/01-intro.pdf
@@ -39,6 +40,8 @@
 [lec06-notes]: https://github.com/CC-Uni-Freiburg/lecture-notes-2021/blob/main/lecture-2025-05-20.md
 [lec06-slides]: cc/slides/liveness.pdf
 [lec06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-20-lecture-1.mp4
+[lec07-slides]: cc/slides/garbage_collection.pdf
+[lec07-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-27-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-02-tutorial.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-09-tutorial.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-16-tutorial.mp4
