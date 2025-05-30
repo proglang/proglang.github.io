@@ -49,8 +49,8 @@
 [sol04]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap04_equality.agda
 [sol05]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap05_isomorphism.agda
 [sol06]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap06_connectives.agda
-[sol07]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap06_negation.agda
-[sol08]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap06_quantifiers.agda
+[sol07]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap07_negation.agda
+[sol08]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap08_quantifiers.agda
 
 ## Communication
 
