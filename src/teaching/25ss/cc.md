@@ -26,6 +26,7 @@
 | 2025-05-20 Tu | Lecture | Chapter 6 |  [Book][book], Chapter 6, [Slides][lec06-slides], [Notes][lec06-notes]  | [Rec][lec06-rec] |
 | 2025-05-23 Fr | Tutorial | Compiler for \\(\mathcal{L}_{while}\\) | - | [Rec][tut04-rec] |
 | 2025-05-27 Tu | Lecture | Chapter 7 |  [Book][book], Chapter 7, [Slides][lec07-slides]  | [Rec][lec07-rec] |
+| 2025-05-30 Fr | Tutorial | Compiler for \\(\mathcal{L}_{tup}\\) | - | [Rec][tut05-rec] |
 
 
 [lec01-slides]: cc/slides/01-intro.pdf
@@ -46,6 +47,7 @@
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-09-tutorial.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-16-tutorial.mp4
 [tut04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-23-tutorial.mp4
+[tut05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-30-tutorial.mp4
 
 ## Exercises
 
