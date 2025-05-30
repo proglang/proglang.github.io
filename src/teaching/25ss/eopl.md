@@ -24,9 +24,9 @@
 | 2025-05-14 We | Lecture | Equality |  | [Recording 1][lec04-rec01], [Recording 2][lec04-rec02] |
 | 2025-05-16 Fr | Tutorial | Equality | [Solutions][sol04] | [Recording][tut04-rec] |
 | 2025-05-21 We | Lecture | Isomorphism & Connectives |  | [Recording][lec05-rec] |
-| 2025-05-23 Fr | Tutorial | Isomorphism & Connectives | [Solutions][sol05], [Solutions][sol06] |  [Recording][tut05-rec] |
-| 2025-05-28 We | Lecture | Negation |  |  |
-| 2025-05-30 Fr | Tutorial | Negation |  |  |
+| 2025-05-23 Fr | Tutorial | Isomorphism & Connectives | [Solutions][sol05], [Solutions][sol06] | [Recording][tut05-rec] |
+| 2025-05-28 We | Lecture | Negation & Quantifiers |  |  |
+| 2025-05-30 Fr | Tutorial | Negation & Quantifiers | [Solutions][sol07], [Solutions][sol08] | [Recording][tut06-rec] |
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
@@ -42,12 +42,15 @@
 [tut04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-16-tutorial-1.mp4
 [lec05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-21-lecture-1.mp4
 [tut05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-23-tutorial-1.mp4
+[tut06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-30-tutorial-1.mp4
 [sol01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap01_naturals.agda
 [sol02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap02_induction.agda
 [sol03]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap03_relations.agda
 [sol04]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap04_equality.agda
 [sol05]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap05_isomorphism.agda
 [sol06]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap06_connectives.agda
+[sol07]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap06_negation.agda
+[sol08]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap06_quantifiers.agda
 
 ## Communication
 
