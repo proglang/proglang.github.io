@@ -23,6 +23,7 @@
 | 2025-05-09 Fr | Tutorial | Relations | [Solutions][sol03] | [Recording][tut03-rec] |
 | 2025-05-14 We | Lecture | Equality |  | [Recording 1][lec04-rec01], [Recording 2][lec04-rec02] |
 | 2025-05-16 Fr | Tutorial | Equality | [Solutions][sol04] | [Recording][tut04-rec] |
+| 2025-05-21 We | Lecture | Isomorphism & Connectives |  | [Recording][lec05-rec] |
 | 2025-05-23 Fr | Tutorial | Isomorphism & Connectives | [Solutions][sol05], [Solutions][sol06] |  [Recording][tut05-rec] |
 | 2025-05-28 We | Lecture | Negation & Quantifiers | [Material][lec06-material] | [Recording][lec06-rec] |
 | 2025-05-30 Fr | Tutorial | Negation & Quantifiers | [Solutions][sol07], [Solutions][sol08] | [Recording][tut06-rec] |
