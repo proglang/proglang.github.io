@@ -27,6 +27,7 @@
 | 2025-05-23 Fr | Tutorial | Isomorphism & Connectives | [Solutions][sol05], [Solutions][sol06] |  [Recording][tut05-rec] |
 | 2025-05-28 We | Lecture | Negation & Quantifiers | [Material][lec06-material] | [Recording][lec06-rec] |
 | 2025-05-30 Fr | Tutorial | Negation & Quantifiers | [Solutions][sol07], [Solutions][sol08] | [Recording][tut06-rec] |
+| 2025-06-04 We | Lecture | Booleans & Decidable | [Material][lec07-material] | [Recording][lec07-rec] |
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
@@ -45,6 +46,8 @@
 [lec06-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture6.lagda.md
 [lec06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-28-lecture-1.mp4
 [tut06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-30-tutorial-1.mp4
+[lec07-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture7.lagda.md
+[lec07-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-06-04-lecture-1.mp4
 [sol01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap01_naturals.agda
 [sol02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap02_induction.agda
 [sol03]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap03_relations.agda
