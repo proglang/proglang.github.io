@@ -28,8 +28,9 @@
 | 2025-05-27 Tu | Lecture | Chapter 7 |  [Book][book], Chapter 7, [Slides][lec07-slides]  | [Rec][lec07-rec] |
 | 2025-05-30 Fr | Tutorial | Compiler for \\(\mathcal{L}_{tup}\\) | - | [Rec][tut05-rec] |
 | 2025-06-03 Tu | Lecture | Chapter 8 |  [Book][book], Chapter 8 , [Notes][lec08-notes]  | [Rec][lec08-rec] |
-| 2025-06-06 Fr | Tutorial | Compiler for \\(\mathcal{L}_{Fun}\\) | - | [Rec][tut06-rec] |
-
+| 2025-06-06 Fr | Tutorial | Compiler for \\(\mathcal{L}_{fun}\\) | - | [Rec][tut06-rec] |
+| 2025-06-20 Fr | Tutorial | No tutorial | - | - |
+| 2025-06-27 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\lambda}\\) | - | - |
 
 [lec01-slides]: cc/slides/01-intro.pdf
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-22-lecture-1.mp4
