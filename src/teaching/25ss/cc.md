@@ -64,13 +64,6 @@ help you verify the correctness of your work. It is highly recommended
 to take the exercises seriously, as the exam requires you to extend
 the compiler from the final sample solution with new features.
 
-| Date | Deadline | Topic |
-|:-----|:-----|:-----|
-| 2025-04-25 | 2025-05-02 | Compiler for \\(\mathcal{L}_{var}\\) |
-| 2025-05-02 | 2025-05-09 | Register Allocation for \\(\mathcal{L}_{var}\\) |
-| 2025-04-09 | 2025-05-16 | Compiler for \\(\mathcal{L}_{if}\\) |
-| 2025-04-16 | 2025-05-23 | Compiler for \\(\mathcal{L}_{while}\\) |
-| 2025-04-23 | 2025-05-30 | Compiler for \\(\mathcal{L}_{tuple}\\) |
 ## Exam
 
 The exam will take place in the computer pools and requires you to
