@@ -234,7 +234,7 @@ Die Klausurumgebung kann [online](https://bwlehrpool.ruf.uni-freiburg.de/guacamo
 [retake-exam-pdf]: /teaching/24ws/eidp/retake-exam.pdf
 
 Die folgenden Daten sind ohne Gewähr: 
-- **Vorraussichtlicher** Termin der Notenveröffentlichung: Ende März/Anfang April
-- **Vorraussichtlicher** Termin der Klausureinsicht: Erste Sommeremesterwoche
-- **Vorraussichtlicher** Termin der Nachklausur: 06.08.2025
+- Termin der Notenveröffentlichung: Ende März/Anfang April
+- Termin der Klausureinsicht: Erste Sommeremesterwoche
+- Termin der Nachklausur: **06.08.2025** (Wahrscheinlich mit mehreren Gruppen, d.h. individuelle Uhrzeiten. Mehr Infos in der Woche vor der Klausur)
 
