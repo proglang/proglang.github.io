@@ -12,7 +12,6 @@
 | ------ | ---- |
 | 04.04. | List of topics available, preliminary schedule |
 | 02.05. | No meeting 06.05. and 13.05. |
-| 02.05. | No meeting 06.05. and 13.05. |
 | 17.06. | Fix dates for last two meetings (dates were swapped) |
 
 
