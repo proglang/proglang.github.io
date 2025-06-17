@@ -6,12 +6,14 @@
 - **Lecturer:** [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - **Assistant:** [Janek Spaderna](/team/spaderna.md)
 - **Kickoff meeting:** Tue 22.04.25, 16:00, Building 106, R 04 007
-- **First session:** Tue 20.05.25, 16:00
+- **First session:** Tue 27.05.25, 16:00
 
 | Date   | News |
 | ------ | ---- |
 | 04.04. | List of topics available, preliminary schedule |
 | 02.05. | No meeting 06.05. and 13.05. |
+| 02.05. | No meeting 06.05. and 13.05. |
+| 17.06. | Fix dates for last two meetings (dates were swapped) |
 
 
 ## Topics
@@ -36,8 +38,8 @@ institutional access provided by the university.
 | 24.06. | - Oxidizing OCaml with modal memory management ([PT][])<br>- Substructural parametricity ([PT][]) |
 | 01.07. | - Free applicative functors ([JS][])<br>- Freer monads ([JS][]) |
 | 08.07. | - HasChor ([JS][])<br>- Compiling to categories ([PT][]) |
-| 22.07. | - What you needa know about Yoneda ([PT][])<br>- Separation logic for sequential programs ([JS][]) |
-| 15.07. | - Iris from the ground up ([PT][]) |
+| 15.07. | - What you needa know about Yoneda ([PT][])<br>- Separation logic for sequential programs ([JS][]) |
+| 22.07. | - Iris from the ground up ([PT][]) |
 
 All meetings take place at 16:00 – 18:00 in building 106, R 04 007.
 
