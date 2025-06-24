@@ -31,6 +31,7 @@
 | 2025-06-06 Fr | Tutorial | Compiler for \\(\mathcal{L}_{fun}\\) | - | [Rec][tut06-rec] |
 | 2025-06-17 Tu | Lecture | Chapter 9 |  [Book][book], Chapter 9 , [Notes][lec09-notes]  | [Rec][lec09-rec] |
 | 2025-06-20 Fr | Tutorial | No tutorial | - | - |
+| 2025-06-24 Tu | Lecture | Chapter 12 |  [Book][book], Chapter 12 , [Notes][lec10-notes]  | [Rec][lec10-rec] |
 | 2025-06-27 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\lambda}\\) | - | - |
 
 [lec01-slides]: cc/slides/01-intro.pdf
@@ -51,6 +52,8 @@
 [lec08-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-03-lecture-1.mp4
 [lec09-notes]: https://github.com/CC-Uni-Freiburg/lecture-notes-2021/blob/main/lecture-2025-06-17-lexical.md
 [lec09-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-17-lecture-1.mp4
+[lec10-notes]: https://github.com/CC-Uni-Freiburg/lecture-notes-2021/blob/main/lecture-2025-06-24-type-checking.md
+[lec10-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-24-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-02-tutorial.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-09-tutorial.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-16-tutorial.mp4
