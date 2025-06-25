@@ -31,6 +31,7 @@
 | 2025-06-06 Fr | Tutorial | Booleans & Decidable | [Solutions][sol08] | [Recording][tut07-rec] |
 | 2025-06-18 We | Lecture | Lambda Calculus | [Material][lec08-material] | [Recording][lec08-rec] |
 | 2025-06-20 Fr | Lecture | Lambda Calculus | [Material][lec09-material] | [Recording][lec09-rec] |
+| 2025-06-25 We | Lecture | Properties I | [Material][lec10-material] | [Recording][lec10-rec] |
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
@@ -56,6 +57,8 @@
 [lec08-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-06-18-lecture-1.mp4
 [lec09-material]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/Lambda.agda
 [lec09-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-06-20-lecture-1.mp4
+[lec10-material]:  https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture9.lagda.md
+[lec10-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-06-25-lecture-1.mp4
 [sol01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap01_naturals.agda
 [sol02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap02_induction.agda
 [sol03]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap03_relations.agda
