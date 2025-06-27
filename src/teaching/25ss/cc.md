@@ -32,7 +32,9 @@
 | 2025-06-17 Tu | Lecture | Chapter 9 |  [Book][book], Chapter 9 , [Notes][lec09-notes]  | [Rec][lec09-rec] |
 | 2025-06-20 Fr | Tutorial | No tutorial | - | - |
 | 2025-06-24 Tu | Lecture | Chapter 12 |  [Book][book], Chapter 12 , [Notes][lec10-notes]  | [Rec][lec10-rec] |
-| 2025-06-27 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\lambda}\\) | - | - |
+| 2025-06-27 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\lambda}\\) | - | [Rec][tut07-rec] |
+| 2025-07-04 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\class}\\) | - | - |
+
 
 [lec01-slides]: cc/slides/01-intro.pdf
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-22-lecture-1.mp4
@@ -60,6 +62,7 @@
 [tut04-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-23-tutorial.mp4
 [tut05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-30-tutorial.mp4
 [tut06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-06-tutorial.mp4
+[tut07-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-27-tutorial.mp4
 
 ## Exercises
 
