@@ -33,7 +33,7 @@
 | 2025-06-20 Fr | Tutorial | No tutorial | - | - |
 | 2025-06-24 Tu | Lecture | Chapter 12 |  [Book][book], Chapter 12 , [Notes][lec10-notes]  | [Rec][lec10-rec] |
 | 2025-06-27 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\lambda}\\) | - | [Rec][tut07-rec] |
-| 2025-07-04 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\class}\\) | - | - |
+| 2025-07-04 Fr | Tutorial | Compiler for \\(\mathcal{L}_{class}\\) | - | - |
 
 
 [lec01-slides]: cc/slides/01-intro.pdf
