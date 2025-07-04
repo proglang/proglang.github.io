@@ -34,7 +34,7 @@
 | 2025-06-24 Tu | Lecture | Chapter 12 |  [Book][book], Chapter 12 , [Notes][lec10-notes]  | [Rec][lec10-rec] |
 | 2025-06-27 Fr | Tutorial | Compiler for \\(\mathcal{L}_{\lambda}\\) | - | [Rec][tut07-rec] |
 | 2025-07-01 Tu | Lecture | Data classes | [Notes][lec11-notes]  | [Rec][lec11-rec] |
-| 2025-07-04 Fr | Tutorial | Compiler for \\(\mathcal{L}_{class}\\) | - | - |
+| 2025-07-04 Fr | Tutorial | Compiler for \\(\mathcal{L}_{class}\\) | - | [Rec][tut08-rec] |
 
 
 [lec01-slides]: cc/slides/01-intro.pdf
@@ -66,7 +66,7 @@
 [tut05-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-30-tutorial.mp4
 [tut06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-06-tutorial.mp4
 [tut07-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-27-tutorial.mp4
-
+[tut08-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-04-tutorial.mp4
 ## Exercises
 
 Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https://classroom.github.com/a/N58OPy1R)).
