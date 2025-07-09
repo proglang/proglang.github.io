@@ -34,7 +34,8 @@
 | 2025-06-25 We | Lecture | Properties | [Material][lec10-material] | [Recording][lec10-rec] |
 | 2025-06-25 Fr | Lecture | Properties | [Material][lec11-material], [Solutions][sol12] | [Recording][lec11-rec] |
 | 2025-07-02 We | Lecture | DeBruijn | [Material][lec12-material] | [Recording][lec12-rec] |
-| 2025-07-04 We | Tutorial | DeBruijn | [Solutions][sol13] | [Recording][tut12-rec] |
+| 2025-07-04 Fr | Tutorial | DeBruijn | [Solutions][sol13] | [Recording][tut12-rec] |
+| 2025-07-09 We | Lecture | Big-Step Semantics | [Material][lec13-material] | [Recording][lec13-rec] |
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
@@ -67,6 +68,8 @@
 [lec12-material]:  https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture10.lagda.md
 [lec12-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-07-02-lecture-1.mp4
 [tut12-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-07-04-tutorial-1.mp4
+[lec13-material]:  https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture11.lagda.md
+[lec13-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-07-09-lecture-1.mp4
 [sol01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap01_naturals.agda
 [sol02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap02_induction.agda
 [sol03]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap03_relations.agda
