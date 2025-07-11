@@ -36,6 +36,7 @@
 | 2025-07-01 Tu | Lecture | Data classes | [Notes][lec11-notes]  | [Rec][lec11-rec] |
 | 2025-07-04 Fr | Tutorial | Compiler for \\(\mathcal{L}_{class}\\) | - | [Rec][tut08-rec] |
 | 2025-07-08 Tu | Lecture | Peephole Optimization | [Notes][lec12-notes], [Slides][lec12-slides]  | [Rec][lec12-rec] |
+| 2025-07-11 Fr | Tutorial | Peephole Optimization | - | [Rec][tut09-rec] |
 
 
 [lec01-slides]: cc/slides/01-intro.pdf
@@ -71,6 +72,7 @@
 [tut06-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-06-tutorial.mp4
 [tut07-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-27-tutorial.mp4
 [tut08-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-04-tutorial.mp4
+[tut09-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-11-tutorial.mp4
 ## Exercises
 
 Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https://classroom.github.com/a/N58OPy1R)).
