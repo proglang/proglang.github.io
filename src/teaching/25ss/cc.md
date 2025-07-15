@@ -37,6 +37,7 @@
 | 2025-07-04 Fr | Tutorial | Compiler for \\(\mathcal{L}_{class}\\) | - | [Rec][tut08-rec] |
 | 2025-07-08 Tu | Lecture | Peephole Optimization | [Notes][lec12-notes], [Slides][lec12-slides]  | [Rec][lec12-rec] |
 | 2025-07-11 Fr | Tutorial | Peephole Optimization | - | [Rec][tut09-rec] |
+| 2025-07-15 Tu | Lecture | Loop Optimization | [Slides][lec13-slides]  | [Rec][lec13-rec] |
 
 
 [lec01-slides]: cc/slides/01-intro.pdf
@@ -64,6 +65,8 @@
 [lec12-notes]: https://github.com/CC-Uni-Freiburg/lecture-notes-2021/blob/main/lecture-2025-07-08-optimization.md
 [lec12-slides]: cc/slides/17a-optimization.pdf
 [lec12-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-08-lecture-1.mp4
+[lec13-slides]: cc/slides/18-loop.pdf
+[lec13-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-15-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-02-tutorial.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-09-tutorial.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-16-tutorial.mp4
