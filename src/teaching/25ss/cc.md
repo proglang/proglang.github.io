@@ -38,7 +38,7 @@
 | 2025-07-08 Tu | Lecture | Peephole Optimization | [Notes][lec12-notes], [Slides][lec12-slides]  | [Rec][lec12-rec] |
 | 2025-07-11 Fr | Tutorial | Peephole Optimization | - | [Rec][tut09-rec] |
 | 2025-07-15 Tu | Lecture | Loop Optimization | [Slides][lec13-slides]  | [Rec][lec13-rec] |
-
+| 2025-07-18 Fr | Tutorial | Questions | - | [Rec][tut10-rec] |
 
 [lec01-slides]: cc/slides/01-intro.pdf
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-22-lecture-1.mp4
@@ -76,6 +76,7 @@
 [tut07-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-06-27-tutorial.mp4
 [tut08-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-04-tutorial.mp4
 [tut09-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-11-tutorial.mp4
+[tut10-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-18-tutorial.mp4
 ## Exercises
 
 Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https://classroom.github.com/a/N58OPy1R)).
