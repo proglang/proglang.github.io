@@ -39,6 +39,7 @@
 | 2025-07-11 Fr | Tutorial | Peephole Optimization | - | [Rec][tut09-rec] |
 | 2025-07-15 Tu | Lecture | Loop Optimization | [Slides][lec13-slides]  | [Rec][lec13-rec] |
 | 2025-07-18 Fr | Tutorial | Questions | - | [Rec][tut10-rec] |
+| 2025-07-22 Tu | Lecture | Exceptions | [Slides][lec14-slides]  | [Rec][lec14-rec] |
 
 [lec01-slides]: cc/slides/01-intro.pdf
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-04-22-lecture-1.mp4
@@ -67,6 +68,8 @@
 [lec12-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-08-lecture-1.mp4
 [lec13-slides]: cc/slides/18-loop.pdf
 [lec13-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-15-lecture-1.mp4
+[lec14-slides]: https://github.com/CC-Uni-Freiburg/lecture-notes-2021/blob/main/lecture-2025-07-22-exceptions.md
+[lec14-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-22-lecture-1.mp4
 [tut01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-02-tutorial.mp4
 [tut02-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-09-tutorial.mp4
 [tut03-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-05-16-tutorial.mp4
