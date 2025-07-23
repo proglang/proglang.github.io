@@ -162,7 +162,7 @@
 <ul>
 <li><a href="25ws/eidp.html">Einführung in die Programmierung</a></li>
 <li><a href="25ws/ct.html">Concurrency Theory</a></li>
-<li><a href="25ws/popl.html">Principals of Programming Languages – Seminar</a></li>
+<li><a href="25ws/at.html">Automatentheorie – Proseminar</a></li>
 </ul>
 
                     </main>
@@ -173,22 +173,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

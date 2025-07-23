@@ -5,7 +5,7 @@
     - [Winter 2025](teaching/25ws.md)
       - [Einführung in die Programmierung](teaching/25ws/eidp.md)
       - [Concurrency Theory](teaching/25ws/ct.md)
-      - [Principles of Programming Languages – Seminar](teaching/25ws/popl.md)
+      - [Automatentheorie – Proseminar](teaching/25ws/at.md)
     - [Summer 2025](teaching/25ss.md)
       - [Compiler Construction](teaching/25ss/cc.md) 
       - [Essentials of Programming Languages](teaching/25ss/eopl.md)

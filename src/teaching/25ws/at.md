@@ -1,5 +1,4 @@
-# Principles of Programming Languages – Seminar 
-
+# Automatentheorie – Proseminar
 
 ## General Information
 
