@@ -4,13 +4,13 @@ language = "en"
 text-direction = "ltr"
 multilingual = false
 src = "src"
-title = "Programming Languages Group"
+title = "Programming Languages Group  – University of Freiburg"
 description = "Programming Languages Group – University of Freiburg"
 
 [output.html]
 theme = "theme"
 default-theme = "light"
-preferred-dark-theme = "light"
+preferred-dark-theme = "dark"
 smart-punctuation = true
 mathjax-support = true
 copy-fonts = true
@@ -19,7 +19,7 @@ site-url = "/"
 
 [output.html.fold]
 enable = true
-level = 0
+level = 2
 
 [output.html.playground]
 editable = false

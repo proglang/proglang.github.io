@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en" class="light" dir="ltr">
+<html lang="en" class="light sidebar-visible" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Programming Languages Group</title>
+        <title>Programming Languages Group  – University of Freiburg</title>
         <meta name="robots" content="noindex">
 
 
@@ -25,30 +25,32 @@
         <link rel="stylesheet" href="fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
         <!-- MathJax -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-         <!-- Start loading toc.js asap -->
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "dark";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
     <div id="body-container">
-        <!-- Provide site root to javascript -->
-        <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
-        </script>
-
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -62,63 +64,46 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
+            const html = document.documentElement;
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" checked="true" class="hidden sidebar-visible">
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var body = document.querySelector('body');
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
-            if (document.body.clientWidth >= 750) {
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
+                sidebar_toggle.checked = false;
             }
-            sidebar_toggle.checked = sidebar === 'visible';
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="home.html">Home</a></li><li class="chapter-item "><a href="team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="team/weidner.html">Marius Weidner</a></li><li class="chapter-item "><a href="team/spaderna.html">Janek Spaderna</a></li><li class="chapter-item "><a href="team/mieschendahl.html">Leonardo Mieschendahl</a></li></ol></li><li class="chapter-item "><a href="teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ws.html">Winter 2025</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ws/eidp.html">Einführung in die Programmierung</a></li><li class="chapter-item "><a href="teaching/25ws/ct.html">Concurrency Theory</a></li><li class="chapter-item "><a href="teaching/25ws/popl.html">Principles of Programming Languages – Seminar</a></li></ol></li><li class="chapter-item "><a href="teaching/25ss.html">Summer 2025</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ss/cc.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/25ss/eopl.html">Essentials of Programming Languages</a></li><li class="chapter-item "><a href="teaching/25ss/popl.html">Principles of Programming Languages (Seminar)</a></li></ol></li><li class="chapter-item "><a href="teaching/24ws.html">Winter 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ws/eidp.html">Einführung in die Programmierung</a></li><li class="chapter-item "><a href="teaching/24ws/fp.html">Functional Programming</a></li></ol></li><li class="chapter-item "><a href="teaching/24ss.html">Summer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/24ss/concurrency.html">Concurrency</a></li><li class="chapter-item "><a href="teaching/24ss/ocaml.html">Real World OCaml (Seminar)</a></li></ol></li></ol></li><li class="chapter-item "><a href="about.html">About</a></li></ol>
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
-
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
@@ -129,20 +114,32 @@
                         <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
                         </label>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button> 
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="dark">Dark</button></li>
+                        </ul> 
+                        <button id="search-toggle" class="icon-button" type="button" title="Search" aria-label="Toggle Searchbar" aria-expanded="false" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Programming Languages Group</h1>
+                    <h1 class="menu-title">Programming Languages Group  – University of Freiburg</h1>
 
-                    <a href="https://uni-freiburg.de" target="_blank"><img class="menu-icon" src="https://cca.informatik.uni-freiburg.de/img/logo-new.png"></img></a>
 
                 </div>
 
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this website ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
                     </form>
                     <div id="searchresults-outer" class="searchresults-outer hidden">
                         <div id="searchresults-header" class="searchresults-header"></div>
@@ -166,62 +163,6 @@
 <div class="warning">
 This website is currently under construction and will eventually replace the <a href="https://proglang.informatik.uni-freiburg.de">previous version</a>.
 </div>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="team"><a class="header" href="#team">Team</a></h2>
-<h3 id="lead"><a class="header" href="#lead">Lead</a></h3>
-<ul>
-<li><a href="team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
-</ul>
-<h3 id="administration"><a class="header" href="#administration">Administration</a></h3>
-<ul>
-<li><a href="team/jost.html">Marlis Jost</a></li>
-</ul>
-<h3 id="scientific-staff"><a class="header" href="#scientific-staff">Scientific Staff</a></h3>
-<ul>
-<li><a href="team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li>
-<li><a href="team/saffrich.html">Hannes Saffrich</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="prof-dr-peter-thiemann"><a class="header" href="#prof-dr-peter-thiemann">Prof. Dr. Peter Thiemann</a></h1>
-<ul>
-<li>Office: Building 079, Room 00 015</li>
-<li>Mail: thiemann /a/ informatik.uni-freiburg.de</li>
-<li>Telefon: <a href="callto:+497612038051">+49 (0)761 203 8051</a></li>
-<li>Website: <a href="http://www2.informatik.uni-freiburg.de/~thiemann/">informatik.uni-freiburg.de/~thiemann</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="marlis-jost"><a class="header" href="#marlis-jost">Marlis Jost</a></h1>
-<ul>
-<li>Office: Building 052, Room 00 023</li>
-<li>Mail: mjost /a/ informatik.uni-freiburg.de</li>
-<li>Telefon: <a href="callto:+497612038240">+49 761 203 8240</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="bas-van-den-heuvel"><a class="header" href="#bas-van-den-heuvel">Bas van den Heuvel</a></h1>
-<ul>
-<li>Office: Building 079, Room 00 014</li>
-<li>Mail: vdheuvel /a/ informatik.uni-freiburg.de</li>
-<li>Website: <a href="https://basvdheuvel.github.io/">basvdheuvel.github.io</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="hannes-saffrich"><a class="header" href="#hannes-saffrich">Hannes Saffrich</a></h1>
-<ul>
-<li>Office: Building 079, Room 00 014</li>
-<li>Mail: saffrich /a/ informatik.uni-freiburg.de</li>
-<li>GitHub: <a href="https://www.github.com/m0rphism/">m0rphism</a></li>
-<li>Cat:	ฅ^•ﻌ•^ฅ</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="marius-weidner"><a class="header" href="#marius-weidner">Marius Weidner</a></h1>
-<ul>
-<li>Office: Building 079, Room 00 014</li>
-<li>Mail: weidner /a/ cs.uni-freiburg.de</li>
-<li>GitHub: <a href="https://github.com/Mari-W">Mari-W</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="janek-spaderna"><a class="header" href="#janek-spaderna">Janek Spaderna</a></h1>
-<ul>
-<li>Office: Building 079, Room 00 014</li>
-<li>Mail: spadernj /a/ informatik.uni-freiburg.de</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="leonardo-mieschendahl"><a class="header" href="#leonardo-mieschendahl">Leonardo Mieschendahl</a></h1>
-<ul>
-<li>Office: Building 079, Room 00 014</li>
-<li>Mail: mieschel /a/ tf.uni-freiburg.de</li>
-</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="teaching"><a class="header" href="#teaching">Teaching</a></h1>
 <p>[ <a href="teaching/25ws.html">Winter 2025</a> | <a href="teaching/25ss.html">Summer 2025</a> | <a href="teaching/24ws.html">Winter 2024</a> | <a href="teaching/24ss.html">Summer 2024</a> | <a href="https://proglang.informatik.uni-freiburg.de/teaching/">Before 2024</a> ]</p>
 <h2 id="projects-and-thesis"><a class="header" href="#projects-and-thesis">Projects and Thesis</a></h2>
@@ -1094,6 +1035,62 @@ Webseite unter Author Guidelines.</p>
 <p>Eine gute LaTeX Einführung finden Sie in der <a href="https://www.overleaf.com/learn">Dokumentation von Overleaf</a>.</p>
 <h2 id="themen"><a class="header" href="#themen">Themen</a></h2>
 <p>Grundlage des Proseminars ist das Buch “Real World OCaml”, das im Netz in den Formaten HTML/PDF verfügbar ist. Ein Vortrag entspricht einem Abschnitt im Buch vom Umfang etwa einer Vorlesungsstunde. Hier ist die Webseite zum Buch: <a href="https://dev.realworldocaml.org/">dev.realworldocaml.org</a>. Zuerst werden die Kapitel 2-7 im Wochenrhythmus gemeinsam besprochen, danach wöchentlich zwei Vorträge zu <a href="https://proglang.informatik.uni-freiburg.de/teaching/proseminar/2022ss/Themen.pdf">Themen aus den Kapiteln 9-19</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="team"><a class="header" href="#team">Team</a></h2>
+<h3 id="lead"><a class="header" href="#lead">Lead</a></h3>
+<ul>
+<li><a href="team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
+</ul>
+<h3 id="administration"><a class="header" href="#administration">Administration</a></h3>
+<ul>
+<li><a href="team/jost.html">Marlis Jost</a></li>
+</ul>
+<h3 id="scientific-staff"><a class="header" href="#scientific-staff">Scientific Staff</a></h3>
+<ul>
+<li><a href="team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li>
+<li><a href="team/saffrich.html">Hannes Saffrich</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="prof-dr-peter-thiemann"><a class="header" href="#prof-dr-peter-thiemann">Prof. Dr. Peter Thiemann</a></h1>
+<ul>
+<li>Office: Building 079, Room 00 015</li>
+<li>Mail: thiemann /a/ informatik.uni-freiburg.de</li>
+<li>Telefon: <a href="callto:+497612038051">+49 (0)761 203 8051</a></li>
+<li>Website: <a href="http://www2.informatik.uni-freiburg.de/~thiemann/">informatik.uni-freiburg.de/~thiemann</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="marlis-jost"><a class="header" href="#marlis-jost">Marlis Jost</a></h1>
+<ul>
+<li>Office: Building 052, Room 00 023</li>
+<li>Mail: mjost /a/ informatik.uni-freiburg.de</li>
+<li>Telefon: <a href="callto:+497612038240">+49 761 203 8240</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="bas-van-den-heuvel"><a class="header" href="#bas-van-den-heuvel">Bas van den Heuvel</a></h1>
+<ul>
+<li>Office: Building 079, Room 00 014</li>
+<li>Mail: vdheuvel /a/ informatik.uni-freiburg.de</li>
+<li>Website: <a href="https://basvdheuvel.github.io/">basvdheuvel.github.io</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="hannes-saffrich"><a class="header" href="#hannes-saffrich">Hannes Saffrich</a></h1>
+<ul>
+<li>Office: Building 079, Room 00 014</li>
+<li>Mail: saffrich /a/ informatik.uni-freiburg.de</li>
+<li>GitHub: <a href="https://www.github.com/m0rphism/">m0rphism</a></li>
+<li>Cat:	ฅ^•ﻌ•^ฅ</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="marius-weidner"><a class="header" href="#marius-weidner">Marius Weidner</a></h1>
+<ul>
+<li>Office: Building 079, Room 00 014</li>
+<li>Mail: weidner /a/ cs.uni-freiburg.de</li>
+<li>GitHub: <a href="https://github.com/Mari-W">Mari-W</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="janek-spaderna"><a class="header" href="#janek-spaderna">Janek Spaderna</a></h1>
+<ul>
+<li>Office: Building 079, Room 00 014</li>
+<li>Mail: spadernj /a/ informatik.uni-freiburg.de</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="leonardo-mieschendahl"><a class="header" href="#leonardo-mieschendahl">Leonardo Mieschendahl</a></h1>
+<ul>
+<li>Office: Building 079, Room 00 014</li>
+<li>Mail: mieschel /a/ tf.uni-freiburg.de</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="about"><a class="header" href="#about">About</a></h1>
 <p><a href="https://www.tf.uni-freiburg.de">Technische Fakultät</a> &gt;
 <a href="https://www.informatik.uni-freiburg.de">Institut für Informatik</a> &gt; <a href="/">Programming Languages Group</a></p>
@@ -1121,6 +1118,22 @@ Webseite unter Author Guidelines.</p>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
@@ -1146,6 +1159,7 @@ Webseite unter Author Guidelines.</p>
             });
         });
         </script>
+
 
     </div>
     </body>

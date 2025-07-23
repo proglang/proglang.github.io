@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en" class="light" dir="ltr">
+<html lang="en" class="light sidebar-visible" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Team - Programming Languages Group</title>
+        <title>Team - Programming Languages Group  – University of Freiburg</title>
 
 
         <!-- Custom HTML head -->
@@ -24,30 +24,32 @@
         <link rel="stylesheet" href="fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
         <!-- MathJax -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-         <!-- Start loading toc.js asap -->
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "dark";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
     </head>
-    <body class="sidebar-visible no-js">
+    <body>
     <div id="body-container">
-        <!-- Provide site root to javascript -->
-        <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
-        </script>
-
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -61,63 +63,46 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
+            const html = document.documentElement;
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" checked="true" class="hidden sidebar-visible">
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var body = document.querySelector('body');
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
-            if (document.body.clientWidth >= 750) {
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
+                sidebar_toggle.checked = false;
             }
-            sidebar_toggle.checked = sidebar === 'visible';
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="home.html">Home</a></li><li class="chapter-item "><a href="team.html">Team</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="team/thiemann.html">Prof. Dr. Peter Thiemann</a></li><li class="chapter-item "><a href="team/jost.html">Marlis Jost</a></li><li class="chapter-item "><a href="team/van-den-heuvel.html">Dr. Bas van den Heuvel</a></li><li class="chapter-item "><a href="team/saffrich.html">Hannes Saffrich</a></li><li class="chapter-item "><a href="team/weidner.html">Marius Weidner</a></li><li class="chapter-item "><a href="team/spaderna.html">Janek Spaderna</a></li><li class="chapter-item "><a href="team/mieschendahl.html">Leonardo Mieschendahl</a></li></ol></li><li class="chapter-item "><a href="teaching.html">Teaching</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ws.html">Winter 2025</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ws/eidp.html">Einführung in die Programmierung</a></li><li class="chapter-item "><a href="teaching/25ws/ct.html">Concurrency Theory</a></li><li class="chapter-item "><a href="teaching/25ws/popl.html">Principles of Programming Languages – Seminar</a></li></ol></li><li class="chapter-item "><a href="teaching/25ss.html">Summer 2025</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/25ss/cc.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/25ss/eopl.html">Essentials of Programming Languages</a></li><li class="chapter-item "><a href="teaching/25ss/popl.html">Principles of Programming Languages (Seminar)</a></li></ol></li><li class="chapter-item "><a href="teaching/24ws.html">Winter 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ws/eidp.html">Einführung in die Programmierung</a></li><li class="chapter-item "><a href="teaching/24ws/fp.html">Functional Programming</a></li></ol></li><li class="chapter-item "><a href="teaching/24ss.html">Summer 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="teaching/24ss/compiler-construction.html">Compiler Construction</a></li><li class="chapter-item "><a href="teaching/24ss/concurrency.html">Concurrency</a></li><li class="chapter-item "><a href="teaching/24ss/ocaml.html">Real World OCaml (Seminar)</a></li></ol></li></ol></li><li class="chapter-item "><a href="about.html">About</a></li></ol>
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
-
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
@@ -128,20 +113,32 @@
                         <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
                         </label>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button> 
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="dark">Dark</button></li>
+                        </ul> 
+                        <button id="search-toggle" class="icon-button" type="button" title="Search" aria-label="Toggle Searchbar" aria-expanded="false" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Programming Languages Group</h1>
+                    <h1 class="menu-title">Programming Languages Group  – University of Freiburg</h1>
 
-                    <a href="https://uni-freiburg.de" target="_blank"><img class="menu-icon" src="https://cca.informatik.uni-freiburg.de/img/logo-new.png"></img></a>
 
                 </div>
 
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this website ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
                     </form>
                     <div id="searchresults-outer" class="searchresults-outer hidden">
                         <div id="searchresults-header" class="searchresults-header"></div>
@@ -184,6 +181,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
@@ -201,6 +214,7 @@
         <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
+
 
 
     </div>
