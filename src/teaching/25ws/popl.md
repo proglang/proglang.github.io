@@ -1,5 +1,4 @@
 # Principles of Programming Languages – Seminar 
-###### Winter 2025
 
 
 ## General Information

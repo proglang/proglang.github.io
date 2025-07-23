@@ -15,6 +15,7 @@ smart-punctuation = true
 mathjax-support = true
 copy-fonts = true
 no-section-label = true
+site-url = "/"
 
 [output.html.fold]
 enable = true
@@ -28,8 +29,8 @@ enable = true
 limit-results = 30
 teaser-word-count = 30
 use-boolean-and = true
-boost-title = 2
-boost-hierarchy = 1
+boost-title = 1
+boost-hierarchy = 2
 boost-paragraph = 1
 expand = true
 heading-split-level = 3

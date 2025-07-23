@@ -1,5 +1,4 @@
 # Concurrency Theory
-###### Winter 2025
 
 ## General Information
 
