@@ -1,4 +1,5 @@
-# Concurrency Theory (Winter 2025)
+# Concurrency Theory
+###### Winter 2025
 
 ## General Information
 

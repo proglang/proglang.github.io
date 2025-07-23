@@ -1,4 +1,5 @@
-# Einführung in die Programmierung (Winter 2025)
+# Einführung in die Programmierung 
+###### Winter 2025
 
 ## Übersicht
 
