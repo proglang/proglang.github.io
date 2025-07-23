@@ -1,6 +1,6 @@
 # Teaching
 
-[ [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
+[ [Winter 2025](teaching/25ws.md) | [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
 
 
 ## Projects and Thesis

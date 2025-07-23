@@ -1,7 +1,7 @@
 # About
 
 [Technische Fakultät](https://www.tf.uni-freiburg.de) > 
-[Institut für Informatik](https://www.informatik.uni-freiburg.de) > [Chair of Programming Languages](/)
+[Institut für Informatik](https://www.informatik.uni-freiburg.de) > [Programming Languages Group](/)
 
 ## Impressum
 

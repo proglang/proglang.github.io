@@ -4,8 +4,8 @@ language = "en"
 text-direction = "ltr"
 multilingual = false
 src = "src"
-title = "Chair of Programming Languages"
-description = "Website for the Chair of Programming Languages at the University of Freiburg"
+title = "Programming Languages Group"
+description = "Programming Languages Group – University of Freiburg"
 
 [output.html]
 theme = "theme"
