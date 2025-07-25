@@ -38,8 +38,9 @@
 | 2025-07-09 We | Lecture | Big-Step Semantics | [Material][lec13-material] | [Recording][lec13-rec] |
 | 2025-07-11 Fr | Tutorial | Big-Step Semantics |  | [Recording][tut13-rec] |
 | 2025-07-16 We | Lecture | Denotational Semantics | [Material][lec14-material] | [Recording][lec14-rec] |
-| 2025-07-18 Fre | Tutorial | Denotational Semantics | [Material][tut14-material] | [Recording][tut14-rec] |
+| 2025-07-18 Fr | Tutorial | Denotational Semantics | [Material][tut14-material] | [Recording][tut14-rec] |
 | 2025-07-23 We | Lecture | Imperative-Semantics of While | [Material][lec15-material] | [Recording 1][lec15-rec], [Recording 2][lec15a-rec] |
+| 2025-07-25 Fr | Tutorial | General Discussion | | [Recording][tut15-rec] |
 
 [lec01-material]: https://github.com/proglang/eopl-lecture-notes/blob/main/src/Lecture1.lagda.md
 [lec01-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-04-23-lecture-1.mp4
@@ -82,6 +83,7 @@
 [tut13-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-07-11-tutorial-1.mp4
 [tut14-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-07-18-tutorial-1.mp4
 [tut14-material]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/Lecture12Small.agda
+[tut15-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-07-25-tutorial-1.mp4
 [sol01]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap01_naturals.agda
 [sol02]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap02_induction.agda
 [sol03]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/solutions/chap03_relations.agda
