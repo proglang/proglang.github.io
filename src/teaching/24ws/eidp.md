@@ -6,13 +6,9 @@
 - Assistenten: [Marius Weidner](/team/weidner.md), [Hannes Saffrich](/team/saffrich.md)
 - Vorlesung: Dienstag 10:15 - 11:45 und Mittwoch 13:00 - 13:45, HS 00 026 \\(\mu\\) Saal
 
-<div class="warning">
-Ganz unten auf dieser Seite finden sich sowohl alle wichtigen Infos zur Klausur, als auch eine zusätzliche Altklausur.
-</div>
+## Klausureinsicht Nachklausur Einführung in die Programmierung
 
-## Klausureinsicht Einführung in die Programmierung
-
-am Mittwoch, 23.4.2025, 10-12 Uhr, Poolraum 3, Werthmannstr. 4.
+am Mittwoch, 10.10.2025, 10-12 Uhr, Poolraum 3, Werthmannstr. 4.
 Die Einsicht findet am Rechner statt. Mobiltelefone und andere elektronische Geräte sind
 während der Klausureinsicht auszuschalten.
 Bitte mitbringen:
