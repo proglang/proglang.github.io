@@ -11,6 +11,9 @@
 [zoom]: https://uni-freiburg.zoom-x.de/j/63677542064?pwd=SRbStbdJDtWnCrr7lvdFiyEs8y1FaK.1
 [zoom-tut]: https://uni-freiburg.zoom-x.de/j/61217585445?pwd=UnCaWLR0ozP2wC8ElRbPl54JYslbq7.1
 
+## Exam Review
+Mo, 20.10.25 14:00 - 16:00, Werthmannstraße 4, PC Pool 9 
+
 ## Lectures & Tutorials
 
 | Date | Type | Topic | Material | Recordings 

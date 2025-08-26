@@ -9,6 +9,9 @@
 - **Livestream:** [Zoom meeting](https://uni-freiburg.zoom-x.de/j/63630251635?pwd=mnwRBuRiIWSmWQbRtxWct59eTbyNPa.1),
                   Passcode: rPZCumB7H, used for lectures and tutorials
 
+## Retake Exam Review
+Mo, 20.10.25 14:00 - 16:00, Werthmannstraße 4, PC Pool 9 
+
 ## Lectures & Tutorials
 
 | Date | Type | Topic | Material | Recordings |

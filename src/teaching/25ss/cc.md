@@ -11,6 +11,9 @@
 [zoom2]: https://uni-freiburg.zoom-x.de/j/62153572187?pwd=kqhISWSzCEaZ5Ct7I9sbw71ZGM1x2p.1
 <!-- (Hannes) (Zoom Meeting ID: 631 6286 3480, Passcode: An1SxJdPr) [zoom2]: https://uni-freiburg.zoom-x.de/j/63162863480?pwd=NQoZk82SvNbFqDtJQVyEvbvMfLBNnG.1-->
 
+## Exam Review
+Mo, 20.10.25 14:00 - 16:00, Werthmannstraße 4, PC Pool 9 
+
 ## Lectures & Tutorials
 
 | Date | Type | Topic | Material | Recordings 
