@@ -8,7 +8,7 @@
 
 ## Klausureinsicht Nachklausur Einführung in die Programmierung
 
-am Mittwoch, 17.10.2025, 10-12 Uhr, Poolraum 3, Werthmannstr. 4.
+am Freitag, 17.10.2025, 10-12 Uhr, Poolraum 3, Werthmannstr. 4.
 Die Einsicht findet am Rechner statt. Mobiltelefone und andere elektronische Geräte sind
 während der Klausureinsicht auszuschalten.
 Bitte mitbringen:
