@@ -4,4 +4,5 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistant: [Janek Spaderna](/team/spaderna.md)
-- Kickoff meeting: tba.
+- Room: SR 00 014, building 078
+- Kickoff meeting: 14.10.2025
