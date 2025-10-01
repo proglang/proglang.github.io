@@ -1,4 +1,4 @@
 # Janek Spaderna
 
 - Office: Building 079, Room 00 014
-- Mail: spadernj /a/ informatik.uni-freiburg.de
+- Mail: janek.spaderna /a/ cs.uni-freiburg.de
