@@ -13,6 +13,7 @@
 | Datum  | Änderungen/Neuigkeiten |
 | ------ | ---------------------- |
 | 07.10. | Themen, Informationen zum Seminarsablauf |
+| 10.10. | weitere Themen |
 
 
 ## Ablauf des Seminars
@@ -58,10 +59,31 @@ Besprechungstermine mit dem zuständigen Betreuer zu vereinbaren.
 
 ## Themen und Literatur
 
-Grundlage des Proseminars ist das Buch „Automatentheorie und Logik“ von Hofmann
+Grundlage des Proseminars ist das Buch *„Automatentheorie und Logik“* von Hofmann
 und Lange. Ein Vortrag entspricht einem Kapitel im Buch vom Umfang etwa
 einer Vorlesungsstunde. Das Buch ist [online][book] (über das
 Universitätsnetzwerk, z.&#8239;B. via VPN) und in der Fakultätsbibliothek verfügbar.
+
+Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sind:
+
+* Brzozowski-Ableitungen
+
+  JA Brzozowski. [*Derivatives of regular
+  expressions.*](https://dl.acm.org/doi/pdf/10.1145/321239.321249) J. ACM,
+  11(4):481–494, 1964.
+
+* Antimirov-Ableitungen
+
+  VM Antimirov. [*Partial derivatives of regular expressions and finite
+  automaton
+  constructions.*](https://link.springer.com/content/pdf/10.1007/3-540-59042-0_96.pdf)
+  Theor. Comput. Sci., 155(2):291–319, 1996.
+
+* Symbolische Baum-Automaten
+
+  M Veanes, NS Bjørner. [*Symbolic tree
+  automata.*](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/staIPL.pdf)
+  Inf. Process. Lett., 115 (3):418–424, 2015.
 
 <!--
 * 2 Schwache Monadische Logik zweiter Stufe
