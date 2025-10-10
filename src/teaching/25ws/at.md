@@ -66,6 +66,8 @@ Universitätsnetzwerk, z.&#8239;B. via VPN) und in der Fakultätsbibliothek verf
 
 Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sind:
 
+<div style="text-align: left">
+
 * Brzozowski-Ableitungen
 
   JA Brzozowski. [*Derivatives of regular
@@ -84,6 +86,8 @@ Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sin
   M Veanes, NS Bjørner. [*Symbolic tree
   automata.*](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/staIPL.pdf)
   Inf. Process. Lett., 115 (3):418–424, 2015.
+  
+</div>
 
 <!--
 * 2 Schwache Monadische Logik zweiter Stufe
