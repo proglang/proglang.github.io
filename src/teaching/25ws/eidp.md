@@ -15,8 +15,8 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 
 | Datum | Thema | Material | Aufzeichnung 
 |:-----|:-----|:-----|:-----|
-| Di 15.10.24 | Organisation | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1], [Skript 01][lecture00-script1] | [MP4][lecture00-recording] |
-| Mi 16.10.24 | Übungssystem & Git | [Folien 02][lecture01-slides], [Skript 02][lecture01-script2] | [MP4][lecture01-recording] |
+| Di 15.10.24 | Organisation & Einführung | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1], [Skript 01][lecture00-script1] | [MP4][lecture00-recording] |
+| Mi 16.10.24 | Übungssystem & Erste Schritte in Python | [Folien 02][lecture01-slides], [Skript 02][lecture01-script2] | [MP4][lecture01-recording] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
