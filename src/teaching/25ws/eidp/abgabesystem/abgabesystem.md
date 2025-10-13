@@ -169,7 +169,11 @@ git push
 
 Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server automatisch, ob Ihr Code den vorgegebenen Stilrichtlinien (z. B. *flake8*) entspricht und ob Sie in der Datei **NOTES.md** Ihre aufgewendete Zeit eingetragen haben.
 
-War der Build erfolgreich, erscheint ein grüner Haken neben Ihrer Commit-Nachricht auf der Abgabeplattform. Bei einem fehlgeschlagenen Build wird stattdessen ein roter Haken angezeigt. Durch einen Klick darauf erhalten Sie eine detaillierte Fehlermeldung.
+War der Build erfolgreich, erscheint ein grüner Haken neben Ihrer Commit-Nachricht auf der Abgabeplattform.
+
+Bei einem fehlgeschlagenen Build wird stattdessen ein roter Haken angezeigt. Durch einen Klick auf den roten Haken **1.** und dann einen Klick auf **2.** Details, erhalten Sie eine detaillierte Fehlermeldung.
+
+<img src="build.png" alt="build" style="width:50%;"/>
 
 Der Build-Check muss erfolgreich abgeschlossen werden – Abgaben, die diesen Schritt nicht bestehen, werden mit **0 Punkten** bewertet.
 
