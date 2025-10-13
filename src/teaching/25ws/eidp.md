@@ -4,7 +4,11 @@
 
 - Dozent: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistent: [Marius Weidner](/team/weidner.md)
-- Vorlesung: HS 00 026 µ-Saal G.-Köhler-Allee 101, Dienstags 10:15-11:45 und Mittwochs 13:00-13:45 
+- Vorlesung: HS 00 026 µ-Saal G.-Köhler-Allee 101, Dienstags 10:15-11:45 (zusätzlich via [Zoom](
+https://uni-freiburg.zoom-x.de/j/64443056752?pwd=7YKmIQzPdPnnOhdfQfwEuFO8BQ3okN.1
+)) und Mittwochs (zusätzlich via [Zoom](
+https://uni-freiburg.zoom-x.de/j/63628810811?pwd=1xwbDfFckvI25aYCgn6Fd0J5exDOZM.1
+)) 13:00-13:45 
 
 <div class="warning">
 Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterwoche am Mittwoch den 15.10 von 12:15-13:00 Uhr im HS 00 026 µ-Saal G.-Köhler-Allee 101.
