@@ -19,7 +19,7 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 
 | Datum | Thema | Material | Aufzeichnung 
 |:-----|:-----|:-----|:-----|
-| Di 15.10.24 | Organisation & Einführung | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1], [Skript 01][lecture00-script1] | [MP4][lecture00-recording] |
+| Di 15.10.24 | Organisation & Einführung | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1], [Setupt][/teaching/25ws/eidp/setup], [Abgabesystem][/teaching/25ws/eidp/abgabesystem] | [MP4][lecture00-recording] |
 | Mi 16.10.24 | Übungssystem & Erste Schritte in Python | [Folien 02][lecture01-slides], [Skript 02][lecture01-script2] | [MP4][lecture01-recording] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
@@ -30,7 +30,7 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 [lecture01-recording]: /teaching/25ws/eidp.html
 [lecture01-script2]:  eidp/abgabesystem.html
 
-## Übung
+## Übungen
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
