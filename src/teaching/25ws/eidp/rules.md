@@ -8,11 +8,21 @@ Im folgenden sind die Regeln für die Abgabe der Übungen aufgelistet. Bitte les
 
 Verwenden Sie nur Befehle und Programmiertechniken, die in den *bisherigen* Vorlesungen (bis zum Abgabetermin) und Übungsblättern behandelt wurden.
 
+### Style Guidelines
+
+Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server, ob Ihr Code die Stilrichtlinien von [`flake8`](https://flake8.pycqa.org/en/latest/) befolgt. Dieser Check muss erfolgreich sein, ansonsten wird Ihre abgabe mit 0 Punkten bewertet. Sie sehen das daran, dass auf der Webplattform unseres git-Systems ein grüner Haken erscheint.
+
 ### Dateinamen und Dateiformate
 
 Die einzelnen Aufgaben sind mit vollständigen Dateinamen versehen. Verwenden Sie genau diese Namen und die dazugehörigen Dateiformate für Ihre Abgabe. Um Tippfehler zu vermeiden, können Sie die Dateinamen auch einfach kopieren.
 
 Ihre Dateien sollen immer im *Plaintext-Format* (UTF-8 codiert) vorliegen. Python-Code speichern Sie in Dateien mit der Endung `.py`. Für Texte können Sie zwischen `.txt` und `.md` ([Markdown](https://de.wikipedia.org/wiki/Markdown)) frei wählen. Markdown-Dateien bieten gegenüber einfachen `.txt`-Dateien zusätzliche Formatierungsmöglichkeiten, die Sie in Visual Studio Code mit der Tastenkombination `STRG + SHIFT + V` anzeigen lassen können. **Insbesondere sind also keine PDFs, keine Word-Dokumente und auch keine Bildschirmfotos erlaubt!**
+
+### Abgabeort
+
+Geben Sie Ihre Aufgaben über unser [git-System](https://git.laurel.informatik.uni-freiburg.de/) ab. Abgaben per Mail können *nicht* berücksichtigt werden.
+
+<!--
 
 ### Funktionsnamen
 
@@ -22,17 +32,11 @@ In den Übungsblättern geben wir Funktionsnamen für die zu implementierenden F
 Alle Funktionen, Klassen, Generatoren etc. sollen mit Typannotationen versehen werden. Für fehlende oder teilweise richtige
 Typannotationen wird es Abzüge geben.
 
-### Abgabeort
-
-Geben Sie Ihre Aufgaben über unser [git-System](https://git.laurel.informatik.uni-freiburg.de/) ab. Abgaben per Mail können *nicht* berücksichtigt werden.
-
-### Style Guidelines
-
-Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server, ob Ihr Code die Stilrichtlinien von [`flake8`](https://flake8.pycqa.org/en/latest/) befolgt. Dieser Check muss erfolgreich sein, ansonsten wird Ihre abgabe mit 0 Punkten bewertet. Sie sehen das daran, dass auf der Webplattform unseres git-Systems ein grüner Haken erscheint.
-
 ### Top-Level Statements
 
 Setzen Sie alle Top-Level-Statements wie `print(...)`, `input(...)` oder Tests in hinter eine `if __name__ == "__main__"`-Verzeigung. Dadurch werden diese Statements nur ausgeführt, wenn das Python-Skript direkt gestartet wird, nicht aber beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.
+
+-->
 
 ## Tipp
 
