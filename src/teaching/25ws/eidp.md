@@ -37,7 +37,7 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 | Di 14.10.24 | Mo 20.10.24 09:00 über [Git][git] | [Blatt01][exercise01-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
-[exercise01-pdf]: /teaching/25ws/eidp.html
+[exercise01-pdf]: /teaching/25ws/exercises/sheet01.pdf
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/25ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/solutions).
