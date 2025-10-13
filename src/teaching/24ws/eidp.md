@@ -189,7 +189,7 @@ Eine Auswahl der besten Text Adventures finden sie [hier](/teaching/24ws/eidp/ad
 | 4 | Do 8-10 | Tim Schick |  R 03 026 Seminarraum (G.-Köhler-Allee 051) |
 | 5 | Do 8-10 | Max Schweigert | SR 00 014 (G.-Köhler-Allee 078) |
 | 6 | Do 8-10 | Moritz Steffl | SR 00 031 (G.-Köhler-Allee 051) |
-| 7| Do 8-10 | Paul Dyckmans | SR 00 034 (G.-Köhler-Allee 051) |
+| 7 | Do 8-10 | Paul Dyckmans | SR 00 034 (G.-Köhler-Allee 051) |
 | 8 | Do 16-18 | Sven Mally | SR 00 006 (G.-Köhler-Allee 051) |
 | 9 | Do 16-18 | Nils Pukropp | SR 00 034 (G.-Köhler-Allee 051) |
 | 10 | Do 16-18 | Vincent von Bosse | SR 00 031 (G.-Köhler-Allee 051) |
