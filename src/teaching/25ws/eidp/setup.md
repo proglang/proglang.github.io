@@ -137,7 +137,7 @@ Als Entwicklungsumgebung verwenden wir **Visual Studio Code (VS Code)**.
    - **Linux:** `.deb`-Paket für *Ubuntu*  
 3. Führen Sie die Installation durch.  
 4. Öffnen Sie VS Code.  
-5. **Nur für Windows-Nutzer:** Klicken Sie unten links auf ![alt text](vsc-wsl-button.png) → **Connect to WSL** auswählen.
+5. **Nur für Windows-Nutzer:** Klicken Sie unten links auf <img src="wsl-vsc.png" alt="wsl-vsc" width="width:5%;"/> → **Connect to WSL** auswählen.
 
 ---
 
