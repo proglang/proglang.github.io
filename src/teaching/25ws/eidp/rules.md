@@ -18,10 +18,6 @@ Ihre Dateien sollen immer im *Plaintext-Format* (UTF-8 codiert) vorliegen. Pytho
 
 In den Übungsblättern geben wir Funktionsnamen für die zu implementierenden Funktionen vor. Halten Sie sich an diese Vorgaben, da wir Ihre Lösungen automatisiert testen.
 
-### Syntax-Fehler
-
-Python-Skripte, die aufgrund eines SyntaxFehlers nicht ausführbar oder importierbar sind, werden mit 0 Punkten bewertet.
-
 ### Typeannotationen
 Alle Funktionen, Klassen, Generatoren etc. sollen mit Typannotationen versehen werden. Für fehlende oder teilweise richtige
 Typannotationen wird es Abzüge geben.
@@ -32,7 +28,7 @@ Geben Sie Ihre Aufgaben über unser [git-System](https://git.laurel.informatik.u
 
 ### Style Guidelines
 
-Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server, ob Ihr Code die Stilrichtlinien von [`flake8`](https://flake8.pycqa.org/en/latest/) befolgt. Dieser Check muss erfolgreich sein. Sie sehen das daran, dass auf der Webplattform unseres git-Systems ein grüner Haken erscheint.
+Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server, ob Ihr Code die Stilrichtlinien von [`flake8`](https://flake8.pycqa.org/en/latest/) befolgt. Dieser Check muss erfolgreich sein, ansonsten wird Ihre abgabe mit 0 Punkten bewertet. Sie sehen das daran, dass auf der Webplattform unseres git-Systems ein grüner Haken erscheint.
 
 ### Top-Level Statements
 

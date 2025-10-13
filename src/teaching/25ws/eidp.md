@@ -25,10 +25,10 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
 [lecture00-recording]: /teaching/25ws/eidp.html
-[lecture00-script1]: eidp/setup.html
+[lecture00-script1]: eidp/setup/setup.html
 [lecture01-slides]: /teaching/25ws/eidp/slides/infoI02.pdf
 [lecture01-recording]: /teaching/25ws/eidp.html
-[lecture01-script2]:  eidp/abgabesystem.html
+[lecture01-script2]:  eidp/abgabesystem/abgabesystem.html
 
 ## Übungen
 
