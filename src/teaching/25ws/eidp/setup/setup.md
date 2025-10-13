@@ -67,6 +67,7 @@ lsb_release -r
 ```
 
 Beispielausgabe:
+
 ```bash
 No LSB modules are available.
 Release:        24.04
@@ -93,30 +94,47 @@ Weiter mit: [Editor installieren](#editor)
 
 ### 1. Homebrew und Pakete aktualisieren
 
-Öffnen Sie das Terminal (Spotlight → „Terminal“) und führen Sie folgende Befehle aus:
+Öffnen Sie das Terminal (Spotlight → „Terminal“).
+Falls sie `brew` bereits installiert haben, gehen Sie direkt zu Schritt [Python 3.12 installieren](#2-python312-installieren).
 
-Falls Homebrew noch nicht installiert ist, führen Sie diesen Befehl aus:
+#### Homebrew installieren
+
+Geben Sie zunächst diesen Befehl ein:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Ansonsten führen Sie diesen Befehl aus:
+Es erscheint folgende Ausgabe:
+
+```bash
+==> Checking for `sudo` access (which may request your password)...
+```
+
+Geben Sie nun **Ihr Passwort** ein (Hinweis: Beim Tippen wird das Passwort nicht angezeigt) und bestätigen Sie mit **Enter**.
+
+Nach kurzer Zeit erscheint die Ausgabe:
+
+```bash
+Press RETURN/ENTER to continue or any other key to abort
+```
+
+Drücken Sie erneut die **Enter**, um die Installation fortzusetzen.
+
+Nachdem die Installation abgeschlossen ist, integrieren sie Homebrew in Ihre Shell:
+
+```bash
+echo >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+### 2. Python3.12 installieren
+
+Um Python3.12 zu installieren, führen Sie die folgenden Befehle aus:
+
 ```bash
 brew update
-```
-
-### 2. Python 3.12 installieren
-
-Falls Sie **zsh** als Shell verwenden:
-
-```bash
-echo "eval $(/opt/homebrew/bin/brew shellenv)" >> ~/.zshrc
-```
-
-Danach Python installieren:
-
-```bash
 brew install python@3.12
 ```
 
