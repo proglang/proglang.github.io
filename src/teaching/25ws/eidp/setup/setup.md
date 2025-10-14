@@ -119,7 +119,7 @@ Nach kurzer Zeit erscheint die Ausgabe:
 Press RETURN/ENTER to continue or any other key to abort
 ```
 
-Drücken Sie erneut die **Enter**, um die Installation fortzusetzen.
+Drücken Sie erneut **Enter** um die Installation fortzusetzen.
 
 Nachdem die Installation abgeschlossen ist, integrieren sie Homebrew in Ihre Shell:
 
