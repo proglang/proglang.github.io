@@ -219,19 +219,29 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 <hr />
 <h2 id="mac"><a class="header" href="#mac">Mac</a></h2>
 <h3 id="1-homebrew-und-pakete-aktualisieren"><a class="header" href="#1-homebrew-und-pakete-aktualisieren">1. Homebrew und Pakete aktualisieren</a></h3>
-<p>Öffnen Sie das Terminal (Spotlight → „Terminal“) und führen Sie folgende Befehle aus:</p>
-<p>Falls Homebrew noch nicht installiert ist, führen Sie diesen Befehl aus:</p>
+<p>Öffnen Sie das Terminal (Spotlight → „Terminal“).
+Falls sie <code>brew</code> bereits installiert haben, gehen Sie direkt zu Schritt <a href="#2-python312-installieren">Python 3.12 installieren</a>.</p>
+<h4 id="homebrew-installieren"><a class="header" href="#homebrew-installieren">Homebrew installieren</a></h4>
+<p>Geben Sie zunächst diesen Befehl ein:</p>
 <pre><code class="language-bash">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 </code></pre>
-<p>Ansonsten führen Sie diesen Befehl aus:</p>
+<p>Es erscheint folgende Ausgabe:</p>
+<pre><code class="language-bash">==&gt; Checking for `sudo` access (which may request your password)...
+</code></pre>
+<p>Geben Sie nun <strong>Ihr Passwort</strong> ein (Hinweis: Beim Tippen wird das Passwort nicht angezeigt) und bestätigen Sie mit <strong>Enter</strong>.</p>
+<p>Nach kurzer Zeit erscheint die Ausgabe:</p>
+<pre><code class="language-bash">Press RETURN/ENTER to continue or any other key to abort
+</code></pre>
+<p>Drücken Sie erneut die <strong>Enter</strong>, um die Installation fortzusetzen.</p>
+<p>Nachdem die Installation abgeschlossen ist, integrieren sie Homebrew in Ihre Shell:</p>
+<pre><code class="language-bash">echo &gt;&gt; ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' &gt;&gt; ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+</code></pre>
+<h3 id="2-python312-installieren"><a class="header" href="#2-python312-installieren">2. Python3.12 installieren</a></h3>
+<p>Um Python3.12 zu installieren, führen Sie die folgenden Befehle aus:</p>
 <pre><code class="language-bash">brew update
-</code></pre>
-<h3 id="2-python-312-installieren-1"><a class="header" href="#2-python-312-installieren-1">2. Python 3.12 installieren</a></h3>
-<p>Falls Sie <strong>zsh</strong> als Shell verwenden:</p>
-<pre><code class="language-bash">echo "eval $(/opt/homebrew/bin/brew shellenv)" &gt;&gt; ~/.zshrc
-</code></pre>
-<p>Danach Python installieren:</p>
-<pre><code class="language-bash">brew install python@3.12
+brew install python@3.12
 </code></pre>
 <p>Weiter mit: <a href="#editor">Editor installieren</a></p>
 <hr />
