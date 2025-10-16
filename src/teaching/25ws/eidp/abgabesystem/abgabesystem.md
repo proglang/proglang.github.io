@@ -55,7 +55,11 @@ Die Abgabe via Git erfordert ein einmaliges Setup, ermöglicht aber anschließen
 3. Installieren Sie Git und SSH mit:
 
     ```bash
+    # linux & wsl:
     sudo apt install git ssh -y
+
+    # Mac:
+    brew install git openssh
     ```
 
 4. Erzeugen Sie ein SSH-Schlüsselpaar:
