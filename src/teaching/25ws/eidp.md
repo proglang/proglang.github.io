@@ -19,8 +19,9 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 
 | Datum | Thema | Material | Aufzeichnung 
 |:-----|:-----|:-----|:-----|
-| Di 15.10.24 | Organisation & Einführung | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1], [Setup][lecture00-script1] | [MP4][lecture00-recording] |
-| Mi 16.10.24 | Übungssystem & Erste Schritte in Python | [Folien 02][lecture01-slides], [Abgabesystem][lecture01-script2] | [MP4][lecture01-recording] |
+| Di 15.10.25 | Organisation & Einführung | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1], [Setup][lecture00-script1] | [MP4][lecture00-recording] |
+| Mi 16.10.25 | Übungssystem & Erste Schritte in Python | [Folien 02][lecture01-slides], [Abgabesystem][lecture01-script2] | [MP4][lecture01-recording] |
+| Di 21.10.25 | Werte, Type, Variablen, Ausdrücke | [Folien 03][lecture02-slides], [Handout 03][lecture02-handout] | [YT][lecture03-yt] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -29,6 +30,10 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 [lecture01-slides]: /teaching/25ws/eidp/slides/infoI02.pdf
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Info1/2025-10-15-lecture.mp4
 [lecture01-script2]:  eidp/abgabesystem/abgabesystem.html
+[lecture02-slides]: /teaching/25ws/eidp/slides/infoI03.pdf
+[lecture02-handout]: /teaching/25ws/eidp/slides/infoI03-handout.pdf
+[lecture03-yt]: https://youtube.com/live/5qguQY0_uqQ?feature=share
+
 
 ## Übungen
 
