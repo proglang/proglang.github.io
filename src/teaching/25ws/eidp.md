@@ -19,6 +19,8 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 | Mi 16.10.25 | Übungssystem & Erste Schritte in Python | [Folien 02][lecture01-slides], [Abgabesystem][lecture01-script2] | [MP4][lecture01-recording] |
 | Di 21.10.25 | Werte, Type, Variablen, Ausdrücke | [Folien 03][lecture03-slides], [Handout 03][lecture03-handout] | [YT][lecture03-yt] |
 | Mi 22.10.25 | Ausdrücke, Funktionen | [Folien 04][lecture04-slides], [Handout 04][lecture04-handout] | [YT][lecture04-yt] |
+| Di 28.10.25 | Funktionen, Bedingungen, bedingte Ausführung | [Folien 05][lecture05-slides], [Handout 05][lecture05-handout] | [YT][lecture05-yt] |
+| Mi 29.10.25 | Ausdrücke, Funktionen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [YT][lecture06-yt] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -33,6 +35,13 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 [lecture04-slides]: /teaching/25ws/eidp/slides/infoI04.pdf
 [lecture04-handout]: /teaching/25ws/eidp/slides/infoI04-handout.pdf
 [lecture04-yt]: https://youtube.com/live/ZA5TVKabGkU?feature=share
+[lecture05-slides]: /teaching/25ws/eidp/slides/infoI05.pdf
+[lecture05-handout]: /teaching/25ws/eidp/slides/infoI05-handout.pdf
+[lecture05-yt]: https://youtube.com/live/Yr1CJ5o9SpM?feature=share
+[lecture06-slides]: /teaching/25ws/eidp/slides/infoI06.pdf
+[lecture06-handout]: /teaching/25ws/eidp/slides/infoI06-handout.pdf
+[lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
+
 
 ## Übungen
 
