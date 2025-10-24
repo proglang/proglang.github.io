@@ -1,4 +1,4 @@
-# Einführung in die Programmierung 
+# Einführung in die Programmierung
 
 ## Übersicht
 
@@ -10,10 +10,9 @@
 Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterwoche am Mittwoch den 15.10 von 12:15-13:00 Uhr im HS 00 026 µ-Saal G.-Köhler-Allee 101.
 </div>
 
-
 ## Vorlesung
 
-| Datum | Thema | Material | Aufzeichnung 
+| Datum | Thema | Material | Aufzeichnung
 |:-----|:-----|:-----|:-----|
 | Di 15.10.25 | Organisation & Einführung | [Folien 00][lecture00-slides], [Folien 01][lecture00-slides1], [Setup][lecture00-script1] | [MP4][lecture00-recording] |
 | Mi 16.10.25 | Übungssystem & Erste Schritte in Python | [Folien 02][lecture01-slides], [Abgabesystem][lecture01-script2] | [MP4][lecture01-recording] |
@@ -42,7 +41,6 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 [lecture06-handout]: /teaching/25ws/eidp/slides/infoI06-handout.pdf
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 
-
 ## Übungen
 
 | Datum | Abgabe | Material |
@@ -57,6 +55,8 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 Bitte beachten Sie [die Abgaberegeln](/teaching/25ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/solutions).
 
+Notizen aus den Tutorien finden Sie [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/tutor-notes).
+
 Die Tutoratsplätze werden über HisInOne vergeben (First come, first served).
 
 ## Leistungen
@@ -64,14 +64,15 @@ Die Tutoratsplätze werden über HisInOne vergeben (First come, first served).
 ### Studienleistung
 
 Zum Bestehen der Studienleistung ist notwendig:
+
 - 50% der Übungspunkte. Beachten Sie, dass 20% der Übungspunkte für die Teilnahme an den Tutoraten vergeben wird.
 - Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat.
 
-_Wichtig für fachfremd Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden. 
+_Wichtig für fachfremd Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden.
 
-### Prüfungsleistung 
+### Prüfungsleistung
 
 Für das Bestehen der Prüfungsleistung ist das Bestehen der Klausur notwendig.
 
-Die Klausur findet am **19.02.2025** statt. 
+Die Klausur findet am **19.02.2025** statt.
 Die **_individuelle_** Uhrzeit und der **_individuelle_** Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier](/teaching/25ws/eidp.html) eingesehen werden. Halten Sie sich unbedingt den ganzen Tag (von 8-19 Uhr) frei.
