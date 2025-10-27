@@ -6,6 +6,7 @@
 - Assistant: [Marius Weidner](/team/weidner.md)
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106, Tuesdays 14-16
 - Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106, Mondays 10-12
+- Zoom [live stream](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1)
 
 <div class="warning">
 First lecture will be held on 2025-10-21 (second week of the semester)
@@ -17,8 +18,11 @@ First tutorial will be held on 2025-10-27 (third week of the semester)
 | Date | Topic | Material | Recording
 |:-----|:-----|:-----|:-----|
 | Tu 21.10.25 | Intro & Overview | [Folien 01][lecture01-slides], [Folien 02][lecture02-slides] | [rec][lecture01-recording] |
+| Tu 28.10.25 | Equivalence | [Folien 03][lecture03-slides], [Folien 04][lecture04-slides] | [rec][lecture02-recording] |
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
+[lecture03-slides]: /teaching/25ws/ct/slides/l03n.pdf
+[lecture04-slides]:  /teaching/25ws/ct/slides/l04.pdf
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
-[lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-2.mp4
+[lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
