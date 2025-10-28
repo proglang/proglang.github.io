@@ -45,8 +45,8 @@ Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterw
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
-| Di 14.10.24 | Mo 20.10.24 09:00 über [Git][git] | [Blatt01][exercise01-pdf]
-| Di 20.10.24 | Mo 27.10.24 09:00 über [Git][git] | [Blatt02][exercise02-pdf]
+| Di 14.10.25 | Mo 20.10.25 09:00 über [Git][git] | [Blatt01][exercise01-pdf]
+| Di 20.10.25 | Mo 27.10.25 09:00 über [Git][git] | [Blatt02][exercise02-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/25ws/eidp/exercises/sheet01.pdf

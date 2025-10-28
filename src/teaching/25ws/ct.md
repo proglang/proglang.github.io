@@ -4,16 +4,15 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistant: [Marius Weidner](/team/weidner.md)
-- Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106, Tuesdays 14-16
-- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106, Mondays 10-12
-- Zoom [live stream](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1)
+- Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1), Tuesdays 14-16 
+- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](/teaching/25ws/ct), Mondays 10-12
 
 <div class="warning">
 First lecture will be held on 2025-10-21 (second week of the semester)
 First tutorial will be held on 2025-10-27 (third week of the semester)
 </div>
 
-## Vorlesung
+## Lecture
 
 | Date | Topic | Material | Recording
 |:-----|:-----|:-----|:-----|
@@ -26,3 +25,11 @@ First tutorial will be held on 2025-10-27 (third week of the semester)
 [lecture04-slides]:  /teaching/25ws/ct/slides/l04.pdf
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
+
+## Exercises
+
+| Date | Due | Material |
+|:-----|:-----|:-----|
+| Di 28.10.25 | Mo 03.11.25 10:00 | [Sheet01][exercise01-pdf]
+
+[exercise01-pdf]: /teaching/25ws/ct/exercises/sheet01.pdf
