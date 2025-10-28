@@ -7,11 +7,6 @@
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1), Tuesdays 14-16 
 - Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](/teaching/25ws/ct), Mondays 10-12
 
-<div class="warning">
-First lecture will be held on 2025-10-21 (second week of the semester)
-First tutorial will be held on 2025-10-27 (third week of the semester)
-</div>
-
 ## Lecture
 
 | Date | Topic | Material | Recording
