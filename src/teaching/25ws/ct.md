@@ -22,7 +22,7 @@ First tutorial will be held on 2025-10-27 (third week of the semester)
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
-[lecture03-slides]: /teaching/25ws/ct/slides/l03n.pdf
+[lecture03-slides]: /teaching/25ws/ct/slides/l03.pdf
 [lecture04-slides]:  /teaching/25ws/ct/slides/l04.pdf
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
