@@ -13,6 +13,7 @@
 |:-----|:-----|:-----|:-----|
 | Tu 21.10.25 | Intro & Overview | [Folien 01][lecture01-slides], [Folien 02][lecture02-slides] | [rec][lecture01-recording] |
 | Tu 28.10.25 | Equivalence | [Folien 03][lecture03-slides], [Folien 04][lecture04-slides] | [rec][lecture02-recording] |
+| Mo 03.11.25 | CCS Syntax & Semantics, LTS and Equivalence | [Solution 01][tutorial01-solution] | [rec][tutorial01-recording] |
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
@@ -20,6 +21,8 @@
 [lecture04-slides]:  /teaching/25ws/ct/slides/l04.pdf
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
+[tutorial01-solution]: /teaching/25ws/ct
+[tutorial01-recording]: /teaching/25ws/ct
 
 ## Exercises
 
