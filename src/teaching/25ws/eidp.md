@@ -6,10 +6,6 @@
 - Assistent: [Marius Weidner](/team/weidner.md)
 - Vorlesung: HS 00 026 µ-Saal G.-Köhler-Allee 101, Dienstags 10:15-11:30 und Mittwochs 12:00-13:15
 
-<div class="warning">
-Zusatzveranstaltung zur Einführung in das Übungssystem in der ersten Semesterwoche am Mittwoch den 15.10 von 12:15-13:00 Uhr im HS 00 026 µ-Saal G.-Köhler-Allee 101.
-</div>
-
 ## Vorlesung
 
 | Datum | Thema | Material | Aufzeichnung
