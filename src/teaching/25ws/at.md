@@ -4,8 +4,8 @@
 
 ## Übersicht
 
-- **Dozent:** [Prof. Dr. Peter Thiemann](/team/thiemann.md)
-- **Assistent:** [Janek Spaderna](/team/spaderna.md)
+- **Dozent:** [Prof. Dr. Peter Thiemann][PT]
+- **Assistenz:** [Janek Spaderna][JS], [Leonardo Mieschendahl][LM]
 - **Raum:** SR 00 014, Gebäude 078
 - **Erstes Treffen:** 14.10.2025, 16:00 Uhr
 
@@ -14,6 +14,30 @@
 | ------ | ---------------------- |
 | 07.10. | Themen, Informationen zum Seminarsablauf |
 | 10.10. | weitere Themen |
+| 29.10. | Vortragstermine veröffentlicht |
+
+
+## Termine
+
+| Datum  | Thema   | Vortrag  | Betreuer  |
+| ------ | ------- | -------- | ----------|
+| 02.12. | (2) Schwache, monadische Logik zweiter Stufe | Moritz | [PT][] |
+|        | (3) Alternierende, endliche Automaten        | Fabian | [JS][] |
+| 09.12. | (4) Sternfreie Sprachen                      | Carola | [LM][] |
+|        | (12) Automaten auf endlichen Bäumen          | Olivia | [JS][] |
+| 16.12. | Derivatives of regular expressions           | Peter  | [LM][] |
+|        | Partial derivatives of regular expressions … | Leon   | [JS][] |
+| 13.01.2026 | (5) Automaten auf unendlichen Bäumen     | Henry  | [JS][] |
+|            | (6) Komplementierung von Büchi-Automaten | Lukas  | [PT][] |
+| 20.01.2026 | (7) Weitere Akzeptanzbedingungen         | Joa Jeremias  | [JS][] |
+|            | (8) Determinisierung von Büchi-Automaten | Kristin       | [PT][] |
+| 27.01.2026 | (10) Alternierende Automaten             | Lena          | [JS][] |
+|            | Symbolic tree automata                   | Maurice       | [PT][] |
+| 03.02.2026 | (9) Entscheidungsverfahren für *ω*-Automaten | Joshua    | [PT][] |
+
+[PT]: /team/thiemann.md
+[JS]: /team/spaderna.md
+[LM]: /team/mieschendahl.md
 
 
 ## Ablauf des Seminars
