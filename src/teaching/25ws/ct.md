@@ -13,7 +13,7 @@
 |:-----|:-----|:-----|:-----|
 | Tu 21.10.25 | Intro & Overview | [Folien 01][lecture01-slides], [Folien 02][lecture02-slides] | [rec][lecture01-recording] |
 | Tu 28.10.25 | Equivalence | [Folien 03][lecture03-slides] | [rec][lecture02-recording] |
-| Tu 04.11.25 | Bisimulation | [Folien 04][lecture04-slides] | [rec][lecture03-recording] |
+| Tu 04.11.25 | Bisimulation | [Folien 04][lecture04-slides], [Handout 04][lecture04-handout] | [rec][lecture03-recording] |
 
 ## Tutorial
 
@@ -25,6 +25,7 @@
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
 [lecture03-slides]: /teaching/25ws/ct/slides/l03.pdf
 [lecture04-slides]:  /teaching/25ws/ct/slides/l04.pdf
+[lecture04-handout]:  /teaching/25ws/ct/slides/l04-handout.pdf
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-04-lecture-1.mp4
