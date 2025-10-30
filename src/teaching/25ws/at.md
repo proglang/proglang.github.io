@@ -35,6 +35,8 @@
 |            | Symbolic tree automata                   | Maurice       | [PT][] |
 | 03.02.2026 | (9) Entscheidungsverfahren für *ω*-Automaten | Joshua    | [PT][] |
 
+Alle Sitzungen starten um 16:00 s.t.
+
 [PT]: /team/thiemann.md
 [JS]: /team/spaderna.md
 [LM]: /team/mieschendahl.md
