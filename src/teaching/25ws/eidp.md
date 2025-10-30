@@ -15,7 +15,9 @@
 | Di 21.10.25 | Werte, Type, Variablen, Ausdrücke | [Folien 03][lecture03-slides], [Handout 03][lecture03-handout] | [YT][lecture03-yt] |
 | Mi 22.10.25 | Ausdrücke, Funktionen | [Folien 04][lecture04-slides], [Handout 04][lecture04-handout] | [YT][lecture04-yt] |
 | Di 28.10.25 | Funktionen, Bedingungen, bedingte Ausführung | [Folien 05][lecture05-slides], [Handout 05][lecture05-handout] | [YT][lecture05-yt] |
-| Mi 29.10.25 | Ausdrücke, Funktionen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [YT][lecture06-yt] |
+| Mi 29.10.25 | Bedingte Ausführung | | [YT][lecture06-yt] |
+| Di 04.11.25 | Sequenzen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [YT][lecture07-yt] |
+| Mi 05.11.25 | Entwurf von Schleifen | [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] | [YT][lecture08-yt] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -35,7 +37,12 @@
 [lecture05-yt]: https://youtube.com/live/Yr1CJ5o9SpM?feature=share
 [lecture06-slides]: /teaching/25ws/eidp/slides/infoI06.pdf
 [lecture06-handout]: /teaching/25ws/eidp/slides/infoI06-handout.pdf
+[lecture07-slides]: /teaching/25ws/eidp/slides/infoI07.pdf
+[lecture07-handout]: /teaching/25ws/eidp/slides/infoI07-handout.pdf
+
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
+[lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
+[lecture08-yt]: https://youtube.com/live/NQwNHUFiffk?feature=share
 
 ## Übungen
 
