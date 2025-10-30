@@ -11,9 +11,9 @@
 
 | Date | Topic | Material | Recording
 |:-----|:-----|:-----|:-----|
-| Tu 21.10.25 | Intro & Overview | [Folien 01][lecture01-slides], [Folien 02][lecture02-slides] | [rec][lecture01-recording] |
-| Tu 28.10.25 | Equivalence | [Folien 03][lecture03-slides] | [rec][lecture02-recording] |
-| Tu 04.11.25 | Bisimulation | [Folien 04][lecture04-slides], [Handout 04][lecture04-handout] | [rec][lecture03-recording] |
+| Tu 21.10.25 | Intro & Overview | [Slides 01][lecture01-slides], [Slides 02][lecture02-slides] | [rec][lecture01-recording] |
+| Tu 28.10.25 | Equivalence | [Slides 03][lecture03-slides] | [rec][lecture02-recording] |
+| Tu 04.11.25 | Bisimulation | [Slides 04][lecture04-slides], [Handout 04][lecture04-handout] | [rec][lecture03-recording] |
 
 ## Tutorial
 
@@ -36,6 +36,6 @@
 
 | Date | Due | Material |
 |:-----|:-----|:-----|
-| Di 28.10.25 | Mo 03.11.25 10:00 | [Sheet01][exercise01-pdf]
+| Tu 28.10.25 | Mo 03.11.25 10:00 | [Sheet01][exercise01-pdf]
 
 [exercise01-pdf]: /teaching/25ws/ct/exercises/sheet01.pdf
