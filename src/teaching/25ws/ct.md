@@ -17,9 +17,9 @@
 
 ## Tutorial
 
-| Date | Topic | Material | Recording
-|:-----|:-----|:-----|:-----|
-| Mo 03.11.25 | CCS Syntax & Semantics, LTS and Equivalence | [Solution 01][tutorial01-solution] | [rec][tutorial01-recording] |
+| Date | Topic | Recording
+|:-----|:-----|:-----|
+| Mo 03.11.25 | CCS Syntax & Semantics, LTS and Equivalence | [rec][tutorial01-recording] |
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
@@ -29,8 +29,7 @@
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-04-lecture-1.mp4
-[tutorial01-solution]: /teaching/25ws/ct
-[tutorial01-recording]: /teaching/25ws/ct
+[tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-03-tutorial.mp4
 
 ## Exercises
 
