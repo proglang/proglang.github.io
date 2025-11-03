@@ -14,6 +14,7 @@
 | Tu 21.10.25 | Intro & Overview | [Slides 01][lecture01-slides], [Slides 02][lecture02-slides] | [rec][lecture01-recording] |
 | Tu 28.10.25 | Equivalence | [Slides 03][lecture03-slides] | [rec][lecture02-recording] |
 | Tu 04.11.25 | Bisimulation | [Slides 04][lecture04-slides], [Handout 04][lecture04-handout] | [rec][lecture03-recording] |
+| Tu 11.11.25 | Games and variants | [Slides 05][lecture05-slides], [Handout 05][lecture05-handout] | [rec][lecture04-recording] |
 
 ## Tutorial
 
@@ -26,9 +27,12 @@
 [lecture03-slides]: /teaching/25ws/ct/slides/l03.pdf
 [lecture04-slides]:  /teaching/25ws/ct/slides/l04.pdf
 [lecture04-handout]:  /teaching/25ws/ct/slides/l04-handout.pdf
+[lecture05-slides]:  /teaching/25ws/ct/slides/l05.pdf
+[lecture05-handout]:  /teaching/25ws/ct/slides/l05-handout.pdf
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-04-lecture-1.mp4
+[lecture04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-11-lecture-1.mp4
 [tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-03-tutorial.mp4
 
 ## Exercises
