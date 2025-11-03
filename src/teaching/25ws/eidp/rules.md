@@ -22,21 +22,19 @@ Ihre Dateien sollen immer im *Plaintext-Format* (UTF-8 codiert) vorliegen. Pytho
 
 Geben Sie Ihre Aufgaben über unser [git-System](https://git.laurel.informatik.uni-freiburg.de/) ab. Abgaben per Mail können *nicht* berücksichtigt werden.
 
-<!--
-
 ### Funktionsnamen
 
-In den Übungsblättern geben wir Funktionsnamen für die zu implementierenden Funktionen vor. Halten Sie sich an diese Vorgaben, da wir Ihre Lösungen automatisiert testen.
-
-### Typeannotationen
-Alle Funktionen, Klassen, Generatoren etc. sollen mit Typannotationen versehen werden. Für fehlende oder teilweise richtige
-Typannotationen wird es Abzüge geben.
+In den Übungsblättern geben wir Funktionsnamen für die zu implementierenden Funktionen vor.
+Halten Sie sich an diese Vorgaben, da wir Ihre Lösungen automatisiert testen.
 
 ### Top-Level Statements
 
-Setzen Sie alle Top-Level-Statements wie `print(...)`, `input(...)` oder Tests in hinter eine `if __name__ == "__main__"`-Verzeigung. Dadurch werden diese Statements nur ausgeführt, wenn das Python-Skript direkt gestartet wird, nicht aber beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.
+Setzen Sie alle Top-Level-Statements (z.B. `print(...)`, `input(...)`, `assert`, ...) hinter eine `if __name__ == "__main__"`-Verzeigung. Dadurch werden diese Statements nur ausgeführt, wenn das Python-Skript direkt gestartet wird, nicht aber beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.
 
--->
+### Typannotationen
+
+Alle Funktionen, Klassen, Generatoren, etc. sollen mit Typannotationen versehen werden. Für fehlende oder teilweise falsche
+Typannotationen wird es Abzüge geben. Achten Sie darauf, die Typannotationen so spezifisch, wie möglich zu gestalten (z. B. `list[int]` statt `list`).
 
 ## Tipp
 
