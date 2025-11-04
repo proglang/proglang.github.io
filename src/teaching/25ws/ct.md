@@ -33,7 +33,7 @@
 | Date | Topic | Recording
 |:-----|:-----|:-----|
 | Mo 2025-11-03 | CCS Syntax & Semantics, LTS and Equivalence | [rec][tutorial01-recording] |
-| Mo 2025-11-03 | Bisimulation | [rec][tutorial02-recording] |
+| Mo 2025-11-10 | Bisimulation | [rec][tutorial02-recording] |
 
 [tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-03-tutorial.mp4
 [tutorial02-recording]: /teaching/25ws/ct/ct.html
