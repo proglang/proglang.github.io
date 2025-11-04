@@ -20,7 +20,7 @@
 
 | Date | Topic | Recording
 |:-----|:-----|:-----|
-| Mo 03.11.25 | CCS Syntax & Semantics, LTS and Equivalence | [rec][tutorial01-recording] |
+| Mo 2025-11-03 | CCS Syntax & Semantics, LTS and Equivalence | [rec][tutorial01-recording] |
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
@@ -39,6 +39,9 @@
 
 | Date | Due | Material |
 |:-----|:-----|:-----|
-| Tu 28.10.25 | Mo 03.11.25 10:00 | [Sheet01][exercise01-pdf]
+| Tu 2025-10-28 | Mo 2025-11-03 | [Sheet01][exercise01-pdf]
+| Tu 2025-11-04 | Mo 2025-11-10 | [Sheet01][exercise02-pdf]
 
 [exercise01-pdf]: /teaching/25ws/ct/exercises/sheet01.pdf
+[exercise02-pdf]: /teaching/25ws/ct/exercises/sheet02.pdf
+
