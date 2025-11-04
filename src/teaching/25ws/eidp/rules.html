@@ -160,33 +160,27 @@
                     <main>
                         <h1 id="Übungen"><a class="header" href="#Übungen">Übungen</a></h1>
 <h2 id="abgaberegeln"><a class="header" href="#abgaberegeln">Abgaberegeln</a></h2>
-<p>Im folgenden sind die Regeln für die Abgabe der Übungen aufgelistet. Bitte lesen Sie sich diese sorgfältig durch.</p>
+<p>Im Folgenden sind die Regeln für die Abgabe der Übungen aufgeführt. Bitte lesen Sie diese sorgfältig durch.</p>
 <h3 id="programmiertechniken"><a class="header" href="#programmiertechniken">Programmiertechniken</a></h3>
-<p>Verwenden Sie nur Befehle und Programmiertechniken, die in den <em>bisherigen</em> Vorlesungen (bis zum Abgabetermin) und Übungsblättern behandelt wurden.</p>
+<p>Verwenden Sie ausschließlich Befehle und Programmiertechniken, die in den <em>bisherigen</em> Vorlesungen (bis zum jeweiligen Abgabetermin) und Übungsblättern behandelt wurden.</p>
 <h3 id="style-guidelines"><a class="header" href="#style-guidelines">Style Guidelines</a></h3>
-<p>Nachdem Sie Ihre Lösung hochgeladen haben, überprüft der Build-Server automatisch, ob Ihr Code den vorgegebenen Stilrichtlinien (z. B. <em>flake8</em>) entspricht und ob Sie in der Datei <strong>NOTES.md</strong> Ihre aufgewendete Zeit eingetragen haben. Der Build-Check muss erfolgreich abgeschlossen werden – Abgaben, die diesen Schritt nicht bestehen, werden mit <strong>0 Punkten</strong> bewertet.</p>
+<p>Nach dem Hochladen Ihrer Lösung überprüft der Build-Server automatisch, ob Ihr Code den vorgegebenen Stilrichtlinien (<em>flake8</em>) entspricht und ob Sie in der Datei <strong>NOTES.md</strong> Ihre aufgewendete Bearbeitungszeit eingetragen haben. Der Build-Check muss erfolgreich abgeschlossen werden. Abgaben, die diesen Schritt nicht bestehen, werden mit <strong>0 Punkten</strong> bewertet.</p>
 <h3 id="dateinamen-und-dateiformate"><a class="header" href="#dateinamen-und-dateiformate">Dateinamen und Dateiformate</a></h3>
-<p>Die einzelnen Aufgaben sind mit vollständigen Dateinamen versehen. Verwenden Sie genau diese Namen und die dazugehörigen Dateiformate für Ihre Abgabe. Um Tippfehler zu vermeiden, können Sie die Dateinamen auch einfach kopieren.</p>
-<p>Ihre Dateien sollen immer im <em>Plaintext-Format</em> (UTF-8 codiert) vorliegen. Python-Code speichern Sie in Dateien mit der Endung <code>.py</code>. Für Texte können Sie zwischen <code>.txt</code> und <code>.md</code> (<a href="https://de.wikipedia.org/wiki/Markdown">Markdown</a>) frei wählen. Markdown-Dateien bieten gegenüber einfachen <code>.txt</code>-Dateien zusätzliche Formatierungsmöglichkeiten, die Sie in Visual Studio Code mit der Tastenkombination <code>STRG + SHIFT + V</code> anzeigen lassen können. <strong>Insbesondere sind also keine PDFs, keine Word-Dokumente und auch keine Bildschirmfotos erlaubt!</strong></p>
+<p>Die einzelnen Aufgaben sind mit vollständigen Dateinamen angegeben. Verwenden Sie <strong>genau diese</strong> Namen und die zugehörigen Dateiformate für Ihre Abgabe. Um Tippfehler zu vermeiden, können Sie die Dateinamen einfach kopieren.</p>
+<p>Alle Dateien müssen im <em>Plaintext-Format</em> (UTF-8-codiert) vorliegen. Python-Code speichern Sie in Dateien mit der Endung <code>.py</code>. Für Texte können Sie zwischen <code>.txt</code> und <code>.md</code> (<a href="https://de.wikipedia.org/wiki/Markdown">Markdown</a>) wählen. Markdown-Dateien bieten zusätzliche Formatierungsmöglichkeiten, die Sie in Visual Studio Code mit der Tastenkombination <code>STRG + SHIFT + V</code> in der Vorschau anzeigen können.<br />
+<strong>Insbesondere sind keine PDFs, keine Word-Dokumente und keine Bildschirmfotos erlaubt!</strong></p>
 <h3 id="abgabeort"><a class="header" href="#abgabeort">Abgabeort</a></h3>
-<p>Geben Sie Ihre Aufgaben über unser <a href="https://git.laurel.informatik.uni-freiburg.de/">git-System</a> ab. Abgaben per Mail können <em>nicht</em> berücksichtigt werden.</p>
-<!--
-
-### Funktionsnamen
-
-In den Übungsblättern geben wir Funktionsnamen für die zu implementierenden Funktionen vor. Halten Sie sich an diese Vorgaben, da wir Ihre Lösungen automatisiert testen.
-
-### Typeannotationen
-Alle Funktionen, Klassen, Generatoren etc. sollen mit Typannotationen versehen werden. Für fehlende oder teilweise richtige
-Typannotationen wird es Abzüge geben.
-
-### Top-Level Statements
-
-Setzen Sie alle Top-Level-Statements wie `print(...)`, `input(...)` oder Tests in hinter eine `if __name__ == "__main__"`-Verzeigung. Dadurch werden diese Statements nur ausgeführt, wenn das Python-Skript direkt gestartet wird, nicht aber beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.
-
--->
+<p>Reichen Sie Ihre Abgabe über unsere <a href="https://git.laurel.informatik.uni-freiburg.de/">Webplattform</a> ein. Wir bewerten den <em>letzten</em> Commit vor Ablauf der Abgabefrist des jeweiligen Blattes. Abgaben per E-Mail können <em>nicht</em> berücksichtigt werden.</p>
+<h3 id="funktionsnamen"><a class="header" href="#funktionsnamen">Funktionsnamen</a></h3>
+<p>In den Übungsblättern sind die Namen der zu implementierenden Funktionen vorgegeben. Verwenden Sie <strong>genau diese</strong> Namen in Ihrer Lösung.</p>
+<h3 id="top-level-statements"><a class="header" href="#top-level-statements">Top-Level-Statements</a></h3>
+<p>Setzen Sie alle Top-Level-Statements (z. B. <code>print(...)</code>, <code>input(...)</code>, <code>assert</code>, …) hinter eine <code>if __name__ == "__main__":</code> Abfrage. Dadurch werden diese Anweisungen nur ausgeführt, wenn das Python-Skript direkt gestartet wird – nicht jedoch beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.</p>
+<h3 id="typannotationen"><a class="header" href="#typannotationen">Typannotationen</a></h3>
+<p>Alle Funktionen, Klassen, Generatoren, usw. müssen mit Typannotationen versehen sein.<br />
+Für fehlende oder unvollständige Typannotationen gibt es Punktabzug. Achten Sie darauf, die Typannotationen so <strong>präzise wie möglich</strong> zu gestalten (z. B. <code>list[int]</code> statt <code>list</code>).</p>
 <h2 id="tipp"><a class="header" href="#tipp">Tipp</a></h2>
-<p>Eine einfache Möglichkeit, diese Anforderungen zu erfüllen, besteht darin, alle Dateien mit Visual Studio Code zu erstellen oder zu bearbeiten. Wenn Sie zum Beispiel eine Datei mit der Endung <code>.txt</code> oder <code>.md</code> bearbeiten, behandelt Visual Studio Code diese wie eine normale Textdatei. Bei <code>.py</code>-Dateien zeigt Visual Studio Code <code>flake8</code>-Warnungen als gelbe Markierungen an, die Sie durch einen Mouseover erklärt bekommen.</p>
+<p>Eine einfache Möglichkeit, alle Anforderungen zu erfüllen, besteht darin, Ihre Dateien mit Visual Studio Code zu erstellen oder zu bearbeiten.<br />
+Wenn Sie beispielsweise eine Datei mit der Endung <code>.txt</code> oder <code>.md</code> öffnen, behandelt Visual Studio Code diese als normale Textdatei. Bei <code>.py</code>-Dateien zeigt Visual Studio Code <em>flake8</em>-Warnungen als gelbe Markierungen an, die Sie per Mouseover erläutert bekommen.</p>
 
                     </main>
 
