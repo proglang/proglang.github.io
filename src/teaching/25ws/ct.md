@@ -11,10 +11,10 @@
 
 | Date | Topic | Material | Recording
 |:-----|:-----|:-----|:-----|
-| Tu 21.10.25 | Intro & Overview | [Slides 01][lecture01-slides], [Slides 02][lecture02-slides] | [rec][lecture01-recording] |
-| Tu 28.10.25 | Equivalence | [Slides 03][lecture03-slides] | [rec][lecture02-recording] |
-| Tu 04.11.25 | Bisimulation and Weak Bisimulation | [Slides 04][lecture04-slides], [Handout 04][lecture04-handout], [Slides 05][lecture05-slides], [Handout 05][lecture05-handout] | [rec][lecture03-recording] |
-| Tu 11.11.25 | tbd | tbd | [rec][lecture04-recording] |
+| Tu 2025-10-21 | Intro & Overview | [Slides 01][lecture01-slides], [Slides 02][lecture02-slides] | [rec][lecture01-recording] |
+| Tu 2025-10-28 | Equivalence | [Slides 03][lecture03-slides] | [rec][lecture02-recording] |
+| Tu 2025-11-04 | Bisimulation and Weak Bisimulation | [Slides 04][lecture04-slides], [Handout 04][lecture04-handout], [Slides 05][lecture05-slides], [Handout 05][lecture05-handout] | [rec][lecture03-recording] |
+| Tu 2025-11-11 | tbd | tbd | [rec][lecture04-recording] |
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
