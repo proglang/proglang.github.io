@@ -3,7 +3,7 @@
 ## General Information
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
-- Assistant: [Marius Weidner](/team/weidner.md)
+- Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md)
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1), Tuesdays 14-16 
 - Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/66618883526?pwd=kRvDQzTx3LabeLSxa7w9VVesHzA8QI.1), Mondays 10-12
 
