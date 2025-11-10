@@ -5,7 +5,7 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md)
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1), Tuesdays 14-16 
-- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom][zoom-tut-mari], Mondays 10-12
+- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom][zoom-tut-leo], Mondays 10-12
 
 [zoom-tut-mari]: https://uni-freiburg.zoom-x.de/j/67433771366?pwd=6QlanbhShXBUmrfUq8dBji7l1f5MxF.1
 [zoom-tut-leo]: https://uni-freiburg.zoom-x.de/j/66618883526?pwd=kRvDQzTx3LabeLSxa7w9VVesHzA8QI.1
@@ -39,7 +39,7 @@
 | Mo 2025-11-10 | Bisimulation | [rec][tutorial02-recording] |
 
 [tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-03-tutorial.mp4
-[tutorial02-recording]: /teaching/25ws/ct/ct.html
+[tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-10-tutorial.mp4
 
 ## Exercises
 
