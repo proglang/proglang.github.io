@@ -17,7 +17,9 @@
 | Tu 2025-10-21 | Intro & Overview | [Slides 01][lecture01-slides], [Slides 02][lecture02-slides] | [rec][lecture01-recording] |
 | Tu 2025-10-28 | Equivalence | [Slides 03][lecture03-slides] | [rec][lecture02-recording] |
 | Tu 2025-11-04 | Bisimulation and Weak Bisimulation | [Slides 04][lecture04-slides], [Handout 04][lecture04-handout], [Slides 05][lecture05-slides], [Handout 05][lecture05-handout] | [rec][lecture03-recording] |
-| Tu 2025-11-11 | tbd | tbd | [rec][lecture04-recording] |
+| Tu 2025-11-11 | Properties of Weak Bisimulation, Fixed Points | [Slides 06][lecture06-slides], [Handout 06][lecture06-handout], [Slides 07][lecture07-slides], [Handout 07][lecture07-handout] | [rec][lecture04-recording] |
+| Tu 2025-11-18 | tba | tba | [rec][lecture05-recording] |
+
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
 [lecture02-slides]:  /teaching/25ws/ct/slides/l02.pdf
@@ -26,10 +28,16 @@
 [lecture04-handout]:  /teaching/25ws/ct/slides/l04-handout.pdf
 [lecture05-slides]:  /teaching/25ws/ct/slides/l05.pdf
 [lecture05-handout]:  /teaching/25ws/ct/slides/l05-handout.pdf
+[lecture06-slides]:  /teaching/25ws/ct/slides/l06.pdf
+[lecture06-handout]:  /teaching/25ws/ct/slides/l06-handout.pdf
+[lecture07-slides]:  /teaching/25ws/ct/slides/l07.pdf
+[lecture07-handout]:  /teaching/25ws/ct/slides/l07-handout.pdf
+
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-04-lecture-1.mp4
 [lecture04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-11-lecture-1.mp4
+[lecture05-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-18-lecture-1.mp4
 
 ## Tutorial
 
