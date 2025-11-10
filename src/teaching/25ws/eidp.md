@@ -17,7 +17,9 @@
 | Di 28.10.25 | Funktionen, Bedingungen, bedingte Ausführung | [Folien 05][lecture05-slides], [Handout 05][lecture05-handout] | [YT][lecture05-yt] |
 | Mi 29.10.25 | Bedingte Ausführung | | [YT][lecture06-yt] |
 | Di 04.11.25 | Sequenzen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [YT][lecture07-yt] |
-| Mi 05.11.25 | Entwurf von Schleifen | [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] | [YT][lecture08-yt] |
+| Mi 05.11.25 | Iteration, For-Schleifen | | [YT][lecture08-yt] |
+| Di 11.11.25 | Entwurf von Schleifen | [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] (update) | [YT][lecture09-yt] |
+| Mi 05.11.25 | While-Schleifen | | [YT][lecture10-yt] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -43,6 +45,8 @@
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
 [lecture08-yt]: https://youtube.com/live/NQwNHUFiffk?feature=share
+[lecture09-yt]: https://youtube.com/live/2-XN7_8FVa0?feature=share
+[lecture10-yt]: https://youtube.com/live/BVBxwXtr0wo?feature=share
 
 ## Übungen
 
