@@ -55,7 +55,9 @@
 |:-----|:-----|:-----|
 | Tu 2025-10-28 | Mo 2025-11-03 | [Sheet01][exercise01-pdf]
 | Tu 2025-11-04 | Mo 2025-11-10 | [Sheet02][exercise02-pdf]
+| Tu 2025-11-11 | Mo 2025-11-17 | [Sheet03][exercise03-pdf]
 
 [exercise01-pdf]: /teaching/25ws/ct/exercises/sheet01.pdf
 [exercise02-pdf]: /teaching/25ws/ct/exercises/sheet02.pdf
+[exercise03-pdf]: /teaching/25ws/ct/exercises/sheet03.pdf
 
