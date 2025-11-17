@@ -19,7 +19,10 @@
 | Di 04.11.25 | Sequenzen | [Folien 06][lecture06-slides], [Handout 06][lecture06-handout] | [YT][lecture07-yt] |
 | Mi 05.11.25 | Iteration, For-Schleifen | | [YT][lecture08-yt] |
 | Di 11.11.25 | Entwurf von Schleifen | [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] (update) | [YT][lecture09-yt] |
-| Mi 05.11.25 | While-Schleifen | | [YT][lecture10-yt] |
+| Mi 12.11.25 | While-Schleifen | | [YT][lecture10-yt] |
+| Di 18.11.25 | Datenklassen | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [YT][lecture11-yt] |
+| Mi 19.11.25 | tbd | | [YT][lecture12-yt] |
+
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -41,12 +44,16 @@
 [lecture06-handout]: /teaching/25ws/eidp/slides/infoI06-handout.pdf
 [lecture07-slides]: /teaching/25ws/eidp/slides/infoI07.pdf
 [lecture07-handout]: /teaching/25ws/eidp/slides/infoI07-handout.pdf
+[lecture08-slides]: /teaching/25ws/eidp/slides/infoI08.pdf
+[lecture08-handout]: /teaching/25ws/eidp/slides/infoI08-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
 [lecture08-yt]: https://youtube.com/live/NQwNHUFiffk?feature=share
 [lecture09-yt]: https://youtube.com/live/2-XN7_8FVa0?feature=share
 [lecture10-yt]: https://youtube.com/live/BVBxwXtr0wo?feature=share
+[lecture11-yt]: https://youtube.com/live/Eqaxktb28qI?feature=share
+[lecture12-yt]: https://youtube.com/live/DyNtogeE3HA?feature=share
 
 ## Übungen
 
