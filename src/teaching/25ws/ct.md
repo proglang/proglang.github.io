@@ -5,7 +5,7 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md)
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1), Tuesdays 14-16 
-- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom][zoom-tut-mari], Mondays 10-12
+- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom][zoom-tut-Fmari], Mondays 10-12
 
 [zoom-tut-mari]: https://uni-freiburg.zoom-x.de/j/67433771366?pwd=6QlanbhShXBUmrfUq8dBji7l1f5MxF.1
 [zoom-tut-leo]: https://uni-freiburg.zoom-x.de/j/66618883526?pwd=kRvDQzTx3LabeLSxa7w9VVesHzA8QI.1
@@ -18,7 +18,8 @@
 | Tu 2025-10-28 | Equivalence | [Slides 03][lecture03-slides] | [rec][lecture02-recording] |
 | Tu 2025-11-04 | Bisimulation and Weak Bisimulation | [Slides 04][lecture04-slides], [Handout 04][lecture04-handout], [Slides 05][lecture05-slides], [Handout 05][lecture05-handout] | [rec][lecture03-recording] |
 | Tu 2025-11-11 | Properties of Weak Bisimulation, Fixed Points | [Slides 06][lecture06-slides], [Handout 06][lecture06-handout], [Slides 07][lecture07-slides], [Handout 07][lecture07-handout] | [rec][lecture04-recording] |
-| Tu 2025-11-18 | tba | tba | [rec][lecture05-recording] |
+| Tu 2025-11-18 | Fixed Points, Induction, Coinduction | [Slides 07*][lecture07f-slides], [Handout 07*][lecture07f-handout] | [rec][lecture05-recording] |
+| Tu 2025-11-25 | tba | tba | [rec][lecture06-recording] |
 
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
@@ -32,12 +33,15 @@
 [lecture06-handout]:  /teaching/25ws/ct/slides/l06-handout.pdf
 [lecture07-slides]:  /teaching/25ws/ct/slides/l07.pdf
 [lecture07-handout]:  /teaching/25ws/ct/slides/l07-handout.pdf
+[lecture07f-slides]:  /teaching/25ws/ct/slides/l07-fixedpoints.pdf
+[lecture07f-handout]:  /teaching/25ws/ct/slides/l07-fixedpoints-handout.pdf
 
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-28-lecture-1.mp4
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-04-lecture-1.mp4
 [lecture04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-11-lecture-1.mp4
 [lecture05-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-18-lecture-1.mp4
+[lecture06-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-25-lecture-1.mp4
 
 ## Tutorial
 
