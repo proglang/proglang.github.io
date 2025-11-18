@@ -21,7 +21,7 @@
 | Di 11.11.25 | Entwurf von Schleifen | [Folien 07][lecture07-slides], [Handout 07][lecture07-handout] (update) | [YT][lecture09-yt] |
 | Mi 12.11.25 | While-Schleifen | | [YT][lecture10-yt] |
 | Di 18.11.25 | Datenklassen | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [YT][lecture11-yt] |
-| Mi 19.11.25 | tbd | | [YT][lecture12-yt] |
+| Mi 19.11.25 | Datenklassen, Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [YT][lecture12-yt] |
 
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
@@ -46,6 +46,8 @@
 [lecture07-handout]: /teaching/25ws/eidp/slides/infoI07-handout.pdf
 [lecture08-slides]: /teaching/25ws/eidp/slides/infoI08.pdf
 [lecture08-handout]: /teaching/25ws/eidp/slides/infoI08-handout.pdf
+[lecture09-slides]: /teaching/25ws/eidp/slides/infoI09.pdf
+[lecture09-handout]: /teaching/25ws/eidp/slides/infoI09-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
