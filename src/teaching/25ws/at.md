@@ -15,6 +15,7 @@
 | 07.10. | Themen, Informationen zum Seminarsablauf |
 | 10.10. | weitere Themen |
 | 29.10. | Vortragstermine veröffentlicht |
+| 22.11. | Tippfehler und Paperlink gefixt |
 
 
 ## Termine
@@ -27,7 +28,7 @@
 |        | (12) Automaten auf endlichen Bäumen          | Olivia | [JS][] |
 | 16.12. | Derivatives of regular expressions           | Peter  | [LM][] |
 |        | Partial derivatives of regular expressions … | Leon   | [JS][] |
-| 13.01.2026 | (5) Automaten auf unendlichen Bäumen     | Henry  | [JS][] |
+| 13.01.2026 | (5) Automaten auf unendlichen Wörtern    | Henry  | [JS][] |
 |            | (6) Komplementierung von Büchi-Automaten | Lukas  | [PT][] |
 | 20.01.2026 | (7) Weitere Akzeptanzbedingungen         | Joa Jeremias  | [JS][] |
 |            | (8) Determinisierung von Büchi-Automaten | Kristin       | [PT][] |
@@ -104,7 +105,7 @@ Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sin
 
   VM Antimirov. [*Partial derivatives of regular expressions and finite
   automaton
-  constructions.*](https://link.springer.com/content/pdf/10.1007/3-540-59042-0_96.pdf)
+  constructions.*](https://www.sciencedirect.com/science/article/pii/0304397595001824/pdf)
   Theor. Comput. Sci., 155(2):291–319, 1996.
 
 * Symbolische Baum-Automaten
@@ -114,18 +115,5 @@ Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sin
   Inf. Process. Lett., 115 (3):418–424, 2015.
   
 </div>
-
-<!--
-* 2 Schwache Monadische Logik zweiter Stufe
-* 3 Alternierende endliche Automaten
-* (4 Sternfreie Sprachen)
-* 5 Automaten auf unendlichen Wörtern
-* (6 Komplementierung von Büchiautomaten)
-* 7 Weitere Akzeptanzbedingungen
-* (9 Entscheidungsverfahren für ω-Automaten)
-* (10 Alternierende Automaten)
-* (11 Linearzeit-Temporale Logik)
-* 12 Automaten auf endlichen Bäumen
--->
 
 [book]: http://www.springer.com/de/book/9783642180897
