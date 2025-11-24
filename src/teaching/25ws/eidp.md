@@ -22,6 +22,8 @@
 | Mi 12.11.25 | While-Schleifen | | [YT][lecture10-yt] |
 | Di 18.11.25 | Datenklassen | [Folien 08][lecture08-slides], [Handout 08][lecture08-handout] | [YT][lecture11-yt] |
 | Mi 19.11.25 | Datenklassen, Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [YT][lecture12-yt] |
+| Di 25.11.25 | Alternativen: Pattern Matching, Bäume | [Folien 10][lecture10-slides], [Handout 10][lecture10-handout] | [YT][lecture13-yt] |
+| Mi 26.11.25 | Binärbäume, Suchbäume | | [YT][lecture14-yt] |
 
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
@@ -48,6 +50,8 @@
 [lecture08-handout]: /teaching/25ws/eidp/slides/infoI08-handout.pdf
 [lecture09-slides]: /teaching/25ws/eidp/slides/infoI09.pdf
 [lecture09-handout]: /teaching/25ws/eidp/slides/infoI09-handout.pdf
+[lecture10-slides]: /teaching/25ws/eidp/slides/infoI10.pdf
+[lecture10-handout]: /teaching/25ws/eidp/slides/infoI10-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
@@ -56,6 +60,8 @@
 [lecture10-yt]: https://youtube.com/live/BVBxwXtr0wo?feature=share
 [lecture11-yt]: https://youtube.com/live/Eqaxktb28qI?feature=share
 [lecture12-yt]: https://youtube.com/live/DyNtogeE3HA?feature=share
+[lecture13-yt]: https://youtube.com/live/BH8u25DPpGg?feature=share
+[lecture14-yt]: https://youtube.com/live/8ArXpEE7Lrg?feature=share
 
 ## Übungen
 
