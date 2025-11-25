@@ -25,7 +25,6 @@
 | Di 25.11.25 | Alternativen: Pattern Matching, Bäume | [Folien 10][lecture10-slides], [Handout 10][lecture10-handout] | [YT][lecture13-yt] |
 | Mi 26.11.25 | Binärbäume, Suchbäume | | [YT][lecture14-yt] |
 
-
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
 [lecture00-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Info1/2025-10-14-lecture.mp4
@@ -73,7 +72,7 @@
 | Di 04.11.25 | Mo 10.11.25 09:00 über [Git][git] | [Blatt04][exercise04-pdf]
 | Di 11.11.25 | Mo 17.11.25 09:00 über [Git][git] | [Blatt05][exercise05-pdf]
 | Di 18.11.25 | Mo 24.11.25 09:00 über [Git][git] | [Blatt06][exercise06-pdf]
-
+| Di 25.11.25 | Mo 01.12.25 09:00 über [Git][git] | [Blatt07][exercise07-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/25ws/eidp/exercises/sheet01.pdf
