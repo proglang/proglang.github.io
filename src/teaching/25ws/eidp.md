@@ -82,6 +82,7 @@
 [exercise04-pdf]: /teaching/25ws/eidp/exercises/sheet04.pdf
 [exercise05-pdf]: /teaching/25ws/eidp/exercises/sheet05.pdf
 [exercise06-pdf]: /teaching/25ws/eidp/exercises/sheet06.pdf
+[exercise07-pdf]: /teaching/25ws/eidp/exercises/sheet07.pdf
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/25ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/solutions).
