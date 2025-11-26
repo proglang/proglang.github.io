@@ -85,7 +85,7 @@ Mo, 20.10.25 14:00 - 16:00, Werthmannstraße 4, PC Pool 9
 [tut10-rec]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-Compilers/2025-07-18-tutorial.mp4
 ## Exercises
 
-Exercises are provided and submitted via GitHub Classroom (follow the [invite link](https://classroom.github.com/a/N58OPy1R)).
+Exercises are provided and submitted via GitHub Classroom.
 
 Exercises will not be graded, but we will provide tests to
 help you verify the correctness of your work. It is highly recommended
