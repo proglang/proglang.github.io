@@ -63,8 +63,8 @@
 [lecture12-yt]: https://youtube.com/live/DyNtogeE3HA?feature=share
 [lecture13-yt]: https://youtube.com/live/BH8u25DPpGg?feature=share
 [lecture14-yt]: https://youtube.com/live/8ArXpEE7Lrg?feature=share
-[lecture15-yt]: https://youtube.com/
-[lecture16-yt]: https://youtube.com/
+[lecture15-yt]: https://youtube.com/live/n2hwgoXDXVA?feature=share
+[lecture16-yt]: https://youtube.com/live/HCBCx2aYlxQ?feature=share
 
 
 ## Übungen
