@@ -15,7 +15,7 @@
 | 07.10. | Themen, Informationen zum Seminarsablauf |
 | 10.10. | weitere Themen |
 | 29.10. | Vortragstermine veröffentlicht |
-| 22.11. | Tippfehler und Paperlink gefixt |
+| 22.11. | Tippfehler und Paperlink (Antimirov-Ableitungen) gefixt |
 
 
 ## Termine
