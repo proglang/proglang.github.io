@@ -19,8 +19,9 @@
 | Tu 2025-11-04 | Bisimulation and Weak Bisimulation | [Slides 04][lecture04-slides], [Handout 04][lecture04-handout], [Slides 05][lecture05-slides], [Handout 05][lecture05-handout] | [rec][lecture03-recording] |
 | Tu 2025-11-11 | Properties of Weak Bisimulation, Fixed Points | [Slides 06][lecture06-slides], [Handout 06][lecture06-handout], [Slides 07][lecture07-slides], [Handout 07][lecture07-handout] | [rec][lecture04-recording] |
 | Tu 2025-11-18 | Fixed Points, Induction, Coinduction | [Slides 07*][lecture07f-slides], [Handout 07*][lecture07f-handout] | [rec][lecture05-recording] |
-| Tu 2025-11-25 | ABP, Hennessy-Milner Logic |  [Slides 08][lecture08-slides], [Handout 08][lecture08-handout] | [rec][lecture06-recording] |
-| Tu 2025-12-02 | tba |  [Slides 09][lecture09-slides], [Handout 09][lecture09-handout] | [rec][lecture07-recording] |
+| Tu 2025-11-25 | ABP, Hennessy-Milner Logic |  [Slides 08][lecture08-slides], [Handout 08][lecture08-handout], [Slides 09][lecture09-slides], [Handout 09][lecture09-handout] | [rec][lecture06-recording] |
+| Tu 2025-12-02 | HML with recursion | [Slides 10][lecture10-slides], [Handout 10][lecture10-handout] | [rec][lecture07-recording] |
+| Tu 2025-12-09 | HML and mutual recursion | [Slides 11][lecture11-slides], [Handout 11][lecture11-handout] | [rec][lecture08-recording] |
 
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
@@ -40,6 +41,10 @@
 [lecture08-handout]:   /teaching/25ws/ct/slides/l08-handout.pdf
 [lecture09-slides]:   /teaching/25ws/ct/slides/l09.pdf
 [lecture09-handout]:   /teaching/25ws/ct/slides/l09-handout.pdf
+[lecture10-slides]:   /teaching/25ws/ct/slides/l10.pdf
+[lecture10-handout]:   /teaching/25ws/ct/slides/l10-handout.pdf
+[lecture11-slides]:   /teaching/25ws/ct/slides/l11.pdf
+[lecture11-handout]:   /teaching/25ws/ct/slides/l11-handout.pdf
 
 
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
@@ -49,6 +54,7 @@
 [lecture05-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-18-lecture-1.mp4
 [lecture06-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-25-lecture-1.mp4
 [lecture07-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-02-lecture-1.mp4
+[lecture08-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-09-lecture-1.mp4
 
 ## Tutorial
 
