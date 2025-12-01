@@ -24,8 +24,8 @@
 | Mi 19.11.25 | Datenklassen, Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [YT][lecture12-yt] |
 | Di 25.11.25 | Alternativen: Pattern Matching | | [YT][lecture13-yt] |
 | Mi 26.11.25 | Bäume, Binärbäume | [Folien 10][lecture10-slides], [Handout 10][lecture10-handout] | [YT][lecture14-yt] |
-| Di 02.12.25 | Binärbäume, Suchbäume | | [YT][lecture15-yt] |
-| Mi 03.12.25 | tba | | [YT][lecture16-yt] |
+| Di 02.12.25 | Binärbäume, Suchbäume, veränderliche Daten | [Folien 11][lecture11-slides], [Handout 11][lecture11-handout] | [YT][lecture15-yt] |
+| Mi 03.12.25 | Objekt-orientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [YT][lecture16-yt] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -53,6 +53,10 @@
 [lecture09-handout]: /teaching/25ws/eidp/slides/infoI09-handout.pdf
 [lecture10-slides]: /teaching/25ws/eidp/slides/infoI10.pdf
 [lecture10-handout]: /teaching/25ws/eidp/slides/infoI10-handout.pdf
+[lecture11-slides]: /teaching/25ws/eidp/slides/infoI11.pdf
+[lecture11-handout]: /teaching/25ws/eidp/slides/infoI11-handout.pdf
+[lecture12-slides]: /teaching/25ws/eidp/slides/infoI12.pdf
+[lecture12-handout]: /teaching/25ws/eidp/slides/infoI12-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
