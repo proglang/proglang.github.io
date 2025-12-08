@@ -78,8 +78,8 @@
 [tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-10-tutorial.mp4
 [tutorial03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-17-tutorial.mp4
 [tutorial04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-24-tutorial.mp4
-[tutorial05-recording]: https://archive.informatik.uni-freiburg.de/course5s/proglang/2025-WS-Concurrency/2025-12-01-tutorial.mp4
-[tutorial06-recording]: https://archive.informatik.uni-freiburg.de/course5s/proglang/2025-WS-Concurrency/2025-12-08-tutorial.mp4
+[tutorial05-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-01-tutorial.mp4
+[tutorial06-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-08-tutorial.mp4
 
 
 ## Exercises
