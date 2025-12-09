@@ -27,6 +27,7 @@
 | Di 02.12.25 | Binärbäume, Suchbäume | [Folien 11][lecture11-slides], [Handout 11][lecture11-handout] | [YT][lecture15-yt] |
 | Mi 03.12.25 | veränderliche Daten | | [YT][lecture16-yt] |
 | Di 09.12.25 | Objekt-orientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [YT][lecture17-yt] |
+| Mi 10.12.25 | Aggregate etc | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [YT][lecture18-yt] |
 
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
@@ -59,6 +60,8 @@
 [lecture11-handout]: /teaching/25ws/eidp/slides/infoI11-handout.pdf
 [lecture12-slides]: /teaching/25ws/eidp/slides/infoI12.pdf
 [lecture12-handout]: /teaching/25ws/eidp/slides/infoI12-handout.pdf
+[lecture13-slides]: /teaching/25ws/eidp/slides/infoI13.pdf
+[lecture13-handout]: /teaching/25ws/eidp/slides/infoI13-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
@@ -72,6 +75,7 @@
 [lecture15-yt]: https://youtube.com/live/n2hwgoXDXVA?feature=share
 [lecture16-yt]: https://youtube.com/live/HCBCx2aYlxQ?feature=share
 [lecture17-yt]: https://youtube.com/live/9PMpkp8EUc0?feature=share
+[lecture18-yt]: https://youtube.com/live/RLTsmYjCNHc?feature=share
 
 
 ## Übungen
