@@ -24,8 +24,10 @@
 | Mi 19.11.25 | Datenklassen, Alternativen | [Folien 09][lecture09-slides], [Handout 09][lecture09-handout] | [YT][lecture12-yt] |
 | Di 25.11.25 | Alternativen: Pattern Matching | | [YT][lecture13-yt] |
 | Mi 26.11.25 | Bäume, Binärbäume | [Folien 10][lecture10-slides], [Handout 10][lecture10-handout] | [YT][lecture14-yt] |
-| Di 02.12.25 | Binärbäume, Suchbäume, veränderliche Daten | [Folien 11][lecture11-slides], [Handout 11][lecture11-handout] | [YT][lecture15-yt] |
-| Mi 03.12.25 | Objekt-orientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [YT][lecture16-yt] |
+| Di 02.12.25 | Binärbäume, Suchbäume | [Folien 11][lecture11-slides], [Handout 11][lecture11-handout] | [YT][lecture15-yt] |
+| Mi 03.12.25 | veränderliche Daten | | [YT][lecture16-yt] |
+| Di 09.12.25 | Objekt-orientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [YT][lecture17-yt] |
+
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -69,6 +71,7 @@
 [lecture14-yt]: https://youtube.com/live/8ArXpEE7Lrg?feature=share
 [lecture15-yt]: https://youtube.com/live/n2hwgoXDXVA?feature=share
 [lecture16-yt]: https://youtube.com/live/HCBCx2aYlxQ?feature=share
+[lecture17-yt]: https://youtube.com/live/9PMpkp8EUc0?feature=share
 
 
 ## Übungen
