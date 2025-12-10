@@ -29,7 +29,6 @@
 | Di 09.12.25 | Objekt-orientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [YT][lecture17-yt] |
 | Mi 10.12.25 | Aggregate etc | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [YT][lecture18-yt] |
 
-
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
 [lecture00-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Info1/2025-10-14-lecture.mp4
@@ -77,7 +76,6 @@
 [lecture17-yt]: https://youtube.com/live/9PMpkp8EUc0?feature=share
 [lecture18-yt]: https://youtube.com/live/RLTsmYjCNHc?feature=share
 
-
 ## Übungen
 
 | Datum | Abgabe | Material |
@@ -105,6 +103,8 @@
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/25ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/solutions).
+
+**Das letzte Übungsblatt wird eine Probeklausur sein.**
 
 Notizen aus den Tutorien finden Sie [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/tutor-notes).
 
