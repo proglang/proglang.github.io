@@ -22,7 +22,8 @@
 | Tu 2025-11-25 | ABP, Hennessy-Milner Logic |  [Slides 08][lecture08-slides], [Handout 08][lecture08-handout], [Slides 09][lecture09-slides], [Handout 09][lecture09-handout] | [rec][lecture06-recording] |
 | Tu 2025-12-02 | HML with recursion | [Slides 10][lecture10-slides], [Handout 10][lecture10-handout],  [Slides 11][lecture11-slides], [Handout 11][lecture11-handout] | [rec][lecture07-recording] |
 | Tu 2025-12-09 | Mutual recursion, Value-passing CCS | [Slides 12][lecture12-slides], [Handout 12][lecture12-handout] | [rec][lecture08-recording] |
-| Tu 2025-12-16 | TBA | [Slides 13][lecture13-slides], [Handout 13][lecture13-handout] | [rec][lecture09-recording] |
+| Tu 2025-12-16 | Timed CCS | [Slides 13][lecture13-slides], [Handout 13][lecture13-handout] | [rec][lecture09-recording] |
+| Tu 2026-01-13 | Petri Nets | [Slides 14][lecture14-slides], [Handout 14][lecture14-handout] | [rec][lecture10-recording] |
 
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
@@ -50,6 +51,8 @@
 [lecture12-handout]:   /teaching/25ws/ct/slides/l12-handout.pdf
 [lecture13-slides]:   /teaching/25ws/ct/slides/l13.pdf
 [lecture13-handout]:   /teaching/25ws/ct/slides/l13-handout.pdf
+[lecture14-slides]:   /teaching/25ws/ct/slides/l14.pdf
+[lecture14-handout]:   /teaching/25ws/ct/slides/l14-handout.pdf
 
 
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
@@ -61,6 +64,7 @@
 [lecture07-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-02-lecture-1.mp4
 [lecture08-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-09-lecture-1.mp4
 [lecture09-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-16-lecture-1.mp4
+[lecture10-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-13-lecture-1.mp4
 
 ## Tutorial
 
