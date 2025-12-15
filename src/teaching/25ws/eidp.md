@@ -28,6 +28,8 @@
 | Mi 03.12.25 | veränderliche Daten | | [YT][lecture16-yt] |
 | Di 09.12.25 | Objekt-orientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [YT][lecture17-yt] |
 | Mi 10.12.25 | Aggregate etc | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [YT][lecture18-yt] |
+| Di 16.12.25 | Operatoren | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] (update) | [YT][lecture19-yt] |
+| Mi 10.12.25 | Dictionaries, Sets | [Folien 14][lecture14-slides], [Handout 14][lecture14-handout] | [YT][lecture18-yt] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -61,6 +63,8 @@
 [lecture12-handout]: /teaching/25ws/eidp/slides/infoI12-handout.pdf
 [lecture13-slides]: /teaching/25ws/eidp/slides/infoI13.pdf
 [lecture13-handout]: /teaching/25ws/eidp/slides/infoI13-handout.pdf
+[lecture14-slides]: /teaching/25ws/eidp/slides/infoI14.pdf
+[lecture14-handout]: /teaching/25ws/eidp/slides/infoI14-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
@@ -75,6 +79,8 @@
 [lecture16-yt]: https://youtube.com/live/HCBCx2aYlxQ?feature=share
 [lecture17-yt]: https://youtube.com/live/9PMpkp8EUc0?feature=share
 [lecture18-yt]: https://youtube.com/live/RLTsmYjCNHc?feature=share
+[lecture19-yt]: https://youtube.com/live/jjbRlCGKLKA?feature=share
+[lecture20-yt]: https://youtube.com/live/dcMQeJG_XIA?feature=share
 
 ## Übungen
 
