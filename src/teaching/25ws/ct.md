@@ -71,8 +71,8 @@
 | Mo 2025-11-17 | Weak Bisimulation | [rec][tutorial03-recording] |
 | Mo 2025-11-24 | Fixpoint Interpretation & Coinduction | [rec][tutorial04-recording] |
 | Mo 2025-12-01 | HML Formulas | [rec][tutorial05-recording] |
-| Mo 2025-12-01 | HML with Recursion | [rec][tutorial06-recording] |
-
+| Mo 2025-12-08 | HML with Recursion | [rec][tutorial06-recording] |
+| Mo 2025-12-15 | HML with Recursion & Value-Passing CCS | [rec][tutorial07-recording] |
 
 [tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-03-tutorial.mp4
 [tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-10-tutorial.mp4
@@ -80,6 +80,7 @@
 [tutorial04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-24-tutorial.mp4
 [tutorial05-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-01-tutorial.mp4
 [tutorial06-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-08-tutorial.mp4
+[tutorial07-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-15-tutorial.mp4
 
 
 ## Exercises
