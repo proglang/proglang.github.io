@@ -29,7 +29,8 @@
 | Di 09.12.25 | Objekt-orientierte Programmierung | [Folien 12][lecture12-slides], [Handout 12][lecture12-handout] | [YT][lecture17-yt] |
 | Mi 10.12.25 | Aggregate etc | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [YT][lecture18-yt] |
 | Di 16.12.25 | Operatoren | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] (update) | [YT][lecture19-yt] |
-| Mi 10.12.25 | Dictionaries, Sets | [Folien 14][lecture14-slides], [Handout 14][lecture14-handout] | [YT][lecture18-yt] |
+| Mi 10.12.25 | Dictionaries, Sets | [Folien 14][lecture14-slides], [Handout 14][lecture14-handout] | [YT][lecture20-yt] |
+| Mi 07.01.26 | tba | | [YT][lecture21-yt] |
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -81,6 +82,7 @@
 [lecture18-yt]: https://youtube.com/live/RLTsmYjCNHc?feature=share
 [lecture19-yt]: https://youtube.com/live/jjbRlCGKLKA?feature=share
 [lecture20-yt]: https://youtube.com/live/dcMQeJG_XIA?feature=share
+[lecture21-yt]: https://youtube.com/live/n2EwEBB-F6s?feature=share
 
 ## Übungen
 
