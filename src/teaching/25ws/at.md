@@ -16,6 +16,7 @@
 | 10.10. | weitere Themen |
 | 29.10. | Vortragstermine veröffentlicht |
 | 22.11. | Tippfehler und Paperlink (Antimirov-Ableitungen) gefixt |
+| 08.01. | <span lang="en">"Automata Theory and Logic"</span> (2025) verlinkt |
 
 
 ## Termine
@@ -86,10 +87,12 @@ Besprechungstermine mit dem zuständigen Betreuer zu vereinbaren.
 
 ## Themen und Literatur
 
-Grundlage des Proseminars ist das Buch *„Automatentheorie und Logik“* von Hofmann
-und Lange. Ein Vortrag entspricht einem Kapitel im Buch vom Umfang etwa
-einer Vorlesungsstunde. Das Buch ist [online][book] (über das
-Universitätsnetzwerk, z.&#8239;B. via VPN) und in der Fakultätsbibliothek verfügbar.
+Grundlage des Proseminars ist das Buch *„Automatentheorie und Logik“* von
+Hofmann und Lange. Ein Vortrag entspricht einem Kapitel im Buch vom Umfang etwa
+einer Vorlesungsstunde. [Das Buch ist online][book] (über das
+Universitätsnetzwerk, z.&#8239;B. via VPN) und in der Fakultätsbibliothek
+verfügbar. Es gibt eine überarbeitete und erweiterte [Version von 2025][book2025],
+die ebenfalls online über die UB bereitgestellt wird.
 
 Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sind:
 
@@ -117,3 +120,4 @@ Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sin
 </div>
 
 [book]: http://www.springer.com/de/book/9783642180897
+[book2025]: https://www.redi-bw.de/start/unifr/EBooks-springer/10.1007/978-3-662-72154-4
