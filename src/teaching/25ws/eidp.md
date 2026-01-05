@@ -30,7 +30,10 @@
 | Mi 10.12.25 | Aggregate etc | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] | [YT][lecture18-yt] |
 | Di 16.12.25 | Operatoren | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] (update) | [YT][lecture19-yt] |
 | Mi 10.12.25 | Dictionaries, Sets | [Folien 14][lecture14-slides], [Handout 14][lecture14-handout] | [YT][lecture20-yt] |
-| Mi 07.01.26 | tba | | [YT][lecture21-yt] |
+| Mi 07.01.26 | Rekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] | [YT][lecture21-yt] |
+| Di 13.01.26 | tba | | [YT][lecture22-yt] |
+| Mi 14.01.26 | tba | | [YT][lecture23-yt] |
+
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
 [lecture00-slides1]: /teaching/25ws/eidp/slides/infoI01.pdf
@@ -66,6 +69,10 @@
 [lecture13-handout]: /teaching/25ws/eidp/slides/infoI13-handout.pdf
 [lecture14-slides]: /teaching/25ws/eidp/slides/infoI14.pdf
 [lecture14-handout]: /teaching/25ws/eidp/slides/infoI14-handout.pdf
+[lecture15-slides]: /teaching/25ws/eidp/slides/infoI15.pdf
+[lecture15-handout]: /teaching/25ws/eidp/slides/infoI15-handout.pdf
+[lecture16-slides]: /teaching/25ws/eidp/slides/infoI16.pdf
+[lecture16-handout]: /teaching/25ws/eidp/slides/infoI16-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
@@ -83,6 +90,8 @@
 [lecture19-yt]: https://youtube.com/live/jjbRlCGKLKA?feature=share
 [lecture20-yt]: https://youtube.com/live/dcMQeJG_XIA?feature=share
 [lecture21-yt]: https://youtube.com/live/n2EwEBB-F6s?feature=share
+[lecture22-yt]: https://youtube.com/live/aXhGMya1pgA?feature=share
+[lecture23-yt]: https://youtube.com/live/rBZiarvid8A?feature=share
 
 ## Übungen
 
