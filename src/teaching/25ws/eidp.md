@@ -107,6 +107,7 @@
 | Di 02.12.25 | Mo 08.12.25 09:00 über [Git][git] | [Blatt08][exercise08-pdf]
 | Di 09.12.25 | Mo 15.12.25 09:00 über [Git][git] | [Blatt09][exercise09-pdf]
 | Di 16.12.25 | Mi 07.01.26 09:00 über [Git][git] | [Blatt10][exercise10-pdf]
+| Mi 07.01.26 | Mo 12.01.26 09:00 über [Git][git] | [Blatt11][exercise11-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/25ws/eidp/exercises/sheet01.pdf
@@ -119,6 +120,7 @@
 [exercise08-pdf]: /teaching/25ws/eidp/exercises/sheet08.pdf
 [exercise09-pdf]: /teaching/25ws/eidp/exercises/sheet09.pdf
 [exercise10-pdf]: /teaching/25ws/eidp/exercises/sheet10.pdf
+[exercise11-pdf]: /teaching/25ws/eidp/exercises/sheet11.pdf
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/25ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/solutions).
@@ -138,7 +140,7 @@ Zum Bestehen der Studienleistung ist notwendig:
 - 50% der Übungspunkte. Beachten Sie, dass 20% der Übungspunkte für die Teilnahme an den Tutoraten vergeben wird.
 - Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat.
 
-_Wichtig für fachfremd Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden.
+_Wichtig für fachfremde Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden.
 
 ### Prüfungsleistung
 
