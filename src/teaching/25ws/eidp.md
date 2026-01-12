@@ -31,8 +31,8 @@
 | Di 16.12.25 | Operatoren | [Folien 13][lecture13-slides], [Handout 13][lecture13-handout] (update) | [YT][lecture19-yt] |
 | Mi 10.12.25 | Dictionaries, Sets | [Folien 14][lecture14-slides], [Handout 14][lecture14-handout] | [YT][lecture20-yt] |
 | Mi 07.01.26 | Rekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] | [YT][lecture21-yt] |
-| Di 13.01.26 | tba | | [YT][lecture22-yt] |
-| Mi 14.01.26 | tba | | [YT][lecture23-yt] |
+| Di 13.01.26 | Rekursion, Endrekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] (update) | [YT][lecture22-yt] |
+| Mi 14.01.26 | Ausnahmen, Generatoren | [Folien 16][lecture16-slides], [Handout 16][lecture16-handout] | [YT][lecture23-yt] |
 
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
