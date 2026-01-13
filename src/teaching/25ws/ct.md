@@ -91,6 +91,11 @@
 [tutorial08-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-12-tutorial.mp4
 
 
+## Exam
+| Date | Time | Place | Mode |
+|:-----|:-----|:------|:-----|
+| 2026-02-23 | 13-15 | G 082 R 00 006 | written ∣ on paper ∣ closed book
+
 ## Exercises
 
 | Date | Due | Material |
