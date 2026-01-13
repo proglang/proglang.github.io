@@ -108,6 +108,7 @@
 | Di 09.12.25 | Mo 15.12.25 09:00 über [Git][git] | [Blatt09][exercise09-pdf]
 | Di 16.12.25 | Mi 07.01.26 09:00 über [Git][git] | [Blatt10][exercise10-pdf]
 | Mi 07.01.26 | Mo 12.01.26 09:00 über [Git][git] | [Blatt11][exercise11-pdf]
+| Di 13.01.26 | Mo 19.01.26 09:00 über [Git][git] | [Blatt12][exercise12-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/25ws/eidp/exercises/sheet01.pdf
@@ -121,6 +122,7 @@
 [exercise09-pdf]: /teaching/25ws/eidp/exercises/sheet09.pdf
 [exercise10-pdf]: /teaching/25ws/eidp/exercises/sheet10.pdf
 [exercise11-pdf]: /teaching/25ws/eidp/exercises/sheet11.pdf
+[exercise12-pdf]: /teaching/25ws/eidp/exercises/sheet12.pdf
 
 Bitte beachten Sie [die Abgaberegeln](/teaching/25ws/eidp/rules.html).
 Lösungen zu den Übungsblättern gibt es [hier](https://git.laurel.informatik.uni-freiburg.de/2025WS-EidP/solutions).
