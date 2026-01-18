@@ -108,7 +108,7 @@
 | Tu 2025-12-02 | Mo 2025-12-08 | [Sheet06][exercise06-pdf]
 | Tu 2025-12-09 | Mo 2025-12-15 | [Sheet07][exercise07-pdf]
 | Th 2025-12-20 | Mo 2026-01-12 | [Sheet08][exercise08-pdf]
-| Tu 2025-12-13 | Mo 2026-01-19 | [Sheet09][exercise09-pdf]
+| Tu 2025-12-13 | Mo 2026-01-19 | [Sheet09 (upd)][exercise09-pdf]
 
 [exercise01-pdf]: /teaching/25ws/ct/exercises/sheet01.pdf
 [exercise02-pdf]: /teaching/25ws/ct/exercises/sheet02.pdf
