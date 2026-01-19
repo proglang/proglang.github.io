@@ -24,6 +24,8 @@
 | Tu 2025-12-09 | Mutual recursion, Value-passing CCS | [Slides 12][lecture12-slides], [Handout 12][lecture12-handout] | [rec][lecture08-recording] |
 | Tu 2025-12-16 | Timed CCS | [Slides 13][lecture13-slides], [Handout 13][lecture13-handout],  [Slides 14][lecture14-slides], [Handout 14][lecture14-handout] | [rec][lecture09-recording] |
 | Tu 2026-01-13 | Petri Nets, Interleaving semantics | [Slides 15][lecture15-slides], [Handout 15][lecture15-handout] | [rec][lecture10-recording] |
+| Tu 2026-01-20 | Petri Nets, Concurrent semantics | [Slides 16][lecture16-slides], [Handout 16][lecture16-handout] | [rec][lecture11-recording] |
+| Tu 2026-01-27 | Petri Nets, from guarded CCS | [Slides 17][lecture17-slides], [Handout 17][lecture17-handout] | [rec][lecture12-recording] |
 
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
@@ -55,6 +57,10 @@
 [lecture14-handout]:   /teaching/25ws/ct/slides/l14-handout.pdf
 [lecture15-slides]:   /teaching/25ws/ct/slides/l15.pdf
 [lecture15-handout]:   /teaching/25ws/ct/slides/l15-handout.pdf
+[lecture16-slides]:   /teaching/25ws/ct/slides/l16.pdf
+[lecture16-handout]:   /teaching/25ws/ct/slides/l16-handout.pdf
+[lecture17-slides]:   /teaching/25ws/ct/slides/l17.pdf
+[lecture17-handout]:   /teaching/25ws/ct/slides/l17-handout.pdf
 
 
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
@@ -67,6 +73,8 @@
 [lecture08-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-09-lecture-1.mp4
 [lecture09-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-16-lecture-1.mp4
 [lecture10-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-13-lecture-1.mp4
+[lecture11-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-20-lecture-1.mp4
+[lecture12-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-27-lecture-1.mp4
 
 ## Tutorial
 
