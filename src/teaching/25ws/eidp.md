@@ -33,6 +33,8 @@
 | Mi 07.01.26 | Rekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] | [YT][lecture21-yt] |
 | Di 13.01.26 | Rekursion, Endrekursion | [Folien 15][lecture15-slides], [Handout 15][lecture15-handout] (update) | [YT][lecture22-yt] |
 | Mi 14.01.26 | Ausnahmen, Generatoren | [Folien 16][lecture16-slides], [Handout 16][lecture16-handout] | [YT][lecture23-yt] |
+| Di 20.01.26 | Iteratoren | | [YT][lecture24-yt] |
+| Mi 21.01.26 | Funktionale Programmierung | [Folien 17][lecture17-slides], [Handout 17][lecture17-handout] | [YT][lecture25-yt] |
 
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
@@ -73,6 +75,8 @@
 [lecture15-handout]: /teaching/25ws/eidp/slides/infoI15-handout.pdf
 [lecture16-slides]: /teaching/25ws/eidp/slides/infoI16.pdf
 [lecture16-handout]: /teaching/25ws/eidp/slides/infoI16-handout.pdf
+[lecture17-slides]: /teaching/25ws/eidp/slides/infoI17.pdf
+[lecture17-handout]: /teaching/25ws/eidp/slides/infoI17-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
@@ -92,6 +96,8 @@
 [lecture21-yt]: https://youtube.com/live/n2EwEBB-F6s?feature=share
 [lecture22-yt]: https://youtube.com/live/aXhGMya1pgA?feature=share
 [lecture23-yt]: https://youtube.com/live/rBZiarvid8A?feature=share
+[lecture24-yt]: https://youtube.com/live/BE3jEEB3bco?feature=share
+[lecture25-yt]: https://youtube.com/live/C7DE3V-wK5s?feature=share
 
 ## Übungen
 
