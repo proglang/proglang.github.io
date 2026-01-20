@@ -1,13 +1,11 @@
 # Teaching
 
-[ [Winter 2025](teaching/25ws.md) | [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
+[ [Sommer 2026](teaching/26ss.md) | [Winter 2025](teaching/25ws.md) | [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
 
 
 ## Projects and Thesis
 Requests regarding thesis papers or projects are always welcome! 
 If you are interested in supervision, you can write an email to [Prof. Dr. Thiemann](team/thiemann.md).
-
-
 
 ## Agda AG
 We meet weekly to discuss our current problems on formalizing proofs in [Agda](https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html). 
@@ -22,6 +20,12 @@ Verpflichtende Erstsemestervorlesung zur Programmierung mit [Python](https://www
 
 
 _Angebotsfrequenz: Jedes Wintersemester_ 
+
+### Theoretische Informatik
+Verpflichtende Bachelorverlesung zu Grundlagen der Theoretischen Informatik.
+
+
+_Angebotsfrequenz: Jedes Sommersemester_ 
 
 ### Functional Programming
 Specialization course about functional programming using [Haskell](https://www.haskell.org/).
@@ -39,6 +43,6 @@ Specialization course about writing a [RISC-V](https://riscv.org/) compiler in [
 _Frequency: Roughly every 1 1/2 years_
 
 ### Concurrency
-Specialization course about concurrent programming in [Go](https://go.dev/) and its underlying theory.
+Specialization course about concurrent systems and their underlying theory.
 
 _Frequency: Roughly every 1 1/2 years_
