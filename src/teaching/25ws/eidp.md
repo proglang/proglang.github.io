@@ -115,7 +115,7 @@
 | Di 16.12.25 | Mi 07.01.26 09:00 über [Git][git] | [Blatt10][exercise10-pdf]
 | Mi 07.01.26 | Mo 12.01.26 09:00 über [Git][git] | [Blatt11][exercise11-pdf]
 | Di 13.01.26 | Mo 19.01.26 09:00 über [Git][git] | [Blatt12][exercise12-pdf]
-| Di 20.01.26 | Mo 26.01.26 09:00 über [Git][git] | [Blatt13][exercise13-pdf]
+| Di 20.01.26 | Mo 26.01.26 09:00 über [Git][git] | [Blatt13 (update!)][exercise13-pdf]
 
 [git]: https://git.laurel.informatik.uni-freiburg.de
 [exercise01-pdf]: /teaching/25ws/eidp/exercises/sheet01.pdf
