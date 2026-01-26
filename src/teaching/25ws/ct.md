@@ -26,7 +26,7 @@
 | Tu 2026-01-13 | Petri Nets, Interleaving semantics | [Slides 15][lecture15-slides], [Handout 15][lecture15-handout] | [rec][lecture10-recording] |
 | Tu 2026-01-20 | Petri Nets, Concurrent semantics | [Slides 16][lecture16-slides], [Handout 16][lecture16-handout] | [rec][lecture11-recording] |
 | Tu 2026-01-27 | Petri Nets, from guarded CCS | [Slides 17][lecture17-slides], [Handout 17][lecture17-handout] | [rec][lecture12-recording] |
-| Tu 2026-02-03 | TBA | [Slides 18][lecture18-slides], [Handout 18][lecture18-handout] | [rec][lecture13-recording] |
+| Tu 2026-02-03 | Fundamentals of Session Types | [Slides 18][lecture18-slides] | [rec][lecture13-recording] |
 
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
@@ -63,7 +63,6 @@
 [lecture17-slides]:   /teaching/25ws/ct/slides/l17.pdf
 [lecture17-handout]:   /teaching/25ws/ct/slides/l17-handout.pdf
 [lecture18-slides]:   /teaching/25ws/ct/slides/l18.pdf
-[lecture18-handout]:   /teaching/25ws/ct/slides/l18-handout.pdf
 
 
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4

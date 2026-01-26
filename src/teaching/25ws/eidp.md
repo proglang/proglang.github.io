@@ -35,8 +35,10 @@
 | Mi 14.01.26 | Ausnahmen, Generatoren | [Folien 16][lecture16-slides], [Handout 16][lecture16-handout] | [YT][lecture23-yt] |
 | Di 20.01.26 | Iteratoren | | [YT][lecture24-yt] |
 | Mi 21.01.26 | Funktionale Programmierung | [Folien 17][lecture17-slides], [Handout 17][lecture17-handout] | [YT][lecture25-yt] |
-| Di 27.01.26 | Funktionale Programmierung | | [YT][lecture26-yt] |
-| Mi 28.01.26 | TBA | [Folien 18][lecture18-slides], [Handout 18][lecture18-handout] | [YT][lecture27-yt] |
+| Di 27.01.26 | Funktionale Programmierung, Komprehensionen | | [YT][lecture26-yt] |
+| Mi 28.01.26 | Dekoratoren | [Folien 18][lecture18-slides], [Handout 18][lecture18-handout] | [YT][lecture27-yt] |
+| Di 03.02.26 | Finale: Brainf*ck | | [YT][lecture28-yt] |
+| Mi 04.02.26 | Fragestunde | | kein Stream, keine Aufzeichnung |
 
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
@@ -104,6 +106,7 @@
 [lecture25-yt]: https://youtube.com/live/C7DE3V-wK5s?feature=share
 [lecture26-yt]: https://youtube.com/live/DnJDm04Kig0?feature=share
 [lecture27-yt]: https://youtube.com/live/-CDar8cOG4k?feature=share
+[lecture28-yt]: https://youtube.com/live/hqcMbX3a-fs?feature=share
 
 ## Übungen
 
