@@ -93,6 +93,7 @@
 | Mo 2025-12-15 | HML with Recursion & Value-Passing CCS | [rec][tutorial07-recording] |
 | Mo 2026-01-12 | Exam Preparation (missing last 20min) | [rec][tutorial08-recording] |
 | Mo 2026-01-19 | Petri Nets: Syntax & Semantics | [rec][tutorial09-recording] |
+| Mo 2026-01-26 | True Concurrency Semantics | [rec][tutorial10-recording] |
 
 [tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-03-tutorial.mp4
 [tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-10-tutorial.mp4
@@ -103,7 +104,7 @@
 [tutorial07-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-12-15-tutorial.mp4
 [tutorial08-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-12-tutorial.mp4
 [tutorial09-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-19-tutorial.mp4
-
+[tutorial10-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-26-tutorial.mp4
 
 ## Exam
 | Date | Time | Place | Mode |
