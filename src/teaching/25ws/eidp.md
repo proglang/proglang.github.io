@@ -35,6 +35,8 @@
 | Mi 14.01.26 | Ausnahmen, Generatoren | [Folien 16][lecture16-slides], [Handout 16][lecture16-handout] | [YT][lecture23-yt] |
 | Di 20.01.26 | Iteratoren | | [YT][lecture24-yt] |
 | Mi 21.01.26 | Funktionale Programmierung | [Folien 17][lecture17-slides], [Handout 17][lecture17-handout] | [YT][lecture25-yt] |
+| Di 27.01.26 | Funktionale Programmierung | | [YT][lecture26-yt] |
+| Mi 28.01.26 | TBA | [Folien 18][lecture18-slides], [Handout 18][lecture18-handout] | [YT][lecture27-yt] |
 
 
 [lecture00-slides]:  /teaching/25ws/eidp/slides/infoI00.pdf
@@ -77,6 +79,8 @@
 [lecture16-handout]: /teaching/25ws/eidp/slides/infoI16-handout.pdf
 [lecture17-slides]: /teaching/25ws/eidp/slides/infoI17.pdf
 [lecture17-handout]: /teaching/25ws/eidp/slides/infoI17-handout.pdf
+[lecture18-slides]: /teaching/25ws/eidp/slides/infoI18.pdf
+[lecture18-handout]: /teaching/25ws/eidp/slides/infoI18-handout.pdf
 
 [lecture06-yt]: https://youtube.com/live/7kRhH3lau7Q?feature=share
 [lecture07-yt]: https://youtube.com/live/-5q9hxiAQPE?feature=share
@@ -98,6 +102,8 @@
 [lecture23-yt]: https://youtube.com/live/rBZiarvid8A?feature=share
 [lecture24-yt]: https://youtube.com/live/BE3jEEB3bco?feature=share
 [lecture25-yt]: https://youtube.com/live/C7DE3V-wK5s?feature=share
+[lecture26-yt]: https://youtube.com/live/DnJDm04Kig0?feature=share
+[lecture27-yt]: https://youtube.com/live/-CDar8cOG4k?feature=share
 
 ## Übungen
 
