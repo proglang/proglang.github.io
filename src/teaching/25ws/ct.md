@@ -3,7 +3,7 @@
 ## General Information
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
-- Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md)
+- Assistants: [Marius Weidner](/team/weidner.md), [Leonardo Mieschendahl](/team/mieschendahl.md) (until Dec 31, 2025)
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/61187088327?pwd=XVlmiuURptCbIrHLATL3aaFhyn3HhY.1), Tuesdays 14-16 
 - Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom][zoom-tut-mari], Mondays 10-12
 
@@ -26,6 +26,7 @@
 | Tu 2026-01-13 | Petri Nets, Interleaving semantics | [Slides 15][lecture15-slides], [Handout 15][lecture15-handout] | [rec][lecture10-recording] |
 | Tu 2026-01-20 | Petri Nets, Concurrent semantics | [Slides 16][lecture16-slides], [Handout 16][lecture16-handout] | [rec][lecture11-recording] |
 | Tu 2026-01-27 | Petri Nets, from guarded CCS | [Slides 17][lecture17-slides], [Handout 17][lecture17-handout] | [rec][lecture12-recording] |
+| Tu 2026-02-03 | TBA | [Slides 18][lecture18-slides], [Handout 18][lecture18-handout] | [rec][lecture13-recording] |
 
 
 [lecture01-slides]: /teaching/25ws/ct/slides/l01.pdf
@@ -61,6 +62,8 @@
 [lecture16-handout]:   /teaching/25ws/ct/slides/l16-handout.pdf
 [lecture17-slides]:   /teaching/25ws/ct/slides/l17.pdf
 [lecture17-handout]:   /teaching/25ws/ct/slides/l17-handout.pdf
+[lecture18-slides]:   /teaching/25ws/ct/slides/l18.pdf
+[lecture18-handout]:   /teaching/25ws/ct/slides/l18-handout.pdf
 
 
 [lecture01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-10-21-lecture-1.mp4
@@ -75,6 +78,7 @@
 [lecture10-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-13-lecture-1.mp4
 [lecture11-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-20-lecture-1.mp4
 [lecture12-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-27-lecture-1.mp4
+[lecture13-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-02-03-lecture-1.mp4
 
 ## Tutorial
 
