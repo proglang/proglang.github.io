@@ -124,6 +124,7 @@
 | Th 2025-12-20 | Mo 2026-01-12 | [Sheet08][exercise08-pdf]
 | Tu 2026-01-13 | Mo 2026-01-19 | [Sheet09][exercise09-pdf]
 | Tu 2026-01-20 | Mo 2026-01-26 | [Sheet10][exercise10-pdf]
+| Tu 2026-01-27 | Mo 2026-02-02 | [Sheet11][exercise11-pdf]
 
 
 [exercise01-pdf]: /teaching/25ws/ct/exercises/sheet01.pdf
@@ -136,3 +137,4 @@
 [exercise08-pdf]: /teaching/25ws/ct/exercises/sheet08.pdf
 [exercise09-pdf]: /teaching/25ws/ct/exercises/sheet09.pdf
 [exercise10-pdf]: /teaching/25ws/ct/exercises/sheet10.pdf
+[exercise11-pdf]: /teaching/25ws/ct/exercises/sheet11.pdf
