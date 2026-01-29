@@ -17,6 +17,7 @@
 | 29.10. | Vortragstermine veröffentlicht |
 | 22.11. | Tippfehler und Paperlink (Antimirov-Ableitungen) gefixt |
 | 08.01. | <span lang="en">"Automata Theory and Logic"</span> (2025) verlinkt |
+| 29.01. | Kein Seminarstermin am 03.02. |
 
 
 ## Termine
@@ -35,7 +36,7 @@
 |            | (8) Determinisierung von Büchi-Automaten | Kristin       | [PT][] |
 | 27.01.2026 | (10) Alternierende Automaten             | Lena          | [JS][] |
 |            | Symbolic tree automata                   | Maurice       | [PT][] |
-| 03.02.2026 | (9) Entscheidungsverfahren für *ω*-Automaten | Joshua    | [PT][] |
+| ~03.02.2026~ | ~(9) Entscheidungsverfahren für *ω*-Automaten~ |            |        |
 
 Alle Sitzungen starten um 16:00 s.t.
 
