@@ -93,6 +93,7 @@
 | Mo 2026-01-12 | Exam Preparation (missing last 20min) | [rec][tutorial08-recording] |
 | Mo 2026-01-19 | Petri Nets: Syntax & Semantics | [rec][tutorial09-recording] |
 | Mo 2026-01-26 | True Concurrency Semantics | [rec][tutorial10-recording] |
+| Mo 2026-02-02 | Petri Nets, CCS to Petri Nets and Session Types | [rec][tutorial11-recording] |
 
 [tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-03-tutorial.mp4
 [tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2025-11-10-tutorial.mp4
@@ -104,6 +105,8 @@
 [tutorial08-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-12-tutorial.mp4
 [tutorial09-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-19-tutorial.mp4
 [tutorial10-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-01-26-tutorial.mp4
+[tutorial11-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2025-WS-Concurrency/2026-02-02-tutorial.mp4
+
 
 ## Exam
 | Date | Time | Place | Mode |
