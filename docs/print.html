@@ -198,12 +198,22 @@ If you wish to attend, write an email to <a href="team/thiemann.html">Prof. Dr. 
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="available-projects--theses"><a class="header" href="#available-projects--theses">Available Projects &amp; Theses</a></h1>
 <h2 id="general-information"><a class="header" href="#general-information">General Information</a></h2>
-<p>If you are interested in one of the topics below or you have thought of a topic yourself,
-please write an email to <a href="teaching/projects/team/thiemann.html">Prof. Dr. Thiemann</a> with all required details.</p>
-<p>Also, if you cannot find a suitable topic here, you may still want to write an email to
-<a href="teaching/projects/team/thiemann.html">Prof. Dr. Thiemann</a>.</p>
-<h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
-<h3 id="bachelorprojekt"><a class="header" href="#bachelorprojekt">Bachelorprojekt</a></h3>
+<div style="max-width: 80rem; text-align: justify">
+<p>Our projects and theses are focused on the design and implementation of
+programming languages, functional and object-oriented programming, type systems
+and static analysis, semantics, concurrency, mechanized metatheory, and theorem
+proving.</p>
+<p>If you are interested in one of the topics below or you have a specific topic
+in mind yourself please write an email to <a href="teaching/projects/team/thiemann.html">Prof. Dr.
+Thiemann</a>.</p>
+<p>This page is a living document and we may not always be able to update it in
+time. Some topics may already be taken and others might not yet have found
+their way onto here. If you are interested in a project or thesis with our
+chair but cannot find a suitable topic feel free to write an email to as well
+and let us know which of the specialization courses offered by our chair you
+have taken.</p>
+</div>
+<h2 id="bachelorprojekt"><a class="header" href="#bachelorprojekt">Bachelorprojekt</a></h2>
 <!-- #### Reusable Library for checking correctness + exhaustiveness of nested pattern matching
 * Define set of ADTs with constructors and field types
 * Receives type of initial expression + set of branches (ie. patterns) as inputs
@@ -216,45 +226,45 @@ please write an email to <a href="teaching/projects/team/thiemann.html">Prof. Dr
 * [Luc Maranget: Warnings for pattern matching](https://cambium.inria.fr/~maranget/papers/warn/warn.pdf)
 * [Luc Maranget: Compiling Pattern Matching to Good Decision Trees](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf)
  -->
-<h4 id="extensions-to-the-compiler-construction-lecture-compiler"><a class="header" href="#extensions-to-the-compiler-construction-lecture-compiler">Extensions to the compiler construction lecture compiler</a></h4>
+<h3 id="extensions-to-the-compiler-construction-lecture-compiler"><a class="header" href="#extensions-to-the-compiler-construction-lecture-compiler">Extensions to the compiler construction lecture compiler</a></h3>
 <ul>
 <li>Arrays</li>
 <li>Strings / Chars</li>
 <li>Match</li>
 <li>…?</li>
 </ul>
-<h4 id="extending-lambda-pi-paper-with-universe-polymorphism"><a class="header" href="#extending-lambda-pi-paper-with-universe-polymorphism">Extending Lambda Pi Paper with Universe Polymorphism</a></h4>
+<h3 id="extending-lambda-pi-paper-with-universe-polymorphism"><a class="header" href="#extending-lambda-pi-paper-with-universe-polymorphism">Extending Lambda Pi Paper with Universe Polymorphism</a></h3>
 <ul>
 <li>Addition of universe levels and polymorphism to the existing implementation</li>
 <li>The type checker would use the subtype approach suggested here: https://github.com/agda/agda/issues/5810, where <code>Set l</code> &lt; <code>Setω</code> for all <code>l</code>.</li>
 <li>as project: implementation</li>
 <li>follow up with thesis: proof, maybe explore alternatives, build upon Hannes’ dependent types formalization</li>
 </ul>
-<h3 id="bachelorarbeit"><a class="header" href="#bachelorarbeit">Bachelorarbeit</a></h3>
-<h3 id="master-lab-course"><a class="header" href="#master-lab-course">Master Lab Course</a></h3>
+<h2 id="bachelorarbeit"><a class="header" href="#bachelorarbeit">Bachelorarbeit</a></h2>
+<h2 id="master-lab-course"><a class="header" href="#master-lab-course">Master Lab Course</a></h2>
 <!-- 
 ### Lecture compiler in Rust
 * different internal structure based on [Appel](https://api.pageplace.de/preview/DT0400.9781107266391_A23693450/preview-9781107266391_A23693450.pdf) 
 -->
 <h2 id="master-project"><a class="header" href="#master-project">Master Project</a></h2>
-<h4 id="extensions-to-the-compiler-construction-lecture-compiler-1"><a class="header" href="#extensions-to-the-compiler-construction-lecture-compiler-1">Extensions to the compiler construction lecture compiler</a></h4>
+<h3 id="extensions-to-the-compiler-construction-lecture-compiler-1"><a class="header" href="#extensions-to-the-compiler-construction-lecture-compiler-1">Extensions to the compiler construction lecture compiler</a></h3>
 <ul>
 <li><code>call/cc</code></li>
 <li><code>shift</code>/<code>reset</code></li>
 <li>generators</li>
 </ul>
-<h4 id="register-allocation-using-sat-solving"><a class="header" href="#register-allocation-using-sat-solving">Register Allocation using SAT Solving</a></h4>
+<h3 id="register-allocation-using-sat-solving"><a class="header" href="#register-allocation-using-sat-solving">Register Allocation using SAT Solving</a></h3>
 <ul>
 <li>Usage of the compiler from the lecture</li>
 <li>Translation of the graph coloring problem to SAT</li>
 <li>Interfacing with an existing SAT solver (e.g. KISSAT, CaDiCaL)</li>
 <li>(Fuzzer based) Generation of large program instances to produce reasonable benchmarks for both runtime and compilation speed</li>
 </ul>
-<h4 id="use-agda-hs-for-program-extraction-of-existing-correct-algorithm"><a class="header" href="#use-agda-hs-for-program-extraction-of-existing-correct-algorithm">Use agda-hs for program extraction of existing correct algorithm</a></h4>
+<h3 id="use-agda-hs-for-program-extraction-of-existing-correct-algorithm"><a class="header" href="#use-agda-hs-for-program-extraction-of-existing-correct-algorithm">Use agda-hs for program extraction of existing correct algorithm</a></h3>
 <ul>
 <li>students must be comfortable adjusting the Agda code to fit the custom agda-hs prelude</li>
 </ul>
-<h4 id="reproduce-agda-proofs-in-lean"><a class="header" href="#reproduce-agda-proofs-in-lean">Reproduce Agda proofs in Lean</a></h4>
+<h3 id="reproduce-agda-proofs-in-lean"><a class="header" href="#reproduce-agda-proofs-in-lean">Reproduce Agda proofs in Lean</a></h3>
 <ul>
 <li>SystemF or Logical Rel.</li>
 <li>Possible research questions:
@@ -266,12 +276,12 @@ please write an email to <a href="teaching/projects/team/thiemann.html">Prof. Dr
 </ul>
 </li>
 </ul>
-<h4 id="effect-calculus-denotational-semantics-in-agda"><a class="header" href="#effect-calculus-denotational-semantics-in-agda">effect-calculus denotational semantics in Agda</a></h4>
+<h3 id="effect-calculus-denotational-semantics-in-agda"><a class="header" href="#effect-calculus-denotational-semantics-in-agda">effect-calculus denotational semantics in Agda</a></h3>
 <ul>
 <li><a href="https://lmcs.episciences.org/1153/pdf">Bauer &amp; Pretnar: An effect system for algebraic effects and handlers</a></li>
 </ul>
-<h3 id="master-thesis"><a class="header" href="#master-thesis">Master Thesis</a></h3>
-<h4 id="implement-dependent-pattern-matching-in-rust"><a class="header" href="#implement-dependent-pattern-matching-in-rust">Implement dependent pattern matching in Rust</a></h4>
+<h2 id="master-thesis"><a class="header" href="#master-thesis">Master Thesis</a></h2>
+<h3 id="implement-dependent-pattern-matching-in-rust"><a class="header" href="#implement-dependent-pattern-matching-in-rust">Implement dependent pattern matching in Rust</a></h3>
 <ul>
 <li><a href="https://dl.acm.org/doi/epdf/10.1145/3236770">Jesper Cockx, Andreas Abel: Elaborating dependent (co)pattern matching</a></li>
 </ul>
