@@ -46,9 +46,12 @@ have taken.
 
 ### Extending Lambda Pi Paper with Universe Polymorphism 
 * Addition of universe levels and polymorphism to the existing implementation
-* The type checker would use the subtype approach suggested here: https://github.com/agda/agda/issues/5810, where `Set l` < `Setω` for all `l`.
+* The type checker would use the subtype approach suggested here:
+  <https://github.com/agda/agda/issues/5810>, where `Set l` < `Setω` for all
+  `l`.
 * as project: implementation
-* follow up with thesis: proof, maybe explore alternatives, build upon Hannes' dependent types formalization
+* follow up with thesis: proof, maybe explore alternatives, build upon Hannes'
+  dependent types formalization
 
 
 ## Bachelorarbeit
