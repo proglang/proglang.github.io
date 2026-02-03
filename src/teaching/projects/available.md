@@ -74,3 +74,6 @@ Also, if you cannot find a suitable topic here, you may still want to write an e
 * [Bauer & Pretnar: An effect system for algebraic effects and handlers](https://lmcs.episciences.org/1153/pdf)
 
 ### Master Thesis
+
+#### Implement dependent pattern matching in Rust
+* [Jesper Cockx, Andreas Abel: Elaborating dependent (co)pattern matching](https://dl.acm.org/doi/epdf/10.1145/3236770)
