@@ -1,11 +1,11 @@
 # Teaching
 
-[ [Sommer 2026](teaching/26ss.md) | [Winter 2025](teaching/25ws.md) | [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
+[ [Projects & Thesis](teaching/projects.md) | [Sommer 2026](teaching/26ss.md) | [Winter 2025](teaching/25ws.md) | [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
 
 
 ## Projects and Thesis
-Requests regarding thesis papers or projects are always welcome! 
-If you are interested in supervision, you can write an email to [Prof. Dr. Thiemann](team/thiemann.md).
+Requests regarding theses or projects are always welcome! 
+If you are interested in supervision, you can look for available topics [here](teaching/projects/available.md).
 
 ## Agda AG
 We meet weekly to discuss our current problems on formalizing proofs in [Agda](https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html). 
@@ -18,12 +18,10 @@ _Frequency: Every semester_
 ### Einführung in die Programmierung
 Verpflichtende Erstsemestervorlesung zur Programmierung mit [Python](https://www.python.org/).
 
-
 _Angebotsfrequenz: Jedes Wintersemester_ 
 
 ### Theoretische Informatik
 Verpflichtende Bachelorverlesung zu Grundlagen der Theoretischen Informatik.
-
 
 _Angebotsfrequenz: Jedes Sommersemester_ 
 

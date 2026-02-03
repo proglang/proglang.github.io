@@ -2,6 +2,9 @@
 
 - [Home](home.md)
 - [Teaching](teaching.md)
+    - [Projects & Theses](teaching/projects.md)
+      - [Available](teaching/projects/available.md)
+      - [Finished](teaching/projects/finished.md)
     - [Sommer 2026](teaching/26ss.md)
       - [Theoretische Informatik](teaching/26ss/ti.md)
       - [Essentials of Programming Languages](teaching/26ss/eopl.md)
