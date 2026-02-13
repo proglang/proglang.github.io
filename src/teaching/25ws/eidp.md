@@ -168,4 +168,4 @@ _Wichtig für fachfremde Studierende_: Für die Studienleistung muss auch die Kl
 Für das Bestehen der Prüfungsleistung ist das Bestehen der Klausur notwendig.
 
 Die Klausur findet am **19.02.2025** statt.
-Die **_individuelle_** Uhrzeit und der **_individuelle_** Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier](/teaching/25ws/eidp.html) eingesehen werden. Halten Sie sich unbedingt den ganzen Tag (von 8-19 Uhr) frei.
+Die **_individuelle_** Uhrzeit und der **_individuelle_** Ort der Prüfungen kann _in der Woche vor der Klausur_ [hier](https://courses.laurel.informatik.uni-freiburg.de/courses/2025WS-EidP/exam) eingesehen werden. Halten Sie sich unbedingt den ganzen Tag (von 8-19 Uhr) frei.
