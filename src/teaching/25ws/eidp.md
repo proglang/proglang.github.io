@@ -1,5 +1,18 @@
 # Einführung in die Programmierung
 
+<div class="warning">
+Klausureinsicht Einführung in die Programmierung
+
+am Dienstag, 20.04.2026, 14-16 Uhr, Poolraum 3, Werthmannstr. 4.
+Bitte mitbringen:
+
+* Unicard, Lichtbildausweis
+* Zugangsdaten Uniaccount
+
+Bitte seien Sie fair zu Ihren Kommilitonen und beschränken Sie Ihre Sitzung auf maximal 20 Minuten.
+</div>
+
+
 ## Übersicht
 
 - Dozent: [Prof. Dr. Peter Thiemann](/team/thiemann.md)

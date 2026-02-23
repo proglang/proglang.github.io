@@ -1,5 +1,13 @@
 # Concurrency Theory
 
+<div class="warning">
+Exam Review Concurrency Theory
+at Tuesday, 2026-04-20, 2-4pm Uhr, Pool 3, Werthmannstr. 4.
+Please bring:
+* Unicard, ID document
+* Uni account login
+</div>
+
 ## General Information
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)

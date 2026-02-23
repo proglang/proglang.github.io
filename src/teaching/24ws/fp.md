@@ -1,5 +1,13 @@
 # Functional Programming (Winter 2024)
 
+<div class="warning">
+Exam Review Retake Functional Programming
+at Tuesday, 2026-04-20, 2-4pm Uhr, Pool 3, Werthmannstr. 4.
+Please bring:
+* Unicard, ID document
+* Uni account login
+</div>
+
 ## General Information
 
 - **Lecturer:**   [Prof. Dr. Peter Thiemann](/team/thiemann.md)
@@ -8,9 +16,6 @@
 - **Tutorials:**  Friday, 14:15 - 15:45, online via Zoom
 - **Livestream:** [Zoom meeting](https://uni-freiburg.zoom-x.de/j/63630251635?pwd=mnwRBuRiIWSmWQbRtxWct59eTbyNPa.1),
                   Passcode: rPZCumB7H, used for lectures and tutorials
-
-## Retake Exam Review
-Mo, 20.10.25 14:00 - 16:00, Werthmannstraße 4, PC Pool 9 
 
 ## Lectures & Tutorials
 
