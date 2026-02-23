@@ -3,7 +3,7 @@
 <div class="warning">
 Exam Review Concurrency Theory
 
-at Tuesday, 2026-04-20, 2-4pm, Pool 3, Werthmannstr. 4.
+at Monday, 2026-04-20, 2-4pm, Pool 3, Werthmannstr. 4.
 Please bring:
 * Unicard, ID document
 * Uni account login

@@ -3,7 +3,7 @@
 <div class="warning">
 Klausureinsicht Einführung in die Programmierung
 
-am Dienstag, 20.04.2026, 14-16 Uhr, Poolraum 3, Werthmannstr. 4.
+am Montag, 20.04.2026, 14-16 Uhr, Poolraum 3, Werthmannstr. 4.
 Bitte mitbringen:
 
 * Unicard, Lichtbildausweis
