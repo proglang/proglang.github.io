@@ -2,7 +2,8 @@
 
 <div class="warning">
 Exam Review Retake Compiler Construction
-at Tuesday, 2026-04-20, 2-4pm Uhr, Pool 3, Werthmannstr. 4.
+
+at Tuesday, 2026-04-20, 2-4pm, Pool 3, Werthmannstr. 4.
 Please bring:
 * Unicard, ID document
 * Uni account login
