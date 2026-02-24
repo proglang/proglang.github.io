@@ -3,7 +3,7 @@
 <div class="warning">
 Exam Review Retake Essentials of Programming Languages
 
-at Monday, 2026-04-20, 2-4pm, Pool 3, Werthmannstr. 4.
+on Monday, 2026-04-20, 2-4pm, Pool 3, Werthmannstr. 4.
 Please bring:
 * Unicard, ID document
 * Uni account login
