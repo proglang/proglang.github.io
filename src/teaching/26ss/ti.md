@@ -6,6 +6,10 @@
 - Assistent: [Marius Weidner](/team/weidner.md)
 - Vorlesung: HS 00 026 µ-Saal G.-Köhler-Allee 101, Dienstags 16:15-17:45 und Mittwochs 12:00-12:45
 
+<div class="warning">
+In der ersten Semesterwoche finden keine Tutorate statt.
+</div>
+
 ## Vorlesung
 
 | Datum | Thema | Material | Aufzeichnung

@@ -7,6 +7,11 @@
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](), Wednesdays 14-16 
 - Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](), tba.
 
+<div class="warning">
+There will be no tutorial session in the first week of the semester.
+</div>
+
+
 ## Lecture
 
 | Date | Topic | Material | Recording
