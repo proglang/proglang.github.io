@@ -14,6 +14,10 @@ Am 06.05.2026 entfällt die Vorlesung.
 In der ersten Semesterwoche finden keine Tutorate statt.
 </div>
 
+<div class="warning">
+Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in HisInOne an.
+</div>
+
 ## Vorlesung
 
 | Datum | Thema | Material | Aufzeichnung |
