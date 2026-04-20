@@ -24,7 +24,7 @@ In der ersten Semesterwoche finden keine Tutorate statt.
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
-| 2026-04-22 | | |
+| Mi, 22.04.2026 | Mi, 28.04.2026 16:00 Uhr | |
 
 Alle Übungsblätter können über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
