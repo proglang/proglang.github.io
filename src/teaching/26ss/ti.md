@@ -30,14 +30,14 @@ Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in Hi
 |:-----|:-----|:-----|
 | Mi, 22.04.2026 | Di, 28.04.2026 16:00 Uhr | |
 
-Alle Übungsblätter können über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
+Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
-**FAQ:**
+**Hinweise:**
+- Es gibt ein [Tutorial zur Übungsplattform](ti/abgabesystem/abgabesystem.html) 
 - Es darf nur **ein einzelnes PDF-Dokument** abgegeben werden.
 - Handgeschriebene (und anschließend digitalisierte) Abgaben sind erlaubt.
 - Wir prüfen die Abgaben auf Plagiate: Der Austausch von Ideen ist erlaubt, aber alle Abgaben müssen selbstständig erstellt werden. 
 - Abgaben per E-Mail sowie Abgaben nach der Deadline sind nicht möglich. 
-
 ## Leistungen
 
 ### Studienleistung
