@@ -20,8 +20,8 @@ Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in Hi
 
 ## Vorlesung
 
-| Datum | Thema | Material | Aufzeichnung |
-|:-----|:-----|:-----|:-----|
+| Datum | Thema | Material |
+|:-----|:-----|:-----|
 
 
 ## Übungen
@@ -44,5 +44,6 @@ Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freib
 Es gibt (voraussichtlich) 12 Übungsblätter. Für jedes Übungsblatt gibt es 20 Punkte. Daraus ergibt sich eine maximale Gesamtpunktzahl von 240 Punkten. Zum Bestehen der Studienleistung werden 50 % der Punkte (120 Punkte) benötigt.
 
 ### Prüfungsleistung
-Die Prüfung findet auf Papier und ohne jegliche Hilfsmittel statt. 
+Die Prüfung findet auf Papier statt. 
+Hilfsmittel: eine DIN-A4 Seite handschriftlich beschrieben.
 Genauere Informationen folgen vor der Klausur.
