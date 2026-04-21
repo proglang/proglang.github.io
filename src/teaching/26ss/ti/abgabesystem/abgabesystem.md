@@ -1,5 +1,10 @@
 # Abgabesystem für **Theoretische Informatik**
 
+<div class="warning">
+Die Bilder sind für einen anderen Kurs erstellt worden.
+</div>
+
+
 ## 1. Kurs beitreten
 
 1. Öffnen Sie die Website des [Abgabesystems](https://git.laurel.informatik.uni-freiburg.de/).
