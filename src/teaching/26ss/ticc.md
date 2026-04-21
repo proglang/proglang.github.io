@@ -12,6 +12,8 @@
 [pt]: /team/thiemann.md
 [js]: /team/spaderna.md
 
+<!--
+DRAFT: commented out to avoid accidental publication
 
 ## Process
 
@@ -70,3 +72,5 @@ Technical details:
 
 * Regardless of who presented what you should be able to answer any questions
   and be able to explain all relevant details.
+
+-->
