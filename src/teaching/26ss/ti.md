@@ -28,7 +28,7 @@ Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in Hi
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
-| Mi, 22.04.2026 | Di, 28.04.2026 16:00 Uhr | [Blatt 01](ti/exercise/sheet01.pdf) |
+| Mi, 22.04.2026 | Di, 28.04.2026 16:00 Uhr | [Blatt 01](ti/exercises/sheet01.pdf) |
 
 Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
