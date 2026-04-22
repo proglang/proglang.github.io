@@ -12,8 +12,11 @@
 [pt]: /team/thiemann.md
 [js]: /team/spaderna.md
 
-<!--
-DRAFT: commented out to avoid accidental publication
+<div style="color: red">
+
+**The information below is preliminary and subject to change.**
+
+</div>
 
 ## Process
 
@@ -72,5 +75,3 @@ Technical details:
 
 * Regardless of who presented what you should be able to answer any questions
   and be able to explain all relevant details.
-
--->
