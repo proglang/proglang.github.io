@@ -5,7 +5,7 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Marius Weidner](/team/weidner.md)
 - Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](), Wednesdays 14-16 
-- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](), tba.
+- Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/66428637942?pwd=4REuX8CZdMfgoiy094yrMWM7aJhiNd.1), Mondays 10-12
 
 <div class="warning">
 There will be no tutorial session in the first week of the semester.
@@ -20,10 +20,9 @@ There will be no tutorial session in the first week of the semester.
 
 ## Tutorial
 
-| Date | Topic | Recording
-|:-----|:-----|:-----|
-
-
+| Date | Topic | Link | Recording
+|:-----|:-----|:-----|:-----|
+| 2026-04-22 | Setup & Tooling | [Getting Started](https://plfa.github.io/GettingStarted/) |  |
 
 ## Exam
 | Date | Time | Place | Mode |
