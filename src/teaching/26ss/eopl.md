@@ -22,7 +22,7 @@ There will be no tutorial session in the first week of the semester.
 
 | Date | Topic | Link | Recording
 |:-----|:-----|:-----|:-----|
-| 2026-04-22 | Setup & Tooling | [Getting Started](https://plfa.github.io/GettingStarted/) |  |
+| 2026-04-27 | Setup & Tooling | [Getting Started](https://plfa.github.io/GettingStarted/) |  |
 
 ## Exam
 | Date | Time | Place | Mode |
