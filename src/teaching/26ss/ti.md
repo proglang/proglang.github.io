@@ -24,26 +24,29 @@ Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in Hi
 |:-----|:-----|:-----|
 | Di, 21.04.2025 | Vorspann Sprachen | [Script](ti/script/2026-04-21.pdf) |
 
-
 ## Übungen
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
-| Mi, 22.04.2026 | Di, 28.04.2026 16:00 Uhr | |
+| Mi, 22.04.2026 | Di, 28.04.2026 16:00 Uhr | [Blatt 01](ti/exercise/sheet01.pdf) |
 
 Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
 **Hinweise:**
-- Es gibt ein [Tutorial zur Übungsplattform](ti/abgabesystem/abgabesystem.html) 
+
+- Es gibt ein [Tutorial zur Übungsplattform](ti/abgabesystem/abgabesystem.html)
 - Es darf nur **ein einzelnes PDF-Dokument** abgegeben werden.
 - Handgeschriebene (und anschließend digitalisierte) Abgaben sind erlaubt.
-- Wir prüfen die Abgaben auf Plagiate: Der Austausch von Ideen ist erlaubt, aber alle Abgaben müssen selbstständig erstellt werden. 
-- Abgaben per E-Mail sowie Abgaben nach der Deadline sind nicht möglich. 
+- Wir prüfen die Abgaben auf Plagiate: Der Austausch von Ideen ist erlaubt, aber alle Abgaben müssen selbstständig erstellt werden.
+- Abgaben per E-Mail sowie Abgaben nach der Deadline sind nicht möglich.
+
 ## Leistungen
 
 ### Studienleistung
+
 Es gibt (voraussichtlich) 12 Übungsblätter. Für jedes Übungsblatt gibt es 20 Punkte. Daraus ergibt sich eine maximale Gesamtpunktzahl von 240 Punkten. Zum Bestehen der Studienleistung werden 50 % der Punkte (120 Punkte) benötigt.
 
 ### Prüfungsleistung
-Die Prüfung findet auf Papier und ohne jegliche Hilfsmittel statt. 
+
+Die Prüfung findet auf Papier und ohne jegliche Hilfsmittel statt.
 Genauere Informationen folgen vor der Klausur.
