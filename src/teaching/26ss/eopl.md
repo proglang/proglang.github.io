@@ -8,7 +8,7 @@
 - Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/66428637942?pwd=4REuX8CZdMfgoiy094yrMWM7aJhiNd.1), Mondays 10-12
 
 <div class="warning">
-There will be no tutorial session in the first week of the semester.
+On 2026-05-06 there will be no lecture. 
 </div>
 
 
