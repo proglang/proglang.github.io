@@ -22,7 +22,10 @@ Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in Hi
 
 | Datum | Thema | Material |
 |:-----|:-----|:-----|
-| Di, 21.04.2025 | Vorspann Sprachen | [Script](ti/script/2026-04-21.pdf) |
+| Di, 21.04.2026 | Vorspann Sprachen | [Script](ti/script/2026-04-21.pdf) |
+| Mi, 22.04.2026 | Reguläre Sprachen, DEA | [Script](ti/script/2026-04-22.pdf) |
+| Di, 28.04.2026 | Reguläre Sprachen, Minimierung | [Script](ti/script/2026-04-28.pdf) |
+
 
 ## Übungen
 
