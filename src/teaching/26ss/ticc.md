@@ -12,11 +12,30 @@
 [pt]: /team/thiemann.md
 [js]: /team/spaderna.md
 
-<div style="color: red">
+| Date       | News |
+| :--------- | :--- |
+| 2026-04-24 | Preliminary schedule and topic list |
 
-**The information below is preliminary and subject to change.**
 
-</div>
+## Topics
+
+**[» List of topics «][topics]**
+
+The papers are linked from the document. Accessing some of them may require a
+connection from inside the university network or logging in via the
+institutional access provided by the university.
+
+[topics]: https://docs.google.com/document/d/1Q1fjx1FV96A_WjTR2-kfBifmN8lH8me_2QNm6Q0SGeU/edit?usp=sharing
+
+
+## Schedule
+
+| Date       | Topic |
+| :--------- | :---- |
+| 2026-05-13 | Kickoff session |
+| ...        | *No weekly meetings* |
+| *starting* 2026-06-10 | Weekly meetings with talks |
+
 
 ## Process
 
