@@ -20,16 +20,17 @@ On 2026-05-06 there will be no lecture.
 
 ## Tutorial
 
-| Date | Topic | Link | Recording
+| Date | Chapter | Material | Recording
 |:-----|:-----|:-----|:-----|
-| 2026-04-27 | Setup & Tooling | [Getting Started](https://plfa.github.io/GettingStarted/) |  |
+| 2026-04-27 | [Getting Started](https://plfa.github.io/GettingStarted/) | [intro.agda]() | [rec]() |
 
 ## Exam
 | Date | Time | Place | Mode |
 |:-----|:-----|:------|:-----|
 | tba | tba | tba | computer ∣ closed book
 
-## Exercises
-
-| Date | Due | Material |
-|:-----|:-----|:-----|
+## Links
+- [Chat for Questions](https://chat.laurel.informatik.uni-freiburg.de/invite/LMimie) 
+- [Programming Language Foundations in Agda](https://plfa.github.io/)
+- [Agda Documentation](https://agda.readthedocs.io/en/latest/)
+- [Agda Standard Library](https://github.com/agda/agda-stdlib)
