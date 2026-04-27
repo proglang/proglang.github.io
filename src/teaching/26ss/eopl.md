@@ -23,7 +23,7 @@ On 2026-05-06 there will be no lecture.
 | Date | Chapter | Material | Recording
 |:-----|:-----|:-----|:-----|
 | 2026-04-27 | [Getting Started](https://plfa.github.io/GettingStarted/) | [intro.agda](eopl/intro.agda) | [rec](https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-27-tutorial.mp4) |
-<| 2026-04-27 | [Naturals](https://plfa.github.io/Naturals/) | [naturals.agda]() | [rec]() |
+| 2026-05-04 | [Naturals](https://plfa.github.io/Naturals/) | [naturals.agda]() | [rec]() |
 >
 
 ## Exam
