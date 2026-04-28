@@ -18,13 +18,19 @@ In der ersten Semesterwoche finden keine Tutorate statt.
 Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in HisInOne an.
 </div>
 
+## Skript
+
+Die [aktuelle Version des Skripts](ti/script/script.pdf) wird jeweils nach der Vorlesung 
+auf den neusten Stand gebracht.
+
 ## Vorlesung
 
-| Datum | Thema | Material | Update |
-|:-----|:-----|:-----|:-----|
-| Di, 21.04.2026 | Vorspann Sprachen | [Script](ti/script/2026-04-21.pdf) | 27.4. |
-| Mi, 22.04.2026 | Reguläre Sprachen, DEA | [Script](ti/script/2026-04-22.pdf) ||
-| Di, 28.04.2026 | Reguläre Sprachen, Minimierung | [Script](ti/script/2026-04-28.pdf) ||
+| Datum | Thema | Material |
+|:-----|:-----|:-----|
+| Di, 21.04.2026 | Vorspann Sprachen |  |
+| Mi, 22.04.2026 | Reguläre Sprachen, DEA | |
+| Di, 28.04.2026 | Reguläre Sprachen, Minimierung | |
+| Mi, 29.04.2025 | Reguläre Sprachen, Rechtkongruenz | |
 
 ## Übungen
 
