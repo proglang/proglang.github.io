@@ -26,12 +26,11 @@ Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in Hi
 | Mi, 22.04.2026 | Reguläre Sprachen, DEA | [Script](ti/script/2026-04-22.pdf) ||
 | Di, 28.04.2026 | Reguläre Sprachen, Minimierung | [Script](ti/script/2026-04-28.pdf) ||
 
-
 ## Übungen
 
-| Datum | Abgabe | Material |
-|:-----|:-----|:-----|
-| Mi, 22.04.2026 | Di, 28.04.2026 16:00 Uhr | [Blatt 01](ti/exercises/sheet01.pdf) |
+| Datum | Abgabe | Material | Lösungen |
+|:-----|:-----|:-----|:-----|
+| Mi, 22.04.2026 | Di, 28.04.2026, 16:00 Uhr | [Blatt 01](ti/exercises/sheet01.pdf) | [Lösung](ti/solutions/solution01.pdf) |
 
 Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
