@@ -13,14 +13,14 @@ auf den neusten Stand gebracht.
 
 ## Vorlesung
 
-| Datum | Thema | Material |
-|:-----|:-----|:-----|
-| Di, 21.04.2026 | Vorspann Sprachen |  |
-| Mi, 22.04.2026 | Reguläre Sprachen, DEA | |
-| Di, 28.04.2026 | Reguläre Sprachen, Minimierung | |
-| Mi, 29.04.2026 | Reguläre Sprachen, Rechtskongruenz | |
-| Di, 05.05.2026 | Reguläre Sprachen, Satz von Nerode | |
-| Mi, 06.05.2026 | **keine Vorlesung** | |
+| Datum | Thema |
+|:-----|:-----|
+| Di, 21.04.2026 | Vorspann Sprachen |
+| Mi, 22.04.2026 | Reguläre Sprachen, DEA |
+| Di, 28.04.2026 | Reguläre Sprachen, Minimierung |
+| Mi, 29.04.2026 | Reguläre Sprachen, Rechtskongruenz |
+| Di, 05.05.2026 | Reguläre Sprachen, Satz von Nerode |
+| Mi, 06.05.2026 | **keine Vorlesung** |
 
 ## Übungen
 
