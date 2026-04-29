@@ -13,6 +13,7 @@ auf den neusten Stand gebracht.
 
 ## Vorlesung
 
+<<<<<<< Updated upstream
 | Datum | Thema 
 |:-----|:-----|
 | Di, 21.04.2026 | Vorspann Sprachen |
@@ -21,12 +22,21 @@ auf den neusten Stand gebracht.
 | Mi, 29.04.2026 | Reguläre Sprachen, Rechtkongruenz |
 | Di, 05.05.2026 | Reguläre Sprachen, Satz von Nerode |
 | Mi, 06.05.2026 | **keine Vorlesung** |
+=======
+| Datum | Thema | Material |
+|:-----|:-----|:-----|
+| Di, 21.04.2026 | Vorspann Sprachen |  |
+| Mi, 22.04.2026 | Reguläre Sprachen, DEA | |
+| Di, 28.04.2026 | Reguläre Sprachen, Minimierung | |
+| Mi, 29.04.2025 | Reguläre Sprachen, Rechtskongruenz | |
+>>>>>>> Stashed changes
 
 ## Übungen
 
 | Datum | Abgabe | Material | Lösungen |
 |:-----|:-----|:-----|:-----|
 | Mi, 22.04.2026 | Di, 28.04.2026, 16:00 Uhr | [Blatt 01](ti/exercises/sheet01.pdf) | [Lösung](ti/solutions/solution01.pdf) |
+| Mi, 29.04.2026 | Di, 05.05.2026, 16:00 Uhr | [Blatt 02](ti/exercises/sheet02.pdf) | |
 
 Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
