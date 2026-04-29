@@ -4,7 +4,7 @@
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistants: [Marius Weidner](/team/weidner.md)
-- Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](), Wednesdays 14-16 
+- Lecture: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/69744890618?pwd=SumBKdkbnG5KqmUcC3gpcWSMcBi4ch.1), Wednesdays 14:15-16 
 - Exercises: R 04 007 Videokonferenz G.-Köhler-Allee 106 and [Zoom](https://uni-freiburg.zoom-x.de/j/66428637942?pwd=4REuX8CZdMfgoiy094yrMWM7aJhiNd.1), Mondays 10-12
 
 <div class="warning">
