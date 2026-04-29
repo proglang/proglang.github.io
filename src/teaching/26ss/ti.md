@@ -6,18 +6,6 @@
 - Assistent: [Marius Weidner](/team/weidner.md)
 - Vorlesung: HS 00 026 µ-Saal G.-Köhler-Allee 101, dienstags 16:15–17:45 Uhr und mittwochs 12:00–12:45 Uhr
 
-<div class="warning">
-Am 06.05.2026 entfällt die Vorlesung.
-</div>
-
-<div class="warning">
-In der ersten Semesterwoche finden keine Tutorate statt.
-</div>
-
-<div class="warning">
-Melden Sie sich bis spätestens **Mo, 27.04.2026** für eine Übungsgruppe in HisInOne an.
-</div>
-
 ## Skript
 
 Die [aktuelle Version des Skripts](ti/script/script.pdf) wird jeweils nach der Vorlesung 
@@ -25,14 +13,14 @@ auf den neusten Stand gebracht.
 
 ## Vorlesung
 
-| Datum | Thema | Material |
-|:-----|:-----|:-----|
-| Di, 21.04.2026 | Vorspann Sprachen |  |
-| Mi, 22.04.2026 | Reguläre Sprachen, DEA | |
-| Di, 28.04.2026 | Reguläre Sprachen, Minimierung | |
-| Mi, 29.04.2026 | Reguläre Sprachen, Rechtkongruenz | |
-| Di, 05.05.2026 | Reguläre Sprachen, Satz von Nerode | |
-| Mi, 06.05.2026 | **keine Vorlesung** | |
+| Datum | Thema 
+|:-----|:-----|
+| Di, 21.04.2026 | Vorspann Sprachen |
+| Mi, 22.04.2026 | Reguläre Sprachen, DEA |
+| Di, 28.04.2026 | Reguläre Sprachen, Minimierung |
+| Mi, 29.04.2026 | Reguläre Sprachen, Rechtkongruenz |
+| Di, 05.05.2026 | Reguläre Sprachen, Satz von Nerode |
+| Mi, 06.05.2026 | **keine Vorlesung** |
 
 ## Übungen
 
