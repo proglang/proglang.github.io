@@ -16,7 +16,10 @@ On 2026-05-06 there will be no lecture.
 
 | Date | Topic | Material | Recording
 |:-----|:-----|:-----|:-----|
+| 2026-04-29 | Tutorial | [source](https://github.com/peterthiemann/agda-tutorial-bob2026.git) | [rec][lecture01] |
+| 2026-05-06 | **no lecture** |||
 
+[lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
 
 ## Tutorial
 
