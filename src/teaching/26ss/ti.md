@@ -22,6 +22,7 @@ auf den neusten Stand gebracht.
 | Di, 05.05.2026 | Reguläre Sprachen, Satz von Nerode |
 | Mi, 06.05.2026 | **keine Vorlesung** |
 | Di, 12.05.2026 | Reguläre Sprachen, NEA |
+| Mi, 13.05.2026 | Reguläre Sprachen, Pumping Lemma |
 
 ## Übungen
 
