@@ -22,7 +22,7 @@
 |:-----|:-----|:-----|:-----|
 | 2026-04-27 | [Getting Started](https://plfa.github.io/GettingStarted/) | [intro.agda](eopl/intro.agda) | [rec][tutorial01] |
 | 2026-05-04 | [Naturals](https://plfa.github.io/Naturals/) | [naturals.agda](eopl/naturals.agda) | [rec][tutorial02] |
-| 2026-05-11 | [Induction](https://plfa.github.io/Induction/) | [induction.agda](eopl/indction.agda) | [rec][tutorial03] |
+| 2026-05-11 | [Induction](https://plfa.github.io/Induction/) | [induction.agda](eopl/induction.agda) | [rec][tutorial03] |
 | 2026-05-18 | [Relations](https://plfa.github.io/Relations/) | [relations.agda]() | [rec][] |
 
 [tutorial01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-27-tutorial.mp4
