@@ -13,8 +13,10 @@
 |:-----|:-----|:-----|:-----|
 | 2026-04-29 | Tutorial | [worksheet.lagda.md](https://github.com/peterthiemann/agda-tutorial-bob2026/blob/main/worksheet.lagda.md) | [rec][lecture01] |
 | 2026-05-06 | **no lecture** |||
+| 2026-05-13 | more induction and [Relations](https://plfa.github.io/Relations/) || [rec][lecture02] |
 
 [lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
+[lecture02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-13-lecture-1.mp4
 
 ## Tutorial
 
