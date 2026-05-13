@@ -15,6 +15,7 @@
 | Date       | News |
 | :--------- | :--- |
 | 2026-04-24 | Preliminary schedule and topic list |
+| 2026-05-13 | Updated details about the schedule and presentations |
 
 
 ## Topics
@@ -35,6 +36,10 @@ institutional access provided by the university.
 | 2026-05-13 | Kickoff session |
 | ...        | *No weekly meetings* |
 | *starting* 2026-06-10 | Weekly meetings with talks |
+| ...        | |
+| 2026-07-08 | *No meeting* |
+| 2026-07-15 | Last regular meeting |
+| 2026-07-22 | Overflow meeting, if necessary |
 
 
 ## Process
@@ -89,8 +94,4 @@ Technical details:
 
 ## Presentation
 
-* You present in groups of two. The overall talk should not take more than 40
-  minutes. Speaking time should be divided up equally.
-
-* Regardless of who presented what you should be able to answer any questions
-  and be able to explain all relevant details.
+30 minutes + 15 minutes questions/discussion
