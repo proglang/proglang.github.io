@@ -23,6 +23,8 @@ auf den neusten Stand gebracht.
 | Mi, 06.05.2026 | **keine Vorlesung** |
 | Di, 12.05.2026 | Reguläre Sprachen, NEA |
 | Mi, 13.05.2026 | Reguläre Sprachen, Pumping Lemma |
+| Di, 19.05.2026 | Reguläre Sprachen, NEA-epsilon |
+| Mi, 20.05.2026 | Reguläre Sprachen, Reguläre Ausdrücke |
 
 ## Übungen
 
