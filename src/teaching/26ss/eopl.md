@@ -14,9 +14,14 @@
 | 2026-04-29 | Tutorial | [worksheet.lagda.md](https://github.com/peterthiemann/agda-tutorial-bob2026/blob/main/worksheet.lagda.md) | [rec][lecture01] |
 | 2026-05-06 | **no lecture** |||
 | 2026-05-13 | more [Induction](https://plfa.github.io/Induction/) and [Relations](https://plfa.github.io/Relations/) || [rec][lecture02] |
+| 2026-05-20 | [Equality](https://plfa.github.io/Equality/) || [rec1][lecture03-1], [rec2][lecture03-2] |
+| 2026-06-03 | [Connectives](https://plfa.github.io/Connectives/) || [rec][lecture04] |
 
 [lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
 [lecture02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-13-lecture-1.mp4
+[lecture03-1]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-14-lecture-1.mp4
+[lecture03-2]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-14-lecture-2.mp4
+[lecture04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-03-lecture-1.mp4
 
 ## Tutorial
 
@@ -26,13 +31,14 @@
 | 2026-05-04 | [Naturals](https://plfa.github.io/Naturals/) | [naturals.agda](eopl/naturals.agda) | [rec][tutorial02] |
 | 2026-05-11 | [Induction](https://plfa.github.io/Induction/) | [induction.agda](eopl/induction.agda) | [rec][tutorial03] |
 | 2026-05-18 | [Relations](https://plfa.github.io/Relations/) | [relations.agda](eopl/relations.agda) | [rec][tutorial04] |
-| **2026-06-01** | [Equality](https://plfa.github.io/Equality/) | [equality.agda]() | [rec][] |
+| **2026-06-01** | [Equality](https://plfa.github.io/Equality/) | [equality.agda]() | [rec][tutorial05] |
 
 
 [tutorial01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-27-tutorial.mp4
 [tutorial02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-04-tutorial.mp4
 [tutorial03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-11-tutorial.mp4
 [tutorial04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-18-tutorial.mp4
+[tutorial05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-01-tutorial.mp4
 
 ## Exam
 
