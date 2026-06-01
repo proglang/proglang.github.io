@@ -15,7 +15,7 @@
 | 2026-05-06 | **no lecture** |||
 | 2026-05-13 | more [Induction](https://plfa.github.io/Induction/) and [Relations](https://plfa.github.io/Relations/) || [rec][lecture02] |
 | 2026-05-20 | [Equality](https://plfa.github.io/Equality/) || [rec1][lecture03-1], [rec2][lecture03-2] |
-| 2026-06-03 | [Connectives](https://plfa.github.io/Connectives/) || [rec][lecture04] |
+| 2026-06-03 | [Isomorphism](https://plfa.github.io/Isomorphism/), [Connectives](https://plfa.github.io/Connectives/) || [rec][lecture04] |
 
 [lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
 [lecture02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-13-lecture-1.mp4
