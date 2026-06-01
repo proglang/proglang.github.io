@@ -31,7 +31,12 @@
 | 2026-05-04 | [Naturals](https://plfa.github.io/Naturals/) | [naturals.agda](eopl/naturals.agda) | [rec][tutorial02] |
 | 2026-05-11 | [Induction](https://plfa.github.io/Induction/) | [induction.agda](eopl/induction.agda) | [rec][tutorial03] |
 | 2026-05-18 | [Relations](https://plfa.github.io/Relations/) | [relations.agda](eopl/relations.agda) | [rec][tutorial04] |
+<<<<<<< Updated upstream
 | **2026-06-01** | [Equality](https://plfa.github.io/Equality/) | [equality.agda]() | [rec][tutorial05] |
+=======
+| **2026-06-01** | [Equality](https://plfa.github.io/Equality/) | [equality.agda](eopl/equality.agda), [isomorphism.agda](eopl/isomorphism.agda), [paradoxes](eopl/paradoxes.agda) | [rec][tutorial05] |
+| 2026-06-08 | [Isomorphism](https://plfa.github.io/Isomorphism/), [Connectives](https://plfa.github.io/Connectives/) | [isomorphism.agda]() [connectives.agda]() | [rec] |
+>>>>>>> Stashed changes
 
 
 [tutorial01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-27-tutorial.mp4
