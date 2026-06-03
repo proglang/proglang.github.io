@@ -25,6 +25,8 @@ auf den neusten Stand gebracht.
 | Mi, 13.05.2026 | Reguläre Sprachen, Pumping Lemma |
 | Di, 19.05.2026 | Reguläre Sprachen, NEA-epsilon |
 | Mi, 20.05.2026 | Reguläre Sprachen, Reguläre Ausdrücke |
+| Di, 02.06.2026 | Grammatiken, Chomsky Hierarchie |
+| Mi, 03.06.2026 | Kf Grammatiken, Ableitungsbäume, Grammatiktransformationen |
 
 ## Übungen
 
