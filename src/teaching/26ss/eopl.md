@@ -33,7 +33,7 @@
 | 2026-05-18 | [Relations](https://plfa.github.io/Relations/) | [relations.agda](eopl/relations.agda) | [rec][tutorial04] |
 | **2026-06-01** | [Equality](https://plfa.github.io/Equality/), [Isomorphism](https://plfa.github.io/Isomorphism/) | [equality.agda](eopl/equality.agda), [extensionality.agda](eopl/extensionality.agda), [paradoxes.agda](eopl/paradoxes.agda) | [rec][tutorial05] |
 | 2026-06-08 | [Isomorphism](https://plfa.github.io/Isomorphism/), [Connectives](https://plfa.github.io/Connectives/), [Negation](https://plfa.github.io/Negation/) | [isomorphism.agda](eopl/isomorphism.agda), [connectives.agda](eopl/connectives.agda), [negation.lagda.agda](eopl/negation.lagda.md) | [rec][tutorial06] |
-| 2026-06-15 | [Negation](https://plfa.github.io/Negation/) | [negation.agda]() | [rec][tutorial0] |
+| 2026-06-15 | [Negation](https://plfa.github.io/Negation/) | [negation.agda]() | [rec][tutorial07] |
 
 
 [tutorial01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-27-tutorial.mp4
@@ -41,7 +41,7 @@
 [tutorial03]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-11-tutorial.mp4
 [tutorial04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-18-tutorial.mp4
 [tutorial05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-01-tutorial.mp4
-[tutorial05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-08-tutorial.mp4
+[tutorial06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-08-tutorial.mp4
 
 ## Exam
 
