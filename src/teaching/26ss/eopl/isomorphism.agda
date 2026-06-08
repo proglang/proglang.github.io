@@ -1,39 +1,93 @@
-open import Data.Nat using (ℕ; zero; suc; _+_)
-open import Data.Nat.Properties using (+-comm; +-identityʳ; +-suc)
-open import Relation.Binary.PropositionalEquality using (_≡_; refl; sym; trans; cong; cong-app; subst; module ≡-Reasoning)
-open ≡-Reasoning
+-- Context ---------------------------------------------------------------------
 
-------------------------------------------------------
+open import Relation.Binary.PropositionalEquality
+open import Data.Nat using (ℕ; zero; suc; _+_; _*_)
+open import Function using (_∘_)
 
--- only use lambdas
-_+′_ : ℕ → ℕ → ℕ
-_+′_ = λ { m zero    → m
-         ; m (suc n) → suc (m +′ n) }
+-- Isomorphisms
+infix 0 _≃_
+record _≃_ (A B : Set) : Set where
+  field
+    to   : A → B
+    from : B → A
+    from∘to : ∀ (x : A) → from (to x) ≡ x
+    to∘from : ∀ (y : B) → to (from y) ≡ y
+open _≃_
 
+-- Embeddings
+infix 0 _≲_
+record _≲_ (A B : Set) : Set where
+  field
+    to      : A → B
+    from    : B → A
+    from∘to : ∀ (x : A) → from (to x) ≡ x
+open _≲_
+
+-- Exercise ≃-implies-≲ (practice)----------------------------------------------
+
+≃-implies-≲ : ∀ {A B : Set} → A ≃ B → A ≲ B
+≃-implies-≲ A≃B =
+  record
+    { to      = to A≃B
+    ; from    = from A≃B
+    ; from∘to = from∘to A≃B
+    }
+
+-- Exercise _⇔_ (practice) -----------------------------------------------------
+
+infix 0 _⇔_
+record _⇔_ (A B : Set) : Set where
+  field
+    to   : A → B
+    from : B → A
+
+open _⇔_
+
+⇔-refl : ∀ {A : Set} → A ⇔ A
+⇔-refl = record
+  { to   = λ x → x
+  ; from = λ x → x
+  }
+
+⇔-sym : ∀ {A B : Set} → A ⇔ B → B ⇔ A
+⇔-sym A⇔B =
+  record
+    { to   = from A⇔B
+    ; from = to A⇔B
+    }
+
+⇔-trans : ∀ {A B C : Set} → A ⇔ B → B ⇔ C → A ⇔ C
+⇔-trans A⇔B B⇔C =
+  record
+    { to   = to B⇔C   ∘ to A⇔B
+    ; from = from A⇔B ∘ from B⇔C
+    }
+
+-- Exercise Bin-embedding (stretch) --------------------------------------------
+
+-- Context
+
+-- In `induction.agda` we defined and proved the following:
 postulate
-  extensionality : ∀ {A B : Set} {f g : A → B}
-    → (∀ (x : A) → f x ≡ g x)
-      -----------------------
-    → f ≡ g
+  Bin : Set
+  toB : ℕ → Bin
+  fromB : Bin → ℕ
+  from-to-inverse : ∀ (n : ℕ) → fromB (toB n) ≡ n
 
-un-extensionality : ∀ {A B : Set} {f g : A → B} → 
-  f ≡ g → 
-  -----------------------
-  (∀ (x : A) → f x ≡ g x)
-un-extensionality refl = λ x → refl
+-- Exercise
 
-helper : ∀ m n → m + n ≡ m +′ n
-helper m zero    = +-identityʳ m
-helper m (suc n) = trans (+-suc m n) (cong suc (helper m n))
+-- Using the above, establish that there is an embedding of ℕ into Bin.
 
--- uses extensionality
-same : _+_ ≡ _+′_
-same = extensionality (λ m → extensionality 
-  λ n → helper m n)
+ℕ≲Bin : ℕ ≲ Bin
+ℕ≲Bin =
+  record
+    { to      = toB
+    ; from    = fromB
+    ; from∘to = from-to-inverse
+    }
 
-postulate
-  ∀-extensionality : ∀ {A : Set} {B : A → Set} 
-    {f g : ∀(x : A) → B x}
-    → (∀ (x : A) → f x ≡ g x)
-      -----------------------
-    → f ≡ g
+-- Why do `to` and `from` not form an isomorphism?
+
+-- They do not form an isomorphism, because the other direction `to∘from` does
+-- not hold, because there are multiple bistrings representing the same natural
+-- number, e.g. both `from (⟨⟩ O)` and `from (⟨⟩ O O)` are equivalent to `0`.
