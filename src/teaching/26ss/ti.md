@@ -26,7 +26,10 @@ auf den neusten Stand gebracht.
 | Di, 19.05.2026 | Reguläre Sprachen, NEA-epsilon |
 | Mi, 20.05.2026 | Reguläre Sprachen, Reguläre Ausdrücke |
 | Di, 02.06.2026 | Grammatiken, Chomsky Hierarchie |
-| Mi, 03.06.2026 | Kf Grammatiken, Ableitungsbäume, Grammatiktransformationen |
+| Mi, 03.06.2026 | Kf Grammatiken: Ableitungsbäume, Grammatiktransformationen |
+| Di, 09.06.2026 | Kf Grammatiken: Transformationen, CNF, CYK-Algorithmus |
+| Mi, 10.06.2026 | Pumping Lemma für kf Sprachen |
+
 
 ## Übungen
 
