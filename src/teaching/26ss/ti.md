@@ -40,7 +40,7 @@ auf den neusten Stand gebracht.
 | Mi, 13.05.2026 | Di, 19.05.2026, 16:00 Uhr | [Blatt 04](ti/exercises/sheet04.pdf) | [Lösung](ti/solutions/solution04.pdf) |
 | Mi, 20.05.2026 | Di, **02.06.2026**, 16:00 Uhr | [Blatt 05](ti/exercises/sheet05.pdf) | [Lösung](ti/solutions/solution05.pdf) |
 | Mi, 03.06.2026 | Di, 09.06.2026, 16:00 Uhr | [Blatt 06](ti/exercises/sheet06.pdf) | [Lösung](ti/solutions/solution06.pdf) |
-| Mi, 10.06.2026 | Di, 16.06.2026, 16:00 Uhr | [Blatt 07](ti/exercises/sheet07.pdf) | [Lösung](ti/solutions/solution07.pdf)|
+| Mi, 10.06.2026 | Di, 16.06.2026, 16:00 Uhr | [Blatt 07](ti/exercises/sheet07.pdf) | [Lösung](ti/solutions/solution07.pdf) |
 
 Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
