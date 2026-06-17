@@ -17,6 +17,7 @@
 | 2026-05-20 | [Equality](https://plfa.github.io/Equality/) || [rec1][lecture03-1], [rec2][lecture03-2] |
 | 2026-06-03 | [Isomorphism](https://plfa.github.io/Isomorphism/), [Connectives](https://plfa.github.io/Connectives/) || [rec][lecture04] |
 | 2026-06-10 | [Quantifiers](https://plfa.github.io/Quantifiers/) || [rec][lecture05] |
+| 2026-06-17 | [Lambda](https://plfa.github.io/Lambda/) up to types || [rec][lecture06] |
 
 [lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
 [lecture02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-13-lecture-1.mp4
@@ -24,6 +25,7 @@
 [lecture03-2]: http://archive.informatik.uni-freiburg.de/courses/proglang/2025-SS-EOPL/2025-05-14-lecture-2.mp4
 [lecture04]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-03-lecture-1.mp4
 [lecture05]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-10-lecture-1.mp4
+[lecture06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-17-lecture-1.mp4
 
 ## Tutorial
 
