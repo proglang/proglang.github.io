@@ -29,6 +29,8 @@ auf den neusten Stand gebracht.
 | Mi, 03.06.2026 | Kf Grammatiken: Ableitungsbäume, Grammatiktransformationen |
 | Di, 09.06.2026 | Kf Grammatiken: Transformationen, CNF, CYK-Algorithmus |
 | Mi, 10.06.2026 | Pumping Lemma für kf Sprachen |
+| Di, 16.06.2026 | a^nb^nc^n, Abschlusseigenschaften von CFL, Kellerautomaten (NPDA)  |
+| Mi, 17.06.2026 | CFL => Kellerautomat (NPDA)  |
 
 ## Übungen
 
