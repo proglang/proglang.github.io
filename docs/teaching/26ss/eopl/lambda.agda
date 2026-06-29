@@ -1,19 +1,31 @@
 module lambda where
 
-
--- THE PLANᵀᴹ
---
--- 1. [EX]  Answer decidable questions, if there are any;
--- 2. [LEC] Overview over formalizing **typed** programming languages;
--- 3. [LEC] Quickly recap the language from the book;
--- 4. [LEC] Continue with types for the lanuage from the book.
-
 module Overview where
-  open import Data.Nat using (ℕ; zero; suc)
-  open import Data.Bool using (Bool; true; false)
+  open import Data.Nat using (ℕ; zero; suc; _+_; _<ᵇ_)
+  open import Data.Bool using (Bool; true; false; _∧_)
   open import Data.Sum using (_⊎_; inj₁; inj₂)
   open import Data.Product using (_×_; _,_; proj₁; proj₂; Σ-syntax; ∃-syntax)
   open import Relation.Binary.PropositionalEquality using (_≡_)
+
+
+  -- THE PLANᵀᴹ
+  -- 1) Quick Intro: Extrinsic vs Intrinsic
+  -- 2) Preservation for the Mini Language
+  -- 3) Substitution and Type Safety for the Lec Lang!
+
+
+  -- Extrinsic (named) : 
+     -- Expr : Set,
+     -- _⊢_⦂_ : Context → Expr → Type → Set 
+     -- _[_:=_] : Term → Id → Term → Term
+     -- subst-preserves : ∀ {Γ x e e' t t'} →
+     --   Γ , x ⦂ t' ⊢ e ⦂ t →
+     --   ∅ ⊢ e' ⦂ t' →
+     --   Γ ⊢ e [ x := e' ] ⦂ t
+
+  -- Intrinsic (de Bruijn): 
+     -- Expr : Context → Type → Set
+     -- subst : ∀ {Γ Δ} → Subst Γ Δ → ∀ {A} → Γ ⊢ A → Δ ⊢ A
 
   -- Typed programming languages are formally specified by giving a
   -- syntax, semantics, and typing relation.
@@ -37,7 +49,18 @@ module Overview where
   -- as a sequence of reduction steps, e.g.
 
   data _↪_ : Expr → Expr → Set where
-    -- ...
+    -- contraction rules: compute the primitive once both operands are constants.
+    -- We "cheat" by reusing Agda's own _+_, _<ᵇ_ and _∧_ to produce the result.
+    β-+  : ∀ {n m}   → (nat n `+ nat m)     ↪ nat (n + m)
+    β-<  : ∀ {n m}   → (nat n `< nat m)     ↪ bool (n <ᵇ m)
+    β-∧  : ∀ {b₁ b₂} → (bool b₁ `∧ bool b₂) ↪ bool (b₁ ∧ b₂)
+    -- congruence rules: reduce somewhere inside a subexpression
+    ξ-+₁ : ∀ {e₁ e₁′ e₂} → e₁ ↪ e₁′ → (e₁ `+ e₂) ↪ (e₁′ `+ e₂)
+    ξ-+₂ : ∀ {e₁ e₂ e₂′} → e₂ ↪ e₂′ → (e₁ `+ e₂) ↪ (e₁ `+ e₂′)
+    ξ-<₁ : ∀ {e₁ e₁′ e₂} → e₁ ↪ e₁′ → (e₁ `< e₂) ↪ (e₁′ `< e₂)
+    ξ-<₂ : ∀ {e₁ e₂ e₂′} → e₂ ↪ e₂′ → (e₁ `< e₂) ↪ (e₁ `< e₂′)
+    ξ-∧₁ : ∀ {e₁ e₁′ e₂} → e₁ ↪ e₁′ → (e₁ `∧ e₂) ↪ (e₁′ `∧ e₂)
+    ξ-∧₂ : ∀ {e₁ e₂ e₂′} → e₂ ↪ e₂′ → (e₁ `∧ e₂) ↪ (e₁ `∧ e₂′)
 
   -- Here we would define the relation, such that for example
   --
@@ -97,10 +120,6 @@ module Overview where
   --
   -- - or the expression is non-terminating, i.e. it will
   --   always be possible to apply another reduction step.
-
-  -- _↪*_ represents zero or more steps of _↪_
-  data _↪*_ : Expr → Expr → Set where
-    -- ...
   
   -- type soundness is usually proved by the following two theorems:
 
@@ -108,12 +127,33 @@ module Overview where
     e ⦂ t →
     e ↪ e' →
     e' ⦂ t
-  preservation = {!!}
+  preservation (t-+ e⦂t e⦂t₁)    β-+           = t-nat
+  preservation (t-+ e₁⦂t₁ e₂⦂t₂) (ξ-+₁ e₁↪e₁') = t-+ (preservation e₁⦂t₁ e₁↪e₁') e₂⦂t₂
+  preservation (t-+ e₁⦂t₁ e₂⦂t₂) (ξ-+₂ e₂↪e₂') = t-+ e₁⦂t₁ (preservation e₂⦂t₂ e₂↪e₂')
+  preservation (t-< e⦂t e⦂t₁) β-< = t-bool
+  preservation (t-< e⦂t e⦂t₁) (ξ-<₁ e↪e') = t-< (preservation e⦂t e↪e') e⦂t₁
+  preservation (t-< e⦂t e⦂t₁) (ξ-<₂ e↪e') = t-< e⦂t (preservation e⦂t₁ e↪e')
+  preservation (t-∧ e⦂t e⦂t₁) β-∧ = t-bool
+  preservation (t-∧ e⦂t e⦂t₁) (ξ-∧₁ e↪e') = t-∧ (preservation e⦂t e↪e') e⦂t₁
+  preservation (t-∧ e⦂t e⦂t₁) (ξ-∧₂ e↪e') = t-∧ e⦂t (preservation e⦂t₁ e↪e')
 
   progress : ∀ {e t} →
     e ⦂ t →
     Value e ⊎ ∃[ e' ] e ↪ e'
-  progress = {!!}
+  progress t-nat         = inj₁ v-nat
+  progress t-bool        = inj₁ v-bool
+  progress (t-+ e₁⦂t₁ e₂⦂t₂) with progress e₁⦂t₁ | progress e₂⦂t₂ 
+  ... | inj₁ v-nat        | inj₁ v-nat        = inj₂ (_ , β-+)
+  ... | _                 | inj₂ (_ , e₂↪e₂') = inj₂ (_ , ξ-+₂ e₂↪e₂')
+  ... | inj₂ (_ , e₁↪e₁') | _                 = inj₂ (_ , ξ-+₁ e₁↪e₁')
+  progress (t-< e₁⦂t₁ e₂⦂t₂) with progress e₁⦂t₁ | progress e₂⦂t₂  
+  ... | inj₁ v-nat        | inj₁ v-nat        = inj₂ (_ , β-<)
+  ... | _                 | inj₂ (_ , e₂↪e₂') = inj₂ (_ , ξ-<₂ e₂↪e₂')
+  ... | inj₂ (_ , e₁↪e₁') | _                 = inj₂ (_ , ξ-<₁ e₁↪e₁')
+  progress (t-∧ e₁⦂t₁ e₂⦂t₂) with progress e₁⦂t₁ | progress e₂⦂t₂  
+  ... | inj₁ v-bool       | inj₁ v-bool       = inj₂ (_ , β-∧)
+  ... | _                 | inj₂ (_ , e₂↪e₂') = inj₂ (_ , ξ-∧₂ e₂↪e₂')
+  ... | inj₂ (_ , e₁↪e₁') | _                 = inj₂ (_ , ξ-∧₁ e₁↪e₁')
 
 open import Data.Bool.Base using (Bool; true; false; T; not)
 open import Data.List.Base using (List; _∷_; [])

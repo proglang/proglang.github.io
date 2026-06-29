@@ -40,7 +40,9 @@
 | **2026-06-01** | [Equality](https://plfa.github.io/Equality/), [Isomorphism](https://plfa.github.io/Isomorphism/) | [equality.agda](eopl/equality.agda), [extensionality.agda](eopl/extensionality.agda), [paradoxes.agda](eopl/paradoxes.agda) | [rec][tutorial05] |
 | 2026-06-08 | [Isomorphism](https://plfa.github.io/Isomorphism/), [Connectives](https://plfa.github.io/Connectives/), [Negation](https://plfa.github.io/Negation/) | [isomorphism.agda](eopl/isomorphism.agda), [connectives.agda](eopl/connectives.agda), [negation.lagda](eopl/negation.lagda) | [rec][tutorial06] |
 | 2026-06-15 | [Negation](https://plfa.github.io/Negation/), [Quantifiers](https://plfa.github.io/Quantifiers/), [Decidable](https://plfa.github.io/Decidable/) | [negation.agda](eopl/negation.agda), [quantifiers.agda](eopl/quantifiers.agda),  [decidability.lagda](eopl/decidability.lagda) | [rec][tutorial07] |
-| 2026-06-15 | [Decidable](https://plfa.github.io/Decidable/), [Lambda](https://plfa.github.io/Lambda/) | [decidable.agda](eopl/decidable.agda), [lambda.agda](eopl/lambda.agda) | [rec][tutorial08] |
+| 2026-06-22 | [Decidable](https://plfa.github.io/Decidable/), [Lambda](https://plfa.github.io/Lambda/) | [decidable.agda](eopl/decidable.agda), [lambda.agda](eopl/lambda.agda) | [rec][tutorial08] |
+| 2026-06-29 | [Properties](https://plfa.github.io/Properties/), [DeBruijn](https://plfa.github.io/DeBruijn/) | [lambda.agda](eopl/lambda.agda), [intrinsic-extrinsic.agda](eopl/intrinsic-extrinsic.agda) | [rec][tutorial09] |
+
 
 
 
@@ -52,7 +54,7 @@
 [tutorial06]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-08-tutorial.mp4
 [tutorial07]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-15-tutorial.mp4
 [tutorial08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-22-tutorial.mp4
-
+[tutorial09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-29-tutorial.mp4
 
 ## Exam
 
