@@ -33,8 +33,13 @@ auf den neusten Stand gebracht.
 | Mi, 17.06.2026 | CFL => Kellerautomat (NPDA)  |
 | Di, 23.06.2026 | NPDA => CFG, Primitive Rekursion |
 | Mi, 24.06.2026 | Primitive Rekursion, LOOP Berechenbarkeit |
+| Mi, 22.07.2026 | Fragestunde |
+
+Am Mittwoch, den 22.07.2026, findet eine Fragestunde zur Klausur und den Themen der Vorlesung statt.
 
 ## Übungen
+
+Es wird insgesamt 12 Übungsblätter geben. Die letzten beiden Übungsblätter sind Wiederholungsblätter zu den in der Vorlesung behandelten Themen.
 
 | Datum | Abgabe | Material | Lösungen |
 |:-----|:-----|:-----|:-----|
