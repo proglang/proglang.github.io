@@ -16,6 +16,7 @@
 | :--------- | :--- |
 | 2026-04-24 | Preliminary schedule and topic list |
 | 2026-05-13 | Updated details about the schedule and presentations |
+| 2026-07-01 | Meeting on 2026-07-15 moved to 2026-07-22 |
 
 
 ## Topics
@@ -38,8 +39,8 @@ institutional access provided by the university.
 | *starting* 2026-06-10 | Weekly meetings with talks |
 | ...        | |
 | 2026-07-08 | *No meeting* |
-| 2026-07-15 | Last regular meeting |
-| 2026-07-22 | Overflow meeting, if necessary |
+| 2026-07-15 | *<span style='color:red'>No meeting</span>* |
+| 2026-07-22 | <span style='color:red'>Last regular meeting |
 
 
 ## Process
