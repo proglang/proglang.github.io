@@ -3,9 +3,9 @@ title     : "BigStep: Big-step semantics"
 permalink : /BigStep/
 ---
 
-```agda
+\begin{code}
 module plfa.part2.BigStep-2026 where
-```
+\end{code}
 
 # Introduction
 
@@ -25,7 +25,7 @@ about individual computation steps.
 
 # Imports
 
-```agda
+\begin{code}
 import Relation.Binary.PropositionalEquality as Eq
 open Eq using (_≡_; refl; cong)
 open import Data.Nat using (ℕ; zero; suc; _<_; z<s; s<s; _≤_; z≤n; s≤s; _≤?_)
@@ -34,7 +34,7 @@ open import Data.Product using (∃-syntax; proj₁; proj₂) renaming (_,_ to �
 open import Relation.Nullary.Decidable using (True; toWitness)
 
 open import plfa.part2.DeBruijn-2026
-```
+\end{code}
 
 # Big-step evaluation
 
@@ -43,7 +43,7 @@ terms.  Since both terms are closed, the context is always `∅`.
 The intended reading of `M ⇓ V` is that evaluation of `M` terminates
 with the value `V`.
 
-```agda
+\begin{code}
 data _⇓_ : ∀ {A} → ∅ ⊢ A → ∅ ⊢ A → Set where
 
   ⇓-ƛ : ∀ {A}{B}{M : ∅ , A ⊢ B}
@@ -74,7 +74,7 @@ data _⇓_ : ∀ {A} → ∅ ⊢ A → ∅ ⊢ A → Set where
   ⇓-μ : ∀ {A}{M : ∅ , A ⊢ A}{V}
     → (M [ μ M ]) ⇓ V
     → (μ M) ⇓ V
-```
+\end{code}
 
 The rules mirror the constructs of the language.
 Lambda abstractions and zero are already values.  To evaluate an
@@ -90,7 +90,7 @@ The result of big-step evaluation should not be an arbitrary term: it
 should be a syntactic value.  The following lemma records that fact.
 It proceeds by induction over the big-step derivation.
 
-```agda
+\begin{code}
 ⇓-returns-V : ∀ {A}{M V : ∅ ⊢ A} → M ⇓ V → Value V
 ⇓-returns-V ⇓-ƛ = V-ƛ
 ⇓-returns-V (⇓-· L⇓ƛL′ M⇓V L′[V]⇓W)
@@ -107,7 +107,7 @@ It proceeds by induction over the big-step derivation.
   with ⇓-returns-V L⇓sucW
 ... | V-suc ih =  ⇓-returns-V N[W]⇓V
 ⇓-returns-V (⇓-μ M⇓V) = ⇓-returns-V M⇓V
-```
+\end{code}
 
 # Relating big-step and small-step semantics
 
@@ -127,7 +127,7 @@ If a single-step reduction can be lifted through some term context
 `F`, then a multi-step reduction can be lifted through the same
 context.  We use this generic lemma for successor and case terms.
 
-```agda
+\begin{code}
 ξ-lift : ∀ {A B} {M N : ∅ ⊢ A}{F : ∅ ⊢ A → ∅ ⊢ B}
   → (ξ : ∀ {M}{N} → M —→ N → F M  —→ F N)
   → M —↠ N
@@ -142,7 +142,7 @@ context.  We use this generic lemma for successor and case terms.
 ξ-case-lift : ∀ {A} {L L′ : ∅ ⊢ `ℕ}{M : ∅ ⊢ A} {N}
   → L —↠ L′ →  case L M N —↠ case L′ M N
 ξ-case-lift = ξ-lift ξ-case
-```
+\end{code}
 
 ## Transitivity
 
@@ -150,11 +150,11 @@ Multi-step reduction is transitive.  The proof is structurally the
 same as append for lists: append the first reduction sequence to the
 front of the second one.
 
-```agda
+\begin{code}
 —↠-trans : ∀ {A}{L M N : ∅ ⊢ A} → L —↠ M → M —↠ N → L —↠ N
 —↠-trans (M ∎) M—↠N = M—↠N
 —↠-trans (L —→⟨ x ⟩ L—↠M) M—↠N = L —→⟨ x ⟩ —↠-trans L—↠M M—↠N
-```
+\end{code}
 
 # Completeness
 
@@ -164,7 +164,7 @@ two.  First, a single small-step reduction preserves the result of
 big-step evaluation.  Second, the argument is extended from one step
 to many steps.
 
-```agda
+\begin{code}
 complete-step : ∀ {A} {M N V : ∅ ⊢ A}
   → M —→ N → M ⇓ V → N ⇓ V
 complete-step = {!!}
@@ -172,7 +172,7 @@ complete-step = {!!}
 completeness : ∀ {A} {M V : ∅ ⊢ A}
   → M —↠ V → Value V → M ⇓ V
 completeness = {!!}
-```
+\end{code}
 
 # Soundness
 
@@ -183,7 +183,7 @@ In the application case, the reductions for the operator and argument
 are lifted into the corresponding evaluation contexts before the
 β-rule is applied.
 
-```agda
+\begin{code}
 soundness : ∀ {A} {M V : ∅ ⊢ A}
   → M ⇓ V → M —↠ V
 soundness (⇓-ƛ {M = M}) = ƛ M ∎
@@ -203,7 +203,7 @@ soundness (⇓-case-suc {M = M}{N = N} L⇓suc N⇓V)
 ... | V-suc val-W
   = —↠-trans red (case (`suc _) M N —→⟨ β-suc val-W ⟩ soundness N⇓V)
 soundness (⇓-μ {M = M} M⇓V) = μ M —→⟨ β-μ ⟩ soundness M⇓V
-```
+\end{code}
 
 The proof uses the big-step derivation as its induction structure.
 Each constructor of `_⇓_` explains why the source term evaluates, and
@@ -252,16 +252,16 @@ implementation-oriented evaluator can instead carry an environment
 that maps variables to closed terms.  The following definitions start
 that development.
 
-```agda
+\begin{code}
 Env : Context → Set
 Env Γ = Sub Γ ∅
-```
+\end{code}
 
 An environment is just a substitution from the current context to the
 empty context.  Thus an entry for a variable is a closed term of the
 appropriate type.
 
-```agda
+\begin{code}
 data _∣_⇓_ : ∀ {Γ}{A} → Env Γ → Γ ⊢ A → ∅ ⊢ A → Set where
 
   ⇓-‵ : ∀ {Γ}{A} {σ : Env Γ}{x : Γ ∋ A}
@@ -269,7 +269,7 @@ data _∣_⇓_ : ∀ {Γ}{A} → Env Γ → Γ ⊢ A → ∅ ⊢ A → Set where
 
   ⇓-ƛ : ∀ {Γ}{A}{B} {σ : Env Γ}{M : Γ , A ⊢ B}
     → σ ∣ (ƛ M) ⇓ {!!}           -- need a closure at this point
-```
+\end{code}
 
 The lambda case exposes the limitation of this representation.  A
 lambda term with free variables cannot be returned as a closed value
@@ -277,12 +277,10 @@ by itself; it must be paired with the environment that gives meanings
 to those variables.  That pair is a _closure_, which is the next
 structure needed for this development.
 
-```agda
+\begin{code}
 -- closure = pair of σ and M
-```
+\end{code}
 
-<!--
-Local Variables:
-mode: agda2
-End:
--->
+% Local Variables:
+% mode: agda2
+% End:
