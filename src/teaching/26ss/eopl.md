@@ -19,7 +19,7 @@
 | 2026-06-10 | [Quantifiers](https://plfa.github.io/Quantifiers/) || [rec][lecture05] |
 | 2026-06-17 | [Lambda](https://plfa.github.io/Lambda/) up to types || [rec][lecture06] |
 | 2026-06-24 | [DeBruijn](https://plfa.github.io/DeBruijn/) up to eval || [rec][lecture07] |
-| 2026-06-24 | big-step semantics on DeBruijn || [rec][lecture08] |
+| 2026-06-24 | [Big-step semantics on DeBruijn](eopl/BigStep-2026.lagda.md) || [rec][lecture08] |
 
 [lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
 [lecture02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-13-lecture-1.mp4
