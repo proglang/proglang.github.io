@@ -39,6 +39,7 @@ auf den neusten Stand gebracht.
 
 Am Mittwoch, den 22.07.2026, findet eine Fragestunde zur Klausur und den Themen der Vorlesung statt.
 
+
 ## Übungen
 
 Es wird insgesamt 12 Übungsblätter geben. Die letzten beiden Übungsblätter sind Wiederholungsblätter zu den in der Vorlesung behandelten Themen.
