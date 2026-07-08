@@ -160,18 +160,107 @@ front of the second one.
 
 Completeness says that if small-step reduction reaches a value, then
 big-step evaluation reaches the same value.  The proof is split in
-two.  First, a single small-step reduction preserves the result of
-big-step evaluation.  Second, the argument is extended from one step
-to many steps.
+two.  First, we show how to expand a big-step derivation backwards
+across one small step.  Second, we repeat this argument along a
+multi-step reduction sequence.
+
+Before the one-step lemma, we record two simple facts about values.
+The lemma `value-refl` says that a value cannot evaluate to a
+different result: if `V` is already a value and `V ⇓ W`, then `V` and
+`W` must be the same term.  The lemma `value-self` says the
+converse operational fact: every syntactic value evaluates to itself.
+Both are proved by induction on the structure of the value.
+
+It is tempting to prove the one-step lemma in the forward direction,
+from `M —→ N` and `M ⇓ V` to `N ⇓ V`.  The module `wrong-direction`
+shows that this statement can indeed be proved.  However, it is not
+the direction needed for completeness.  In the inductive case of a
+multi-step reduction
+
+    L —→ M —↠ V
+
+the induction hypothesis gives `M ⇓ V`; to conclude `L ⇓ V`, the
+one-step lemma must move _backwards_ over the first step `L —→ M`.
+Thus the useful statement is:
+
+    M —→ N  →  N ⇓ V  →  M ⇓ V
+
+The proof of this backward `complete-step` lemma is by case analysis
+on the small-step rule.  For congruence rules such as `ξ-·₁`,
+`ξ-·₂`, `ξ-suc`, and `ξ-case`, the proof recursively expands the
+big-step derivation for the reduced subterm and then rebuilds the
+same outer big-step rule.  For β-rules, the proof constructs the
+big-step derivation that corresponds to the redex.  The `β-ƛ` case
+uses `value-self` to show that the lambda and its argument evaluate
+to themselves, then reuses the assumed evaluation of the substituted
+body.  The `β-zero` and `β-suc` cases rebuild the appropriate case
+rule; in the successor case, `value-self` supplies the evaluation of
+the successor argument.  The `β-μ` case simply folds the evaluation of
+the unfolded body back into the big-step rule for recursion.
+
+Completeness for many steps then follows directly.  If the reduction
+sequence has no steps, the starting term is already the final value,
+so `value-self` applies.  If the sequence begins with one step, the
+induction hypothesis evaluates the reduct, and `complete-step` moves
+that evaluation back across the first step.
 
 \begin{code}
+value-refl : ∀{A}{V W : ∅ ⊢ A} → Value V →  V ⇓ W → V ≡ W
+value-refl V-ƛ ⇓-ƛ = refl
+value-refl V-zero ⇓-zero = refl
+value-refl (V-suc val-V) (⇓-suc V⇓W) = cong `suc_ (value-refl val-V V⇓W)
+
+value-self : ∀{A}{V : ∅ ⊢ A} → Value V → V ⇓ V
+value-self V-ƛ = ⇓-ƛ
+value-self V-zero = ⇓-zero
+value-self (V-suc val-V) = ⇓-suc (value-self val-V)
+
+module wrong-direction where -- ;-)
+  complete-step : ∀ {A} {M N V : ∅ ⊢ A}
+    → M —→ N → M ⇓ V → N ⇓ V
+  complete-step (ξ-·₁ M—→N) (⇓-· M⇓V M⇓V₁ M⇓V₂)
+    with complete-step M—→N M⇓V
+  ... | N⇓V = ⇓-· N⇓V M⇓V₁ M⇓V₂
+  complete-step (ξ-·₂ val-V M—→N) (⇓-· M⇓V M⇓V₁ M⇓V₂)
+    with value-refl val-V M⇓V
+  ... | refl
+    with complete-step M—→N M⇓V₁
+  ... | N⇓V₁ = ⇓-· M⇓V N⇓V₁ M⇓V₂
+  complete-step (β-ƛ val-W) (⇓-· ⇓-ƛ M⇓V₁ M⇓V₂)
+    with value-refl val-W M⇓V₁
+  ... | refl = M⇓V₂
+  complete-step (ξ-suc M—→N) (⇓-suc M⇓V) = ⇓-suc (complete-step M—→N M⇓V)
+  complete-step (ξ-case M—→N) (⇓-case-zero M⇓V M⇓V₁)
+    with complete-step M—→N M⇓V
+  ... | M′⇓V = ⇓-case-zero M′⇓V M⇓V₁
+  complete-step (ξ-case M—→N) (⇓-case-suc M⇓V M⇓V₁)
+    with complete-step M—→N M⇓V
+  ... | M′⇓V = ⇓-case-suc M′⇓V M⇓V₁
+  complete-step β-zero (⇓-case-zero ⇓-zero M⇓W) = M⇓W
+  complete-step (β-suc val-V) (⇓-case-suc (⇓-suc M⇓V) M⇓W)
+    with value-refl val-V M⇓V
+  ... | refl = M⇓W
+  complete-step β-μ (⇓-μ M⇓V) = M⇓V
+
 complete-step : ∀ {A} {M N V : ∅ ⊢ A}
-  → M —→ N → M ⇓ V → N ⇓ V
-complete-step = {!!}
+  → M —→ N → N ⇓ V → M ⇓ V
+complete-step (ξ-·₁ M—→N) (⇓-· N⇓V N⇓V₁ N⇓V₂) = ⇓-· (complete-step M—→N N⇓V) N⇓V₁ N⇓V₂
+complete-step (ξ-·₂ val-V M—→N) (⇓-· N⇓V N⇓V₁ N⇓V₂) = ⇓-· N⇓V (complete-step M—→N N⇓V₁) N⇓V₂
+complete-step (β-ƛ val-W) N⇓V = ⇓-· (value-self V-ƛ) (value-self val-W) N⇓V
+complete-step (ξ-suc M—→N) (⇓-suc N⇓V) = ⇓-suc (complete-step M—→N N⇓V)
+complete-step (ξ-case M—→N) (⇓-case-zero N⇓V N⇓V₁) = ⇓-case-zero (complete-step M—→N N⇓V) N⇓V₁
+complete-step (ξ-case M—→N) (⇓-case-suc N⇓V N⇓V₁) = ⇓-case-suc (complete-step M—→N N⇓V) N⇓V₁
+complete-step β-zero N⇓V = ⇓-case-zero ⇓-zero N⇓V
+complete-step (β-suc val-V) N⇓V = ⇓-case-suc (⇓-suc (value-self val-V)) N⇓V
+complete-step β-μ N⇓V = ⇓-μ N⇓V
+
 
 completeness : ∀ {A} {M V : ∅ ⊢ A}
   → M —↠ V → Value V → M ⇓ V
-completeness = {!!}
+completeness (V ∎) val-V = value-self val-V
+completeness (L —→⟨ L—→M ⟩ M—↠V) val-V
+  with completeness M—↠V val-V
+... | M⇓V = complete-step L—→M M⇓V 
 \end{code}
 
 # Soundness
@@ -245,6 +334,8 @@ semantics unfolds `μ M` by one `β-μ` step to `M [ μ M ]`, and the
 induction hypothesis then reduces that unfolded term to the value
 produced by the big-step derivation.
 
+
+
 # Big-step evaluation with environments
 
 The first big-step relation uses substitution directly.  A more
@@ -259,17 +350,27 @@ Env Γ = Sub Γ ∅
 
 An environment is just a substitution from the current context to the
 empty context.  Thus an entry for a variable is a closed term of the
-appropriate type.
+appropriate type.  One might try to define an environment-based
+big-step relation that still returns closed terms:
 
-\begin{code}
-data _∣_⇓_ : ∀ {Γ}{A} → Env Γ → Γ ⊢ A → ∅ ⊢ A → Set where
+    data _∣_⇓_ : ∀ {Γ}{A} → Env Γ → Γ ⊢ A → ∅ ⊢ A → Set where
 
-  ⇓-‵ : ∀ {Γ}{A} {σ : Env Γ}{x : Γ ∋ A}
-    → σ ∣ ` x ⇓ σ x
+      ⇓-‵ : ∀ {Γ}{A} {σ : Env Γ}{x : Γ ∋ A}
+        → σ ∣ ` x ⇓ σ x
 
-  ⇓-ƛ : ∀ {Γ}{A}{B} {σ : Env Γ}{M : Γ , A ⊢ B}
-    → σ ∣ (ƛ M) ⇓ {!!}           -- need a closure at this point
-\end{code}
+      ⇓-ƛ : ∀ {Γ}{A}{B} {σ : Env Γ}{M : Γ , A ⊢ B}
+        → σ ∣ (ƛ M) ⇓ ?
+
+This is where the design breaks: the result type expects a closed
+term, but evaluating a lambda in an environment should produce a
+closure, not a substituted lambda term.
+
+σ = []
+(λy λx → y) 42
+--->
+σ = y ↦ 42
+λ x → y
+
 
 The lambda case exposes the limitation of this representation.  A
 lambda term with free variables cannot be returned as a closed value
@@ -277,9 +378,183 @@ by itself; it must be paired with the environment that gives meanings
 to those variables.  That pair is a _closure_, which is the next
 structure needed for this development.
 
+We therefore separate syntactic terms from the values produced by the
+environment-based evaluator.  The type `CVal A` is the type of
+semantic values of object-language type `A`.  Natural numbers are
+represented by `zero` and `suc` values.  Function values are
+represented by closures: a closure `` `clos γ M `` stores both a body
+`M` and the environment `γ` in which that body was created.
+
+The type `CEnv Γ` is the type of closure environments for context
+`Γ`.  Such an environment maps every variable in `Γ` to a semantic
+value of the corresponding type.  The definitions of `CVal` and
+`CEnv` depend on each other: closures contain environments, and
+environments return closure values.  This is why `CEnv` is declared
+before `CVal` and defined afterwards.
+
+When evaluation enters the body of a lambda abstraction, the current
+environment must be extended with a value for the newly bound
+variable.  The function `extend γ v` does exactly that.  The newest
+variable `Z` is mapped to `v`, while an older variable `S x` is looked
+up in the previous environment `γ`.
+
 \begin{code}
--- closure = pair of σ and M
+CEnv : Context → Set
+
+data CVal : Type → Set where
+  `zero : CVal `ℕ
+  `suc_ : CVal `ℕ → CVal `ℕ
+  `clos : ∀ {Γ}{A}{B} → CEnv Γ → Γ , A ⊢ B → CVal (A ⇒ B)
+
+CEnv Γ = ∀ {A} → Γ ∋ A → CVal A
+
+extend : ∀ {Γ}{A} → CEnv Γ → CVal A → CEnv (Γ , A)
+extend γ v Z = v
+extend γ v (S x) = γ x
 \end{code}
+
+The environment-based big-step relation is written `γ ∥ M ⇓ V`.
+It says that, under closure environment `γ`, the term `M` evaluates
+directly to the semantic value `V`.  Unlike the earlier relation
+`M ⇓ V`, the result is not a closed term but a member of `CVal`.
+This lets lambda abstraction return a closure without first
+substituting its free variables away.
+
+\begin{code}
+data _∥_⇓_ : ∀ {Γ}{A} → CEnv Γ → Γ ⊢ A → CVal A → Set where
+  ⇓-‵ : ∀ {Γ}{A}{γ : CEnv Γ} {x : Γ ∋ A}
+    → γ ∥ ` x ⇓ γ x
+
+  ⇓-ƛ : ∀ {Γ}{A}{B} {γ : CEnv Γ}{M : Γ , A ⊢ B}
+    → γ ∥ ƛ M ⇓ `clos γ M
+
+  ⇓-· : ∀ {Γ}{A}{B}{γ : CEnv Γ}{L : Γ ⊢ A ⇒ B} {M : Γ ⊢ A}
+          {Γ′}{γ′ : CEnv Γ′}{L′ : Γ′ , A ⊢ B}
+          {V : CVal A}{W : CVal B}
+    → γ ∥ L ⇓ `clos γ′ L′
+    → γ ∥ M ⇓ V
+    → extend γ′ V ∥ L′ ⇓ W
+    → γ ∥ (L · M) ⇓ W
+
+  ⇓-zero : ∀ {Γ}{γ : CEnv Γ}
+    → γ ∥ `zero ⇓ `zero
+
+  ⇓-suc :  ∀ {Γ}{γ : CEnv Γ}{M : Γ ⊢ `ℕ}{V : CVal `ℕ}
+    → γ ∥ M ⇓ V
+    → γ ∥ (`suc M) ⇓ (`suc V)
+
+  ⇓-case-zero : ∀ {Γ}{γ : CEnv Γ}{A}{L}{M : Γ ⊢ A}{N}{V}
+    → γ ∥ L ⇓ `zero
+    → γ ∥ M ⇓ V
+    → γ ∥ case L M N ⇓ V
+
+  ⇓-case-suc :  ∀{Γ}{γ : CEnv Γ} {A}{L}{M : Γ ⊢ A}{N}{V}{W}
+    → γ ∥ L ⇓ (`suc W)
+    → extend γ W ∥ N ⇓ V
+    → γ ∥ case L M N ⇓ V
+
+  -- not cool to use substitution for recursion :,-(
+  -- but μ M is not a value so we cannot extend γ with it
+  ⇓-μ : ∀ {Γ}{γ : CEnv Γ} {A}{M : Γ , A ⊢ A}{V}
+    → γ ∥ (M [ μ M ]) ⇓ V
+    → γ ∥ (μ M) ⇓ V
+\end{code}
+
+The rules follow the structure of terms.
+
+* A variable is evaluated by looking it up in the environment.
+
+* A lambda abstraction evaluates to a closure containing the current
+  environment and the lambda body.
+
+* An application first evaluates the operator to a closure, then
+  evaluates the argument to a value.  The body of the closure is then
+  evaluated in the closure's saved environment, extended with the
+  argument value.
+
+* Zero evaluates to zero, and successor evaluates its subterm before
+  rebuilding the successor value.
+
+* A case expression evaluates its scrutinee first.  If the scrutinee
+  is zero, the zero branch is evaluated in the current environment.
+  If the scrutinee is a successor value, the successor branch is
+  evaluated in an environment extended with the predecessor.
+
+* The rule for recursion still uses substitution to unfold `μ M`.
+  This is less satisfying than the other rules because it steps
+  outside the closure-environment discipline, but it is enough for the
+  examples below.
+
+Example
+
+\begin{code}
+Ex2+2 : ∅ ⊢ `ℕ
+Ex2+2 = plus · two · two
+
+twoV : CVal `ℕ
+twoV = `suc (`suc `zero)
+
+fourV : CVal `ℕ
+fourV = `suc (`suc twoV)
+
+two⇓ : ∀ {Γ}{γ : CEnv Γ} → γ ∥ two ⇓ twoV
+two⇓ = ⇓-suc (⇓-suc ⇓-zero)
+
+_ : (λ ()) ∥ Ex2+2 ⇓ fourV
+_ =
+  ⇓-·
+    (⇓-·
+      (⇓-μ ⇓-ƛ)
+      two⇓
+      ⇓-ƛ)
+    two⇓
+    (⇓-case-suc
+      ⇓-‵
+      (⇓-suc
+        (⇓-·
+          (⇓-·
+            (⇓-μ ⇓-ƛ)
+            ⇓-‵
+            ⇓-ƛ)
+          ⇓-‵
+          (⇓-case-suc
+            ⇓-‵
+            (⇓-suc
+              (⇓-·
+                (⇓-·
+                  (⇓-μ ⇓-ƛ)
+                  ⇓-‵
+                  ⇓-ƛ)
+                ⇓-‵
+                (⇓-case-zero
+                  ⇓-‵
+                  ⇓-‵)))))))
+\end{code}
+
+Discussion about fixed point / recursion.
+
+    plus : Term
+    plus = μ "+" ⇒ ƛ "m" ⇒ ƛ "n" ⇒
+             case ` "m"
+               [zero⇒ ` "n"
+               |suc "m" ⇒ `suc (` "+" · ` "m" · ` "n") ]
+
+    plus′ = ƛ "+" ⇒ ƛ "m" ⇒ ƛ "n" ⇒
+             case ` "m"
+               [zero⇒ ` "n"
+               |suc "m" ⇒ `suc (` "+" · ` "m" · ` "n") ]
+
+    x is fixed point of F :  F(x) = x
+
+    plus is fixed point of plus′:
+    plus' (plus) =
+      ƛ "m" ⇒ ƛ "n" ⇒
+             case ` "m"
+               [zero⇒ ` "n"
+               |suc "m" ⇒ `suc (plus · ` "m" · ` "n") ]
+            = plus
+
+
 
 % Local Variables:
 % mode: agda2
