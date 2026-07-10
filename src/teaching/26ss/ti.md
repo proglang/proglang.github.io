@@ -39,7 +39,6 @@ auf den neusten Stand gebracht.
 
 Am Mittwoch, den 22.07.2026, findet eine Fragestunde zur Klausur und den Themen der Vorlesung statt.
 
-
 ## Übungen
 
 Es wird insgesamt 12 Übungsblätter geben. Die letzten beiden Übungsblätter sind Wiederholungsblätter zu den in der Vorlesung behandelten Themen.
@@ -56,7 +55,7 @@ Es wird insgesamt 12 Übungsblätter geben. Die letzten beiden Übungsblätter s
 | Mi, 17.06.2026 | Di, 23.06.2026, 16:00 Uhr | [Blatt 08](ti/exercises/sheet08.pdf) | [Lösung](ti/solutions/solution08.pdf) |
 | Mi, 24.06.2026 | Di, 30.06.2026, 16:00 Uhr | [Blatt 09](ti/exercises/sheet09.pdf) | [Lösung](ti/solutions/solution09.pdf) |
 | Mi, 01.07.2026 | Di, 07.07.2026, 16:00 Uhr | [Blatt 10](ti/exercises/sheet10.pdf) | [Lösung](ti/solutions/solution10.pdf) |
-| Do, 09.07.2026 | Di, 14.07.2026, 16:00 Uhr | [Blatt 11](ti/exercises/sheet11.pdf) |  |
+| Mi, 08.07.2026 | **Mi, 15.07.2026, 08:00 Uhr** | [Blatt 11](ti/exercises/sheet11.pdf) |  |
 
 Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
