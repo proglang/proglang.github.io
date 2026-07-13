@@ -47,7 +47,7 @@
 | 2026-06-22 | [Decidable](https://plfa.github.io/Decidable/), [Lambda](https://plfa.github.io/Lambda/) | [decidable.agda](eopl/decidable.agda), [lambda.agda](eopl/lambda.agda) | [rec][tutorial08] |
 | 2026-06-29 | [Properties](https://plfa.github.io/Properties/), [DeBruijn](https://plfa.github.io/DeBruijn/) | [lambda.agda](eopl/lambda.agda), [intrinsic-extrinsic.agda](eopl/intrinsic-extrinsic.agda) | [rec][tutorial09] |
 | 2026-07-06 | [Properties](https://plfa.github.io/Properties/), [DeBruijn](https://plfa.github.io/DeBruijn/) | [intrinsic-extrinsic.agda](eopl/intrinsic-extrinsic-2.agda) | [rec][tutorial10] |
-
+| 2026-07-13 | [DeBruijn](https://plfa.github.io/DeBruijn/) | [intrinsic-extrinsic.agda](eopl/intrinsic-extrinsic_solution.agda) | [rec][tutorial11] |
 
 
 
@@ -62,6 +62,8 @@
 [tutorial08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-22-tutorial.mp4
 [tutorial09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-29-tutorial.mp4
 [tutorial10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-06-tutorial.mp4
+[tutorial11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-13-tutorial.mp4
+
 
 ## Exam
 
