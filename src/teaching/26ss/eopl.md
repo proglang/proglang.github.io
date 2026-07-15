@@ -25,6 +25,7 @@
 | 2026-06-24 | [DeBruijn](https://plfa.github.io/DeBruijn/) up to eval || [rec][lecture07] |
 | 2026-07-01 | [Big-step semantics on DeBruijn](eopl/BigStep-2026.lagda) || [rec][lecture08] |
 | 2026-07-08 | [Big-step semantics with closures](eopl/BigStep-2026.lagda) || [rec][lecture09] |
+| 2026-07-15 | Denotational Semantics | [denotational_lecture.lagda](eopl/denotational_lecture.lagda) | [rec][lecture10] |
 
 [lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
 [lecture02]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-05-13-lecture-1.mp4
@@ -36,6 +37,8 @@
 [lecture07]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-24-lecture-1.mp4
 [lecture08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-01-lecture-1.mp4
 [lecture09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-08-lecture-1.mp4
+[lecture09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-15-lecture-1.mp4
+
 
 ## Tutorial
 
@@ -52,8 +55,7 @@
 | 2026-06-29 | [Properties](https://plfa.github.io/Properties/), [DeBruijn](https://plfa.github.io/DeBruijn/) | [lambda.agda](eopl/lambda.agda), [intrinsic-extrinsic.agda](eopl/intrinsic-extrinsic.agda) | [rec][tutorial09] |
 | 2026-07-06 | [Properties](https://plfa.github.io/Properties/), [DeBruijn](https://plfa.github.io/DeBruijn/) | [intrinsic-extrinsic.agda](eopl/intrinsic-extrinsic-2.agda) | [rec][tutorial10] |
 | 2026-07-13 | [DeBruijn](https://plfa.github.io/DeBruijn/) | [intrinsic-extrinsic.agda](eopl/intrinsic-extrinsic_solution.agda) | [rec][tutorial11] |
-
-
+| 2026-07-20 | [DeBruijn](https://plfa.github.io/DeBruijn/) | [denotational.agda](eopl/denotational.agda) | [rec][tutorial12] |
 
 
 [tutorial01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-27-tutorial.mp4
@@ -67,7 +69,7 @@
 [tutorial09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-29-tutorial.mp4
 [tutorial10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-06-tutorial.mp4
 [tutorial11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-13-tutorial.mp4
-
+[tutorial12]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-20-tutorial.mp4
 
 ## Exam
 
