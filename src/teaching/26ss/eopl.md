@@ -1,5 +1,9 @@
 # Essentials of Programming Languages
 
+<div class="warning">
+  zoom link for today is the exercises zoom link
+</div>
+
 ## General Information
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
