@@ -37,7 +37,7 @@
 [lecture07]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-06-24-lecture-1.mp4
 [lecture08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-01-lecture-1.mp4
 [lecture09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-08-lecture-1.mp4
-[lecture09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-15-lecture-1.mp4
+[lecture10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-15-lecture-1.mp4
 
 
 ## Tutorial
