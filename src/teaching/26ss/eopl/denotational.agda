@@ -8,7 +8,7 @@ open import Data.Sum using (_⊎_; inj₁; inj₂)
 open import Data.String using (String; _≟_)
 open import Data.Unit using (⊤; tt)
 open import Function using (_∘_)
-open import Relation.Binary.PropositionalEquality using (_≡_; _≢_; refl; cong; sym; trans)
+open import Relation.Binary.PropositionalEquality using (_≡_; _≢_; refl; cong; sym; trans; cong-app)
 open import Relation.Nullary using (¬_; contradiction)
 open import Relation.Nullary.Decidable using (Dec; yes; no; False; toWitnessFalse; ¬?)
 
@@ -86,8 +86,13 @@ recnat′ : ∀ {X : Set} → ℕ → (x₀ : X) → (sₛ : ℕ → X → X) �
 recnat′ zero x₀ xₛ = x₀
 recnat′ (suc n) x₀ xₛ = xₛ n (recnat′ n x₀ xₛ)
 
-𝓔⟦_⟧ : Γ ⊢ A → (𝓒⟦ Γ ⟧ → 𝓣⟦ A ⟧)
-𝓔⟦ e ⟧ γ = {!   !}
+𝓔⟦_⟧ : Γ ⊢ A → 𝓒⟦ Γ ⟧ → 𝓣⟦ A ⟧
+𝓔⟦ ` x            ⟧ γ = γ _ x
+𝓔⟦ ƛ e            ⟧ γ = λ a → 𝓔⟦ e ⟧ (extc γ a)
+𝓔⟦ e₁ · e₂        ⟧ γ = 𝓔⟦ e₁ ⟧ γ (𝓔⟦ e₂ ⟧ γ)
+𝓔⟦ `zero          ⟧ γ = zero
+𝓔⟦ `suc e         ⟧ γ = suc (𝓔⟦ e ⟧ γ)
+𝓔⟦ recnat e e₁ e₂ ⟧ γ = recnat′ (𝓔⟦ e ⟧ γ) (𝓔⟦ e₁ ⟧ γ) (𝓔⟦ e₂ ⟧ γ)
 
 -- Small-Step Semantics --------------------------------------------------------
 
@@ -176,13 +181,22 @@ postulate
 𝓡⟦_⟧ : Ren Γ Δ → 𝓒⟦ Δ ⟧ → 𝓒⟦ Γ ⟧
 𝓡⟦ ρ ⟧ δ _ x = δ _ (ρ x)
 
-extc-ρ : ∀ {v : 𝓣⟦ A ⟧} (δ : 𝓒⟦ Δ ⟧) (ρ : Ren Γ Δ)
+extc-extr : ∀ {v : 𝓣⟦ A ⟧} (ρ : Ren Γ Δ) (δ : 𝓒⟦ Δ ⟧)
   → extc (𝓡⟦ ρ ⟧ δ) v ≡ 𝓡⟦ extr ρ ⟧ (extc δ v)
-extc-ρ δ ρ = {!   !}
+extc-extr ρ δ = ext (λ _ → ext (λ where 
+  Z     → refl
+  (S x) → refl))
 
-sound-ren : ∀ (M : Γ ⊢ A) (δ : 𝓒⟦ Δ ⟧) (ρ : Ren Γ Δ)
+sound-ren : (M : Γ ⊢ A) (ρ : Ren Γ Δ) (δ : 𝓒⟦ Δ ⟧)
   → 𝓔⟦ M ⟧ (𝓡⟦ ρ ⟧ δ) ≡ 𝓔⟦ rename ρ M ⟧ δ
-sound-ren e δ ρ = {!   !}
+sound-ren (` x)            ρ δ = refl
+sound-ren (ƛ M)            ρ δ = ext (λ a → 
+  trans (cong 𝓔⟦ M ⟧ (extc-extr ρ δ)) (sound-ren M (extr ρ) (extc δ _)))
+sound-ren (M₁ · M₂)        ρ δ 
+  rewrite sound-ren M₁ ρ δ | sound-ren M₂ ρ δ = refl
+sound-ren `zero            ρ δ = refl
+sound-ren (`suc M)         ρ δ = cong suc (sound-ren M ρ δ)
+sound-ren (recnat M M₁ M₂) ρ δ rewrite sound-ren M ρ δ | sound-ren M₁ ρ δ | sound-ren M₂ ρ δ = refl
 
 --      Sub Γ Δ → Sub Δ ∅ → Sub Γ ∅
 𝓢⟦_⟧ : Sub Γ Δ → 𝓒⟦ Δ ⟧ → 𝓒⟦ Γ ⟧
@@ -190,14 +204,31 @@ sound-ren e δ ρ = {!   !}
 
 extc-exts : ∀ {v : 𝓣⟦ A ⟧} → (σ : Sub Γ Δ) (δ : 𝓒⟦ Δ ⟧)
   → extc {A = A} (𝓢⟦ σ ⟧ δ) v ≡ 𝓢⟦ exts σ ⟧ (extc {A = A} δ v)
-extc-exts {v = v} σ δ = {!   !}
+extc-exts {v = v} σ δ = ext (λ _ → ext (λ where 
+  Z → refl
+  (S x) → sound-ren (σ x) S_ (extc δ v)))
 
 sound-sub : (M : Γ ⊢ A) (σ : Sub Γ Δ) (δ : 𝓒⟦ Δ ⟧)
   → 𝓔⟦ M ⟧ (𝓢⟦ σ ⟧ δ) ≡ 𝓔⟦ subst σ M ⟧ δ
-sound-sub e σ δ = {!   !}
+sound-sub (` x)            σ δ = refl
+sound-sub (ƛ M)            σ δ = ext (λ a → 
+  trans (cong 𝓔⟦ M ⟧ (extc-exts σ δ)) (sound-sub M (exts σ) (extc δ _)))
+sound-sub (M₁ · M₂)        σ δ 
+  rewrite sound-sub M₁ σ δ | sound-sub M₂ σ δ = refl
+sound-sub `zero            σ δ = refl
+sound-sub (`suc M)         σ δ = cong suc (sound-sub M σ δ)
+sound-sub (recnat M M₁ M₂) σ δ rewrite sound-sub M σ δ | sound-sub M₁ σ δ | sound-sub M₂ σ δ = refl
 
 extc-σ₀ : (γ  : 𝓒⟦ Γ ⟧) (W  : Γ ⊢ A) → extc γ (𝓔⟦ W ⟧ γ) ≡ 𝓢⟦ σ₀ W ⟧ γ
-extc-σ₀ γ W = {!   !}
+extc-σ₀ γ W = ext (λ _ → ext λ where 
+  Z     → refl
+  (S x) → refl)
 
 sound⟶ : ∀ {M N : Γ ⊢ A} → M ⟶ N → (γ : 𝓒⟦ Γ ⟧) → 𝓔⟦ M ⟧ γ ≡ 𝓔⟦ N ⟧ γ
-sound⟶ M⟶N γ = {!   !}
+sound⟶ (ξ-·₁ M⟶N)     γ = cong-app (sound⟶ M⟶N γ) _
+sound⟶ (ξ-·₂ {V = V} v M⟶N) γ = cong (𝓔⟦ V ⟧ γ) (sound⟶ M⟶N γ)
+sound⟶ (β-ƛ {N = N} V) γ = trans (cong 𝓔⟦ N ⟧ (extc-σ₀ _ _)) (sound-sub N (σ₀ _) γ)
+sound⟶ (ξ-suc M⟶N)    γ = cong suc (sound⟶ M⟶N γ)
+sound⟶ (ξ-recnat M⟶N) γ = cong (λ a → recnat′ a _ _) (sound⟶ M⟶N γ)
+sound⟶ β-zero         γ = refl
+sound⟶ (β-suc x)      γ = refl
