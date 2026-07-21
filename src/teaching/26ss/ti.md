@@ -56,7 +56,7 @@ Es wird insgesamt 12 Übungsblätter geben. Die letzten beiden Übungsblätter s
 | Mi, 24.06.2026 | Di, 30.06.2026, 16:00 Uhr | [Blatt 09](ti/exercises/sheet09.pdf) | [Lösung](ti/solutions/solution09.pdf) |
 | Mi, 01.07.2026 | Di, 07.07.2026, 16:00 Uhr | [Blatt 10](ti/exercises/sheet10.pdf) | [Lösung](ti/solutions/solution10.pdf) |
 | Mi, 08.07.2026 | **Mi, 15.07.2026, 08:00 Uhr** | [Blatt 11](ti/exercises/sheet11.pdf) | [Lösung](ti/solutions/solution11.pdf) |
-| Mi, 15.07.2026 | Di, 21.07.2026, 16:00 Uhr | [Blatt 12](ti/exercises/sheet12.pdf) | |
+| Mi, 15.07.2026 | Di, 21.07.2026, 16:00 Uhr | [Blatt 12](ti/exercises/sheet12.pdf) | [Lösung] (ti/solutions/solution12.pdf) |
 
 Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freiburg.de/) eingereicht werden.
 
