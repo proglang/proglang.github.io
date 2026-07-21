@@ -1,6 +1,6 @@
 # Teaching
 
-[ [Projects & Thesis](teaching/projects.md) | [Summer 2026](teaching/26ss.md) | [Winter 2025](teaching/25ws.md) | [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
+[ [Projects & Thesis](teaching/projects.md) |  [Winter 2026](teaching/26ws.md)  | [Summer 2026](teaching/26ss.md) | [Winter 2025](teaching/25ws.md) | [Summer 2025](teaching/25ss.md) | [Winter 2024](teaching/24ws.md) | [Summer 2024](teaching/24ss.md) | [Before 2024](https://proglang.informatik.uni-freiburg.de/teaching/) ] 
 
 
 ## Projects and Thesis
@@ -42,5 +42,10 @@ _Frequency: Roughly every 1 1/2 years_
 
 ### Concurrency Theory
 Specialization course about concurrent systems and their underlying theory.
+
+_Frequency: Roughly every 1 1/2 years_
+
+### Functional Programming in Lean (WORKING TITLE)
+Specialization course about programming and proving in [Lean](https://lean-lang.org/).
 
 _Frequency: Roughly every 1 1/2 years_
