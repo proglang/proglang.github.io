@@ -44,6 +44,7 @@ have taken.
 * Match
 * …?
 
+<!-- 
 ### Extending Lambda Pi Paper with Universe Polymorphism 
 * Addition of universe levels and polymorphism to the existing implementation
 * The type checker would use the subtype approach suggested here:
@@ -52,7 +53,7 @@ have taken.
 * as project: implementation
 * follow up with thesis: proof, maybe explore alternatives, build upon Hannes'
   dependent types formalization
-
+-->
 
 ## Bachelorarbeit
 
@@ -63,6 +64,12 @@ have taken.
 ### Lecture compiler in Rust
 * different internal structure based on [Appel](https://api.pageplace.de/preview/DT0400.9781107266391_A23693450/preview-9781107266391_A23693450.pdf) 
 -->
+
+### Interpreter Comparison for Session Types
+* implement an interpreter for a language with session types (and borrowing), given by us
+* implement a translation given by us
+* implement a interpreter for the translated language
+* should be step based and visually pleasing
 
 
 ## Master Project
