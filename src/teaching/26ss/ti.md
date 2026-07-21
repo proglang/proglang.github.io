@@ -72,7 +72,7 @@ Alle Übungsblätter müssen über [Git](https://git.laurel.informatik.uni-freib
 
 ### Studienleistung
 
-Es gibt (voraussichtlich) 12 Übungsblätter. Für jedes Übungsblatt gibt es 20 Punkte. Daraus ergibt sich eine maximale Gesamtpunktzahl von 240 Punkten. Zum Bestehen der Studienleistung werden 50 % der Punkte (120 Punkte) benötigt.
+Es gibt 12 Übungsblätter. Für jedes Übungsblatt gibt es 20 Punkte. Daraus ergibt sich eine maximale Gesamtpunktzahl von 240 Punkten. Zum Bestehen der Studienleistung werden 50% der Punkte (120 Punkte) benötigt.
 
 ### Prüfungsleistung
 
