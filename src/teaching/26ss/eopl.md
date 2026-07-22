@@ -26,6 +26,7 @@
 | 2026-07-01 | [Big-step semantics on DeBruijn](eopl/BigStep-2026.lagda) || [rec][lecture08] |
 | 2026-07-08 | [Big-step semantics with closures](eopl/BigStep-2026.lagda) || [rec][lecture09] |
 | 2026-07-15 | Denotational Semantics | [denotational_lecture.lagda](eopl/denotational_lecture.lagda) | [rec][lecture10] |
+| 2026-07-22 | Interpreter, Logical Relation | [Interpreter-2026.lagda](eopl/Interpreter-2026.lagda) | [rec][lecture11] |
 | 2026-08-12 | Q&A | | will not be recorded |
 
 [lecture01]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-04-29-lecture-1.mp4
@@ -39,6 +40,7 @@
 [lecture08]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-01-lecture-1.mp4
 [lecture09]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-08-lecture-1.mp4
 [lecture10]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-15-lecture-1.mp4
+[lecture11]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-SS-EoPL/2026-07-22-lecture-1.mp4
 
 
 ## Tutorial
