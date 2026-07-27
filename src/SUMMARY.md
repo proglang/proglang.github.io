@@ -9,7 +9,7 @@
       - [Einführung in die Programmierung](teaching/26ws/eidp.md)
       - [Functional Programming in Lean (WORKING TITLE)](teaching/26ws/lean.md)
       - [Proseminar (tba.)](teaching/26ws/ps.md)
-    - [Sommer 2026](teaching/26ss.md)
+    - [Summer 2026](teaching/26ss.md)
       - [Theoretische Informatik](teaching/26ss/ti.md)
       - [Essentials of Programming Languages](teaching/26ss/eopl.md)
       - [Topics in Compilers & Concurrency – Seminar](teaching/26ss/ticc.md)
