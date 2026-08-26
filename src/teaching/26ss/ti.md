@@ -1,5 +1,14 @@
 # Theoretische Informatik
 
+<div class="warning">
+Klausureinsicht Theoretische Informatik
+
+am Montag, 19.10.2026, 10-12 Uhr, Poolraum 1, Werthmannstr. 4.
+Bitte mitbringen:
+
+* Unicard, Lichtbildausweis
+</div>
+
 ## Übersicht
 
 - Dozent: [Prof. Dr. Peter Thiemann](/team/thiemann.md)

@@ -1,10 +1,11 @@
 # Concurrency Theory
 
 <div class="warning">
-Exam Review Concurrency Theory
+Exam Review Concurrency Theory (Repeat Exam)
 
-on Tuesday, 2026-04-21, 2-4pm, SR 02-016/18, Building 101.
+on Monday, 2026-10-19, 10am-12pm, Pool Room 1, Werthmannstr. 4.
 Please bring:
+
 * Unicard, ID document
 </div>
 

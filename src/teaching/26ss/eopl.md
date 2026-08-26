@@ -1,7 +1,13 @@
 # Essentials of Programming Languages
 
 <div class="warning">
-  zoom link for today is the exercises zoom link
+Exam Review Essentials of Programming Languages
+
+on Monday, 2026-10-19, 10am-12pm, Pool Room 3, Werthmannstr. 4.
+Please bring:
+
+* Unicard, ID document
+* University account credentials
 </div>
 
 ## General Information
