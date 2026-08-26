@@ -18,6 +18,8 @@ git checkout docs
 
 git pull --rebase --autostash
 
+./sync-summary
+
 mdbook build --dest-dir docs
 
 

@@ -2,6 +2,9 @@
 
 # usage: ./build
 
+# list every page that is not in SUMMARY.md under "# Unlisted"
+./sync-summary
+
 platform="$(uname)"
 
 if [ $platform == "Darwin" ]; then

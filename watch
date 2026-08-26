@@ -5,6 +5,9 @@
 # pull rebase auto stash
 git pull --rebase --autostash
 
+# list every page that is not in SUMMARY.md under "# Unlisted"
+./sync-summary
+
 # select binary
 platform="$(uname)"
 

@@ -1,13 +1,13 @@
 # Essentials of Programming Languages (Summer 2025)
 
-<div class="warning">
-Exam Review Retake Essentials of Programming Languages
-
-on Monday, 2026-04-20, 2-4pm, Pool 3, Werthmannstr. 4.
-Please bring:
-* Unicard, ID document
-* Uni account login
-</div>
+> [!NOTE]
+> **Exam Review Retake Essentials of Programming Languages**
+>
+> on Monday, 2026-04-20, 2-4pm, Pool 3, Werthmannstr. 4.
+> Please bring:
+>
+> * Unicard, ID document
+> * Uni account login
 
 ## General Information
 

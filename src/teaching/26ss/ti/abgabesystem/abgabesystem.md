@@ -1,8 +1,7 @@
 # Abgabesystem für **Theoretische Informatik**
 
-<div class="warning">
-Die Bilder sind für einen anderen Kurs erstellt worden.
-</div>
+> [!NOTE]
+> Die Bilder sind für einen anderen Kurs erstellt worden.
 
 
 ## 1. Kurs beitreten

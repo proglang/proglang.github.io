@@ -1,14 +1,13 @@
 # Essentials of Programming Languages
 
-<div class="warning">
-Exam Review Essentials of Programming Languages
-
-on Monday, 2026-10-19, 10am-12pm, Pool Room 3, Werthmannstr. 4.
-Please bring:
-
-* Unicard, ID document
-* University account credentials
-</div>
+> [!NOTE]
+> **Exam Review Essentials of Programming Languages**
+>
+> on Monday, 2026-10-19, 10am-12pm, Pool Room 3, Werthmannstr. 4.
+> Please bring:
+>
+> * Unicard, ID document
+> * University account credentials
 
 ## General Information
 

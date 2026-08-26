@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
+./sync-summary
+
 mdbook serve --dest-dir docs --open

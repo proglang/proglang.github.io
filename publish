@@ -14,6 +14,9 @@ then
 fi
 
 
+# list every page that is not in SUMMARY.md under "# Unlisted"
+./sync-summary
+
 # build locally to 'docs/'
 platform="$(uname)"
 

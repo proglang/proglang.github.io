@@ -16,14 +16,14 @@
 }
 
 .dark {
-    --bg: hsl(200, 7%, 8%);
+    --bg: hsl(200, 7%, 4%);
     --fg: #98a3ad;
 
-    --sidebar-bg: #292c2f;
+    --sidebar-bg: #16191b;
     --sidebar-fg: #a1adb8;
     --sidebar-non-existant: #505254;
     --sidebar-active: #3473ad;
-    --sidebar-spacer: #393939;
+    --sidebar-spacer: #262829;
 
     --scrollbar: var(--sidebar-fg);
 
@@ -34,18 +34,18 @@
 
     --inline-code-color: #c5c8c6;
 
-    --theme-popup-bg: #141617;
+    --theme-popup-bg: #0d0f10;
     --theme-popup-border: #43484d;
-    --theme-hover: #1f2124;
+    --theme-hover: #191b1d;
 
-    --quote-bg: hsl(234, 21%, 18%);
-    --quote-border: hsl(234, 21%, 23%);
+    --quote-bg: hsl(234, 21%, 12%);
+    --quote-border: hsl(234, 21%, 18%);
 
     --warning-border: #ff8e00;
 
-    --table-border-color: hsl(200, 7%, 13%);
-    --table-header-bg: hsl(200, 7%, 28%);
-    --table-alternate-bg: hsl(200, 7%, 11%);
+    --table-border-color: hsl(200, 7%, 10%);
+    --table-header-bg: hsl(200, 7%, 18%);
+    --table-alternate-bg: hsl(200, 7%, 7%);
 
     --searchbar-border-color: #aaa;
     --searchbar-bg: #b7b7b7;
@@ -53,7 +53,7 @@
     --searchbar-shadow-color: #aaa;
     --searchresults-header-fg: #666;
     --searchresults-border-color: #98a3ad;
-    --searchresults-li-bg: #2b2b2f;
+    --searchresults-li-bg: #1c1c20;
     --search-mark-bg: #355c7d;
 
     --color-scheme: dark;
@@ -65,7 +65,15 @@
 
     --footnote-highlight: #4079ae;
 
-    --overlay-bg: rgba(33, 40, 48, 0.4);
+    --overlay-bg: rgba(12, 15, 18, 0.55);
+
+    --blockquote-note-color: #4493f8;
+    --blockquote-tip-color: #08ae08;
+    --blockquote-important-color: #ab7df8;
+    --blockquote-warning-color: #d29922;
+    --blockquote-caution-color: #d91b29;
+
+    --sidebar-header-border-color: #3473ad;
 }
 
 .light, html:not(.js) {
@@ -119,18 +127,26 @@
     --footnote-highlight: #7e7eff;
 
     --overlay-bg: rgba(200, 200, 205, 0.4);
+
+    --blockquote-note-color: #0969da;
+    --blockquote-tip-color: #008000;
+    --blockquote-important-color: #8250df;
+    --blockquote-warning-color: #9a6700;
+    --blockquote-caution-color: #b52731;
+
+    --sidebar-header-border-color: #0155a6;
 }
 
 @media (prefers-color-scheme: dark) {
     html:not(.js) {
-        --bg: hsl(200, 7%, 8%);
+        --bg: hsl(200, 7%, 4%);
         --fg: #98a3ad;
 
-        --sidebar-bg: #292c2f;
+        --sidebar-bg: #16191b;
         --sidebar-fg: #a1adb8;
         --sidebar-non-existant: #505254;
         --sidebar-active: #3473ad;
-        --sidebar-spacer: #393939;
+        --sidebar-spacer: #262829;
 
         --scrollbar: var(--sidebar-fg);
 
@@ -141,18 +157,18 @@
 
         --inline-code-color: #c5c8c6;
 
-        --theme-popup-bg: #141617;
+        --theme-popup-bg: #0d0f10;
         --theme-popup-border: #43484d;
-        --theme-hover: #1f2124;
+        --theme-hover: #191b1d;
 
-        --quote-bg: hsl(234, 21%, 18%);
-        --quote-border: hsl(234, 21%, 23%);
+        --quote-bg: hsl(234, 21%, 12%);
+        --quote-border: hsl(234, 21%, 18%);
 
         --warning-border: #ff8e00;
 
-        --table-border-color: hsl(200, 7%, 13%);
-        --table-header-bg: hsl(200, 7%, 28%);
-        --table-alternate-bg: hsl(200, 7%, 11%);
+        --table-border-color: hsl(200, 7%, 10%);
+        --table-header-bg: hsl(200, 7%, 18%);
+        --table-alternate-bg: hsl(200, 7%, 7%);
 
         --searchbar-border-color: #aaa;
         --searchbar-bg: #b7b7b7;
@@ -160,7 +176,7 @@
         --searchbar-shadow-color: #aaa;
         --searchresults-header-fg: #666;
         --searchresults-border-color: #98a3ad;
-        --searchresults-li-bg: #2b2b2f;
+        --searchresults-li-bg: #1c1c20;
         --search-mark-bg: #355c7d;
 
         --color-scheme: dark;
@@ -169,5 +185,17 @@
         --copy-button-filter: invert(26%) sepia(8%) saturate(575%) hue-rotate(169deg) brightness(87%) contrast(82%);
         /* Same as `--sidebar-active` */
         --copy-button-filter-hover: invert(36%) sepia(70%) saturate(503%) hue-rotate(167deg) brightness(98%) contrast(89%);
+
+        --footnote-highlight: #4079ae;
+
+        --overlay-bg: rgba(12, 15, 18, 0.55);
+
+        --blockquote-note-color: #4493f8;
+        --blockquote-tip-color: #08ae08;
+        --blockquote-important-color: #ab7df8;
+        --blockquote-warning-color: #d29922;
+        --blockquote-caution-color: #d91b29;
+
+        --sidebar-header-border-color: #3473ad;
     }
 }

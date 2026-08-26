@@ -2,7 +2,6 @@
 authors = ["Marius Weidner"]
 language = "en"
 text-direction = "ltr"
-multilingual = false
 src = "src"
 title = "Programming Languages Group  – University of Freiburg"
 description = "Programming Languages Group – University of Freiburg"
@@ -13,7 +12,6 @@ default-theme = "light"
 preferred-dark-theme = "dark"
 smart-punctuation = true
 mathjax-support = true
-copy-fonts = true
 no-section-label = true
 site-url = "/"
 

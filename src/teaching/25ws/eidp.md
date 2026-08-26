@@ -1,16 +1,15 @@
 # Einführung in die Programmierung
 
-<div class="warning">
-Klausureinsicht Einführung in die Programmierung (Wiederholungsklausur)
-
-am Montag, 19.10.2026, 10-12 Uhr, Poolraum 3, Werthmannstr. 4.
-Bitte mitbringen:
-
-* Unicard, Lichtbildausweis
-* Zugangsdaten Uniaccount
-
-Bitte seien Sie fair zu Ihren Kommilitonen und beschränken Sie Ihre Sitzung auf maximal 20 Minuten.
-</div>
+> [!NOTE]
+> **Klausureinsicht Einführung in die Programmierung (Wiederholungsklausur)**
+>
+> am Montag, 19.10.2026, 10-12 Uhr, Poolraum 3, Werthmannstr. 4.
+> Bitte mitbringen:
+>
+> * Unicard, Lichtbildausweis
+> * Zugangsdaten Uniaccount
+>
+> Bitte seien Sie fair zu Ihren Kommilitonen und beschränken Sie Ihre Sitzung auf maximal 20 Minuten.
 
 
 ## Übersicht

@@ -1,13 +1,12 @@
 # Theoretische Informatik
 
-<div class="warning">
-Klausureinsicht Theoretische Informatik
-
-am Montag, 19.10.2026, 10-12 Uhr, Poolraum 1, Werthmannstr. 4.
-Bitte mitbringen:
-
-* Unicard, Lichtbildausweis
-</div>
+> [!NOTE]
+> **Klausureinsicht Theoretische Informatik**
+>
+> am Montag, 19.10.2026, 10-12 Uhr, Poolraum 1, Werthmannstr. 4.
+> Bitte mitbringen:
+>
+> * Unicard, Lichtbildausweis
 
 ## Übersicht
 
