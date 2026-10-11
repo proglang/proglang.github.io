@@ -21,4 +21,4 @@ else
 fi
 
 # run in watch mode
-bin/$bin serve --dest-dir docs --open
+bin/$bin serve --dest-dir docs --port 3001 --open
