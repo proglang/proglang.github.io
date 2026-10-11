@@ -1,5 +1,4 @@
-# Functional Programming in Lean (WORKING TITLE) 
-
+# Functional Programming in Lean 
 ## General Information
 
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
@@ -15,13 +14,12 @@
 | Date | Topic | Recording
 |:-----|:-----|:-----|
 
-
-## Exam
-| Date | Time | Place | Mode |
-|:-----|:-----|:------|:-----|
-
-
 ## Exercises
 
 | Date | Due | Material |
 |:-----|:-----|:-----|
+
+## Exam
+| Date | Time | Place | Mode |
+|:-----|:-----|:------|:-----|
+| tba. | tba. | Computer Pools (tba.) | closed block, live programming

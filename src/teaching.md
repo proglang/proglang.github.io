@@ -26,7 +26,7 @@ Verpflichtende Bachelorverlesung zu Grundlagen der Theoretischen Informatik.
 _Angebotsfrequenz: Jedes Sommersemester_ 
 
 ### Functional Programming
-Specialization course about functional programming using [Haskell](https://www.haskell.org/).
+Specialization course about functional programming using ~~[Haskell](https://www.haskell.org/)~~ [Lean](https://lean-lang.org/).
 
 _Frequency: Roughly every 1 1/2 years_
 
@@ -42,10 +42,5 @@ _Frequency: Roughly every 1 1/2 years_
 
 ### Concurrency Theory
 Specialization course about concurrent systems and their underlying theory.
-
-_Frequency: Roughly every 1 1/2 years_
-
-### Functional Programming in Lean (WORKING TITLE)
-Specialization course about programming and proving in [Lean](https://lean-lang.org/).
 
 _Frequency: Roughly every 1 1/2 years_
