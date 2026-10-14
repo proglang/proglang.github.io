@@ -40,7 +40,7 @@ institutional access provided by the university.
 | ...        | |
 | 2026-07-08 | *No meeting* |
 | 2026-07-15 | *<span style='color:red'>No meeting</span>* |
-| 2026-07-22 | <span style='color:red'>Last regular meeting |
+| 2026-07-22 | <span style='color:red'>Last regular meeting</span> |
 
 
 ## Process
@@ -96,3 +96,6 @@ Technical details:
 ## Presentation
 
 30 minutes + 15 minutes questions/discussion
+
+
+</div>

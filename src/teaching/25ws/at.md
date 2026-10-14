@@ -122,3 +122,6 @@ Außerdem stehen folgende Themen zur Verfügung, die nicht im Buch enthalten sin
 
 [book]: http://www.springer.com/de/book/9783642180897
 [book2025]: https://www.redi-bw.de/start/unifr/EBooks-springer/10.1007/978-3-662-72154-4
+
+
+</div>
