@@ -17,15 +17,10 @@
 
 ## Tutorial
 
-| Date | Topic | Recording
-|:-----|:-----|:-----|
-
-## Exercises
-
-| Date | Due | Material |
-|:-----|:-----|:-----|
+| Date | Topic | Material | Recording
+|:-----|:-----|:-----|:-----|
 
 ## Exam
 | Date | Time | Place | Mode |
 |:-----|:-----|:------|:-----|
-| tba. | tba. | Computer Pools (tba.) | closed block, live programming
+| tba. | tba. | computer pools | closed block, live programming
