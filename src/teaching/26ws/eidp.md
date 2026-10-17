@@ -20,9 +20,9 @@ Zum Bestehen der Studienleistung ist notwendig:
 - Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat.
 
 Aufteilung der **332 Punkte**:
-- Blatt 1--4: je 10 Punkte (+3 Tutoratspunkte)
+- Blatt 1-4: je 10 Punkte (+3 Tutoratspunkte)
   - Tutoratspunkte gibt es erst ab der **zweiten** Semesterwoche
-- Blatt 5--13: je 20 Punkte (+6 Tutoratspunkte)
+- Blatt 5-13: je 20 Punkte (+6 Tutoratspunkte)
 - Blatt 14: Probeklausur, 40 Punkte (+6 Tutoratspunkte)
  
 _Wichtig für fachfremde Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden.
