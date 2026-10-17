@@ -31,6 +31,6 @@ _Wichtig für fachfremde Studierende_: Für die Studienleistung muss auch die Kl
 
 Für die Prüfungsleistung muss die Klausur bestanden werden.
 Die Klausur findet am 15.02.2027 am Computer in den PC-Pools der Universität statt.
-Sie wird in mehreren Gruppen zu verschiedenen Uhrzeiten geschrieben (Die Einteilung erfolgt in der Woche vor der Klausur).
+Sie wird in mehreren Gruppen zu verschiedenen Uhrzeiten geschrieben. Die Einteilung erfolgt in der Woche vor der Klausur.
 Die Bearbeitungszeit beträgt 2,5 Stunden.
 In der Klausur lösen Sie kleine Programmieraufgaben in Python ohne Hilfsmittel.
