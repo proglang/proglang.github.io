@@ -10,6 +10,20 @@
 
 ## Übungen
 
+| Datum | Abgabe | Material |
+|:-----|:-----|:-----|
+
+Bitte beachten Sie die [Abgaberegeln](rules). Lösungen zu den Übungsblättern finden Sie [hier](solutions).
+
+Bei Fragen zu den Übungen, melden Sie sich gerne im [Forum](forum).
+
+Notizen aus den Tutorien finden Sie [hier](tutor-notes).
+
+[rules](/teaching/26ws/eidp/rules.html)
+[solutions](https://git.proglang.de/2026WS-EidP/solutions)
+[forum](https://git.proglang.de/2026WS-EidP/forum/issues)
+[tutor-notes](https://git.proglang.de/2026WS-EidP/notes)
+
 ## Leistungen
 
 ### Studienleistung
@@ -20,11 +34,12 @@ Zum Bestehen der Studienleistung ist notwendig:
 - Zweimaliges Vorstellen einer (Teil-)Lösung im Tutorat.
 
 Aufteilung der **332 Punkte**:
+
 - Blatt 1-4: je 10 Punkte (+3 Tutoratspunkte)
   - Tutoratspunkte gibt es erst ab der **zweiten** Semesterwoche
 - Blatt 5-13: je 20 Punkte (+6 Tutoratspunkte)
 - Blatt 14: Probeklausur, 40 Punkte (+6 Tutoratspunkte)
- 
+
 _Wichtig für fachfremde Studierende_: Für die Studienleistung muss auch die Klausur bestanden werden.
 
 ### Prüfungsleistung
