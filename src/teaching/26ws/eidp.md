@@ -13,16 +13,16 @@
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
 
-Bitte beachten Sie die [Abgaberegeln](rules). Lösungen zu den Übungsblättern finden Sie [hier](solutions).
+Bitte beachten Sie die [Abgaberegeln][rules]. Lösungen zu den Übungsblättern finden Sie [hier][solutions].
 
-Bei Fragen zu den Übungen, melden Sie sich gerne im [Forum](forum).
+Bei Fragen zu den Übungen, melden Sie sich gerne im [Forum][forum].
 
-Notizen aus den Tutorien finden Sie [hier](tutor-notes).
+Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 
-[rules](/teaching/26ws/eidp/rules.html)
-[solutions](https://git.proglang.de/2026WS-EidP/solutions)
-[forum](https://git.proglang.de/2026WS-EidP/forum/issues)
-[tutor-notes](https://git.proglang.de/2026WS-EidP/notes)
+[rules]: /teaching/26ws/eidp/rules.html
+[solutions]: https://git.proglang.de/2026WS-EidP/solutions
+[forum]: https://git.proglang.de/2026WS-EidP/forum/issues
+[tutor-notes]: https://git.proglang.de/2026WS-EidP/notes
 
 ## Leistungen
 
