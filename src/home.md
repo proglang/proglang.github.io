@@ -1,4 +1,4 @@
-[ [Team](team.md) | [Teaching](teaching.md) ]
+[ [Teaching](teaching.md) | [Team](team.md) ]
 
 > [!NOTE]
 > **Quick Access**
