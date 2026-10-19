@@ -1,97 +1,99 @@
-# Setup Guide: Einführung in die Programmierung [WS 26]
+# Setup Guide: Einführung in die Programmierung
 
-Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache **Python 3.12** und der Entwicklungsumgebung **Visual Studio Code (VS Code)**.
+Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Python3.12** und der Entwicklungsumgebung <img src="icons/vscode.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Visual Studio Code (VS Code)**.
 
-Wählen Sie Ihr Betriebssystem:  
-[Windows](#windows) | [Linux](#linux-ubuntu) | [Mac](#mac)
+## <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Python3.12 installieren
 
-## Windows
+Die Installation von Python3.12 hängt von Ihrem Betriebssystem ab. Wählen Sie Ihr Betriebssystem:  
+[<img src="icons/ubuntu.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Linux (Ubuntu)](#linux-ubuntu) | [<img src="icons/windows.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Windows](#windows) | [<img src="icons/apple.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Mac](#mac)
 
-Windows bietet die Möglichkeit, ein vollständiges Linux-System über das **Windows Subsystem for Linux (WSL)** zu nutzen. Dadurch können Sie bequem mit denselben Werkzeugen arbeiten wie auf einem Linux-System.
+### <img src="icons/ubuntu.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Linux (Ubuntu)
 
-### 1. PowerShell 7 installieren
+#### System aktualisieren
 
-1. Öffnen Sie PowerShell (Windows-Taste drücken → „PowerShell“ eingeben → anklicken).  
-2. Geben Sie folgende Befehle ein:
-
-    ```PowerShell
-    winget search Microsoft.PowerShell
-    winget install --id Microsoft.PowerShell --source winget
-    ```
-
-### 2. WSL installieren
-
-1. Führen Sie in PowerShell den folgenden Befehl aus:
-
-    ```PowerShell
-    wsl --install -d Ubuntu-24.04
-    ```
-
-2. Starten Sie den PC anschließend **neu**.
-
-### 3. Ubuntu einrichten
-
-1. Starten Sie Ubuntu (Windows-Taste drücken → „Ubuntu“ eingeben → anklicken).  
-2. Geben Sie einen **Benutzernamen** ein.  
-3. Legen Sie ein **Passwort** fest. *(Hinweis: Beim Tippen wird das Passwort nicht angezeigt.)*  
-4. Aktualisieren Sie das System:
-
-    ```bash
-    sudo apt update
-    sudo apt upgrade
-    ```
-
-Weiter mit: [Editor installieren](#editor)
-
-## Linux (Ubuntu)
-
-### 1. System aktualisieren
-
-Öffnen Sie ein Terminal (Super-/Action-Taste → „Terminal“ eingeben → anklicken) und führen Sie folgende Befehle aus:
+Öffnen Sie ein Terminal (Windows-Taste → "Terminal" eingeben → anklicken) und führen Sie folgende Befehle aus:
 
 ```bash
 sudo apt update
 sudo apt upgrade
 ```
 
-### 2. Python 3.12 installieren
+#### Python3.12 installieren
 
-Überprüfen Sie Ihre Ubuntu-Version:
-
-```bash
-lsb_release -r
-```
-
-Beispielausgabe:
+Überprüfen Sie Ihre Ubuntu-Version mit folgendem Befehl:
 
 ```bash
-No LSB modules are available.
-Release:        24.04
+lsb_release -a | grep Release
 ```
 
-Falls Ihre Version **älter als 24.04** ist, führen Sie diese Befehle aus:
+Falls Sie **nicht** Ubuntu-Version **24.04** verwenden, führen Sie die folgenden Befehle aus:
 
 ```bash
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 ```
 
-Installieren Sie anschließend Python 3.12:
+Installieren Sie anschließend Python3.12:
 
 ```bash
 sudo apt install python3.12
 ```
 
-Weiter mit: [Editor installieren](#editor)
+Überprüfen Sie die Installation mit:
 
-## Mac
+```bash
+python3.12 --version
+```
 
-### 1. Homebrew und Pakete aktualisieren
+Es sollte die Ausgabe `Python 3.12.x` erscheinen.
+
+Weiter mit: [Visual Studio Code installieren](#visual-studio-code)
+
+---
+
+### <img src="icons/windows.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Windows
+
+Windows bietet die Möglichkeit, ein vollständiges Linux-System über das **Windows Subsystem for Linux (WSL)** zu nutzen. Dadurch können Sie bequem mit denselben Werkzeugen arbeiten wie auf einem Linux-System.
+
+#### WSL installieren
+
+Öffnen Sie PowerShell (Windows-Taste drücken → „PowerShell“ eingeben → anklicken) und führen Sie den folgenden Befehl aus:
+
+```PowerShell
+wsl --install -d Ubuntu-24.04
+```
+
+Am Ende der Installation werden Sie dazu aufgefordert, einen **Benutzernamen** und ein **Passwort** einzugeben, die Sie für die Anmeldung in Ihrem Ubuntu-System verwenden werden. *(Hinweis: Beim Tippen wird das Passwort nicht angezeigt.)*  
+
+#### Ubuntu aktualisieren
+
+1. Starten Sie Ubuntu (Windows-Taste drücken → „Ubuntu“ eingeben → anklicken).  
+
+2. Aktualisieren Sie das System:
+
+    ```bash
+    sudo apt update
+    sudo apt upgrade
+    ```
+
+3. Python3.12 ist bereits in Ubuntu 24.04 enthalten. Überprüfen Sie die Installation mit:
+
+```bash
+python3.12 --version
+```
+
+Es sollte die Ausgabe `Python 3.12.x` erscheinen.
+
+Weiter mit: [Visual Studio Code installieren](#visual-studio-code)
+
+---
+
+### <img src="icons/apple.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Mac
+
+#### Homebrew installieren und Pakete aktualisieren
 
 Öffnen Sie das Terminal (Spotlight → „Terminal“).
-Falls sie `brew` bereits installiert haben, gehen Sie direkt zu Schritt [Python 3.12 installieren](#2-python312-installieren).
-
-#### Homebrew installieren
+Falls Sie `brew` bereits installiert haben, gehen Sie direkt zu Schritt [Python3.12 installieren](#2-python312-installieren).
 
 Geben Sie zunächst diesen Befehl ein:
 
@@ -123,7 +125,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-### 2. Python3.12 installieren
+#### Python3.12 installieren
 
 Um Python3.12 zu installieren, führen Sie die folgenden Befehle aus:
 
@@ -132,39 +134,50 @@ brew update
 brew install python@3.12
 ```
 
-Weiter mit: [Editor installieren](#editor)
+Überprüfen Sie die Installation mit:
 
-## Editor
+```bash
+python3.12 --version
+```
 
-Als Entwicklungsumgebung verwenden wir **Visual Studio Code (VS Code)**.
+Es sollte die Ausgabe `Python 3.12.x` erscheinen.
 
-### 1. Installation von VS Code
+Weiter mit: [Visual Studio Code installieren](#visual-studio-code)
+
+## <img src="icons/vscode.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Visual Studio Code
+
+Als Entwicklungsumgebung verwenden wir im Rahmen der Vorlesung **Visual Studio Code (VS Code)**.
+
+### Installation von VS Code
 
 1. Öffnen Sie die [Download-Seite von Visual Studio Code](https://code.visualstudio.com/Download).  
-2. Laden Sie die passende Version herunter:  
+2. Laden Sie die passende Version für Ihr Betriebssystem herunter:  
    - **Windows:** Version für *Windows* (auch wenn Sie WSL nutzen)  
-   - **Mac:** Version für *macOS*  
-   - **Linux:** `.deb`-Paket für *Ubuntu*  
-3. Führen Sie die Installation durch.  
-4. Öffnen Sie VS Code.  
-5. **Nur für Windows-Nutzer:** Klicken Sie unten links auf ![alt text](wsl-vsc.png) → **Connect to WSL** auswählen.
+   - **Mac:** Version für *macOS*
+   - **Linux (Ubuntu):** `.deb`-Paket für *Ubuntu*  
+3. Öffnen Sie die heruntergeladene Datei und folgen Sie den Installationsanweisungen.
+4. Öffnen Sie Visual Studio Code.  
+5. **Nur für Windows-Nutzer:** Klicken Sie unten links auf <img src="icons/remote.svg" alt="Remote-Verbindung öffnen" height="14"> und wählen Sie **Connect to WSL** aus.
 
-### 2. Extensions installieren
+### Extensions installieren
 
-Klicken Sie in der linken Leiste auf das Symbol mit den vier Quadraten → In der Suchleiste nacheinander eingeben und installieren:
+Klicken Sie in der linken Leiste auf <img src="icons/extensions.svg" alt="Erweiterungen" height="18">, um Ihre Extensions zu verwalten. Installieren Sie die folgenden Extensions, indem Sie die IDs in das Suchfeld eingeben und auf installieren klicken.
 
-1. `Python`  
-2. `Pylance`  
-3. `Flake8`  
-4. `autopep8`
+| Erweiterung | ID für die Suche |
+| --- | --- |
+| Python | `@id:ms-python.python` |
+| Flake8 | `@id:ms-python.flake8` |
 
-### 3. Extensions konfigurieren
+### Extensions konfigurieren
 
-Öffnen Sie unten links das Zahnrad → **Settings**.
+Klicken Sie unten links auf <img src="icons/settings-gear.svg" alt="Einstellungen" height="18"> und wählen Sie **Settings** aus.
 
-1. Nach **Auto Save** suchen → auf `afterDelay` stellen.  
-2. Nach **Type Checking Mode** suchen → auf `basic` stellen.  
-3. Nach **Diagnostic Severity Overrides** suchen → auf *edit in settings.json* klicken und den folgenden Eintrag anpassen:
+**Nur für Windows-Nutzer:** Wählen Sie in der oberen Zeile `Remote [WSL: Ubuntu-24.04]` aus.
+
+1. Nach **@id:python.defaultInterpreterPath** suchen → auf `python3.12` stellen.
+2. Nach **@id:files.autoSave** suchen → auf `afterDelay` stellen.  
+3. Nach **@id:python.analysis.typeCheckingMode** suchen → auf `basic` stellen.  
+4. Nach **@id:python.analysis.diagnosticSeverityOverrides** suchen → auf *edit in settings.json* klicken und den folgenden Eintrag anpassen:
 
     ```json
     "python.analysis.diagnosticSeverityOverrides": {
@@ -172,17 +185,7 @@ Klicken Sie in der linken Leiste auf das Symbol mit den vier Quadraten → In de
     }
     ```
 
-4. `settings.json` schließen.  
-5. Nach **autopep8** suchen → bei `autopep8: Args` auf **Add Item** klicken → Folgendes einfügen und mit **OK** bestätigen:
+5. `settings.json` schließen.  
+6. Nach **@id:flake8.args** suchen → auf **Add Item** klicken → `--ignore=E501,E704,E731,W5,C901` hinzufügen.
 
-    ```bash
-    --ignore=E501,E704,E731,W5,C901
-    ```
-
-6. Nach **Flake8** suchen → bei `Flake8: Args` auf **Add Item** klicken → ebenfalls Folgendes einfügen:
-
-    ```bash
-    --ignore=E501,E704,E731,W5,C901
-    ```
-
-7. Nach **Severity** suchen → bei `Flake8: Severity` alle Werte auf **Warning** setzen (Stift-Symbol → `Warning` auswählen → **OK**).
+7. Nach **@id:flake8.severity** suchen → alle Werte auf **Warning** setzen (Auf <img src="icons/pencil.svg" alt="Stift-Symbol" height="18"> klicken → `Warning` auswählen → **OK**).

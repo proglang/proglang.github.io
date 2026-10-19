@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Setup Guide: Einführung in die Programmierung [WS 26] - Programming Languages Group  – University of Freiburg</title>
+        <title>Setup Guide: Einführung in die Programmierung - Programming Languages Group  – University of Freiburg</title>
 
 
         <!-- Custom HTML head -->
@@ -37,10 +37,10 @@
             const path_to_root = "../../../../";
             const default_light_theme = "light";
             const default_dark_theme = "dark";
-            window.path_to_searchindex_js = "../../../../searchindex-161ae2ff.js";
+            window.path_to_searchindex_js = "../../../../searchindex-a9a896cd.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="../../../../toc-b3ea6b55.js"></script>
+        <script src="../../../../toc-10b347fb.js"></script>
     </head>
     <body>
     <div id="mdbook-body-container">
@@ -157,44 +157,44 @@
 
                 <div id="mdbook-content" class="content">
                     <main>
-                        <h1 id="setup-guide-einführung-in-die-programmierung-ws-26"><a class="header" href="#setup-guide-einführung-in-die-programmierung-ws-26">Setup Guide: Einführung in die Programmierung [WS 26]</a></h1>
-<p>Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache <strong>Python 3.12</strong> und der Entwicklungsumgebung <strong>Visual Studio Code (VS Code)</strong>.</p>
-<p>Wählen Sie Ihr Betriebssystem:<br><a href="#windows">Windows</a> | <a href="#linux-ubuntu">Linux</a> | <a href="#mac">Mac</a></p>
-<h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
-<p>Windows bietet die Möglichkeit, ein vollständiges Linux-System über das <strong>Windows Subsystem for Linux (WSL)</strong> zu nutzen. Dadurch können Sie bequem mit denselben Werkzeugen arbeiten wie auf einem Linux-System.</p>
-<h3 id="1-powershell-7-installieren"><a class="header" href="#1-powershell-7-installieren">1. PowerShell 7 installieren</a></h3>
-<ol>
-<li>
-<p>Öffnen Sie PowerShell (Windows-Taste drücken → „PowerShell“ eingeben → anklicken).</p>
-</li>
-<li>
-<p>Geben Sie folgende Befehle ein:</p>
-<pre><code class="language-PowerShell">winget search Microsoft.PowerShell
-winget install --id Microsoft.PowerShell --source winget
+                        <h1 id="setup-guide-einführung-in-die-programmierung"><a class="header" href="#setup-guide-einführung-in-die-programmierung">Setup Guide: Einführung in die Programmierung</a></h1>
+<p>Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> <strong>Python3.12</strong> und der Entwicklungsumgebung <img src="icons/vscode.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> <strong>Visual Studio Code (VS Code)</strong>.</p>
+<h2 id="python312-installieren"><a class="header" href="#python312-installieren"><img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Python3.12 installieren</a></h2>
+<p>Die Installation von Python3.12 hängt von Ihrem Betriebssystem ab. Wählen Sie Ihr Betriebssystem:<br><a href="#linux-ubuntu"><img src="icons/ubuntu.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Linux (Ubuntu)</a> | <a href="#windows"><img src="icons/windows.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Windows</a> | <a href="#mac"><img src="icons/apple.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Mac</a></p>
+<h3 id="linux-ubuntu"><a class="header" href="#linux-ubuntu"><img src="icons/ubuntu.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Linux (Ubuntu)</a></h3>
+<h4 id="system-aktualisieren"><a class="header" href="#system-aktualisieren">System aktualisieren</a></h4>
+<p>Öffnen Sie ein Terminal (Windows-Taste → “Terminal” eingeben → anklicken) und führen Sie folgende Befehle aus:</p>
+<pre><code class="language-bash">sudo apt update
+sudo apt upgrade
 </code></pre>
-</li>
-</ol>
-<h3 id="2-wsl-installieren"><a class="header" href="#2-wsl-installieren">2. WSL installieren</a></h3>
-<ol>
-<li>
-<p>Führen Sie in PowerShell den folgenden Befehl aus:</p>
+<h4 id="python312-installieren-1"><a class="header" href="#python312-installieren-1">Python3.12 installieren</a></h4>
+<p>Überprüfen Sie Ihre Ubuntu-Version mit folgendem Befehl:</p>
+<pre><code class="language-bash">lsb_release -a | grep Release
+</code></pre>
+<p>Falls Sie <strong>nicht</strong> Ubuntu-Version <strong>24.04</strong> verwenden, führen Sie die folgenden Befehle aus:</p>
+<pre><code class="language-bash">sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+</code></pre>
+<p>Installieren Sie anschließend Python3.12:</p>
+<pre><code class="language-bash">sudo apt install python3.12
+</code></pre>
+<p>Überprüfen Sie die Installation mit:</p>
+<pre><code class="language-bash">python3.12 --version
+</code></pre>
+<p>Es sollte die Ausgabe <code>Python 3.12.x</code> erscheinen.</p>
+<p>Weiter mit: <a href="#visual-studio-code">Visual Studio Code installieren</a></p>
+<hr>
+<h3 id="windows"><a class="header" href="#windows"><img src="icons/windows.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Windows</a></h3>
+<p>Windows bietet die Möglichkeit, ein vollständiges Linux-System über das <strong>Windows Subsystem for Linux (WSL)</strong> zu nutzen. Dadurch können Sie bequem mit denselben Werkzeugen arbeiten wie auf einem Linux-System.</p>
+<h4 id="wsl-installieren"><a class="header" href="#wsl-installieren">WSL installieren</a></h4>
+<p>Öffnen Sie PowerShell (Windows-Taste drücken → „PowerShell“ eingeben → anklicken) und führen Sie den folgenden Befehl aus:</p>
 <pre><code class="language-PowerShell">wsl --install -d Ubuntu-24.04
 </code></pre>
-</li>
-<li>
-<p>Starten Sie den PC anschließend <strong>neu</strong>.</p>
-</li>
-</ol>
-<h3 id="3-ubuntu-einrichten"><a class="header" href="#3-ubuntu-einrichten">3. Ubuntu einrichten</a></h3>
+<p>Am Ende der Installation werden Sie dazu aufgefordert, einen <strong>Benutzernamen</strong> und ein <strong>Passwort</strong> einzugeben, die Sie für die Anmeldung in Ihrem Ubuntu-System verwenden werden. <em>(Hinweis: Beim Tippen wird das Passwort nicht angezeigt.)</em></p>
+<h4 id="ubuntu-aktualisieren"><a class="header" href="#ubuntu-aktualisieren">Ubuntu aktualisieren</a></h4>
 <ol>
 <li>
 <p>Starten Sie Ubuntu (Windows-Taste drücken → „Ubuntu“ eingeben → anklicken).</p>
-</li>
-<li>
-<p>Geben Sie einen <strong>Benutzernamen</strong> ein.</p>
-</li>
-<li>
-<p>Legen Sie ein <strong>Passwort</strong> fest. <em>(Hinweis: Beim Tippen wird das Passwort nicht angezeigt.)</em></p>
 </li>
 <li>
 <p>Aktualisieren Sie das System:</p>
@@ -202,35 +202,19 @@ winget install --id Microsoft.PowerShell --source winget
 sudo apt upgrade
 </code></pre>
 </li>
+<li>
+<p>Python3.12 ist bereits in Ubuntu 24.04 enthalten. Überprüfen Sie die Installation mit:</p>
+</li>
 </ol>
-<p>Weiter mit: <a href="#editor">Editor installieren</a></p>
-<h2 id="linux-ubuntu"><a class="header" href="#linux-ubuntu">Linux (Ubuntu)</a></h2>
-<h3 id="1-system-aktualisieren"><a class="header" href="#1-system-aktualisieren">1. System aktualisieren</a></h3>
-<p>Öffnen Sie ein Terminal (Super-/Action-Taste → „Terminal“ eingeben → anklicken) und führen Sie folgende Befehle aus:</p>
-<pre><code class="language-bash">sudo apt update
-sudo apt upgrade
+<pre><code class="language-bash">python3.12 --version
 </code></pre>
-<h3 id="2-python-312-installieren"><a class="header" href="#2-python-312-installieren">2. Python 3.12 installieren</a></h3>
-<p>Überprüfen Sie Ihre Ubuntu-Version:</p>
-<pre><code class="language-bash">lsb_release -r
-</code></pre>
-<p>Beispielausgabe:</p>
-<pre><code class="language-bash">No LSB modules are available.
-Release:        24.04
-</code></pre>
-<p>Falls Ihre Version <strong>älter als 24.04</strong> ist, führen Sie diese Befehle aus:</p>
-<pre><code class="language-bash">sudo apt install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
-</code></pre>
-<p>Installieren Sie anschließend Python 3.12:</p>
-<pre><code class="language-bash">sudo apt install python3.12
-</code></pre>
-<p>Weiter mit: <a href="#editor">Editor installieren</a></p>
-<h2 id="mac"><a class="header" href="#mac">Mac</a></h2>
-<h3 id="1-homebrew-und-pakete-aktualisieren"><a class="header" href="#1-homebrew-und-pakete-aktualisieren">1. Homebrew und Pakete aktualisieren</a></h3>
+<p>Es sollte die Ausgabe <code>Python 3.12.x</code> erscheinen.</p>
+<p>Weiter mit: <a href="#visual-studio-code">Visual Studio Code installieren</a></p>
+<hr>
+<h3 id="mac"><a class="header" href="#mac"><img src="icons/apple.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Mac</a></h3>
+<h4 id="homebrew-installieren-und-pakete-aktualisieren"><a class="header" href="#homebrew-installieren-und-pakete-aktualisieren">Homebrew installieren und Pakete aktualisieren</a></h4>
 <p>Öffnen Sie das Terminal (Spotlight → „Terminal“).
-Falls sie <code>brew</code> bereits installiert haben, gehen Sie direkt zu Schritt <a href="#2-python312-installieren">Python 3.12 installieren</a>.</p>
-<h4 id="homebrew-installieren"><a class="header" href="#homebrew-installieren">Homebrew installieren</a></h4>
+Falls Sie <code>brew</code> bereits installiert haben, gehen Sie direkt zu Schritt <a href="#2-python312-installieren">Python3.12 installieren</a>.</p>
 <p>Geben Sie zunächst diesen Befehl ein:</p>
 <pre><code class="language-bash">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 </code></pre>
@@ -247,47 +231,60 @@ Falls sie <code>brew</code> bereits installiert haben, gehen Sie direkt zu Schri
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' &gt;&gt; ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 </code></pre>
-<h3 id="2-python312-installieren"><a class="header" href="#2-python312-installieren">2. Python3.12 installieren</a></h3>
+<h4 id="python312-installieren-2"><a class="header" href="#python312-installieren-2">Python3.12 installieren</a></h4>
 <p>Um Python3.12 zu installieren, führen Sie die folgenden Befehle aus:</p>
 <pre><code class="language-bash">brew update
 brew install python@3.12
 </code></pre>
-<p>Weiter mit: <a href="#editor">Editor installieren</a></p>
-<h2 id="editor"><a class="header" href="#editor">Editor</a></h2>
-<p>Als Entwicklungsumgebung verwenden wir <strong>Visual Studio Code (VS Code)</strong>.</p>
-<h3 id="1-installation-von-vs-code"><a class="header" href="#1-installation-von-vs-code">1. Installation von VS Code</a></h3>
+<p>Überprüfen Sie die Installation mit:</p>
+<pre><code class="language-bash">python3.12 --version
+</code></pre>
+<p>Es sollte die Ausgabe <code>Python 3.12.x</code> erscheinen.</p>
+<p>Weiter mit: <a href="#visual-studio-code">Visual Studio Code installieren</a></p>
+<h2 id="visual-studio-code"><a class="header" href="#visual-studio-code"><img src="icons/vscode.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Visual Studio Code</a></h2>
+<p>Als Entwicklungsumgebung verwenden wir im Rahmen der Vorlesung <strong>Visual Studio Code (VS Code)</strong>.</p>
+<h3 id="installation-von-vs-code"><a class="header" href="#installation-von-vs-code">Installation von VS Code</a></h3>
 <ol>
 <li>Öffnen Sie die <a href="https://code.visualstudio.com/Download">Download-Seite von Visual Studio Code</a>.</li>
-<li>Laden Sie die passende Version herunter:
+<li>Laden Sie die passende Version für Ihr Betriebssystem herunter:
 <ul>
 <li><strong>Windows:</strong> Version für <em>Windows</em> (auch wenn Sie WSL nutzen)</li>
 <li><strong>Mac:</strong> Version für <em>macOS</em></li>
-<li><strong>Linux:</strong> <code>.deb</code>-Paket für <em>Ubuntu</em></li>
+<li><strong>Linux (Ubuntu):</strong> <code>.deb</code>-Paket für <em>Ubuntu</em></li>
 </ul>
 </li>
-<li>Führen Sie die Installation durch.</li>
-<li>Öffnen Sie VS Code.</li>
-<li><strong>Nur für Windows-Nutzer:</strong> Klicken Sie unten links auf <img src="wsl-vsc.png" alt="alt text"> → <strong>Connect to WSL</strong> auswählen.</li>
+<li>Öffnen Sie die heruntergeladene Datei und folgen Sie den Installationsanweisungen.</li>
+<li>Öffnen Sie Visual Studio Code.</li>
+<li><strong>Nur für Windows-Nutzer:</strong> Klicken Sie unten links auf <img src="icons/remote.svg" alt="Remote-Verbindung öffnen" height="14"> und wählen Sie <strong>Connect to WSL</strong> aus.</li>
 </ol>
-<h3 id="2-extensions-installieren"><a class="header" href="#2-extensions-installieren">2. Extensions installieren</a></h3>
-<p>Klicken Sie in der linken Leiste auf das Symbol mit den vier Quadraten → In der Suchleiste nacheinander eingeben und installieren:</p>
-<ol>
-<li><code>Python</code></li>
-<li><code>Pylance</code></li>
-<li><code>Flake8</code></li>
-<li><code>autopep8</code></li>
-</ol>
-<h3 id="3-extensions-konfigurieren"><a class="header" href="#3-extensions-konfigurieren">3. Extensions konfigurieren</a></h3>
-<p>Öffnen Sie unten links das Zahnrad → <strong>Settings</strong>.</p>
+<h3 id="extensions-installieren"><a class="header" href="#extensions-installieren">Extensions installieren</a></h3>
+<p>Klicken Sie in der linken Leiste auf <img src="icons/extensions.svg" alt="Erweiterungen" height="18">, um Ihre Extensions zu verwalten. Installieren Sie die folgenden Extensions, indem Sie die IDs in das Suchfeld eingeben und auf installieren klicken.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Erweiterung</th><th>ID für die Suche</th></tr>
+</thead>
+<tbody>
+<tr><td>Python</td><td><code>@id:ms-python.python</code></td></tr>
+<tr><td>Flake8</td><td><code>@id:ms-python.flake8</code></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="extensions-konfigurieren"><a class="header" href="#extensions-konfigurieren">Extensions konfigurieren</a></h3>
+<p>Klicken Sie unten links auf <img src="icons/settings-gear.svg" alt="Einstellungen" height="18"> und wählen Sie <strong>Settings</strong> aus.</p>
+<p><strong>Nur für Windows-Nutzer:</strong> Wählen Sie in der oberen Zeile <code>Remote [WSL: Ubuntu-24.04]</code> aus.</p>
 <ol>
 <li>
-<p>Nach <strong>Auto Save</strong> suchen → auf <code>afterDelay</code> stellen.</p>
+<p>Nach <strong>@id:python.defaultInterpreterPath</strong> suchen → auf <code>python3.12</code> stellen.</p>
 </li>
 <li>
-<p>Nach <strong>Type Checking Mode</strong> suchen → auf <code>basic</code> stellen.</p>
+<p>Nach <strong>@id:files.autoSave</strong> suchen → auf <code>afterDelay</code> stellen.</p>
 </li>
 <li>
-<p>Nach <strong>Diagnostic Severity Overrides</strong> suchen → auf <em>edit in settings.json</em> klicken und den folgenden Eintrag anpassen:</p>
+<p>Nach <strong>@id:python.analysis.typeCheckingMode</strong> suchen → auf <code>basic</code> stellen.</p>
+</li>
+<li>
+<p>Nach <strong>@id:python.analysis.diagnosticSeverityOverrides</strong> suchen → auf <em>edit in settings.json</em> klicken und den folgenden Eintrag anpassen:</p>
 <pre><code class="language-json">"python.analysis.diagnosticSeverityOverrides": {
     "reportGeneralTypeIssues": "information"
 }
@@ -297,17 +294,10 @@ brew install python@3.12
 <p><code>settings.json</code> schließen.</p>
 </li>
 <li>
-<p>Nach <strong>autopep8</strong> suchen → bei <code>autopep8: Args</code> auf <strong>Add Item</strong> klicken → Folgendes einfügen und mit <strong>OK</strong> bestätigen:</p>
-<pre><code class="language-bash">--ignore=E501,E704,E731,W5,C901
-</code></pre>
+<p>Nach <strong>@id:flake8.args</strong> suchen → auf <strong>Add Item</strong> klicken → <code>--ignore=E501,E704,E731,W5,C901</code> hinzufügen.</p>
 </li>
 <li>
-<p>Nach <strong>Flake8</strong> suchen → bei <code>Flake8: Args</code> auf <strong>Add Item</strong> klicken → ebenfalls Folgendes einfügen:</p>
-<pre><code class="language-bash">--ignore=E501,E704,E731,W5,C901
-</code></pre>
-</li>
-<li>
-<p>Nach <strong>Severity</strong> suchen → bei <code>Flake8: Severity</code> alle Werte auf <strong>Warning</strong> setzen (Stift-Symbol → <code>Warning</code> auswählen → <strong>OK</strong>).</p>
+<p>Nach <strong>@id:flake8.severity</strong> suchen → alle Werte auf <strong>Warning</strong> setzen (Auf <img src="icons/pencil.svg" alt="Stift-Symbol" height="18"> klicken → <code>Warning</code> auswählen → <strong>OK</strong>).</p>
 </li>
 </ol>
 

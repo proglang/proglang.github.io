@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Visual Studio Code</title>
+  <defs>
+    <linearGradient id="back" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#0065a9"/>
+      <stop offset="1" stop-color="#48a9e8"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1687cf"/>
+      <stop offset="1" stop-color="#0878c6"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#back)" d="M351 8Q366-5 384 2V139L63 396Q49 407 37 396L5 366Q-4 355 5 344Z"/>
+  <path fill="#41a9eb" d="M384 2L498 57Q512 64 512 82V430Q512 448 497 456L384 510Z"/>
+  <path fill="url(#front)" d="M63 124L384 382V510Q369 515 351 502L5 190Q-4 180 5 168L37 129Q49 116 63 124Z"/>
+</svg>

@@ -60,7 +60,7 @@
 - [Negation](teaching/26ss/eopl/negation.lagda.md)
 - [Abgabesystem für **Theoretische Informatik**](teaching/26ss/ti/abgabesystem/abgabesystem.md)
 - [Abgaberegeln zu den Übungen](teaching/26ws/eidp/rules.md)
-- [Setup Guide: Einführung in die Programmierung [WS 26]](teaching/26ws/eidp/setup/setup.md)
+- [Setup Guide: Einführung in die Programmierung](teaching/26ws/eidp/setup/setup.md)
 - [Leonardo Mieschendahl](team/mieschendahl.md)
 - [Hannes Saffrich](team/saffrich.md)
 - [Bas van den Heuvel](team/van-den-heuvel.md)
