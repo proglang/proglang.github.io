@@ -10,6 +10,7 @@
 
 ## Übungen
 
+<<<<<<< Updated upstream
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
 
@@ -23,6 +24,10 @@ Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 [solutions]: https://git.proglang.de/2026WS-EidP/solutions
 [forum]: https://git.proglang.de/2026WS-EidP/forum/issues
 [tutor-notes]: https://git.proglang.de/2026WS-EidP/notes
+=======
+> [!NOTE]
+> **Die Tutorate am Mittwoch um 8 Uhr entfallen in der ersten Woche**
+>>>>>>> Stashed changes
 
 ## Leistungen
 
