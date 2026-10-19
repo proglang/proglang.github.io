@@ -13,7 +13,7 @@
 | Di 20.10.26 | Organisation & Einführung | [Setup][lecture00-script1], [Abgabesystem][lecture00-script2] | |
 
 [lecture00-script1]: eidp/setup/setup.html
-[lecture00-script2]: eidp/setup/abgabesystem.html
+[lecture00-script2]: eidp/abgabesystem/abgabesystem.html
 
 ## Übungen
 
