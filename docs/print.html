@@ -38,10 +38,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "dark";
-            window.path_to_searchindex_js = "searchindex-b99f4c11.js";
+            window.path_to_searchindex_js = "searchindex-161ae2ff.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-3c52f304.js"></script>
+        <script src="toc-b3ea6b55.js"></script>
     </head>
     <body>
     <div id="mdbook-body-container">
@@ -336,6 +336,7 @@ have taken.</p>
 <p>Bitte beachten Sie die <a href="/teaching/26ws/eidp/rules.html">Abgaberegeln</a>. Lösungen zu den Übungsblättern finden Sie <a href="https://git.proglang.de/2026WS-EidP/solutions">hier</a>.</p>
 <p>Bei Fragen zu den Übungen, melden Sie sich gerne im <a href="https://git.proglang.de/2026WS-EidP/forum/issues">Forum</a>.</p>
 <p>Notizen aus den Tutorien finden Sie <a href="https://git.proglang.de/2026WS-EidP/notes">hier</a>.</p>
+<p><strong>In der ersten Vorlesungswoche finden bereits Tutorien statt, bei denen wir Ihnen bei der Einrichtung und Installation der benötigten Software helfen.</strong></p>
 <h2 id="leistungen"><a class="header" href="#leistungen">Leistungen</a></h2>
 <h3 id="studienleistung"><a class="header" href="#studienleistung">Studienleistung</a></h3>
 <p>Zum Bestehen der Studienleistung ist notwendig:</p>
@@ -347,7 +348,7 @@ have taken.</p>
 <ul>
 <li>Blatt 1-4: je 10 Punkte (+3 Tutoratspunkte)
 <ul>
-<li>Tutoratspunkte gibt es erst ab der <strong>zweiten</strong> Semesterwoche</li>
+<li>Tutoratspunkte gibt es erst ab der <strong>zweiten</strong> Vorlesungswoche</li>
 </ul>
 </li>
 <li>Blatt 5-13: je 20 Punkte (+6 Tutoratspunkte)</li>
@@ -3187,7 +3188,7 @@ brew install python@3.12
 </li>
 <li>Führen Sie die Installation durch.</li>
 <li>Öffnen Sie VS Code.</li>
-<li><strong>Nur für Windows-Nutzer:</strong> Klicken Sie unten links auf <label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="teaching/25ws/eidp/setup/wsl-vsc.png" alt="alt text"><span class="img-wrapper"><img src="teaching/25ws/eidp/setup/wsl-vsc.png" alt="alt text"></span></label> → <strong>Connect to WSL</strong> auswählen.</li>
+<li><strong>Nur für Windows-Nutzer:</strong> Klicken Sie unten links auf <img src="teaching/25ws/eidp/setup/wsl-vsc.png" alt="alt text"> → <strong>Connect to WSL</strong> auswählen.</li>
 </ol>
 <hr>
 <h3 id="2-extensions-installieren"><a class="header" href="#2-extensions-installieren">2. Extensions installieren</a></h3>
@@ -3534,6 +3535,160 @@ git push
 <p>Wenn Sie beispielsweise eine Datei mit der Endung <code>.txt</code> oder <code>.md</code> öffnen, behandelt Visual Studio Code diese als normale Textdatei. Bei <code>.py</code>-Dateien zeigt Visual Studio Code <em>Flake8</em>-Warnungen als gelbe Markierungen an, die Sie per Mouseover erläutert bekommen.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div>
+<h1 id="setup-guide-einführung-in-die-programmierung-ws-26"><a class="header" href="#setup-guide-einführung-in-die-programmierung-ws-26">Setup Guide: Einführung in die Programmierung [WS 26]</a></h1>
+<p>Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache <strong>Python 3.12</strong> und der Entwicklungsumgebung <strong>Visual Studio Code (VS Code)</strong>.</p>
+<p>Wählen Sie Ihr Betriebssystem:<br><a href="#windows-1">Windows</a> | <a href="#linux-ubuntu">Linux</a> | <a href="#mac-1">Mac</a></p>
+<h2 id="windows-1"><a class="header" href="#windows-1">Windows</a></h2>
+<p>Windows bietet die Möglichkeit, ein vollständiges Linux-System über das <strong>Windows Subsystem for Linux (WSL)</strong> zu nutzen. Dadurch können Sie bequem mit denselben Werkzeugen arbeiten wie auf einem Linux-System.</p>
+<h3 id="1-powershell-7-installieren-1"><a class="header" href="#1-powershell-7-installieren-1">1. PowerShell 7 installieren</a></h3>
+<ol>
+<li>
+<p>Öffnen Sie PowerShell (Windows-Taste drücken → „PowerShell“ eingeben → anklicken).</p>
+</li>
+<li>
+<p>Geben Sie folgende Befehle ein:</p>
+<pre><code class="language-PowerShell">winget search Microsoft.PowerShell
+winget install --id Microsoft.PowerShell --source winget
+</code></pre>
+</li>
+</ol>
+<h3 id="2-wsl-installieren-1"><a class="header" href="#2-wsl-installieren-1">2. WSL installieren</a></h3>
+<ol>
+<li>
+<p>Führen Sie in PowerShell den folgenden Befehl aus:</p>
+<pre><code class="language-PowerShell">wsl --install -d Ubuntu-24.04
+</code></pre>
+</li>
+<li>
+<p>Starten Sie den PC anschließend <strong>neu</strong>.</p>
+</li>
+</ol>
+<h3 id="3-ubuntu-einrichten-1"><a class="header" href="#3-ubuntu-einrichten-1">3. Ubuntu einrichten</a></h3>
+<ol>
+<li>
+<p>Starten Sie Ubuntu (Windows-Taste drücken → „Ubuntu“ eingeben → anklicken).</p>
+</li>
+<li>
+<p>Geben Sie einen <strong>Benutzernamen</strong> ein.</p>
+</li>
+<li>
+<p>Legen Sie ein <strong>Passwort</strong> fest. <em>(Hinweis: Beim Tippen wird das Passwort nicht angezeigt.)</em></p>
+</li>
+<li>
+<p>Aktualisieren Sie das System:</p>
+<pre><code class="language-bash">sudo apt update
+sudo apt upgrade
+</code></pre>
+</li>
+</ol>
+<p>Weiter mit: <a href="#editor-1">Editor installieren</a></p>
+<h2 id="linux-ubuntu"><a class="header" href="#linux-ubuntu">Linux (Ubuntu)</a></h2>
+<h3 id="1-system-aktualisieren-1"><a class="header" href="#1-system-aktualisieren-1">1. System aktualisieren</a></h3>
+<p>Öffnen Sie ein Terminal (Super-/Action-Taste → „Terminal“ eingeben → anklicken) und führen Sie folgende Befehle aus:</p>
+<pre><code class="language-bash">sudo apt update
+sudo apt upgrade
+</code></pre>
+<h3 id="2-python-312-installieren-1"><a class="header" href="#2-python-312-installieren-1">2. Python 3.12 installieren</a></h3>
+<p>Überprüfen Sie Ihre Ubuntu-Version:</p>
+<pre><code class="language-bash">lsb_release -r
+</code></pre>
+<p>Beispielausgabe:</p>
+<pre><code class="language-bash">No LSB modules are available.
+Release:        24.04
+</code></pre>
+<p>Falls Ihre Version <strong>älter als 24.04</strong> ist, führen Sie diese Befehle aus:</p>
+<pre><code class="language-bash">sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+</code></pre>
+<p>Installieren Sie anschließend Python 3.12:</p>
+<pre><code class="language-bash">sudo apt install python3.12
+</code></pre>
+<p>Weiter mit: <a href="#editor-1">Editor installieren</a></p>
+<h2 id="mac-1"><a class="header" href="#mac-1">Mac</a></h2>
+<h3 id="1-homebrew-und-pakete-aktualisieren-1"><a class="header" href="#1-homebrew-und-pakete-aktualisieren-1">1. Homebrew und Pakete aktualisieren</a></h3>
+<p>Öffnen Sie das Terminal (Spotlight → „Terminal“).
+Falls sie <code>brew</code> bereits installiert haben, gehen Sie direkt zu Schritt <a href="#2-python312-installieren-1">Python 3.12 installieren</a>.</p>
+<h4 id="homebrew-installieren-1"><a class="header" href="#homebrew-installieren-1">Homebrew installieren</a></h4>
+<p>Geben Sie zunächst diesen Befehl ein:</p>
+<pre><code class="language-bash">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+</code></pre>
+<p>Es erscheint folgende Ausgabe:</p>
+<pre><code class="language-bash">==&gt; Checking for `sudo` access (which may request your password)...
+</code></pre>
+<p>Geben Sie nun <strong>Ihr Passwort</strong> ein (Hinweis: Beim Tippen wird das Passwort nicht angezeigt) und bestätigen Sie mit <strong>Enter</strong>.</p>
+<p>Nach kurzer Zeit erscheint die Ausgabe:</p>
+<pre><code class="language-bash">Press RETURN/ENTER to continue or any other key to abort
+</code></pre>
+<p>Drücken Sie erneut <strong>Enter</strong>, um die Installation fortzusetzen.</p>
+<p>Nachdem die Installation abgeschlossen ist, integrieren Sie Homebrew in Ihre Shell:</p>
+<pre><code class="language-bash">echo &gt;&gt; ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' &gt;&gt; ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+</code></pre>
+<h3 id="2-python312-installieren-1"><a class="header" href="#2-python312-installieren-1">2. Python3.12 installieren</a></h3>
+<p>Um Python3.12 zu installieren, führen Sie die folgenden Befehle aus:</p>
+<pre><code class="language-bash">brew update
+brew install python@3.12
+</code></pre>
+<p>Weiter mit: <a href="#editor-1">Editor installieren</a></p>
+<h2 id="editor-1"><a class="header" href="#editor-1">Editor</a></h2>
+<p>Als Entwicklungsumgebung verwenden wir <strong>Visual Studio Code (VS Code)</strong>.</p>
+<h3 id="1-installation-von-vs-code-1"><a class="header" href="#1-installation-von-vs-code-1">1. Installation von VS Code</a></h3>
+<ol>
+<li>Öffnen Sie die <a href="https://code.visualstudio.com/Download">Download-Seite von Visual Studio Code</a>.</li>
+<li>Laden Sie die passende Version herunter:
+<ul>
+<li><strong>Windows:</strong> Version für <em>Windows</em> (auch wenn Sie WSL nutzen)</li>
+<li><strong>Mac:</strong> Version für <em>macOS</em></li>
+<li><strong>Linux:</strong> <code>.deb</code>-Paket für <em>Ubuntu</em></li>
+</ul>
+</li>
+<li>Führen Sie die Installation durch.</li>
+<li>Öffnen Sie VS Code.</li>
+<li><strong>Nur für Windows-Nutzer:</strong> Klicken Sie unten links auf <img src="teaching/26ws/eidp/setup/wsl-vsc.png" alt="alt text"> → <strong>Connect to WSL</strong> auswählen.</li>
+</ol>
+<h3 id="2-extensions-installieren-1"><a class="header" href="#2-extensions-installieren-1">2. Extensions installieren</a></h3>
+<p>Klicken Sie in der linken Leiste auf das Symbol mit den vier Quadraten → In der Suchleiste nacheinander eingeben und installieren:</p>
+<ol>
+<li><code>Python</code></li>
+<li><code>Pylance</code></li>
+<li><code>Flake8</code></li>
+<li><code>autopep8</code></li>
+</ol>
+<h3 id="3-extensions-konfigurieren-1"><a class="header" href="#3-extensions-konfigurieren-1">3. Extensions konfigurieren</a></h3>
+<p>Öffnen Sie unten links das Zahnrad → <strong>Settings</strong>.</p>
+<ol>
+<li>
+<p>Nach <strong>Auto Save</strong> suchen → auf <code>afterDelay</code> stellen.</p>
+</li>
+<li>
+<p>Nach <strong>Type Checking Mode</strong> suchen → auf <code>basic</code> stellen.</p>
+</li>
+<li>
+<p>Nach <strong>Diagnostic Severity Overrides</strong> suchen → auf <em>edit in settings.json</em> klicken und den folgenden Eintrag anpassen:</p>
+<pre><code class="language-json">"python.analysis.diagnosticSeverityOverrides": {
+    "reportGeneralTypeIssues": "information"
+}
+</code></pre>
+</li>
+<li>
+<p><code>settings.json</code> schließen.</p>
+</li>
+<li>
+<p>Nach <strong>autopep8</strong> suchen → bei <code>autopep8: Args</code> auf <strong>Add Item</strong> klicken → Folgendes einfügen und mit <strong>OK</strong> bestätigen:</p>
+<pre><code class="language-bash">--ignore=E501,E704,E731,W5,C901
+</code></pre>
+</li>
+<li>
+<p>Nach <strong>Flake8</strong> suchen → bei <code>Flake8: Args</code> auf <strong>Add Item</strong> klicken → ebenfalls Folgendes einfügen:</p>
+<pre><code class="language-bash">--ignore=E501,E704,E731,W5,C901
+</code></pre>
+</li>
+<li>
+<p>Nach <strong>Severity</strong> suchen → bei <code>Flake8: Severity</code> alle Werte auf <strong>Warning</strong> setzen (Stift-Symbol → <code>Warning</code> auswählen → <strong>OK</strong>).</p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div>
 <h1 id="leonardo-mieschendahl"><a class="header" href="#leonardo-mieschendahl">Leonardo Mieschendahl</a></h1>
 <ul>
 <li>Office: Building 079, Room 00 014</li>
@@ -3578,7 +3733,7 @@ git push
 
         <script src="elasticlunr-ef4e11c1.min.js"></script>
         <script src="mark-09e88c2c.min.js"></script>
-        <script src="searcher-09f2665d.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
 
         <script src="clipboard-1626706a.min.js"></script>
         <script src="highlight-1036bc7d.js"></script>

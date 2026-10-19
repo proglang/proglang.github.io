@@ -19,6 +19,8 @@ Bei Fragen zu den Übungen, melden Sie sich gerne im [Forum][forum].
 
 Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 
+**In der ersten Vorlesungswoche finden bereits Tutorien statt, bei denen wir Ihnen bei der Einrichtung und Installation der benötigten Software helfen.**
+
 [rules]: /teaching/26ws/eidp/rules.html
 [solutions]: https://git.proglang.de/2026WS-EidP/solutions
 [forum]: https://git.proglang.de/2026WS-EidP/forum/issues
@@ -36,7 +38,7 @@ Zum Bestehen der Studienleistung ist notwendig:
 Aufteilung der **332 Punkte**:
 
 - Blatt 1-4: je 10 Punkte (+3 Tutoratspunkte)
-  - Tutoratspunkte gibt es erst ab der **zweiten** Semesterwoche
+  - Tutoratspunkte gibt es erst ab der **zweiten** Vorlesungswoche
 - Blatt 5-13: je 20 Punkte (+6 Tutoratspunkte)
 - Blatt 14: Probeklausur, 40 Punkte (+6 Tutoratspunkte)
 
