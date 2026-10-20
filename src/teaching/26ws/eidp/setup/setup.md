@@ -186,7 +186,7 @@ Klicken Sie unten links auf <img src="icons/settings-gear.svg" alt="Einstellunge
 
 **Nur für Windows-Nutzer:** Wählen Sie in der oberen Zeile `Remote [WSL: Ubuntu-24.04]` aus.
 
-1. Nach **@id:python.defaultInterpreterPath** suchen → auf `python3.14` stellen. Öffnen Sie anschließend die Befehlspalette (**Strg+Umschalt+P**, auf dem Mac **Cmd+Umschalt+P**), führen Sie **Python: Select Interpreter** aus und wählen Sie **Python 3.14** aus. Dies ist auch für bereits geöffnete Arbeitsbereiche erforderlich. Unter Windows wählen Sie den Interpreter innerhalb von WSL aus.
+1. Nach **@id:python.defaultInterpreterPath** suchen → auf `python3.14` stellen.
 2. Nach **@id:files.autoSave** suchen → auf `afterDelay` stellen.  
 3. Nach **@id:python.analysis.typeCheckingMode** suchen → auf `basic` stellen.  
 4. Nach **@id:python.analysis.diagnosticSeverityOverrides** suchen → auf *edit in settings.json* klicken und den folgenden Eintrag anpassen:
