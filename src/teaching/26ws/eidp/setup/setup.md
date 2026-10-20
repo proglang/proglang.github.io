@@ -1,10 +1,10 @@
 # Setup Guide: Einführung in die Programmierung
 
-Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Python3.12** und der Entwicklungsumgebung <img src="icons/vscode.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Visual Studio Code (VS Code)**.
+Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Python 3.14** und der Entwicklungsumgebung <img src="icons/vscode.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Visual Studio Code (VS Code)**.
 
-## <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Python3.12 installieren
+## <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Python 3.14 installieren
 
-Die Installation von Python3.12 hängt von Ihrem Betriebssystem ab. Wählen Sie Ihr Betriebssystem:  
+Die Installation von Python 3.14 hängt von Ihrem Betriebssystem ab. Wählen Sie Ihr Betriebssystem:  
 [<img src="icons/ubuntu.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Linux (Ubuntu)](#linux-ubuntu) | [<img src="icons/windows.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Windows](#windows) | [<img src="icons/apple.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Mac](#mac)
 
 ### <img src="icons/ubuntu.svg" alt="" width="24" height="24" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Linux (Ubuntu)
@@ -18,7 +18,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-#### Python3.12 installieren
+#### Python 3.14 installieren
 
 Überprüfen Sie Ihre Ubuntu-Version mit folgendem Befehl:
 
@@ -26,26 +26,27 @@ sudo apt upgrade
 lsb_release -a | grep Release
 ```
 
-Falls Sie **nicht** Ubuntu-Version **24.04** verwenden, führen Sie die folgenden Befehle aus:
+Falls Sie eine **ältere** Ubuntu-Version als **26.04** (z.B. 22.04 oder 24.04) verwenden, führen Sie die folgenden Befehle aus:
 
 ```bash
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
 ```
 
-Installieren Sie anschließend Python3.12:
+Installieren Sie anschließend Python 3.14:
 
 ```bash
-sudo apt install python3.12
+sudo apt install python3.14
 ```
 
 Überprüfen Sie die Installation mit:
 
 ```bash
-python3.12 --version
+python3.14 --version
 ```
 
-Es sollte die Ausgabe `Python 3.12.x` erscheinen.
+Es sollte die Ausgabe `Python 3.14.x` erscheinen.
 
 Weiter mit: [Visual Studio Code installieren](#visual-studio-code)
 
@@ -76,13 +77,22 @@ Am Ende der Installation werden Sie dazu aufgefordert, einen **Benutzernamen** u
     sudo apt upgrade
     ```
 
-3. Python3.12 ist bereits in Ubuntu 24.04 enthalten. Überprüfen Sie die Installation mit:
+3. Installieren Sie Python 3.14 im Ubuntu-Terminal über das deadsnakes-PPA:
 
-```bash
-python3.12 --version
-```
+    ```bash
+    sudo apt install software-properties-common
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    sudo apt update
+    sudo apt install python3.14
+    ```
 
-Es sollte die Ausgabe `Python 3.12.x` erscheinen.
+4. Überprüfen Sie die Installation mit:
+
+    ```bash
+    python3.14 --version
+    ```
+
+    Es sollte die Ausgabe `Python 3.14.x` erscheinen.
 
 Weiter mit: [Visual Studio Code installieren](#visual-studio-code)
 
@@ -93,7 +103,7 @@ Weiter mit: [Visual Studio Code installieren](#visual-studio-code)
 #### Homebrew installieren und Pakete aktualisieren
 
 Öffnen Sie das Terminal (Spotlight → „Terminal“).
-Falls Sie `brew` bereits installiert haben, gehen Sie direkt zu Schritt [Python3.12 installieren](#2-python312-installieren).
+Falls Sie `brew` bereits installiert haben, gehen Sie direkt zu Schritt [Python 3.14 installieren](#mac-python-installieren).
 
 Geben Sie zunächst diesen Befehl ein:
 
@@ -125,22 +135,24 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-#### Python3.12 installieren
+<a id="mac-python-installieren"></a>
 
-Um Python3.12 zu installieren, führen Sie die folgenden Befehle aus:
+#### Python 3.14 installieren
+
+Um Python 3.14 zu installieren, führen Sie die folgenden Befehle aus:
 
 ```bash
 brew update
-brew install python@3.12
+brew install python@3.14
 ```
 
 Überprüfen Sie die Installation mit:
 
 ```bash
-python3.12 --version
+python3.14 --version
 ```
 
-Es sollte die Ausgabe `Python 3.12.x` erscheinen.
+Es sollte die Ausgabe `Python 3.14.x` erscheinen.
 
 Weiter mit: [Visual Studio Code installieren](#visual-studio-code)
 
@@ -174,7 +186,7 @@ Klicken Sie unten links auf <img src="icons/settings-gear.svg" alt="Einstellunge
 
 **Nur für Windows-Nutzer:** Wählen Sie in der oberen Zeile `Remote [WSL: Ubuntu-24.04]` aus.
 
-1. Nach **@id:python.defaultInterpreterPath** suchen → auf `python3.12` stellen.
+1. Nach **@id:python.defaultInterpreterPath** suchen → auf `python3.14` stellen. Öffnen Sie anschließend die Befehlspalette (**Strg+Umschalt+P**, auf dem Mac **Cmd+Umschalt+P**), führen Sie **Python: Select Interpreter** aus und wählen Sie **Python 3.14** aus. Dies ist auch für bereits geöffnete Arbeitsbereiche erforderlich. Unter Windows wählen Sie den Interpreter innerhalb von WSL aus.
 2. Nach **@id:files.autoSave** suchen → auf `afterDelay` stellen.  
 3. Nach **@id:python.analysis.typeCheckingMode** suchen → auf `basic` stellen.  
 4. Nach **@id:python.analysis.diagnosticSeverityOverrides** suchen → auf *edit in settings.json* klicken und den folgenden Eintrag anpassen:
