@@ -4,7 +4,7 @@
 
 - Dozent: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistent: [Marius Weidner](/team/weidner.md)
-- Vorlesung: HS 00 026 µ-Saal G.-Köhler-Allee 101, Dienstags 10:15-11:30 und Mittwochs 12:00-13:15
+- Vorlesung: HS 00 026 µ-Saal G.-Köhler-Allee 101, dienstags 10:15-11:30 und mittwochs 13:00-14:00
 
 ## Vorlesung
 
