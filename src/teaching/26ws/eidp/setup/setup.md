@@ -2,6 +2,9 @@
 
 Diese Anleitung hilft Ihnen bei der Installation der Programmiersprache <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Python 3.14** und der Entwicklungsumgebung <img src="icons/vscode.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> **Visual Studio Code (VS Code)**.
 
+> [!NOTE]
+> Falls Sie Python 3.12 und VS Code bereits aus dem Programmier-Vorkurs installiert haben, können Sie direkt zum [Upgrade auf Python 3.14](#upgrade-von-python312-auf-python314) springen.
+
 ## <img src="icons/python.svg" alt="" width="16" height="16" style="width: 1em; height: 1em; vertical-align: -0.125em;"> Python 3.14 installieren
 
 Die Installation von Python 3.14 hängt von Ihrem Betriebssystem ab. Wählen Sie Ihr Betriebssystem:  
@@ -201,3 +204,14 @@ Klicken Sie unten links auf <img src="icons/settings-gear.svg" alt="Einstellunge
 6. Nach **@id:flake8.args** suchen → auf **Add Item** klicken → `--ignore=E501,E704,E731,W5,C901` hinzufügen.
 
 7. Nach **@id:flake8.severity** suchen → alle Werte auf **Warning** setzen (Auf <img src="icons/pencil.svg" alt="Stift-Symbol" height="18"> klicken → `Warning` auswählen → **OK**).
+
+Ihre Installation ist nun abgeschlossen! :)
+
+## Upgrade von Python3.12 auf Python3.14
+
+Dieser Abschnitt ist nur relevant, falls Sie bereits Python3.12 mit VSCode installiert haben (z.B. aus dem Programmier-Vorkurs) und auf Python3.14 upgraden möchten.
+
+Folgende Schritte sind noch notwendig:
+
+1. Installieren Sie Python3.14 wie [oben](#python-314-installieren) beschrieben. Falls Sie **Windows + WSL** nutzen, müssen Sie die WSL nicht erneut installieren, sondern nur Python3.14 in Ihrem Ubuntu-Terminal installieren.
+2. Öffnen Sie Visual Studio Code und setzen Sie den default Python Interpreter auf Python3.14 (siehe [Extensions konfigurieren](#extensions-konfigurieren)). Alle weiteren Einstellungen haben Sie bereits vorgenommen.
