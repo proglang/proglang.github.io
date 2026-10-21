@@ -24,6 +24,7 @@
 
 | Datum | Abgabe | Material |
 |:-----|:-----|:-----|
+| Mi 21.10.26 | Di 27.10.25 10:00 über [Git][git] | [Blatt01][exercise01-pdf]
 
 Bitte beachten Sie die [Abgaberegeln][rules]. Lösungen zu den Übungsblättern finden Sie [hier][solutions].
 
@@ -37,6 +38,8 @@ Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 [solutions]: https://git.proglang.de/2026WS-EidP/solutions
 [forum]: https://git.proglang.de/2026WS-EidP/forum/issues
 [tutor-notes]: https://git.proglang.de/2026WS-EidP/notes
+[git]: https://git.proglang.de/2026WS-EidP
+[exercise01-pdf]: eidp/sheets/sheet01.pdf
 
 ## Leistungen
 
