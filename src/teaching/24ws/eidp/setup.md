@@ -165,7 +165,7 @@ und folgende zwei Einträge einfügen, sodass das ganze wie folgt aussieht:
 1. Hier wollen wir zuerst Python in Version `3.12` installieren. Sie können die Installationsdatei über diesen Link direkt herunterladen: [macOS 64-bit universal2 installer](https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg).
 
     <details>
-    <summary>Manuelles Herunterladen der Installstionsdatei Schritt für Schritt (< Klick mich >)</summary>
+    <summary>Manuelles Herunterladen der Installstionsdatei Schritt für Schritt (&lt; Klick mich &gt;)</summary>
 
     1. Auf [python.org](https://www.python.org/downloads/release/python-3127/) gehen und Version `3.12.x` wählen, wobei `x` eine beliebige Zahl sein darf. Bei Erstellung dieser Anleitung ist dies `3.12.7`.
 
