@@ -29,9 +29,11 @@ In den Übungsblättern sind Namen der zu implementierenden Funktionen vorgegebe
 
 Setzen Sie alle Top-Level-Statements (z. B. `print(...)`, `input(...)`, `assert ...`, usw.) hinter eine `if __name__ == "__main__":` Abfrage. Dadurch werden diese Anweisungen nur ausgeführt, wenn das Python-Skript direkt gestartet wird und nicht beim Importieren von Funktionen. Alternativ können Sie vor der Abgabe einfach alle Top-Level-Statements entfernen.
 
+Diese Regel bezieht sich nur auf Dateien, die Funktionen enthalten. Dateien, die explizit als Skript gedacht sind (vor allem Aufgaben aus den ersten Übungsblättern) und keine Funktionen enthalten, dürfen (und sollen) Top-Level-Statements enthalten.
+
 ## Typannotationen
 
-_Alle_ Funktionen, Klassen, Generatoren, usw. müssen mit Typannotationen versehen sein. Für fehlende oder unvollständige Typannotationen gibt es Punktabzug. Achten Sie darauf, die Typannotationen so **präzise wie möglich** zu gestalten (z. B. `list[int]` statt `list`).
+_Alle_ Funktionen, Klassen, Generatoren, usw. müssen mit Typannotationen versehen sein. Für fehlende oder unvollständige Typannotationen gibt es Punktabzug. Achten Sie darauf, die Typannotationen so **präzise wie möglich** zu gestalten (z. B. `list[int]` statt `list`). Variablen müssen nicht, können aber mit Typannotationen versehen werden. Typannotationen für _Variablen_ sind optional.
 
 > [!TIP]
 > Eine einfache Möglichkeit, alle Anforderungen zu erfüllen, besteht darin, Ihre Dateien mit Visual Studio Code zu erstellen oder zu bearbeiten.
