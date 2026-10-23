@@ -35,6 +35,8 @@ Diese Regel bezieht sich nur auf Dateien, die Funktionen enthalten. Dateien, die
 
 _Alle_ Funktionen, Klassen, Generatoren, usw. müssen mit Typannotationen versehen sein. Für fehlende oder unvollständige Typannotationen gibt es Punktabzug. Achten Sie darauf, die Typannotationen so **präzise wie möglich** zu gestalten (z. B. `list[int]` statt `list`). Variablen müssen nicht, können aber mit Typannotationen versehen werden. Typannotationen für _Variablen_ sind optional.
 
+---
+
 > [!TIP]
 > Eine einfache Möglichkeit, alle Anforderungen zu erfüllen, besteht darin, Ihre Dateien mit Visual Studio Code zu erstellen oder zu bearbeiten.
 >
