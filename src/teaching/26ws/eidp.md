@@ -12,7 +12,8 @@
 |:-----|:-----|:-----|:-----|
 | Di 20.10.26 | Organisation & Einführung | [infoI00][lecture00-info00], [infoI01][lecture00-info01], [Setup][lecture00-script1], [Abgabesystem][lecture00-script2] | |
 | Mi 21.10.26 | Erste Schritte | [infoI02][lecture01-info02] | Aufnahmefehler |
-| Di 27.10.26 | Ausdrücke | [infoI03][lecture02-info03] | [yt][lecture01-rec] |
+| Di 27.10.26 | Ausdrücke | [infoI03][lecture02-info03] | Aufnahmefehler |
+| Mi 28.10.26 | Funktionen | [infoI04][lecture03-info04] | [yt][lecture01-rec] |
 
 [lecture00-script1]: eidp/setup/setup.html
 [lecture00-script2]: eidp/abgabesystem/abgabesystem.html
@@ -21,6 +22,7 @@
 [lecture01-info02]: eidp/slides/infoI02.pdf
 [lecture01-rec]: https://youtube.com/live/YO-zGXoy7DU?feature=share
 [lecture02-info03]: eidp/slides/infoI03.pdf
+[lecture03-info04]: eidp/slides/infoI04.pdf
 
 ## Übungen
 
