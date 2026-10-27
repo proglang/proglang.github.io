@@ -27,7 +27,7 @@ def null' : List α → Bool :=
 def sum' : List Int → Int :=
   sorry
 
--- def concat' ...
+-- def flatten' ...
 
 -- def elem' ...
 
@@ -57,7 +57,7 @@ def sum' : List Int → Int :=
 -- #guard null' ([] : List Nat) == true
 -- #guard null' [1, 2] == false
 -- #guard sum' [1, 2, 3] == 6
--- #guard concat' [[1, 2, 3], [4], [5, 6]] == [1, 2, 3, 4, 5, 6]
+-- #guard flatten' [[1, 2, 3], [4], [5, 6]] == [1, 2, 3, 4, 5, 6]
 -- #guard elem' 3 [1, 2, 3, 4] == true
 -- #guard elem' 9 [1, 2, 3, 4] == false
 -- #guard take' 3 [1, 2, 3, 4, 5] == [1, 2, 3]
