@@ -37,8 +37,6 @@ Bei Fragen zu den Übungen, melden Sie sich gerne im [Forum][forum].
 
 Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 
-**In der ersten Vorlesungswoche finden bereits Tutorien statt, bei denen wir Ihnen bei der Einrichtung und Installation der benötigten Software helfen.**
-
 [rules]: /teaching/26ws/eidp/rules.html
 [solutions]: https://git.proglang.de/2026WS-EidP/solutions
 [forum]: https://git.proglang.de/2026WS-EidP/forum/issues
