@@ -34,11 +34,12 @@
 | Date | Topic | Material | Recording
 |:-----|:-----|:-----|:-----|
 | Mo 2026-10-26 | canceled | - | - |
-| Mo 2026-11-02 | Inductive Definitions and Pattern Matching | [Sheet 01][sheet01-pdf], [Template01.lean][sheet01-template], [Solution01.lean][sheet01-solution] | - |
+| Mo 2026-11-02 | Inductive Definitions and Pattern Matching | [Sheet 01][sheet01-pdf], [Template01.lean][sheet01-template], [Solution01.lean][sheet01-solution] | [rec][tutorial01-recording] |
 
 [sheet01-pdf]: /teaching/26ws/lean/exercises/sheet01.pdf
 [sheet01-template]: /teaching/26ws/lean/exercises/Template01.lean
 [sheet01-solution]: /teaching/26ws/lean/exercises/Solution01.lean
+[tutorial01-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-11-02-tutorial.mp4
 
 ## Exam
 | Date | Time | Place | Mode |
