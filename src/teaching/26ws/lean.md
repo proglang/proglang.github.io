@@ -14,7 +14,7 @@
 |:-----|:-----|:-----|:-----|
 | Tu 2026-10-20 | Introduction | [Slides 01][lecture01-slides], [Week01.lean][lecture01-lean] | [rec][lecture01-recording] |
 | Tu 2026-10-27 | Inductive Definitions and Pattern Matching | [Slides 02-1][lecture02-1-slides], [Slides 02-2][lecture02-2-slides], [Week02.lean][lecture02-1-lean], [Week03.lean][lecture02-2-lean] | [rec][lecture02-recording] |
-| Tu 2026-11-03 | Higher-Order Functions | [Slides 03][lecture03-1-slides], [Week03.lean][lecture03-1-lean] | [rec][lecture03-recording] |
+| Tu 2026-11-03 | Higher-Order Functions | [Slides 03][lecture03-1-slides], [Week04.lean][lecture03-1-lean] | [rec][lecture03-recording] |
 | Tu 2026-11-10 | | | |
 | Tu 2026-11-17 | No lecture. Join us at the talk by Joachim Breitner (Lean FRO), [Lean – Architecture, Meaning and Trust][breitner-talk], **14:30–16:00, SR 404, Mathematical Institute** | - | - |
 
@@ -30,8 +30,7 @@
 [lecture02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-10-27-lecture-1.mp4
 [lecture03-1-slides]: /teaching/26ws/lean/slides/lecture03-1.pdf
 [lecture03-2-slides]: /teaching/26ws/lean/slides/lecture03-2.pdf
-[lecture03-1-lean]: /teaching/26ws/lean/code/Week03.lean
-[lecture03-2-lean]: /teaching/26ws/lean/code/Week03.lean
+[lecture03-1-lean]: /teaching/26ws/lean/code/Week04.lean
 [lecture03-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-11-03-lecture-1.mp4
 
 
