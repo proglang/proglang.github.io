@@ -6,7 +6,8 @@
 # src/teaching/projects-graph.svg, which the page shows to visitors without
 # JavaScript. The mermaid block in the markdown is the single source of truth.
 # Run by ./publish; if rendering is not possible (no node/chromium), the
-# existing SVG is kept and a warning is printed.
+# existing SVG is kept and a warning is printed. The SVG is only re-rendered when
+# the graph source changed (its hash is stored in a comment at the end of the SVG).
 
 root="$(cd "$(dirname "$0")" && pwd)"
 page="$root/src/teaching/projects.md"
@@ -15,6 +16,12 @@ tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT
 
 awk '/^```mermaid/{f=1;next} /^```/{f=0} f' "$page" > "$tmp/graph.mmd"
+sum="$(sha256sum "$tmp/graph.mmd" | cut -d' ' -f1)"
+if [ -f "$out" ] && grep -q "source-sha256: $sum" "$out"; then
+  echo "graph unchanged, skipping render"
+  exit 0
+fi
+
 echo '{"flowchart":{"htmlLabels":false}}' > "$tmp/config.json"
 
 chrome="${CHROME_PATH:-$(ls -d "$HOME"/.cache/ms-playwright/chromium-*/chrome-linux*/chrome 2>/dev/null | head -1)}"
@@ -26,7 +33,7 @@ echo '{"args":["--no-sandbox"]}' > "$tmp/puppeteer.json"
 
 if npx -y @mermaid-js/mermaid-cli@11.4.2 -i "$tmp/graph.mmd" -o "$tmp/graph.svg" \
      -c "$tmp/config.json" -p "$tmp/puppeteer.json" -b transparent -q; then
-  cp "$tmp/graph.svg" "$out"
+  { cat "$tmp/graph.svg"; echo; echo "<!-- source-sha256: $sum -->"; } > "$out"
   echo "rendered $out"
 else
   echo "warning: could not render graph, keeping existing $out" >&2
