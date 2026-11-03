@@ -12,9 +12,9 @@
 |:-----|:-----|:-----|:-----|
 | Di 20.10.26 | Organisation & Einführung | [infoI00][lecture00-info00], [infoI01][lecture00-info01], [Setup][lecture00-script1], [Abgabesystem][lecture00-script2] | |
 | Mi 21.10.26 | Erste Schritte | [infoI02][lecture01-info02] | Aufnahmefehler |
-| Di 27.10.26 | Ausdrücke | [infoI03][lecture02-info03] | Aufnahmefehler |
-| Mi 28.10.26 | Funktionen | [infoI04][lecture03-info04] | [yt][lecture01-rec] (ohne Ton) |
-| Di 03.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05] | [yt][lecture04-rec] |
+| Di 27.10.26 | Ausdrücke | [infoI03][lecture02-info03], [infoI03-handout][lecture02-info03-handout] | Aufnahmefehler |
+| Mi 28.10.26 | Funktionen | [infoI04][lecture03-info04], [infoI04-handout][lecture03-info04-handout] | [yt][lecture01-rec] (ohne Ton) |
+| Di 03.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture04-rec] |
 
 
 [lecture00-script1]: eidp/setup/setup.html
@@ -24,9 +24,12 @@
 [lecture01-info02]: eidp/slides/infoI02.pdf
 [lecture01-rec]: https://youtube.com/live/YO-zGXoy7DU?feature=share
 [lecture02-info03]: eidp/slides/infoI03.pdf
+[lecture02-info03-handout]: eidp/slides/infoI03-handout.pdf
 [lecture03-info04]: eidp/slides/infoI04.pdf
+[lecture03-info04-handout]: eidp/slides/infoI04-handout.pdf
 [lecture04-rec]: https://youtube.com/live/oIKMJ6LTZ8Q?feature=share
 [lecture04-info05]: eidp/slides/infoI05.pdf
+[lecture04-info05-handout]: eidp/slides/infoI05-handout.pdf
 
 ## Übungen
 
