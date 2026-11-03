@@ -75,6 +75,12 @@ Weitere Möglichkeiten: Scala, Rust, ...
 * how to do correctness proofs
 * logical foundations (dynamic logic)
 * WP (weakest precondition)
+* [Lecture-Notes Verzeichnis](https://www.cs.cmu.edu/~15414/s22/lectures/),
+  relevante Kapitel mit Theorie-Elementen sind Kap. 05 - 11
+    - Die konkrete Anwendung bezüglich reg. Ausdrücken ist nicht elementarer
+      Bestandteil (aber evtl. zu Illustrationszwecken geeignet)
+    - Ebenso Kap. 04 (Arrays)
+    - Die Inhalte zu *Why3* sind nicht von Relevanz
 
 ## Ersatzthemen
 
