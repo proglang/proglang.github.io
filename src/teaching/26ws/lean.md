@@ -8,7 +8,7 @@
 - Chat: [zulip channel](https://chat.proglang.de/join/dzmad3m76sci2jy3yoetsfwb/)
 
 
-## Lecturezo
+## Lecture
 
 | Date | Topic | Material | Recording
 |:-----|:-----|:-----|:-----|
