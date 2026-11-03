@@ -3,8 +3,6 @@
 - [Home](home.md)
 - [Teaching](teaching.md)
     - [Projects & Theses](teaching/projects.md)
-      - [Available](teaching/projects/available.md)
-      - [Finished](teaching/projects/finished.md)
     - [Winter 2026](teaching/26ws.md)
       - [Einführung in die Programmierung](teaching/26ws/eidp.md)
       - [Functional Programming in Lean](teaching/26ws/lean.md)

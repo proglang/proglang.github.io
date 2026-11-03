@@ -17,6 +17,9 @@ fi
 # list every page that is not in SUMMARY.md under "# Unlisted"
 ./sync-summary
 
+# re-render the static SVG of the projects graph
+./render-graph
+
 # build locally to 'docs/'
 platform="$(uname)"
 

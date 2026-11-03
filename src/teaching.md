@@ -5,7 +5,7 @@
 
 ## Projects and Thesis
 Requests regarding theses or projects are always welcome! 
-If you are interested in supervision, you can look for available topics [here](teaching/projects/available.md).
+If you are interested in supervision, you can find ideas for topics [here](teaching/projects.md).
 
 ## Agda AG
 We meet weekly to discuss our current problems on formalizing proofs in [Agda](https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html). 

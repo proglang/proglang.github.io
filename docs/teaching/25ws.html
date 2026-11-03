@@ -37,10 +37,10 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "dark";
-            window.path_to_searchindex_js = "../searchindex-6d3e1988.js";
+            window.path_to_searchindex_js = "../searchindex-2f20e82e.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="../toc-fcb03695.js"></script>
+        <script src="../toc-f3548f91.js"></script>
     </head>
     <body>
     <div id="mdbook-body-container">
@@ -198,5 +198,74 @@
 
 
     </div>
+        <script src="../mermaid.min.js"></script>
+        <script>
+            (function () {
+                var blocks = document.querySelectorAll('pre > code.language-mermaid');
+                if (!blocks.length) return;
+                blocks.forEach(function (code) {
+                    var div = document.createElement('div');
+                    div.className = 'mermaid';
+                    div.textContent = code.textContent;
+                    code.parentNode.replaceWith(div);
+                });
+                var dark = ['navy', 'coal', 'ayu'].some(function (t) {
+                    return document.documentElement.classList.contains(t);
+                });
+                mermaid.initialize({ startOnLoad: false, theme: dark ? 'dark' : 'default', flowchart: { useMaxWidth: false } });
+                mermaid.run().then(function () {
+                    document.querySelectorAll('div.mermaid').forEach(function (div) {
+                        var svg = div.querySelector('svg');
+                        if (!svg) return;
+                        var home = svg.viewBox.baseVal;
+                        var full = { x: home.x, y: home.y, w: home.width, h: home.height };
+                        var v = Object.assign({}, full);
+                        div.style.cssText = 'overflow:hidden;border:1px solid var(--quote-border);border-radius:4px;cursor:grab;touch-action:none';
+                        svg.removeAttribute('height');
+                        svg.style.cssText = 'display:block;width:100%;max-width:none;height:min(85vh,' + (div.clientWidth * full.h / full.w) + 'px)';
+                        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+                        function apply() { svg.setAttribute('viewBox', v.x + ' ' + v.y + ' ' + v.w + ' ' + v.h); }
+                        function reset() { v = Object.assign({}, full); apply(); }
+                        function zoomAt(f, cx, cy) {
+                            var r = svg.getBoundingClientRect();
+                            var s0 = Math.min(r.width / v.w, r.height / v.h);
+                            var ox = r.left + (r.width - v.w * s0) / 2, oy = r.top + (r.height - v.h * s0) / 2;
+                            var px = v.x + (cx - ox) / s0, py = v.y + (cy - oy) / s0;
+                            var w = Math.max(full.w / 20, Math.min(full.w * 3, v.w / f));
+                            f = v.w / w;
+                            v = { x: px - (px - v.x) / f, y: py - (py - v.y) / f, w: w, h: v.h / f };
+                            apply();
+                        }
+                        div.addEventListener('wheel', function (e) {
+                            e.preventDefault();
+                            zoomAt(Math.exp(-e.deltaY * 0.0015), e.clientX, e.clientY);
+                        }, { passive: false });
+                        var drag = null;
+                        div.addEventListener('pointerdown', function (e) {
+                            drag = { x: e.clientX, y: e.clientY };
+                            div.setPointerCapture(e.pointerId);
+                            div.style.cursor = 'grabbing';
+                        });
+                        div.addEventListener('pointermove', function (e) {
+                            if (!drag) return;
+                            var r = svg.getBoundingClientRect();
+                            var s0 = Math.min(r.width / v.w, r.height / v.h);
+                            v.x -= (e.clientX - drag.x) / s0;
+                            v.y -= (e.clientY - drag.y) / s0;
+                            drag = { x: e.clientX, y: e.clientY };
+                            apply();
+                        });
+                        function end() { drag = null; div.style.cursor = 'grab'; }
+                        div.addEventListener('pointerup', end);
+                        div.addEventListener('pointercancel', end);
+                        div.addEventListener('dblclick', reset);
+                        var hint = document.createElement('p');
+                        hint.style.cssText = 'font-size:.8em;opacity:.7;margin:.4em 0 0';
+                        hint.textContent = 'Scroll to zoom, drag to pan, double-click to reset.';
+                        div.after(hint);
+                    });
+                });
+            })();
+        </script>
     </body>
 </html>

@@ -38,10 +38,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "dark";
-            window.path_to_searchindex_js = "searchindex-6d3e1988.js";
+            window.path_to_searchindex_js = "searchindex-2f20e82e.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-fcb03695.js"></script>
+        <script src="toc-f3548f91.js"></script>
     </head>
     <body>
     <div id="mdbook-body-container">
@@ -171,10 +171,10 @@
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="teaching"><a class="header" href="#teaching">Teaching</a></h1>
-<p>[ <a href="#projects--theses">Projects &amp; Thesis</a> |  <a href="#winter-2025">Winter 2026</a>  | <a href="#summer-2026">Summer 2026</a> | <a href="#winter-2025-1">Winter 2025</a> | <a href="#summer-2025">Summer 2025</a> | <a href="#winter-2024">Winter 2024</a> | <a href="#summer-2024">Summer 2024</a> | <a href="https://proglang.informatik.uni-freiburg.de/teaching/">Before 2024</a> ]</p>
+<p>[ <a href="#projects--thesis">Projects &amp; Thesis</a> |  <a href="#winter-2025">Winter 2026</a>  | <a href="#summer-2026">Summer 2026</a> | <a href="#winter-2025-1">Winter 2025</a> | <a href="#summer-2025">Summer 2025</a> | <a href="#winter-2024">Winter 2024</a> | <a href="#summer-2024">Summer 2024</a> | <a href="https://proglang.informatik.uni-freiburg.de/teaching/">Before 2024</a> ]</p>
 <h2 id="projects-and-thesis"><a class="header" href="#projects-and-thesis">Projects and Thesis</a></h2>
 <p>Requests regarding theses or projects are always welcome!
-If you are interested in supervision, you can look for available topics <a href="#available-projects--theses">here</a>.</p>
+If you are interested in supervision, you can find ideas for topics <a href="#projects--thesis">here</a>.</p>
 <h2 id="agda-ag"><a class="header" href="#agda-ag">Agda AG</a></h2>
 <p>We meet weekly to discuss our current problems on formalizing proofs in <a href="https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html">Agda</a>.
 If you wish to attend, write an email to <a href="#prof-dr-peter-thiemann">Prof. Dr. Thiemann</a>.</p>
@@ -199,114 +199,47 @@ If you wish to attend, write an email to <a href="#prof-dr-peter-thiemann">Prof.
 <p>Specialization course about concurrent systems and their underlying theory.</p>
 <p><em>Frequency: Roughly every 1 1/2 years</em></p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="projects--theses"><a class="header" href="#projects--theses">Projects &amp; Theses</a></h1>
-<ul>
-<li><a href="#available-projects--theses">Available</a></li>
-<li><a href="#finished-projects--theses">Finished</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="available-projects--theses"><a class="header" href="#available-projects--theses">Available Projects &amp; Theses</a></h1>
-<h2 id="general-information"><a class="header" href="#general-information">General Information</a></h2>
-<div style="max-width: 80rem; text-align: justify">
-<p>Our projects and theses are focused on the design and implementation of
-programming languages, functional and object-oriented programming, type systems
-and static analysis, semantics, concurrency, mechanized metatheory, and theorem
-proving.</p>
-<p>If you are interested in one of the topics below or you have a specific topic
-in mind yourself please write an email to <a href="teaching/projects/team/thiemann.html">Prof. Dr.
-Thiemann</a>.</p>
-<p>This page is a living document and we may not always be able to update it in
-time. Some topics may already be taken and others might not yet have found
-their way onto here. If you are interested in a project or thesis with our
-chair but cannot find a suitable topic feel free to write an email to as well
-and let us know which of the specialization courses offered by our chair you
-have taken.</p>
-</div>
+<h1 id="projects--thesis"><a class="header" href="#projects--thesis">Projects &amp; Thesis</a></h1>
+<p><small>These are the topics we work on. The more specific you are about what you want to do or which topic you want to work in, the better, so please contact <a href="#prof-dr-peter-thiemann">Peter Thiemann</a> with your idea.</small></p>
+<noscript>
+<style>pre:has(code.language-mermaid) { display: none; }</style>
+<img src="teaching/projects-graph.svg" alt="Graph of our research topics: theory (type systems, mechanized proofs) and application (concurrency analysis, compilers)" style="width:100%">
+</noscript>
+<pre><code class="language-mermaid">flowchart TD
+  root([Root]) --&gt; theory[Theory]
+  root --&gt; application[Application]
 
-<h2 id="bachelorprojekt"><a class="header" href="#bachelorprojekt">Bachelorprojekt</a></h2>
-<!-- #### Reusable Library for checking correctness + exhaustiveness of nested pattern matching
-* Define set of ADTs with constructors and field types
-* Receives type of initial expression + set of branches (ie. patterns) as inputs
-* If exhaustive + correct: return which variables of which type are bound in branch #1, #2, etc.
-* Failure cases: type mismatch, not exhaustive, unreachable branches
-* Possible extension points
-    * more complicated patterns (eg. or patterns, `Some(Pair(suc x, _) | Pair(_, suc x))`)
-    * reasonable representation/printing of non-exhaustive patterns
-    * lazy pattern matching
-* [Luc Maranget: Warnings for pattern matching](https://cambium.inria.fr/~maranget/papers/warn/warn.pdf)
-* [Luc Maranget: Compiling Pattern Matching to Good Decision Trees](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf)
- -->
-<h3 id="extensions-to-the-compiler-construction-lecture-compiler"><a class="header" href="#extensions-to-the-compiler-construction-lecture-compiler">Extensions to the compiler construction lecture compiler</a></h3>
-<ul>
-<li>Arrays</li>
-<li>Strings / Chars</li>
-<li>Match</li>
-<li>…?</li>
-</ul>
-<!-- 
-### Extending Lambda Pi Paper with Universe Polymorphism 
-* Addition of universe levels and polymorphism to the existing implementation
-* The type checker would use the subtype approach suggested here:
-  <https://github.com/agda/agda/issues/5810>, where `Set l` < `Setω` for all
-  `l`.
-* as project: implementation
-* follow up with thesis: proof, maybe explore alternatives, build upon Hannes'
-  dependent types formalization
--->
-<h2 id="bachelorarbeit"><a class="header" href="#bachelorarbeit">Bachelorarbeit</a></h2>
-<h2 id="master-lab-course"><a class="header" href="#master-lab-course">Master Lab Course</a></h2>
-<!-- 
-### Lecture compiler in Rust
-* different internal structure based on [Appel](https://api.pageplace.de/preview/DT0400.9781107266391_A23693450/preview-9781107266391_A23693450.pdf) 
--->
-<h3 id="interpreter-comparison-for-session-types"><a class="header" href="#interpreter-comparison-for-session-types">Interpreter Comparison for Session Types</a></h3>
-<ul>
-<li>implement an interpreter for a language with session types (and borrowing), given by us</li>
-<li>implement a translation given by us</li>
-<li>implement a interpreter for the translated language</li>
-<li>should be step based and visually pleasing</li>
-</ul>
-<h2 id="master-project"><a class="header" href="#master-project">Master Project</a></h2>
-<h3 id="extensions-to-the-compiler-construction-lecture-compiler-1"><a class="header" href="#extensions-to-the-compiler-construction-lecture-compiler-1">Extensions to the compiler construction lecture compiler</a></h3>
-<ul>
-<li><code>call/cc</code></li>
-<li><code>shift</code>/<code>reset</code></li>
-<li>generators</li>
-</ul>
-<h3 id="register-allocation-using-sat-solving"><a class="header" href="#register-allocation-using-sat-solving">Register Allocation using SAT Solving</a></h3>
-<ul>
-<li>Usage of the compiler from the lecture</li>
-<li>Translation of the graph coloring problem to SAT</li>
-<li>Interfacing with an existing SAT solver (e.g. KISSAT, CaDiCaL)</li>
-<li>(Fuzzer based) Generation of large program instances to produce reasonable benchmarks for both runtime and compilation speed</li>
-</ul>
-<h3 id="use-agda-hs-for-program-extraction-of-existing-correct-algorithm"><a class="header" href="#use-agda-hs-for-program-extraction-of-existing-correct-algorithm">Use agda-hs for program extraction of existing correct algorithm</a></h3>
-<ul>
-<li>students must be comfortable adjusting the Agda code to fit the custom agda-hs prelude</li>
-</ul>
-<h3 id="reproduce-agda-proofs-in-lean"><a class="header" href="#reproduce-agda-proofs-in-lean">Reproduce Agda proofs in Lean</a></h3>
-<ul>
-<li>SystemF or Logical Rel.</li>
-<li>Possible research questions:
-<ul>
-<li>What is a good representation for syntax (extrinsic; scoped; intrinsic)?</li>
-<li>How do we represent substitutions?</li>
-<li>What can Lean solve automatically, what Agda cannot?</li>
-<li>What libraries exist to formalize PLs in Lean?</li>
-</ul>
-</li>
-</ul>
-<h3 id="effect-calculus-denotational-semantics-in-agda"><a class="header" href="#effect-calculus-denotational-semantics-in-agda">effect-calculus denotational semantics in Agda</a></h3>
-<ul>
-<li><a href="https://lmcs.episciences.org/1153/pdf">Bauer &amp; Pretnar: An effect system for algebraic effects and handlers</a></li>
-</ul>
-<h2 id="master-thesis"><a class="header" href="#master-thesis">Master Thesis</a></h2>
-<h3 id="implement-dependent-pattern-matching-in-rust"><a class="header" href="#implement-dependent-pattern-matching-in-rust">Implement dependent pattern matching in Rust</a></h3>
-<ul>
-<li><a href="https://dl.acm.org/doi/epdf/10.1145/3236770">Jesper Cockx, Andreas Abel: Elaborating dependent (co)pattern matching</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="finished-projects--theses"><a class="header" href="#finished-projects--theses">Finished Projects &amp; Theses</a></h1>
+  theory --&gt; ts[Type Systems]
+  ts --&gt; dt[Dependent Types]
+  ts --&gt; st[Session Types]
+  ts --&gt; pc[Process Calculi]
+  ts --&gt; gt[Gradual Types]
+
+  theory --&gt; mp[Mechanized Proofs]
+  mp --&gt; statics[Statics]
+  statics --&gt; tsafe[Type Safety]
+  statics --&gt; atc[Algorithmic Typing Completeness]
+  statics --&gt; its[Intrinsically Typed Syntax]
+  mp --&gt; semantics[Semantics]
+  semantics --&gt; df[Deadlock Freedom]
+  semantics --&gt; sim[Simulation]
+
+  application --&gt; ca[Concurrency Analysis]
+  ca --&gt; sa[Static Analysis]
+  ca --&gt; da[Dynamic Analysis]
+
+  application --&gt; comp[Compilers]
+  comp --&gt; cp[Compilation Pipeline]
+  comp --&gt; tc[Type Checkers]
+  comp --&gt; interp[Interpreters]
+
+  classDef rootc fill:#444,stroke:#222,color:#fff
+  classDef th fill:#dbeafe,stroke:#2563eb,color:#111
+  classDef ap fill:#dcfce7,stroke:#16a34a,color:#111
+  class root rootc
+  class theory,ts,dt,st,pc,gt,mp,statics,tsafe,atc,its,semantics,df,sim th
+  class application,ca,sa,da,comp,cp,tc,interp ap
+</code></pre>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="winter-2025"><a class="header" href="#winter-2025">Winter 2025</a></h1>
 <ul>
@@ -378,7 +311,7 @@ Die Bearbeitungszeit beträgt 2,5 Stunden.
 In der Klausur lösen Sie kleine Programmieraufgaben in Python ohne Hilfsmittel.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="functional-programming-in-lean"><a class="header" href="#functional-programming-in-lean">Functional Programming in Lean</a></h1>
-<h2 id="general-information-1"><a class="header" href="#general-information-1">General Information</a></h2>
+<h2 id="general-information"><a class="header" href="#general-information">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Assistant: <a href="/team/weidner.html">Marius Weidner</a></li>
@@ -627,7 +560,7 @@ Please bring:</p>
 <li>University account credentials</li>
 </ul>
 </blockquote>
-<h2 id="general-information-2"><a class="header" href="#general-information-2">General Information</a></h2>
+<h2 id="general-information-1"><a class="header" href="#general-information-1">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Assistants: <a href="/team/weidner.html">Marius Weidner</a></li>
@@ -701,7 +634,7 @@ Please bring:</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <div style="max-width: 80rem; text-align: justify">
 <h1 id="topics-in-compilers--concurrency--seminar"><a class="header" href="#topics-in-compilers--concurrency--seminar">Topics in Compilers &amp; Concurrency – Seminar</a></h1>
-<h2 id="general-information-3"><a class="header" href="#general-information-3">General Information</a></h2>
+<h2 id="general-information-2"><a class="header" href="#general-information-2">General Information</a></h2>
 <ul>
 <li><strong>Lecturer:</strong> <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li><strong>Assistant:</strong> <a href="/team/spaderna.html">Janek Spaderna</a></li>
@@ -921,7 +854,7 @@ Please bring:</p>
 <li>Unicard, ID document</li>
 </ul>
 </blockquote>
-<h2 id="general-information-4"><a class="header" href="#general-information-4">General Information</a></h2>
+<h2 id="general-information-3"><a class="header" href="#general-information-3">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Assistants: <a href="/team/weidner.html">Marius Weidner</a>, <a href="/team/mieschendahl.html">Leonardo Mieschendahl</a> (until Dec 31, 2025)</li>
@@ -1153,7 +1086,7 @@ Please bring:</p>
 <li>Uni account login</li>
 </ul>
 </blockquote>
-<h2 id="general-information-5"><a class="header" href="#general-information-5">General Information</a></h2>
+<h2 id="general-information-4"><a class="header" href="#general-information-4">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Assistants: <a href="/team/mieschendahl.html">Leonardo Mieschendahl</a>, <a href="/team/weidner.html">Marius Weidner</a></li>
@@ -1281,7 +1214,7 @@ Please bring:</p>
 <li>Uni account login</li>
 </ul>
 </blockquote>
-<h2 id="general-information-6"><a class="header" href="#general-information-6">General Information</a></h2>
+<h2 id="general-information-5"><a class="header" href="#general-information-5">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Assistants: <a href="/team/saffrich.html">Hannes Saffrich</a></li>
@@ -1385,7 +1318,7 @@ computer pools at Werthmannstraße 4.</p>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="functional-programming-and-logic--seminar-summer-2025"><a class="header" href="#functional-programming-and-logic--seminar-summer-2025">Functional Programming and Logic – Seminar (Summer 2025)</a></h1>
-<h2 id="general-information-7"><a class="header" href="#general-information-7">General Information</a></h2>
+<h2 id="general-information-6"><a class="header" href="#general-information-6">General Information</a></h2>
 <ul>
 <li><strong>Lecturer:</strong> <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li><strong>Assistant:</strong> <a href="/team/spaderna.html">Janek Spaderna</a></li>
@@ -1589,7 +1522,7 @@ Please bring:</p>
 <li>Uni account login</li>
 </ul>
 </blockquote>
-<h2 id="general-information-8"><a class="header" href="#general-information-8">General Information</a></h2>
+<h2 id="general-information-7"><a class="header" href="#general-information-7">General Information</a></h2>
 <ul>
 <li><strong>Lecturer:</strong>   <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li><strong>Assistant:</strong>  <a href="/team/saffrich.html">Hannes Saffrich</a></li>
@@ -1710,7 +1643,7 @@ credentials.</p>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="compiler-construction-summer-2024"><a class="header" href="#compiler-construction-summer-2024">Compiler Construction (Summer 2024)</a></h1>
-<h2 id="general-information-9"><a class="header" href="#general-information-9">General Information</a></h2>
+<h2 id="general-information-8"><a class="header" href="#general-information-8">General Information</a></h2>
 <ul>
 <li>Lecturer: <a href="/team/thiemann.html">Prof. Dr. Peter Thiemann</a></li>
 <li>Assistants: <a href="/team/saffrich.html">Hannes Saffrich</a>, <a href="/team/weidner.html">Marius Weidner</a></li>
@@ -4017,5 +3950,74 @@ brew install python@3.14
 
 
     </div>
+        <script src="mermaid.min.js"></script>
+        <script>
+            (function () {
+                var blocks = document.querySelectorAll('pre > code.language-mermaid');
+                if (!blocks.length) return;
+                blocks.forEach(function (code) {
+                    var div = document.createElement('div');
+                    div.className = 'mermaid';
+                    div.textContent = code.textContent;
+                    code.parentNode.replaceWith(div);
+                });
+                var dark = ['navy', 'coal', 'ayu'].some(function (t) {
+                    return document.documentElement.classList.contains(t);
+                });
+                mermaid.initialize({ startOnLoad: false, theme: dark ? 'dark' : 'default', flowchart: { useMaxWidth: false } });
+                mermaid.run().then(function () {
+                    document.querySelectorAll('div.mermaid').forEach(function (div) {
+                        var svg = div.querySelector('svg');
+                        if (!svg) return;
+                        var home = svg.viewBox.baseVal;
+                        var full = { x: home.x, y: home.y, w: home.width, h: home.height };
+                        var v = Object.assign({}, full);
+                        div.style.cssText = 'overflow:hidden;border:1px solid var(--quote-border);border-radius:4px;cursor:grab;touch-action:none';
+                        svg.removeAttribute('height');
+                        svg.style.cssText = 'display:block;width:100%;max-width:none;height:min(85vh,' + (div.clientWidth * full.h / full.w) + 'px)';
+                        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+                        function apply() { svg.setAttribute('viewBox', v.x + ' ' + v.y + ' ' + v.w + ' ' + v.h); }
+                        function reset() { v = Object.assign({}, full); apply(); }
+                        function zoomAt(f, cx, cy) {
+                            var r = svg.getBoundingClientRect();
+                            var s0 = Math.min(r.width / v.w, r.height / v.h);
+                            var ox = r.left + (r.width - v.w * s0) / 2, oy = r.top + (r.height - v.h * s0) / 2;
+                            var px = v.x + (cx - ox) / s0, py = v.y + (cy - oy) / s0;
+                            var w = Math.max(full.w / 20, Math.min(full.w * 3, v.w / f));
+                            f = v.w / w;
+                            v = { x: px - (px - v.x) / f, y: py - (py - v.y) / f, w: w, h: v.h / f };
+                            apply();
+                        }
+                        div.addEventListener('wheel', function (e) {
+                            e.preventDefault();
+                            zoomAt(Math.exp(-e.deltaY * 0.0015), e.clientX, e.clientY);
+                        }, { passive: false });
+                        var drag = null;
+                        div.addEventListener('pointerdown', function (e) {
+                            drag = { x: e.clientX, y: e.clientY };
+                            div.setPointerCapture(e.pointerId);
+                            div.style.cursor = 'grabbing';
+                        });
+                        div.addEventListener('pointermove', function (e) {
+                            if (!drag) return;
+                            var r = svg.getBoundingClientRect();
+                            var s0 = Math.min(r.width / v.w, r.height / v.h);
+                            v.x -= (e.clientX - drag.x) / s0;
+                            v.y -= (e.clientY - drag.y) / s0;
+                            drag = { x: e.clientX, y: e.clientY };
+                            apply();
+                        });
+                        function end() { drag = null; div.style.cursor = 'grab'; }
+                        div.addEventListener('pointerup', end);
+                        div.addEventListener('pointercancel', end);
+                        div.addEventListener('dblclick', reset);
+                        var hint = document.createElement('p');
+                        hint.style.cssText = 'font-size:.8em;opacity:.7;margin:.4em 0 0';
+                        hint.textContent = 'Scroll to zoom, drag to pan, double-click to reset.';
+                        div.after(hint);
+                    });
+                });
+            })();
+        </script>
     </body>
 </html>

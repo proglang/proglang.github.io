@@ -37,10 +37,10 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "dark";
-            window.path_to_searchindex_js = "../searchindex-6d3e1988.js";
+            window.path_to_searchindex_js = "../searchindex-2f20e82e.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="../toc-fcb03695.js"></script>
+        <script src="../toc-f3548f91.js"></script>
     </head>
     <body>
     <div id="mdbook-body-container">
@@ -157,11 +157,47 @@
 
                 <div id="mdbook-content" class="content">
                     <main>
-                        <h1 id="projects--theses"><a class="header" href="#projects--theses">Projects &amp; Theses</a></h1>
-<ul>
-<li><a href="projects/available.html">Available</a></li>
-<li><a href="projects/finished.html">Finished</a></li>
-</ul>
+                        <h1 id="projects--thesis"><a class="header" href="#projects--thesis">Projects &amp; Thesis</a></h1>
+<p><small>These are the topics we work on. The more specific you are about what you want to do or which topic you want to work in, the better, so please contact <a href="../team/thiemann.html">Peter Thiemann</a> with your idea.</small></p>
+<noscript>
+<style>pre:has(code.language-mermaid) { display: none; }</style>
+<img src="projects-graph.svg" alt="Graph of our research topics: theory (type systems, mechanized proofs) and application (concurrency analysis, compilers)" style="width:100%">
+</noscript>
+<pre><code class="language-mermaid">flowchart TD
+  root([Root]) --&gt; theory[Theory]
+  root --&gt; application[Application]
+
+  theory --&gt; ts[Type Systems]
+  ts --&gt; dt[Dependent Types]
+  ts --&gt; st[Session Types]
+  ts --&gt; pc[Process Calculi]
+  ts --&gt; gt[Gradual Types]
+
+  theory --&gt; mp[Mechanized Proofs]
+  mp --&gt; statics[Statics]
+  statics --&gt; tsafe[Type Safety]
+  statics --&gt; atc[Algorithmic Typing Completeness]
+  statics --&gt; its[Intrinsically Typed Syntax]
+  mp --&gt; semantics[Semantics]
+  semantics --&gt; df[Deadlock Freedom]
+  semantics --&gt; sim[Simulation]
+
+  application --&gt; ca[Concurrency Analysis]
+  ca --&gt; sa[Static Analysis]
+  ca --&gt; da[Dynamic Analysis]
+
+  application --&gt; comp[Compilers]
+  comp --&gt; cp[Compilation Pipeline]
+  comp --&gt; tc[Type Checkers]
+  comp --&gt; interp[Interpreters]
+
+  classDef rootc fill:#444,stroke:#222,color:#fff
+  classDef th fill:#dbeafe,stroke:#2563eb,color:#111
+  classDef ap fill:#dcfce7,stroke:#16a34a,color:#111
+  class root rootc
+  class theory,ts,dt,st,pc,gt,mp,statics,tsafe,atc,its,semantics,df,sim th
+  class application,ca,sa,da,comp,cp,tc,interp ap
+</code></pre>
 
                     </main>
 
@@ -197,5 +233,74 @@
 
 
     </div>
+        <script src="../mermaid.min.js"></script>
+        <script>
+            (function () {
+                var blocks = document.querySelectorAll('pre > code.language-mermaid');
+                if (!blocks.length) return;
+                blocks.forEach(function (code) {
+                    var div = document.createElement('div');
+                    div.className = 'mermaid';
+                    div.textContent = code.textContent;
+                    code.parentNode.replaceWith(div);
+                });
+                var dark = ['navy', 'coal', 'ayu'].some(function (t) {
+                    return document.documentElement.classList.contains(t);
+                });
+                mermaid.initialize({ startOnLoad: false, theme: dark ? 'dark' : 'default', flowchart: { useMaxWidth: false } });
+                mermaid.run().then(function () {
+                    document.querySelectorAll('div.mermaid').forEach(function (div) {
+                        var svg = div.querySelector('svg');
+                        if (!svg) return;
+                        var home = svg.viewBox.baseVal;
+                        var full = { x: home.x, y: home.y, w: home.width, h: home.height };
+                        var v = Object.assign({}, full);
+                        div.style.cssText = 'overflow:hidden;border:1px solid var(--quote-border);border-radius:4px;cursor:grab;touch-action:none';
+                        svg.removeAttribute('height');
+                        svg.style.cssText = 'display:block;width:100%;max-width:none;height:min(85vh,' + (div.clientWidth * full.h / full.w) + 'px)';
+                        svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+                        function apply() { svg.setAttribute('viewBox', v.x + ' ' + v.y + ' ' + v.w + ' ' + v.h); }
+                        function reset() { v = Object.assign({}, full); apply(); }
+                        function zoomAt(f, cx, cy) {
+                            var r = svg.getBoundingClientRect();
+                            var s0 = Math.min(r.width / v.w, r.height / v.h);
+                            var ox = r.left + (r.width - v.w * s0) / 2, oy = r.top + (r.height - v.h * s0) / 2;
+                            var px = v.x + (cx - ox) / s0, py = v.y + (cy - oy) / s0;
+                            var w = Math.max(full.w / 20, Math.min(full.w * 3, v.w / f));
+                            f = v.w / w;
+                            v = { x: px - (px - v.x) / f, y: py - (py - v.y) / f, w: w, h: v.h / f };
+                            apply();
+                        }
+                        div.addEventListener('wheel', function (e) {
+                            e.preventDefault();
+                            zoomAt(Math.exp(-e.deltaY * 0.0015), e.clientX, e.clientY);
+                        }, { passive: false });
+                        var drag = null;
+                        div.addEventListener('pointerdown', function (e) {
+                            drag = { x: e.clientX, y: e.clientY };
+                            div.setPointerCapture(e.pointerId);
+                            div.style.cursor = 'grabbing';
+                        });
+                        div.addEventListener('pointermove', function (e) {
+                            if (!drag) return;
+                            var r = svg.getBoundingClientRect();
+                            var s0 = Math.min(r.width / v.w, r.height / v.h);
+                            v.x -= (e.clientX - drag.x) / s0;
+                            v.y -= (e.clientY - drag.y) / s0;
+                            drag = { x: e.clientX, y: e.clientY };
+                            apply();
+                        });
+                        function end() { drag = null; div.style.cursor = 'grab'; }
+                        div.addEventListener('pointerup', end);
+                        div.addEventListener('pointercancel', end);
+                        div.addEventListener('dblclick', reset);
+                        var hint = document.createElement('p');
+                        hint.style.cssText = 'font-size:.8em;opacity:.7;margin:.4em 0 0';
+                        hint.textContent = 'Scroll to zoom, drag to pan, double-click to reset.';
+                        div.after(hint);
+                    });
+                });
+            })();
+        </script>
     </body>
 </html>

@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# usage: ./render-graph
+#
+# Renders the mermaid graph in src/teaching/projects.md to the static SVG
+# src/teaching/projects-graph.svg, which the page shows to visitors without
+# JavaScript. The mermaid block in the markdown is the single source of truth.
+# Run by ./publish; if rendering is not possible (no node/chromium), the
+# existing SVG is kept and a warning is printed.
+
+root="$(cd "$(dirname "$0")" && pwd)"
+page="$root/src/teaching/projects.md"
+out="$root/src/teaching/projects-graph.svg"
+tmp="$(mktemp -d)"
+trap 'rm -rf "$tmp"' EXIT
+
+awk '/^```mermaid/{f=1;next} /^```/{f=0} f' "$page" > "$tmp/graph.mmd"
+echo '{"flowchart":{"htmlLabels":false}}' > "$tmp/config.json"
+
+chrome="${CHROME_PATH:-$(ls -d "$HOME"/.cache/ms-playwright/chromium-*/chrome-linux*/chrome 2>/dev/null | head -1)}"
+if [ -n "$chrome" ]; then
+  export PUPPETEER_EXECUTABLE_PATH="$chrome"
+  export PUPPETEER_SKIP_DOWNLOAD=1
+fi
+echo '{"args":["--no-sandbox"]}' > "$tmp/puppeteer.json"
+
+if npx -y @mermaid-js/mermaid-cli@11.4.2 -i "$tmp/graph.mmd" -o "$tmp/graph.svg" \
+     -c "$tmp/config.json" -p "$tmp/puppeteer.json" -b transparent -q; then
+  cp "$tmp/graph.svg" "$out"
+  echo "rendered $out"
+else
+  echo "warning: could not render graph, keeping existing $out" >&2
+fi
