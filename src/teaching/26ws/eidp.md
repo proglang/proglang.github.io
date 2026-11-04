@@ -9,14 +9,13 @@
 ## Vorlesung
 
 | Datum | Thema | Material | Aufzeichnung
-|:-----|:-----|:-----|:-----|
+| :----- | :----- | :----- | :----- |
 | Di 20.10.26 | Organisation & Einführung | [infoI00][lecture00-info00], [infoI01][lecture00-info01], [Setup][lecture00-script1], [Abgabesystem][lecture00-script2] | |
 | Mi 21.10.26 | Erste Schritte | [infoI02][lecture01-info02] | Aufnahmefehler |
 | Di 27.10.26 | Ausdrücke | [infoI03][lecture02-info03], [infoI03-handout][lecture02-info03-handout] | Aufnahmefehler |
 | Mi 28.10.26 | Funktionen | [infoI04][lecture03-info04], [infoI04-handout][lecture03-info04-handout] | [yt][lecture01-rec] (ohne Ton) |
 | Di 03.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture04-rec] |
 | Di 04.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture05-rec] |
-
 
 [lecture00-script1]: eidp/setup/setup.html
 [lecture00-script2]: eidp/abgabesystem/abgabesystem.html
@@ -36,9 +35,10 @@
 ## Übungen
 
 | Datum | Abgabe | Material |
-|:-----|:-----|:-----|
+| :----- | :----- | :----- |
 | Mi 21.10.26 | Di 27.10.26 10:00 über [Git][git] | [Blatt01][exercise01-pdf]
 | Mi 28.10.26 | Di 03.11.26 10:00 über [Git][git] | [Blatt02][exercise02-pdf]
+| Mi 04.11.26 | Di 10.11.26 10:00 über [Git][git] | [Blatt03][exercise03-pdf]
 
 Bitte beachten Sie die [Abgaberegeln][rules]. Lösungen zu den Übungsblättern finden Sie [hier][solutions].
 
@@ -53,6 +53,7 @@ Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 [git]: https://git.proglang.de/2026WS-EidP
 [exercise01-pdf]: eidp/sheets/sheet01.pdf
 [exercise02-pdf]: eidp/sheets/sheet02.pdf
+[exercise03-pdf]: eidp/sheets/sheet03.pdf
 
 ## Leistungen
 
