@@ -15,7 +15,8 @@
 | Di 27.10.26 | Ausdrücke | [infoI03][lecture02-info03], [infoI03-handout][lecture02-info03-handout] | Aufnahmefehler |
 | Mi 28.10.26 | Funktionen | [infoI04][lecture03-info04], [infoI04-handout][lecture03-info04-handout] | [yt][lecture01-rec] (ohne Ton) |
 | Di 03.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture04-rec] |
-| Di 04.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture05-rec] |
+| Mi 04.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture05-rec] |
+| Di 10.11.26 | Sequenzen, Iteration | [infoI06][lecture06-info06], [infoI06-handout][lecture06-info06-handout] | [yt][lecture06-rec] |
 
 [lecture00-script1]: eidp/setup/setup.html
 [lecture00-script2]: eidp/abgabesystem/abgabesystem.html
@@ -31,6 +32,9 @@
 [lecture04-info05]: eidp/slides/infoI05.pdf
 [lecture04-info05-handout]: eidp/slides/infoI05-handout.pdf
 [lecture05-rec]: https://youtube.com/live/0MtC7eyu25Q?feature=share
+[lecture06-info06]: eidp/slides/infoI06.pdf
+[lecture06-info06-handout]: eidp/slides/infoI06-handout.pdf
+[lecture06-rec]: https://youtube.com/live/K5K8jobi7hI?feature=share
 
 ## Übungen
 
