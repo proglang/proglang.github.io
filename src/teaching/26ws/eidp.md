@@ -17,6 +17,7 @@
 | Di 03.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture04-rec] |
 | Mi 04.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture05-rec] |
 | Di 10.11.26 | Sequenzen, Iteration | [infoI06][lecture06-info06], [infoI06-handout][lecture06-info06-handout] | [yt][lecture06-rec] |
+| Mi 11.11.26 | Iteration |  | [yt][lecture07-rec] |
 
 [lecture00-script1]: eidp/setup/setup.html
 [lecture00-script2]: eidp/abgabesystem/abgabesystem.html
@@ -35,6 +36,7 @@
 [lecture06-info06]: eidp/slides/infoI06.pdf
 [lecture06-info06-handout]: eidp/slides/infoI06-handout.pdf
 [lecture06-rec]: https://youtube.com/live/K5K8jobi7hI?feature=share
+[lecture07-rec]: https://youtube.com/live/IkKQflzQ7Qw?feature=share
 
 ## Übungen
 
