@@ -43,6 +43,8 @@
 | Mo 2026-10-26 | canceled | - | - |
 | Mo 2026-11-02 | Inductive Definitions and Pattern Matching | [Sheet 01][sheet01-pdf], [Template01.lean][sheet01-template], [Solution01.lean][sheet01-solution] | [rec][tutorial01-recording] |
 | Mo 2026-11-09 | Higher-Order Functions | [Sheet 02][sheet02-pdf], [Template02.lean][sheet02-template], [Solution02.lean][sheet02-solution] | [rec][tutorial02-recording] |
+| Mo 2026-11-16 | Type Classes, Propositions (week 1 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | - |
+| Mo 2026-11-23 | Type Classes, Propositions (week 2 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | - |
 
 [sheet01-pdf]: /teaching/26ws/lean/exercises/sheet01.pdf
 [sheet01-template]: /teaching/26ws/lean/exercises/Template01.lean
@@ -52,6 +54,8 @@
 [sheet02-template]: /teaching/26ws/lean/exercises/Template02.lean
 [sheet02-solution]: /teaching/26ws/lean/exercises/Solution02.lean
 [tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-11-09-tutorial.mp4
+[sheet03-pdf]: /teaching/26ws/lean/exercises/sheet03.pdf
+[sheet03-template]: /teaching/26ws/lean/exercises/Template03.lean
 
 ## Exam
 | Date | Time | Place | Mode |
