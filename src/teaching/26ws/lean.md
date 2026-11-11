@@ -16,7 +16,7 @@
 | Tu 2026-10-27 | Inductive Definitions and Pattern Matching | [Slides 02-1][lecture02-1-slides], [Slides 02-2][lecture02-2-slides], [Week02.lean][lecture02-1-lean], [Week03.lean][lecture02-2-lean] | [rec][lecture02-recording] |
 | Tu 2026-11-03 | Higher-Order Functions | [Slides 03][lecture03-1-slides], [Week04.lean][lecture03-1-lean] | [rec][lecture03-recording] |
 | Tu 2026-11-10 | Type classes, Propositions | [Slides 04][lecture04-1-slides], [Week04.lean][lecture04-1-lean] | [rec][lecture04-recording] |
-| Tu 2026-11-17 | No lecture. Join us at the talk by Joachim Breitner (Lean FRO), [Lean – Architecture, Meaning and Trust][breitner-talk], **14:30–16:00, SR 404, Mathematical Institute** | - | - |
+| Tu 2026-11-17 | **No lecture.** Join us at the talk by Joachim Breitner (Lean FRO), [Lean – Architecture, Meaning and Trust][breitner-talk], **14:30–16:00, SR 404, Mathematical Institute** | - | - |
 
 [breitner-talk]: https://www.math.uni-freiburg.de/wochenprogramm/de/vortragsreihe/alle/20261116/20261123
 [fpil-ch1]: https://lean-lang.org/functional_programming_in_lean/Getting-to-Know-Lean/
