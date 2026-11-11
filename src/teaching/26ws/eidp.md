@@ -47,6 +47,7 @@
 | Mi 21.10.26 | Di 27.10.26 10:00 über [Git][git] | [Blatt01][exercise01-pdf]
 | Mi 28.10.26 | Di 03.11.26 10:00 über [Git][git] | [Blatt02][exercise02-pdf]
 | Mi 04.11.26 | Di 10.11.26 10:00 über [Git][git] | [Blatt03][exercise03-pdf]
+| Mi 11.11.26 | Di 17.11.26 10:00 über [Git][git] | [Blatt04][exercise04-pdf]
 
 Bitte beachten Sie die [Abgaberegeln][rules]. Lösungen zu den Übungsblättern finden Sie [hier][solutions].
 
@@ -62,6 +63,7 @@ Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 [exercise01-pdf]: eidp/sheets/sheet01.pdf
 [exercise02-pdf]: eidp/sheets/sheet02.pdf
 [exercise03-pdf]: eidp/sheets/sheet03.pdf
+[exercise04-pdf]: eidp/sheets/sheet04.pdf
 
 ## Leistungen
 
