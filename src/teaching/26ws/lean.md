@@ -4,7 +4,7 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistant: [Marius Weidner](/team/weidner.md)
 - Lecture: Tuesday 2PM, Building 106 Room 04 007, [zoom](https://uni-freiburg.zoom-x.de/j/68002320780?pwd=wIaOapgrdMR87vGomutNc9NGlMq7v7.1)
-- Tutorial: Monday 10AM, Building 101 Room 00-017/19, [zoom](https://uni-freiburg.zoom-x.de/j/64456204069?pwd=CGanL5DLM8mEoBny3y6B0VeEJ7341s.1)
+- Tutorial: Monday 10AM, Building 101 Room 00-017/19, [room](https://video.proglang.de/2026ws/lean-tutorial?join)
 - Chat: [zulip channel](https://chat.proglang.de/join/dzmad3m76sci2jy3yoetsfwb/)
 
 
@@ -43,7 +43,7 @@
 | Mo 2026-10-26 | canceled | - | - |
 | Mo 2026-11-02 | Inductive Definitions and Pattern Matching | [Sheet 01][sheet01-pdf], [Template01.lean][sheet01-template], [Solution01.lean][sheet01-solution] | [rec][tutorial01-recording] |
 | Mo 2026-11-09 | Higher-Order Functions | [Sheet 02][sheet02-pdf], [Template02.lean][sheet02-template], [Solution02.lean][sheet02-solution] | [rec][tutorial02-recording] |
-| Mo 2026-11-16 | Type Classes, Propositions (week 1 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | - |
+| Mo 2026-11-16 | Type Classes, Propositions (week 1 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | [rec][tutorial02-recording] |
 | Mo 2026-11-23 | Type Classes, Propositions (week 2 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | - |
 
 [sheet01-pdf]: /teaching/26ws/lean/exercises/sheet01.pdf
@@ -56,6 +56,7 @@
 [tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-11-09-tutorial.mp4
 [sheet03-pdf]: /teaching/26ws/lean/exercises/sheet03.pdf
 [sheet03-template]: /teaching/26ws/lean/exercises/Template03.lean
+[tutorial03-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2026-11-16.mp4
 
 ## Exam
 | Date | Time | Place | Mode |
