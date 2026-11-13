@@ -1,4 +1,4 @@
-<div lang="de" style="max-width: 80rem; text-align: justify">
+<div lang="de" style="max-width: 80rem">
 
 # Proseminar
 
@@ -27,12 +27,16 @@
 
 ### Expose
 
+<div style="text-align: justify">
+
 Die Mitglieder einer Themegruppe arbeiten gemeinsam ein Expose aus.
 Darin geben sie stichpunktartig die Inhalte an, die in den Vorträgen besprochen werden sollen.
 Ebenso soll das Expose die Vorträge gegeneinander abgegrenzen.
 Das Expose soll auch weitere, veröffentlichte Literatur zum Thema angeben und zu jedem gelisteten Paper in 2-3 Sätzen den Zusammenhang erklären.
 Nach der Sitzung mit dem Betreuer muss das Expose ggf. revidiert werden. 
 Danach können die Vorträge ausgearbeitet werden.
+
+</div>
 
 ### Treffen mit den Betreuern
 
@@ -69,29 +73,25 @@ Vier Themenblöcke. Jeweils 3-4 Vorträge pro Block.
 
 Weitere Möglichkeiten: Scala, Rust, ...
 
-### Frank Pfenning Lecture Notes on Automated Reasoning
+### Metaprogramming
 
-* imperative programming language semantics
-* how to do correctness proofs
-* logical foundations (dynamic logic)
-* WP (weakest precondition)
-* [Lecture-Notes Verzeichnis](https://www.cs.cmu.edu/~15414/s22/lectures/),
-  relevante Kapitel mit Theorie-Elementen sind Kap. 05 - 11
-    - Die konkrete Anwendung bezüglich reg. Ausdrücken ist nicht elementarer
-      Bestandteil (aber evtl. zu Illustrationszwecken geeignet)
-    - Ebenso Kap. 04 (Arrays)
-    - Die Inhalte zu *Why3* sind nicht von Relevanz
-
-## Ersatzthemen
-
-[ Metaprogramming, macros, reflection (M4+CPP, Scheme, Lean, MetaML, Scala, …) ]
-[ Lambda calculus, process calculus (pi, ccs) (translation) ]
+* Macros and Hygiene in Scheme bzw. Lisp
+  - Clinger, Rees: Macros that work
+  - (Hieb), Dybvig, Bruggeman: Syntactic Abstraction in Scheme
+* MetaML bzw. MetaOCaml: Typechecking und Staging
+  - Taha: A Sound Reduction Semantics for Untyped CBN Multi-Stage Computation
+  - Taha, Sheard: MetaML and multi-stage programming with explicit annotations
+  - Für MetaOCaml siehe <https://okmij.org/ftp/ML/MetaOCaml.html> und entsprechenden Veröffentlichungen von Kiselyov
 
 
 ## Termine
 
-| Datum  | Thema   | Vortrag  | Betreuer  |
-| ------ | ------- | -------- | ----------|
+| Datum  | Thema   | Betreuer  |
+| ------ |:------- | ----------|
+| 19.01. | Generic Types | [JS] |
+| 26.01. | Abstract Types | [PT] |
+| 02.02. | Traits/Type Classes | [PT] |
+| 09.02. | Metaprogramming | [JS] |
 
 
 </div>
