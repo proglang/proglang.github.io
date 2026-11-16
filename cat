@@ -1,0 +1,532 @@
+
+---
+name: thiemann-style-writing
+description: >
+  Draft and revise academic writing in the style of Peter Thiemann's
+  publications in programming languages, type systems, semantics,
+  and mechanized metatheory. Use for abstracts, introductions,
+  technical sections, related work, conclusions, and paper revisions.
+  Emphasize precision, constructive framing, active voice, and
+  concise technical exposition. Avoid hype, rhetorical flourish,
+  and redundancy.
+---
+
+# Thiemann-Style Academic Writing
+
+## Purpose
+
+Produce academic prose consistent with the writing style found in
+Peter Thiemann's publications.
+
+The style is characterized by technical precision, constructive
+argumentation, concise exposition, and careful separation of
+definitions, mechanisms, and results.
+
+Apply this skill when drafting new material or revising existing
+academic writing. Preserve the author's technical intentions,
+terminology, and claims.
+
+## Reference Publications
+
+The specification is informed by:
+
+- Saffrich, Spaderna, Thiemann, and Vasconcelos.
+  *Borrowing from Session Types*. OOPSLA 2025.
+- Saffrich, Nishida, and Thiemann.
+  *Law and Order for Typestate with Borrowing*. OOPSLA 2024.
+- Thiemann.
+  *What I Always Wanted to Know about Second Class Values*.
+  OLIVIERFEST 2025.
+
+These papers provide examples of the desired exposition,
+argumentation, and technical vocabulary.
+
+## 1. General Writing Principles
+
+### Tone
+
+Use a calm, technical, and precise tone.
+
+- Avoid hype and marketing language.
+- Avoid rhetorical flourish and exaggerated claims.
+- Avoid unnecessary evaluative adjectives.
+- Prefer factual descriptions over subjective assessments.
+- Do not dramatize technical difficulties.
+- Do not exaggerate novelty, significance, or impact.
+- Acknowledge limitations without excessive qualification.
+
+Avoid expressions such as:
+
+- groundbreaking
+- revolutionary
+- game-changing
+- remarkably
+- surprisingly
+- incredibly powerful
+- elegant solution
+- significant leap forward
+- opens exciting new avenues
+
+Use terms such as "novel" or "significant" only when they
+convey a specific, justified technical claim.
+
+### Voice
+
+Prefer active voice and first-person plural.
+
+Examples:
+
+- We define a calculus ...
+- We establish type soundness ...
+- We give an algorithmic version ...
+- We prove decidability ...
+- We implement a type checker ...
+- We model the interaction using ...
+
+Use passive voice when the object or result is more important
+than the actor.
+
+Do not force first-person plural into every sentence.
+Alternate naturally between statements about the authors'
+work and statements about technical objects.
+
+### Conciseness
+
+- Keep sentences reasonably short.
+- Prefer direct statements.
+- Remove redundant qualifications.
+- Avoid repeating the same motivation in successive paragraphs.
+- Do not restate results unless the context requires it.
+- Each paragraph should advance the technical argument.
+- Prefer concrete nouns and verbs over abstract nominalizations.
+
+Do not sacrifice technical precision for brevity.
+
+## 2. Constructive Framing
+
+Present research primarily in terms of the mechanisms and
+results developed in the work.
+
+Prefer:
+
+- We propose an alternative formulation ...
+- This approach requires ...
+- We extend the calculus with ...
+- The type system enforces ...
+- This restriction ensures ...
+- The translation establishes ...
+- The existing formulation does not support ...
+
+Avoid adversarial formulations such as:
+
+- Previous approaches fail to ...
+- Existing systems suffer from ...
+- Prior work completely ignores ...
+- We overcome the fundamental shortcomings of ...
+
+When identifying limitations of previous work, describe the
+technical restriction precisely.
+
+A limitation should motivate a design decision rather than
+serve as a rhetorical device.
+
+## 3. Argument Structure
+
+Prefer the following progression when appropriate:
+
+1. Introduce the technical setting.
+2. Identify a concrete problem or restriction.
+3. Explain the proposed mechanism.
+4. Illustrate the mechanism with a small example.
+5. State its formal properties and consequences.
+
+This progression is a guideline, not a rigid template.
+
+Avoid extended introductory discussions that delay the
+technical substance.
+
+### Paragraph Structure
+
+Each paragraph should have a clear purpose.
+
+Typical purposes include:
+
+- introducing a concept;
+- describing a technical difficulty;
+- explaining a design decision;
+- interpreting a formal definition;
+- presenting an example;
+- establishing a consequence;
+- comparing two approaches.
+
+Use explicit connections between paragraphs when needed,
+but avoid mechanical transition phrases.
+
+## 4. Technical Exposition
+
+### Definitions
+
+Introduce formal objects precisely.
+
+Where appropriate:
+
+1. State the definition or syntax.
+2. Explain its intended interpretation.
+3. Describe relevant constraints.
+4. Give a representative example.
+5. Explain the consequences of the constraints.
+
+Do not substitute informal intuition for a formal definition.
+
+Conversely, do not present formal notation without explaining
+its role when the reader needs that explanation.
+
+### Mechanisms
+
+Explain how a mechanism works and why it is needed.
+
+Prefer:
+
+"The typing rule requires the borrowed resource to be
+consumed before the remaining resource. This restriction
+prevents operations on the two references from occurring
+in the wrong order."
+
+Avoid:
+
+"The sophisticated typing discipline elegantly resolves
+the challenging problem of resource aliasing."
+
+### Examples
+
+Use small, focused examples.
+
+- Introduce only the details needed for the argument.
+- Explain what the example demonstrates.
+- Connect the example to the formal mechanism.
+- Discuss relevant boundary cases.
+- Avoid unnecessary narrative framing.
+
+Prefer examples that expose a specific typing restriction,
+semantic behavior, or design choice.
+
+### Formal Results
+
+Distinguish carefully between:
+
+- definitions;
+- propositions;
+- conjectures;
+- established theorems;
+- mechanized proofs;
+- informal arguments;
+- implementation results;
+- empirical observations.
+
+Use "prove" only for mathematical results.
+
+Use "show" for established results when a more general
+formulation is appropriate.
+
+Use "demonstrate" primarily for examples or empirical
+evidence.
+
+Do not claim that a result is mechanized unless this is
+explicitly established.
+
+Preserve the scope and assumptions of every theorem.
+
+## 5. Sentence Construction
+
+Prefer direct declarative sentences.
+
+Examples:
+
+- The calculus distinguishes two classes of references.
+- The translation preserves typing.
+- This condition ensures that the resource cannot escape.
+- The algorithm computes the remaining session type.
+- The type system rejects this expression.
+- The restriction is necessary because the closure may
+  outlive its defining scope.
+
+Use longer sentences when needed to express dependencies
+or qualifications precisely.
+
+Avoid excessive nesting of subordinate clauses.
+
+Prefer explicit logical relationships over compressed but
+ambiguous prose.
+
+### Contrast and Transitions
+
+Use "however" sparingly.
+
+Reserve it for genuine technical contrasts or obstacles.
+
+Alternative constructions include:
+
+- In contrast, ...
+- The difference is that ...
+- This approach differs from ...
+- Instead, we ...
+- The restriction arises because ...
+- This condition does not hold when ...
+
+Do not replace every occurrence of "however" mechanically.
+Often the best revision is to remove the transition entirely.
+
+Avoid beginning successive paragraphs with formulaic
+transitions such as:
+
+- Furthermore, ...
+- Moreover, ...
+- Additionally, ...
+- Interestingly, ...
+- Importantly, ...
+
+Use these expressions only when they clarify the argument.
+
+## 6. Vocabulary and Terminology
+
+Prefer established programming-language terminology.
+
+Examples include:
+
+- calculus
+- type system
+- typing judgment
+- operational semantics
+- type preservation
+- progress
+- type soundness
+- decidability
+- translation
+- mechanization
+- resource
+- borrowing
+- ownership
+- linearity
+- substructural typing
+- compositionality
+- algorithmic typing
+
+Use the terminology appropriate to the particular paper.
+
+Do not introduce specialized terminology merely to make
+the prose sound more technical.
+
+Maintain consistent names for formal objects and concepts.
+
+Avoid unnecessary synonyms for technical terms.
+
+## 7. Contributions
+
+Present contributions as concrete technical developments.
+
+An enumerated list is often appropriate.
+
+Prefer formulations such as:
+
+1. We define a calculus that supports ...
+2. We give an algorithmic formulation of ...
+3. We establish type soundness by ...
+4. We provide a mechanized proof of ...
+5. We implement a prototype that ...
+
+Describe what was constructed, established, or evaluated.
+
+Avoid promotional descriptions of the contribution.
+
+Do not claim priority without evidence.
+
+Distinguish clearly between a proposed mechanism and
+properties that have actually been proved.
+
+## 8. Related Work
+
+Compare approaches using specific technical criteria.
+
+Relevant criteria may include:
+
+- expressive power;
+- type-system structure;
+- operational semantics;
+- restrictions on programs;
+- algorithmic properties;
+- mechanization;
+- implementation;
+- assumptions and guarantees.
+
+Prefer:
+
+"The system of X uses explicit permissions to control
+aliasing. Our approach uses an ordering on resources
+to constrain their consumption."
+
+Avoid:
+
+"Unlike the cumbersome approach of X, our method
+provides a clean and powerful solution."
+
+Acknowledge similarities and differences.
+
+Do not manufacture distinctions to emphasize novelty.
+
+## 9. Genre-Specific Guidance
+
+### Abstracts
+
+Use a compact progression:
+
+1. Introduce the problem or setting.
+2. Identify the specific technical issue.
+3. State the proposed approach.
+4. Describe the central mechanism.
+5. State the main formal or empirical results.
+
+Avoid generic opening statements about the importance
+of software or programming languages unless they
+contribute directly to the motivation.
+
+Prefer concrete results over broad impact claims.
+
+### Introductions
+
+Develop the motivation through concrete technical
+problems.
+
+Use examples to expose limitations and explain the
+proposed mechanism.
+
+Introduce the central idea before listing contributions.
+
+Avoid repeatedly stating the same research gap.
+
+### Technical Sections
+
+Introduce syntax, judgments, and definitions in a
+logical order.
+
+Explain the intuition behind non-obvious rules.
+
+Use examples to clarify constraints and interactions.
+
+Keep informal explanations consistent with the formal
+development.
+
+### Related Work
+
+Organize the discussion around technical relationships
+rather than a sequence of isolated paper summaries.
+
+Make comparisons precise and restrained.
+
+### Conclusions
+
+Summarize the technical mechanism and established results.
+
+Mention limitations or open questions when relevant.
+
+Avoid visionary claims, promotional language, and
+generic statements about future impact.
+
+## 10. Revision Procedure
+
+When revising existing text:
+
+1. Identify the technical claim of each sentence.
+2. Preserve all definitions, assumptions, and qualifications.
+3. Replace indirect formulations with direct statements.
+4. Prefer active voice where natural.
+5. Remove redundant explanations.
+6. Replace vague evaluations with concrete technical claims.
+7. Check the logical progression between sentences.
+8. Remove unnecessary transitions, especially "however".
+9. Preserve terminology and mathematical notation.
+10. Check that the revision has not strengthened any claim.
+
+Do not introduce new technical claims during stylistic revision.
+
+Do not silently change the meaning of a statement to make
+it more concise.
+
+If a sentence is technically ambiguous, flag the ambiguity
+rather than guessing the intended meaning.
+
+## 11. Negative Constraints
+
+Avoid:
+
+- marketing language;
+- hype;
+- rhetorical flourish;
+- exaggerated novelty claims;
+- unnecessary adjectives;
+- adversarial descriptions of prior work;
+- excessive passive voice;
+- redundant motivation;
+- repetitive paragraph openings;
+- gratuitous transitions;
+- unsupported claims of significance;
+- vague references to "powerful frameworks";
+- generic AI-generated academic prose.
+
+Do not systematically insert phrases such as:
+
+- It is worth noting that ...
+- It is important to emphasize that ...
+- This highlights the fact that ...
+- This opens up new possibilities for ...
+- This represents a significant advancement ...
+- In today's rapidly evolving landscape ...
+
+Prefer stating the relevant fact directly.
+
+## 12. Output Requirements
+
+When asked to draft text:
+
+- Produce the requested text directly.
+- Follow the requested genre and length.
+- Use the terminology and notation provided.
+- Do not invent results, citations, or experiments.
+- Do not add explanations about stylistic choices unless asked.
+
+When asked to revise text:
+
+- Return a revised version.
+- Preserve the technical content.
+- Avoid unnecessary restructuring.
+- Explain substantial semantic changes separately,
+  if any are needed.
+
+When asked to critique text:
+
+- Identify concrete problems with precision,
+  structure, terminology, and argumentation.
+- Distinguish stylistic issues from technical issues.
+- Suggest specific revisions.
+
+## Final Checklist
+
+Before returning academic prose, verify:
+
+- Is every technical claim precise?
+- Are assumptions and restrictions preserved?
+- Does each paragraph advance the argument?
+- Is the framing constructive?
+- Is active voice used where appropriate?
+- Is the prose concise without becoming cryptic?
+- Have redundant statements been removed?
+- Are contrasts technically justified?
+- Is "however" used sparingly?
+- Are contribution claims supported?
+- Is the text free of hype and rhetorical flourish?
+- Does the text sound like a research publication
+  rather than promotional material?
+
+The primary objective is precise, readable technical
+exposition. Stylistic consistency must never come
+at the expense of correctness.
+

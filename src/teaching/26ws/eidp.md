@@ -18,6 +18,8 @@
 | Mi 04.11.26 | Bedingte Ausfuehrung | [infoI05][lecture04-info05], [infoI05-handout][lecture04-info05-handout] | [yt][lecture05-rec] |
 | Di 10.11.26 | Sequenzen, Iteration | [infoI06][lecture06-info06], [infoI06-handout][lecture06-info06-handout] | [yt][lecture06-rec] |
 | Mi 11.11.26 | Iteration | [infoI07][lecture07-info07], [infoI07-handout][lecture07-info07-handout] | [yt][lecture07-rec] |
+| Di 17.11.26 | Iteration |  | [yt][lecture08-rec] |
+| Mi 18.11.26 | Iteration: while | | [yt][lecture09-rec] |
 
 [lecture00-script1]: eidp/setup/setup.html
 [lecture00-script2]: eidp/abgabesystem/abgabesystem.html
@@ -39,6 +41,8 @@
 [lecture07-rec]: https://youtube.com/live/IkKQflzQ7Qw?feature=share
 [lecture07-info07]: eidp/slides/infoI07.pdf
 [lecture07-info07-handout]: eidp/slides/infoI07-handout.pdf
+[lecture08-rec]: https://www.youtube.com/watch?v=BRGy5AwCjKk
+[lecture09-rec]: https://www.youtube.com/watch?v=58KdOp6WIsA
 
 ## Übungen
 
