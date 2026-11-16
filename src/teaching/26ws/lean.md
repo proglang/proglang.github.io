@@ -4,7 +4,7 @@
 - Lecturer: [Prof. Dr. Peter Thiemann](/team/thiemann.md)
 - Assistant: [Marius Weidner](/team/weidner.md)
 - Lecture: Tuesday 2PM, Building 106 Room 04 007, [zoom](https://uni-freiburg.zoom-x.de/j/68002320780?pwd=wIaOapgrdMR87vGomutNc9NGlMq7v7.1)
-- Tutorial: Monday 10AM, Building 101 Room 00-017/19, [room](https://video.proglang.de/2026ws/lean-tutorial?join)
+- Tutorial: Monday 10AM, Building 101 Room 00-017/19, [room](https://video.proglang.de/2026ws-lean-tutorial?join)
 - Chat: [zulip channel](https://chat.proglang.de/join/dzmad3m76sci2jy3yoetsfwb/)
 
 
