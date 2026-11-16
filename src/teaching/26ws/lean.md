@@ -43,8 +43,18 @@
 | Mo 2026-10-26 | canceled | - | - |
 | Mo 2026-11-02 | Inductive Definitions and Pattern Matching | [Sheet 01][sheet01-pdf], [Template01.lean][sheet01-template], [Solution01.lean][sheet01-solution] | [rec][tutorial01-recording] |
 | Mo 2026-11-09 | Higher-Order Functions | [Sheet 02][sheet02-pdf], [Template02.lean][sheet02-template], [Solution02.lean][sheet02-solution] | [rec][tutorial02-recording] |
-| Mo 2026-11-16 | Type Classes, Propositions (week 1 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | [rec][tutorial03-recording] |
-| Mo 2026-11-23 | Type Classes, Propositions (week 2 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | - |
+| Mo 2026-11-16 | Type Classes, Propositions (week 1 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template], [Solution03.lean][sheet03-solution] | [rec][tutorial03-recording] |
+| Mo 2026-11-23 | Type Classes, Propositions (week 2 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template] | [rec][tutorial04-recording] |
+<!-- | Mo 2026-11-30 | | | [rec][tutorial05-recording] | -->
+<!-- | Mo 2026-12-07 | | | [rec][tutorial06-recording] | -->
+<!-- | Mo 2026-12-14 | | | [rec][tutorial07-recording] | -->
+<!-- | Mo 2026-12-21 | | | [rec][tutorial08-recording] | -->
+<!-- Mo 2026-12-28, Mo 2027-01-04: Christmas break (2026-12-24 to 2027-01-06) -->
+<!-- | Mo 2027-01-11 | | | [rec][tutorial09-recording] | -->
+<!-- | Mo 2027-01-18 | | | [rec][tutorial10-recording] | -->
+<!-- | Mo 2027-01-25 | | | [rec][tutorial11-recording] | -->
+<!-- | Mo 2027-02-01 | | | [rec][tutorial12-recording] | -->
+<!-- | Mo 2027-02-08 | | | [rec][tutorial13-recording] | -->
 
 [sheet01-pdf]: /teaching/26ws/lean/exercises/sheet01.pdf
 [sheet01-template]: /teaching/26ws/lean/exercises/Template01.lean
@@ -56,7 +66,18 @@
 [tutorial02-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-11-09-tutorial.mp4
 [sheet03-pdf]: /teaching/26ws/lean/exercises/sheet03.pdf
 [sheet03-template]: /teaching/26ws/lean/exercises/Template03.lean
+[sheet03-solution]: /teaching/26ws/lean/exercises/Solution03.lean
 [tutorial03-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2026-11-16.mp4
+[tutorial04-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2026-11-23.mp4
+[tutorial05-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2026-11-30.mp4
+[tutorial06-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2026-12-07.mp4
+[tutorial07-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2026-12-14.mp4
+[tutorial08-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2026-12-21.mp4
+[tutorial09-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2027-01-11.mp4
+[tutorial10-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2027-01-18.mp4
+[tutorial11-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2027-01-25.mp4
+[tutorial12-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2027-02-01.mp4
+[tutorial13-recording]: https://video.proglang.de/recordings/2026ws/lean-tutorial/2027-02-08.mp4
 
 ## Exam
 | Date | Time | Place | Mode |
