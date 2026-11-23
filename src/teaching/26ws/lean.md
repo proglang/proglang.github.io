@@ -44,7 +44,7 @@
 | Mo 2026-11-02 | Inductive Definitions and Pattern Matching | [Sheet 01][sheet01-pdf], [Template01.lean][sheet01-template], [Solution01.lean][sheet01-solution] | [rec][tutorial01-recording] |
 | Mo 2026-11-09 | Higher-Order Functions | [Sheet 02][sheet02-pdf], [Template02.lean][sheet02-template], [Solution02.lean][sheet02-solution] | [rec][tutorial02-recording] |
 | Mo 2026-11-16 | Type Classes, Propositions (week 1 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template], [Solution03.lean][sheet03-solution] | [rec][tutorial03-recording] |
-| Mo 2026-11-23 | Type Classes, Propositions (week 2 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template], [Solution03.lean][sheet03-solution] | - |
+| Mo 2026-11-23 | Type Classes, Propositions (week 2 of sheet 03) | [Sheet 03][sheet03-pdf], [Template03.lean][sheet03-template], [Solution03.lean][sheet03-solution] | recording missing (corrupted) |
 <!-- | Mo 2026-11-30 | | | [rec][tutorial05-recording] | -->
 <!-- | Mo 2026-12-07 | | | [rec][tutorial06-recording] | -->
 <!-- | Mo 2026-12-14 | | | [rec][tutorial07-recording] | -->
