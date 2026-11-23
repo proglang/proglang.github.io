@@ -17,6 +17,7 @@
 | Tu 2026-11-03 | Higher-Order Functions | [Slides 03][lecture03-1-slides], [Week04.lean][lecture03-1-lean] | [rec][lecture03-recording] |
 | Tu 2026-11-10 | Type classes, Propositions | [Slides 04][lecture04-1-slides], [Week04.lean][lecture04-1-lean] | [rec][lecture04-recording] |
 | Tu 2026-11-17 | **No lecture.** Join us at the talk by Joachim Breitner (Lean FRO), [Lean – Architecture, Meaning and Trust][breitner-talk], **14:30–16:00, SR 404, Mathematical Institute** | - | - |
+| Tu 2026-11-24 | IO, Monads | [Slides_05][lecture05-1-slides], [Slides_06][lecture06-1-slides] | [rec][lecture05-recording] |
 
 [breitner-talk]: https://www.math.uni-freiburg.de/wochenprogramm/de/vortragsreihe/alle/20261116/20261123
 [fpil-ch1]: https://lean-lang.org/functional_programming_in_lean/Getting-to-Know-Lean/
@@ -35,6 +36,10 @@
 [lecture04-1-slides]: /teaching/26ws/lean/slides/lecture04-1.pdf
 [lecture04-1-lean]: /teaching/26ws/lean/code/Week04.lean
 [lecture04-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-11-10-lecture-1.mp4
+[lecture05-1-slides]: /teaching/26ws/lean/slides/lecture05-1.pdf
+[lecture05-1-lean]: /teaching/26ws/lean/code/Week05.lean
+[lecture05-recording]: https://archive.informatik.uni-freiburg.de/courses/proglang/2026-WS-Lean/2026-11-24-lecture-1.mp4
+[lecture06-1-slides]: /teaching/26ws/lean/slides/lecture06-1.pdf
 
 ## Tutorial
 
