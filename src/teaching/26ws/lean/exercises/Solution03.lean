@@ -30,6 +30,9 @@ instance [Sub α] : Sub (V3 α) where
   sub -- v w := ⟨ v.x + w.x, v.y + w.y, v.z + w.z ⟩
     | ⟨ x₁, y₁, z₁ ⟩, ⟨ x₂, y₂, z₂ ⟩ => ⟨ x₁ - x₂, y₁ - y₂, z₁ - z₂ ⟩
 
+instance [Neg α] : Neg (V3 α) where
+  neg v := ⟨-v.x, -v.y, -v.z⟩
+
 -- Exercise 2: Monoids ----------------------------------------------------------
 
 class Monoid (α : Type) where
@@ -74,7 +77,9 @@ instance (priority := low) boolOr : Monoid Bool where
 
 def foo := mfoldr (m := boolOr) [true, false]
 
--- instance (priority := low) intMul ... : Monoid Int ...
+instance (priority := low) intMul : Monoid Int where
+  op := (· * ·)
+  id := 1
 
 -- Exercise 3: Foldable ---------------------------------------------------------
 class Foldable (f : Type → Type) where
@@ -89,22 +94,31 @@ def exampleTree : BTree Int :=
   .node (.node .leaf 1 .leaf) 2 (.node .leaf 3 (.node .leaf 4 .leaf))
 
 instance : Foldable List where
-  foldr := sorry
+  foldr := List.foldr
 
--- instance ... : Foldable Option ...
+instance : Foldable Option where
+  foldr f z o := match o with
+    | none => z
+    | (some x) => f x z
 
--- def BTree.foldr ...
+def BTree.foldr (f : α → β → β) (z : β) : BTree α → β
+  | .leaf => z
+  | .node l x r => BTree.foldr f (f x (BTree.foldr f z r)) l
 
--- instance ... : Foldable BTree ...
+instance : Foldable BTree where
+  foldr := BTree.foldr
 
-def fold [Foldable f] [Monoid α] (xs : f α) : α :=
-  sorry
+def fold [Foldable f] [Monoid α] :  f α → α :=
+  Foldable.foldr Monoid.op Monoid.id
 
--- def toList ...
+def toList [Foldable f] (xs : f α) : List α :=
+  Foldable.foldr List.cons [] xs
 
--- def length ...
+def length [Foldable f] (xs : f α) : Nat :=
+  Foldable.foldr (fun _ n => n + 1) 0 xs
 
--- def sum ...
+def sum [Foldable f] (xs : f Int) : Int :=
+  fold xs
 
 -- Exercise 4: Lawful monoids --------------------------------------------------
 -- Put the cursor after `by` and on each tactic to see the goal in the infoview.
@@ -120,61 +134,159 @@ instance : Monoid Nat where
   op := (· + ·)
   id := 0
 
+-- instance : LawfulMonoid Nat where
+--   op_assoc := by
+--     intro x y z
+--     show x + y + z = x + (y + z)
+--     omega
+--   id_op := by
+--     intro x
+--     show 0 + x = x
+--     omega
+--   op_id := by
+--     intro x
+--     show x + 0 = x
+--     omega
+--
+
+theorem add_assoc (x y : Nat) : (z : Nat) → x + y + z = x + (y + z)
+  | 0 => rfl
+  | z + 1 => congrArg (· + 1) (add_assoc x y z)
+
+theorem add_zero : (x : Nat) → 0 + x = x
+  | 0 => rfl
+  | x + 1 => congrArg (· + 1) (add_zero x)
+
 instance : LawfulMonoid Nat where
+  op_assoc := add_assoc
+  id_op := add_zero
+  op_id _ := rfl
+
+-- instance : LawfulMonoid Bool where
+--   op_assoc := by decide
+--   id_op := by decide
+--   op_id := by decide
+
+instance : LawfulMonoid Bool where
+  op_assoc := λ x _ _ => match x with
+    | true  => rfl
+    | false => rfl
+  id_op _ := rfl
+  op_id
+    | true => rfl
+    | false => rfl
+
+instance : LawfulMonoid (Option α) where
   op_assoc := by
     intro x y z
-    show x + y + z = x + (y + z)
-    omega
+    cases x with
+    | none => rfl
+    | some a => rfl
   id_op := by
     intro x
-    show 0 + x = x
-    omega
+    rfl
   op_id := by
     intro x
-    show x + 0 = x
-    omega
+    cases x with
+    | none => rfl
+    | some a => rfl
 
--- instance ... : LawfulMonoid Bool ...
+-- instance : LawfulMonoid (List α) where
+--   op_assoc := by
+--     intro xs ys zs
+--     show xs ++ ys ++ zs = xs ++ (ys ++ zs)
+--     induction xs with
+--     | nil => rfl
+--     | cons x xs ih => simp
+--   id_op := by
+--     intro xs
+--     rfl
+--   op_id := by
+--     intro xs
+--     show xs ++ [] = xs
+--     induction xs with
+--     | nil => rfl
+--     | cons x xs ih => simp
 
--- instance ... : LawfulMonoid (Option α) ...
+theorem op_assoc (xs ys zs : List α) : xs ++ ys ++ zs = xs ++ (ys ++ zs) := match xs with
+  | [] => rfl
+  | (x :: xs) => congrArg (List.cons x) (op_assoc xs ys zs)
 
--- instance ... : LawfulMonoid (List α) ...
+theorem op_id : (xs : List α) → xs ++ [] = xs
+    | [] => rfl
+    | (x :: xs) => congrArg (List.cons x) (op_id xs)
 
+instance : LawfulMonoid (List α) where
+  op_assoc := op_assoc
+  id_op _ := rfl
+  op_id := op_id
+  
 -- Bonus
 
--- instance ... : LawfulMonoid (α × β) ...
+instance [Monoid α] [Monoid β] [LawfulMonoid α] [LawfulMonoid β] : LawfulMonoid (α × β) where
+  op_assoc := by
+    intro (a, b) (c, d) (e, f)
+    show (Monoid.op (Monoid.op a c) e, Monoid.op (Monoid.op b d) f)
+       = (Monoid.op a (Monoid.op c e), Monoid.op b (Monoid.op d f))
+    rw [LawfulMonoid.op_assoc a, LawfulMonoid.op_assoc b]
+  id_op := by
+    intro (a, b)
+    show (Monoid.op Monoid.id a, Monoid.op Monoid.id b) = (a, b)
+    rw [LawfulMonoid.id_op, LawfulMonoid.id_op]
+  op_id := by
+    intro (a, b)
+    show (Monoid.op a Monoid.id, Monoid.op b Monoid.id) = (a, b)
+    rw [LawfulMonoid.op_id, LawfulMonoid.op_id]
 
--- instance ... : LawfulMonoid (α → β) ...
+instance {α β : Type} [Monoid β] [LawfulMonoid β] : LawfulMonoid (α → β) where
+  op_assoc := by
+    intro f g h
+    funext x
+    exact LawfulMonoid.op_assoc (f x) (g x) (h x)
+  id_op := by
+    intro f
+    funext x
+    exact LawfulMonoid.id_op (f x)
+  op_id := by
+    intro f
+    funext x
+    exact LawfulMonoid.op_id (f x)
 
--- theorem mconcat_append ...
+theorem mfoldr_append [Monoid α] [LawfulMonoid α] (xs ys : List α) :
+    mfoldr (xs ++ ys) = Monoid.op (mfoldr xs) (mfoldr ys) := by
+  induction xs with
+  | nil => simp only [List.nil_append, mfoldr, List.foldr, LawfulMonoid.id_op]
+  | cons x xs ih =>
+    simp only [List.cons_append, mfoldr, List.foldr] at ih ⊢
+    rw [ih, LawfulMonoid.op_assoc]
 
 -- Examples from the exercise sheet --------------------------------------------
 -- `#eval e` shows the value of `e`. `#guard b` evaluates the `Bool` expression
 -- `b` and reports an error if it is `false`, like `assert` in other languages.
 -- Uncomment each line once the function is defined.
 
--- #guard last' [1, 2, 3] == 3
--- #guard (⟨1, 2, 3⟩ + ⟨10, 20, 30⟩ : V3 Int) == ⟨11, 22, 33⟩
--- #guard (⟨1, 2, 3⟩ - ⟨10, 20, 30⟩ : V3 Int) == ⟨-9, -18, -27⟩
--- #guard (-⟨1, -2, 3⟩ : V3 Int) == ⟨-1, 2, -3⟩
--- #guard Monoid.op true false == false
--- #guard Monoid.op (3 : Int) 4 == 7
--- #guard Monoid.op [1, 2] [3] == [1, 2, 3]
--- #guard Monoid.op (none : Option Nat) (some 1) == some 1
--- #guard Monoid.op (some 1) (some 2) == some 1
--- #guard Monoid.op (true, (100 : Int)) (false, 20) == (false, 120)
--- #guard (Monoid.op (fun x => decide (x > 5)) (fun x => decide (x < 10))) 7 == true
--- #guard mconcat ([1, 5, 2] : List Int) == 8
--- #guard mconcat [true, false, true] == false
--- #guard mconcat (m := boolOr) [true, false, true] == true
--- #guard mconcat (m := intMul) [1, 5, 2] == 10
--- #guard (let _ : Monoid Bool := boolOr; mconcat [true, false, true]) == true
--- #guard toList exampleTree == [1, 2, 3, 4]
--- #guard toList (some 5) == [5]
--- #guard length exampleTree == 4
--- #guard length [10, 20, 30] == 3
--- #guard sum exampleTree == 10
--- #guard sum (some (7 : Int)) == 7
--- #guard fold [[1, 2], [3], [4, 5]] == [1, 2, 3, 4, 5]
+#guard last' [1, 2, 3] == 3
+#guard (⟨1, 2, 3⟩ + ⟨10, 20, 30⟩ : V3 Int) == ⟨11, 22, 33⟩
+#guard (⟨1, 2, 3⟩ - ⟨10, 20, 30⟩ : V3 Int) == ⟨-9, -18, -27⟩
+#guard (-⟨1, -2, 3⟩ : V3 Int) == ⟨-1, 2, -3⟩
+#guard Monoid.op true false == false
+#guard Monoid.op (3 : Int) 4 == 7
+#guard Monoid.op [1, 2] [3] == [1, 2, 3]
+#guard Monoid.op (none : Option Nat) (some 1) == some 1
+#guard Monoid.op (some 1) (some 2) == some 1
+#guard Monoid.op (true, (100 : Int)) (false, 20) == (false, 120)
+#guard (Monoid.op (fun x : Int => decide (x > 5)) (fun x => decide (x < 10))) 7 == true
+#guard mfoldr ([1, 5, 2] : List Int) == 8
+#guard mfoldr [true, false, true] == false
+#guard mfoldr (m := boolOr) [true, false, true] == true
+#guard mfoldr (m := intMul) [1, 5, 2] == 10
+#guard (let _ : Monoid Bool := boolOr; mfoldr [true, false, true]) == true
+#guard toList exampleTree == [1, 2, 3, 4]
+#guard toList (some 5) == [5]
+#guard length exampleTree == 4
+#guard length [10, 20, 30] == 3
+#guard sum exampleTree == 10
+#guard sum (some (7 : Int)) == 7
+#guard fold [[1, 2], [3], [4, 5]] == [1, 2, 3, 4, 5]
 
 end Sheet03
