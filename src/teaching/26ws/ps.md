@@ -16,6 +16,7 @@
 | ------ | ---------------------- |
 | 19.10. | Erstes Treffen auf Donnerstag verschoben |
 | 03.11. | Treffen mit Themenvergabe |
+| 13.11. | Betreuer zugewiesen |
 
 ### Anforderungen
 
@@ -50,14 +51,14 @@ In der Zeit vom 19.1.-9.2.2027.
 
 Vier Themenblöcke. Jeweils 3-4 Vorträge pro Block. 
 
-### Generic Types
+### Generic Types <small>([JS])</small>
 
 * Paper: Philip Wadler. Theorems for Free!
 * V1: Erklärung des Theorems
 * V2: Beispiel aus Paper formal durcharbeiten
 * V3: Realisierung in Sprachen (Python, Java, TypeScript, Haskell, Scala, ...)
 
-### Abstract Types
+### Abstract Types <small>([PT])</small>
 
 * Paper 1: John Mitchell, Gordon Plotkin. Abstract Types Have Existential Type.
 * Paper 2: Luca Cardelli, Peter Wegner. On Understanding Types, Data Abstraction, and Polymorphism.
@@ -65,7 +66,7 @@ Vier Themenblöcke. Jeweils 3-4 Vorträge pro Block.
 * V2: Beispiele (P1 / P2)
 * V3: Realisierung in Sprachen (Python, Java, TypeScript, Haskell, Scala, ...)
 
-### Traits, Type Classes
+### Traits, Type Classes <small>([PT])</small>
 
 * Paper (Haskell): Philip Wadler, Stephen Blott. How to make ad-hoc polymorphism less ad hoc.
 * Paper (Go): Raymond Hu and others. Welterweight Go: Boxing, Structural Subtyping, and Generics.
@@ -73,7 +74,7 @@ Vier Themenblöcke. Jeweils 3-4 Vorträge pro Block.
 
 Weitere Möglichkeiten: Scala, Rust, ...
 
-### Metaprogramming
+### Metaprogramming <small>([JS])</small>
 
 * Macros and Hygiene in Scheme bzw. Lisp
   - Clinger, Rees: Macros that work
