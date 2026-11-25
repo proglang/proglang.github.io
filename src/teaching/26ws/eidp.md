@@ -20,8 +20,6 @@
 | Mi 11.11.26 | Iteration | [infoI07][lecture07-info07], [infoI07-handout][lecture07-info07-handout] | [yt][lecture07-rec] |
 | Di 17.11.26 | Iteration |  | [yt][lecture08-rec] |
 | Mi 18.11.26 | Iteration: while | | [yt][lecture09-rec] |
-| Di 24.11.26 | Datenklassen | [infoI08][lecture08-info08], [infoI08-handout][lecture08-info08-handout]  | [yt][lecture10-rec] |
-| Mi 25.11.26 | Alternativen, Patternmatching | [infoI09][lecture09-info09], [infoI09-handout][lecture09-info09-handout] | [yt][lecture11-rec] |
 
 [lecture00-script1]: eidp/setup/setup.html
 [lecture00-script2]: eidp/abgabesystem/abgabesystem.html
@@ -43,14 +41,8 @@
 [lecture07-rec]: https://youtube.com/live/IkKQflzQ7Qw?feature=share
 [lecture07-info07]: eidp/slides/infoI07.pdf
 [lecture07-info07-handout]: eidp/slides/infoI07-handout.pdf
-[lecture08-info08]: eidp/slides/infoI08.pdf
-[lecture08-info08-handout]: eidp/slides/infoI08-handout.pdf
-[lecture09-info09]: eidp/slides/infoI09.pdf
-[lecture09-info09-handout]: eidp/slides/infoI09-handout.pdf
 [lecture08-rec]: https://www.youtube.com/watch?v=BRGy5AwCjKk
 [lecture09-rec]: https://www.youtube.com/watch?v=58KdOp6WIsA
-[lecture10-rec]: https://www.youtube.com/watch?v=WoaJnXjpFMU
-[lecture11-rec]: https://www.youtube.com/watch?v=r7-aF12Ha80
 
 ## Übungen
 
@@ -61,6 +53,7 @@
 | Mi 04.11.26 | Di 10.11.26 10:00 über [Git][git] | [Blatt03][exercise03-pdf]
 | Mi 11.11.26 | Di 17.11.26 10:00 über [Git][git] | [Blatt04][exercise04-pdf]
 | Mi 18.11.26 | Di 24.11.26 10:00 über [Git][git] | [Blatt05][exercise05-pdf]
+| Mi 25.11.26 | Di 01.12.26 10:00 über [Git][git] | [Blatt06][exercise06-pdf]
 
 Bitte beachten Sie die [Abgaberegeln][rules]. Lösungen zu den Übungsblättern finden Sie [hier][solutions].
 
@@ -78,6 +71,7 @@ Notizen aus den Tutorien finden Sie [hier][tutor-notes].
 [exercise03-pdf]: eidp/sheets/sheet03.pdf
 [exercise04-pdf]: eidp/sheets/sheet04.pdf
 [exercise05-pdf]: eidp/sheets/sheet05.pdf
+[exercise06-pdf]: eidp/sheets/sheet06.pdf
 
 ## Leistungen
 
